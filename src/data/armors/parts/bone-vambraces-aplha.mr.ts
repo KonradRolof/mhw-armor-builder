@@ -1,15 +1,4 @@
 import ArmorPart from "../../../interface/armor-part.interface";
-import SkillShort from "../../../interface/skill-short.interface";
-
-const skillSlugger: SkillShort = {
-  name: "Slugger",
-  level: 2
-};
-
-const skillAttackBoost: SkillShort = {
-  name: "Attack Boost",
-  level: 1
-};
 
 const boneVambracesAlpha: ArmorPart = {
   id: 3,
@@ -20,8 +9,14 @@ const boneVambracesAlpha: ArmorPart = {
   rarity: 9,
   defense: 114,
   skills: [
-    skillSlugger,
-    skillAttackBoost
+    {
+      name: "Slugger",
+      level: 2
+    },
+    {
+      name: "Attack Boost",
+      level: 1
+    }
   ],
   slots: [2],
   elemental: {

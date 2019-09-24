@@ -1,15 +1,4 @@
 import ArmorPart from "../../../interface/armor-part.interface";
-import SkillShort from "../../../interface/skill-short.interface";
-
-const skillAttackBoost: SkillShort = {
-  name: "Attack Boost",
-  level: 2
-};
-
-const skillHealthBoost: SkillShort = {
-  name: "Health Boost",
-  level: 1
-};
 
 const boneMailAlpha: ArmorPart = {
   id: 2,
@@ -20,8 +9,14 @@ const boneMailAlpha: ArmorPart = {
   rarity: 9,
   defense: 114,
   skills: [
-    skillAttackBoost,
-    skillHealthBoost
+    {
+      name: "Attack Boost",
+      level: 2
+    },
+    {
+      name: "Health Boost",
+      level: 1
+    }
   ],
   slots: [2],
   elemental: {
