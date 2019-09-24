@@ -1,29 +1,29 @@
 import ArmorPart from "../../../interface/armor-part.interface";
 import SkillShort from "../../../interface/skill-short.interface";
 
-const skillHealthBoost: SkillShort = {
-  name: "Health Boost",
+const skillSlugger: SkillShort = {
+  name: "Slugger",
   level: 2
 };
 
-const skillPartBreaker: SkillShort = {
-  name: "Partbreaker",
+const skillAttackBoost: SkillShort = {
+  name: "Attack Boost",
   level: 1
 };
 
-const boneHeadAlpha: ArmorPart = {
-  id: 1,
-  name: "Bone Helm",
+const boneVambracesAlpha: ArmorPart = {
+  id: 3,
+  name: "Bone Vambraces",
   subName: "α+",
-  type: "helm",
+  type: "arms",
   rang: 2,
   rarity: 9,
   defense: 114,
   skills: [
-    skillHealthBoost,
-    skillPartBreaker
+    skillSlugger,
+    skillAttackBoost
   ],
-  slots: [3],
+  slots: [2],
   elemental: {
     fire: 2,
     water: 0,
@@ -33,4 +33,4 @@ const boneHeadAlpha: ArmorPart = {
   }
 };
 
-export default boneHeadAlpha;
+export default boneVambracesAlpha;

@@ -1,14 +1,16 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 import dataObject from "../data/index";
 import Armor from "../interface/armor.interface";
+import Skill from "../interface/skill.interface";
 
 @Component({
-  selector: 'mhw-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: "mhw-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
-  title = 'mhw-armor-builder';
+  title = "mhw-armor-builder";
   data = dataObject;
   armors: Armor[] = dataObject.armors;
+  skills: Skill[] = dataObject.skills;
 }

@@ -1,9 +1,9 @@
-import boneAlphaMr from "./armors/bone-alpha.mr";
+import armors from "./armors/_armors";
+import skills from "./skills/_skills";
 
 const dataObject = {
-  armors: [
-    boneAlphaMr
-  ]
+  armors,
+  skills
 };
 
 export default dataObject;

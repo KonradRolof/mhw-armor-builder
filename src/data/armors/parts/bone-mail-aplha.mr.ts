@@ -12,6 +12,7 @@ const skillHealthBoost: SkillShort = {
 };
 
 const boneMailAlpha: ArmorPart = {
+  id: 2,
   name: "Bone Mail",
   subName: "α+",
   type: "body",
@@ -22,7 +23,14 @@ const boneMailAlpha: ArmorPart = {
     skillAttackBoost,
     skillHealthBoost
   ],
-  slots: [2]
+  slots: [2],
+  elemental: {
+    fire: 2,
+    water: 0,
+    thunder: 2,
+    ice: 0,
+    dragon: 2
+  }
 };
 
 export default boneMailAlpha;
