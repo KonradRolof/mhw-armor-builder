@@ -1,6 +1,8 @@
 import {Component, Input, OnInit, OnChanges, SimpleChanges, Output, EventEmitter} from "@angular/core";
 import CurSet from "../../interface/cur-set.interface";
 import DataObject from "../../interface/data-object.interface";
+import Armor from "../../interface/armor.interface";
+import ArmorPart from "../../interface/armor-part.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -72,6 +74,11 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
       this.currentSet[response.type] = response;
       this.emitSelectionChange();
     }
+  }
+
+  public removeItem(item: ArmorPart) {
+    this.currentSet[item.type] = null;
+    this.emitSelectionChange();
   }
 
   private emitSelectionChange() {

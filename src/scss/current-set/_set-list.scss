@@ -7,3 +7,10 @@
     padding: 5px 0;
   }
 }
+
+.current-set__part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}

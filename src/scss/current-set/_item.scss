@@ -6,8 +6,8 @@
   box-shadow: inset 0 1px 5px rgba($black, .15);
   color: $ci-light;
   display: block;
+  flex: 1 1 auto;
   padding: 17px;
-  width: 100%;
 }
 
 .current-set__part-label {
@@ -20,4 +20,46 @@
   margin: -18px;
   padding: 15px;
   text-shadow: 0 1px 3px rgba($black, .1);
+}
+
+.current-set__part-remove {
+  -webkit-appearance: none;
+  background: $gray-900;
+  border: 1px double $gray-800;
+  border-radius: 3px;
+  height: 60px;
+  margin-left: 5px;
+  position: relative;
+  transition: border-bottom-color .2s ease-in-out;
+  width: 60px;
+
+  &::before,
+  &::after {
+    background-color: $gray-500;
+    content: " ";
+    display: block;
+    height: 2px;
+    left: 18px;
+    position: absolute;
+    top: 28px;
+    transition: background-color .2s ease-in-out;
+    width: 20px;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+
+  &:hover {
+    border-color: $ci-primary;
+
+    &::before,
+    &::after {
+      background-color: $ci-primary;
+    }
+  }
 }

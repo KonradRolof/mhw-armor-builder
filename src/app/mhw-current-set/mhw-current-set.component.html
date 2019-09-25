@@ -14,6 +14,7 @@
             Select a helm
           </ng-container>
         </button>
+        <button class="current-set__part-remove" *ngIf="currentSet.head" (click)="removeItem(currentSet.head)"></button>
         <ul class="current-set__deco-list" *ngIf="currentSet.head && 0 < currentSet.head.slots">
           <li *ngFor="let slot of currentSet.head.slots">
             <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
@@ -36,6 +37,7 @@
             Select a body armor
           </ng-container>
         </button>
+        <button class="current-set__part-remove" *ngIf="currentSet.body" (click)="removeItem(currentSet.body)"></button>
         <ul class="current-set__deco-list" *ngIf="currentSet.body && 0 < currentSet.body.slots">
           <li *ngFor="let slot of currentSet.body.slots">
             <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
@@ -58,6 +60,7 @@
             Select an arms armor
           </ng-container>
         </button>
+        <button class="current-set__part-remove" *ngIf="currentSet.arms" (click)="removeItem(currentSet.arms)"></button>
         <ul class="current-set__deco-list" *ngIf="currentSet.arms && 0 < currentSet.arms.slots">
           <li *ngFor="let slot of currentSet.arms.slots">
             <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
@@ -80,6 +83,7 @@
             Select a hip armor
           </ng-container>
         </button>
+        <button class="current-set__part-remove" *ngIf="currentSet.hip" (click)="removeItem(currentSet.hip)"></button>
         <ul class="current-set__deco-list" *ngIf="currentSet.hip && 0 < currentSet.hip.slots">
           <li *ngFor="let slot of currentSet.hip.slots">
             <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
@@ -102,6 +106,7 @@
             Select a leg armor
           </ng-container>
         </button>
+        <button class="current-set__part-remove" *ngIf="currentSet.legs" (click)="removeItem(currentSet.legs)"></button>
         <ul class="current-set__deco-list" *ngIf="currentSet.legs && 0 < currentSet.legs.slots">
           <li *ngFor="let slot of currentSet.legs.slots">
             <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
