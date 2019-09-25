@@ -3,8 +3,8 @@ import ElementalStats from "./elemental-stats.interface";
 
 export default interface ArmorPart {
   id: number;
+  armorId: number;
   name: string;
-  subName: string;
   type: string;
   rang: number;
   rarity: number;

@@ -1,1 +1,17 @@
-<p>mhw-select-pop works!</p>
+<ng-container *ngIf="true === open">
+  <div class="select-pop">
+    <button class="select-pop__close" (click)="emitSelection(null)"></button>
+    <div class="select-pop__inner">
+      <ul class="item-list">
+        <li *ngFor="let item of items">
+          <div class="item-list__item">
+            <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
+              {{ item.name }}
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="select-pop-layer" (click)="emitSelection(null)"></div>
+</ng-container>

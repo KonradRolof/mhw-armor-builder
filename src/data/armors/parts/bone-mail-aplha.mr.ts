@@ -2,8 +2,8 @@ import ArmorPart from "../../../interface/armor-part.interface";
 
 const boneMailAlpha: ArmorPart = {
   id: 2,
-  name: "Bone Mail",
-  subName: "α+",
+  armorId: 1,
+  name: "Bone Mail α+",
   type: "body",
   rang: 2,
   rarity: 9,

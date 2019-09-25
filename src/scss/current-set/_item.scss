@@ -1,18 +1,23 @@
 .current-set__part-item {
   -webkit-appearance: none;
-  background: #111;
-  border: 3px double $gray-800;
+  background: linear-gradient(to bottom, $gray-900, lighten($gray-900, 4%));
+  border: 1px double $gray-800;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 5px rgba($black, .15);
   color: $ci-light;
   display: block;
-  padding: 15px;
+  padding: 17px;
   width: 100%;
 }
 
 .current-set__part-label {
   background-color: $gray-700;
-  border: 3px double $gray-300;
+  border: 3px double $gray-400;
+  box-shadow: inset 0 1px 3px rgba($black, .1);
   color: $white;
   display: block;
+  font-weight: bold;
   margin: -18px;
   padding: 15px;
+  text-shadow: 0 1px 3px rgba($black, .1);
 }

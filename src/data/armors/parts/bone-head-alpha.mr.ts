@@ -2,8 +2,8 @@ import ArmorPart from "../../../interface/armor-part.interface";
 
 const boneHeadAlpha: ArmorPart = {
   id: 1,
-  name: "Bone Helm",
-  subName: "α+",
+  armorId: 1,
+  name: "Bone Helm α+",
   type: "head",
   rang: 2,
   rarity: 9,

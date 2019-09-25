@@ -4,10 +4,10 @@
   <ul class="current-set__list">
     <li>
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop('head')">
           <ng-container *ngIf="currentSet.head">
             <span class="current-set__part-label">
-              {{ currentSet.head.name }} {{ currentSet.head.subName }}
+              {{ currentSet.head.name }}
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.head">
@@ -16,19 +16,20 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.head && 0 < currentSet.head.slots">
           <li *ngFor="let slot of currentSet.head.slots">
-            <button class="add-jewel add-jewel--size-{{ slot }}">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
         </ul>
       </div>
     </li>
+
     <li>
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop('body')">
           <ng-container *ngIf="currentSet.body">
             <span class="current-set__part-label">
-              {{ currentSet.body.name }} {{ currentSet.body.subName }}
+              {{ currentSet.body.name }}
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.body">
@@ -37,19 +38,20 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.body && 0 < currentSet.body.slots">
           <li *ngFor="let slot of currentSet.body.slots">
-            <button class="add-jewel add-jewel--size-{{ slot }}">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
         </ul>
       </div>
     </li>
+
     <li>
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop('arms')">
           <ng-container *ngIf="currentSet.arms">
             <span class="current-set__part-label">
-              {{ currentSet.arms.name }} {{ currentSet.arms.subName }}
+              {{ currentSet.arms.name }}
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.arms">
@@ -58,19 +60,20 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.arms && 0 < currentSet.arms.slots">
           <li *ngFor="let slot of currentSet.arms.slots">
-            <button class="add-jewel add-jewel--size-{{ slot }}">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
         </ul>
       </div>
     </li>
+
     <li>
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop('hip')">
           <ng-container *ngIf="currentSet.hip">
             <span class="current-set__part-label">
-              {{ currentSet.hip.name }} {{ currentSet.hip.subName }}
+              {{ currentSet.hip.name }}
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.hip">
@@ -79,19 +82,20 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.hip && 0 < currentSet.hip.slots">
           <li *ngFor="let slot of currentSet.hip.slots">
-            <button class="add-jewel add-jewel--size-{{ slot }}">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
         </ul>
       </div>
     </li>
+
     <li>
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop('legs')">
           <ng-container *ngIf="currentSet.legs">
             <span class="current-set__part-label">
-              {{ currentSet.legs.name }} {{ currentSet.legs.subName }}
+              {{ currentSet.legs.name }}
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.legs">
@@ -100,7 +104,7 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.legs && 0 < currentSet.legs.slots">
           <li *ngFor="let slot of currentSet.legs.slots">
-            <button class="add-jewel add-jewel--size-{{ slot }}">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
@@ -108,4 +112,8 @@
       </div>
     </li>
   </ul>
+  <mhw-mhw-select-pop
+  [open]="popOpen"
+  [items]="itemsForPop"
+  (selectedItem)="processSelection($event)"></mhw-mhw-select-pop>
 </section>

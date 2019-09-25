@@ -25,6 +25,10 @@ export class AppComponent {
   private skills: Skill[] = dataObject.skills;
   private decorations: Jewel[] = dataObject.decorations;
 
+  public toggleArmorSub(armor: Armor) {
+    this.armors.find((item) => item.id === armor.id).open = !armor.open;
+  }
+
   public toggleArmorPart(part: ArmorPart) {
     const partType = part.type;
 
@@ -36,6 +40,6 @@ export class AppComponent {
   }
 
   public postSetToStats(curSet: any) {
-    console.log(curSet);
+    this.curSet = curSet;
   }
 }

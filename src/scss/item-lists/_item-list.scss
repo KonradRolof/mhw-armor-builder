@@ -1,0 +1,46 @@
+.item-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+
+  > li {
+    padding: 5px 0;
+  }
+}
+
+.item-list__item {
+  max-width: 360px;
+  width: 100%;
+}
+
+.item-list__btn {
+  background-color: $gray-700;
+  border: 3px double $gray-400;
+  box-shadow: inset 0 1px 3px rgba($black, .1);
+  color: $white;
+  display: block;
+  font-weight: bold;
+  padding: 15px;
+  text-shadow: 0 1px 3px rgba($black, .1);
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.part-list {
+  list-style: none;
+  max-height: 0;
+  overflow: hidden;
+  padding: 5px 0 5px 25px;
+  transition: max-height .3s ease-in-out;
+
+  &.open {
+    max-height: 400px;
+  }
+
+  > li {
+    padding: 5px 0;
+  }
+}

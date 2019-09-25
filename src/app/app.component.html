@@ -3,34 +3,34 @@
     <div class="row">
       <div class="col-xl-3">
         <h2>Armors</h2>
-        <ul>
+        <ul class="item-list">
           <li *ngFor="let armor of armors">
-            <div class="armor-item armor-item--rarity-{{ armor.rarity }}">
-              {{ armor.name }} {{ armor.subName }}
-              <ul>
+            <div class="item-list__item armor-item armor-item--rarity-{{ armor.rarity }}">
+              <button type="button" class="item-list__btn" (click)="toggleArmorSub(armor)">{{ armor.name }}</button>
+              <ul [ngClass]="{'part-list': true, 'open': true === armor.open}">
                 <li *ngIf="null !== armor.head">
-                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.head)">
-                    {{ armor.head.name }} {{ armor.head.subName }}
+                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.head)">
+                    {{ armor.head.name }}
                   </button>
                 </li>
                 <li *ngIf="null !== armor.body">
-                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.body)">
-                    {{ armor.body.name }} {{ armor.body.subName }}
+                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.body)">
+                    {{ armor.body.name }}
                   </button>
                 </li>
                 <li *ngIf="null !== armor.arms">
-                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.arms)">
-                    {{ armor.arms.name }} {{ armor.arms.subName }}
+                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.arms)">
+                    {{ armor.arms.name }}
                   </button>
                 </li>
                 <li *ngIf="null !== armor.hip">
-                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.hip)">
-                    {{ armor.hip.name }} {{ armor.hip.subName }}
+                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.hip)">
+                    {{ armor.hip.name }}
                   </button>
                 </li>
                 <li *ngIf="null !== armor.legs">
-                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.legs)">
-                    {{ armor.legs.name }} {{ armor.legs.subName }}
+                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.legs)">
+                    {{ armor.legs.name }}
                   </button>
                 </li>
               </ul>
@@ -40,7 +40,7 @@
       </div>
       <div class="col-xl-8">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <mhw-mhw-current-set
               [dataObj]="data"
               [curSet]="curSet"

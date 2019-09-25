@@ -7,15 +7,15 @@ import boneGreavesAlpha from "./parts/bone-greaves-aplha.mr";
 
 const boneAlphaMr: Armor = {
   id: 1,
-  name: "Bone Armor",
-  subName: "α+",
+  name: "Bone Armor α+",
   rang: 2,
   rarity: 9,
   head: boneHeadAlpha,
   body: boneMailAlpha,
   arms: boneVambracesAlpha,
   hip: boneCoilAlpha,
-  legs: boneGreavesAlpha
+  legs: boneGreavesAlpha,
+  open: false
 };
 
 export default boneAlphaMr;
