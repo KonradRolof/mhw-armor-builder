@@ -14,6 +14,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     hip: null,
     legs: null
   };
+  @Input() dataObj: object;
   @Input() curSet: CurSet;
   @Input() resetSelection: boolean;
   @Output() setChanged: EventEmitter<CurSet> = new EventEmitter();

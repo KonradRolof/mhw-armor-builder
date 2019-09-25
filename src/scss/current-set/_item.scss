@@ -1,0 +1,18 @@
+.current-set__part-item {
+  -webkit-appearance: none;
+  background: #111;
+  border: 3px double $gray-800;
+  color: $ci-light;
+  display: block;
+  padding: 15px;
+  width: 100%;
+}
+
+.current-set__part-label {
+  background-color: $gray-700;
+  border: 3px double $gray-300;
+  color: $white;
+  display: block;
+  margin: -18px;
+  padding: 15px;
+}

@@ -6,7 +6,9 @@
       <div class="current-set__part">
         <button type="button" class="current-set__part-item">
           <ng-container *ngIf="currentSet.head">
-            {{ currentSet.head.name }} {{ currentSet.head.subName }}
+            <span class="current-set__part-label">
+              {{ currentSet.head.name }} {{ currentSet.head.subName }}
+            </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.head">
             Select a helm
@@ -25,7 +27,9 @@
       <div class="current-set__part">
         <button type="button" class="current-set__part-item">
           <ng-container *ngIf="currentSet.body">
-            {{ currentSet.body.name }} {{ currentSet.body.subName }}
+            <span class="current-set__part-label">
+              {{ currentSet.body.name }} {{ currentSet.body.subName }}
+            </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.body">
             Select a body armor
@@ -44,7 +48,9 @@
       <div class="current-set__part">
         <button type="button" class="current-set__part-item">
           <ng-container *ngIf="currentSet.arms">
-            {{ currentSet.arms.name }} {{ currentSet.arms.subName }}
+            <span class="current-set__part-label">
+              {{ currentSet.arms.name }} {{ currentSet.arms.subName }}
+            </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.arms">
             Select an arms armor
@@ -63,7 +69,9 @@
       <div class="current-set__part">
         <button type="button" class="current-set__part-item">
           <ng-container *ngIf="currentSet.hip">
-            {{ currentSet.hip.name }} {{ currentSet.hip.subName }}
+            <span class="current-set__part-label">
+              {{ currentSet.hip.name }} {{ currentSet.hip.subName }}
+            </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.hip">
             Select a hip armor
@@ -82,7 +90,9 @@
       <div class="current-set__part">
         <button type="button" class="current-set__part-item">
           <ng-container *ngIf="currentSet.legs">
-            {{ currentSet.legs.name }} {{ currentSet.legs.subName }}
+            <span class="current-set__part-label">
+              {{ currentSet.legs.name }} {{ currentSet.legs.subName }}
+            </span>
           </ng-container>
           <ng-container *ngIf="!currentSet.legs">
             Select a leg armor
