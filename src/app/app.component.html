@@ -1,22 +1,54 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-xl-3">
-      <h2>Armors</h2>
-      <ul>
-        <li *ngFor="let armor of armors">
-          <div class="armor-item armor-item--rarity-{{ armor.rarity }}">
-            {{ armor.name }} {{ armor.subName }}
-            <ul>
-              <li *ngIf="null !== armor.head">{{ armor.head.name }} {{ armor.head.subName }}</li>
-              <li *ngIf="null !== armor.body">{{ armor.body.name }} {{ armor.body.subName }}</li>
-              <li *ngIf="null !== armor.arms">{{ armor.arms.name }} {{ armor.arms.subName }}</li>
-              <li *ngIf="null !== armor.hip">{{ armor.hip.name }} {{ armor.hip.subName }}</li>
-              <li *ngIf="null !== armor.legs">{{ armor.legs.name }} {{ armor.legs.subName }}</li>
-            </ul>
+<article class="mhw-armor-builder">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-3">
+        <h2>Armors</h2>
+        <ul>
+          <li *ngFor="let armor of armors">
+            <div class="armor-item armor-item--rarity-{{ armor.rarity }}">
+              {{ armor.name }} {{ armor.subName }}
+              <ul>
+                <li *ngIf="null !== armor.head">
+                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.head)">
+                    {{ armor.head.name }} {{ armor.head.subName }}
+                  </button>
+                </li>
+                <li *ngIf="null !== armor.body">
+                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.body)">
+                    {{ armor.body.name }} {{ armor.body.subName }}
+                  </button>
+                </li>
+                <li *ngIf="null !== armor.arms">
+                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.arms)">
+                    {{ armor.arms.name }} {{ armor.arms.subName }}
+                  </button>
+                </li>
+                <li *ngIf="null !== armor.hip">
+                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.hip)">
+                    {{ armor.hip.name }} {{ armor.hip.subName }}
+                  </button>
+                </li>
+                <li *ngIf="null !== armor.legs">
+                  <button type="button" class="armor-item__part" (click)="toggleArmorPart(armor.legs)">
+                    {{ armor.legs.name }} {{ armor.legs.subName }}
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-8">
+        <div class="row">
+          <div class="col-lg-6">
+            <mhw-mhw-current-set
+              [curSet]="curSet"
+              [resetSelection]="false"
+              (setChanged)="postSetToStats($event)"></mhw-mhw-current-set>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</article>

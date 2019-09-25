@@ -1,0 +1,101 @@
+<section class="current-set">
+  <h2>Current set selected</h2>
+
+  <ul class="current-set__list">
+    <li>
+      <div class="current-set__part">
+        <button type="button" class="current-set__part-item">
+          <ng-container *ngIf="currentSet.head">
+            {{ currentSet.head.name }} {{ currentSet.head.subName }}
+          </ng-container>
+          <ng-container *ngIf="!currentSet.head">
+            Select a helm
+          </ng-container>
+        </button>
+        <ul class="current-set__deco-list" *ngIf="currentSet.head && 0 < currentSet.head.slots">
+          <li *ngFor="let slot of currentSet.head.slots">
+            <button class="add-jewel">
+              Add Jewel ({{ slot }})
+            </button>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="current-set__part">
+        <button type="button" class="current-set__part-item">
+          <ng-container *ngIf="currentSet.body">
+            {{ currentSet.body.name }} {{ currentSet.body.subName }}
+          </ng-container>
+          <ng-container *ngIf="!currentSet.body">
+            Select a body armor
+          </ng-container>
+        </button>
+        <ul class="current-set__deco-list" *ngIf="currentSet.body && 0 < currentSet.body.slots">
+          <li *ngFor="let slot of currentSet.body.slots">
+            <button class="add-jewel">
+              Add Jewel ({{ slot }})
+            </button>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="current-set__part">
+        <button type="button" class="current-set__part-item">
+          <ng-container *ngIf="currentSet.arms">
+            {{ currentSet.arms.name }} {{ currentSet.arms.subName }}
+          </ng-container>
+          <ng-container *ngIf="!currentSet.arms">
+            Select an arms armor
+          </ng-container>
+        </button>
+        <ul class="current-set__deco-list" *ngIf="currentSet.arms && 0 < currentSet.arms.slots">
+          <li *ngFor="let slot of currentSet.arms.slots">
+            <button class="add-jewel">
+              Add Jewel ({{ slot }})
+            </button>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="current-set__part">
+        <button type="button" class="current-set__part-item">
+          <ng-container *ngIf="currentSet.hip">
+            {{ currentSet.hip.name }} {{ currentSet.hip.subName }}
+          </ng-container>
+          <ng-container *ngIf="!currentSet.hip">
+            Select a hip armor
+          </ng-container>
+        </button>
+        <ul class="current-set__deco-list" *ngIf="currentSet.hip && 0 < currentSet.hip.slots">
+          <li *ngFor="let slot of currentSet.hip.slots">
+            <button class="add-jewel">
+              Add Jewel ({{ slot }})
+            </button>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="current-set__part">
+        <button type="button" class="current-set__part-item">
+          <ng-container *ngIf="currentSet.legs">
+            {{ currentSet.legs.name }} {{ currentSet.legs.subName }}
+          </ng-container>
+          <ng-container *ngIf="!currentSet.legs">
+            Select a leg armor
+          </ng-container>
+        </button>
+        <ul class="current-set__deco-list" *ngIf="currentSet.legs && 0 < currentSet.legs.slots">
+          <li *ngFor="let slot of currentSet.legs.slots">
+            <button class="add-jewel">
+              Add Jewel ({{ slot }})
+            </button>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</section>

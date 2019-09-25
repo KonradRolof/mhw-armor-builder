@@ -4,7 +4,7 @@ const boneHeadAlpha: ArmorPart = {
   id: 1,
   name: "Bone Helm",
   subName: "α+",
-  type: "helm",
+  type: "head",
   rang: 2,
   rarity: 9,
   defense: 114,
