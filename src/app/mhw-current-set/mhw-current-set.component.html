@@ -14,7 +14,7 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.head && 0 < currentSet.head.slots">
           <li *ngFor="let slot of currentSet.head.slots">
-            <button class="add-jewel">
+            <button class="add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
@@ -33,7 +33,7 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.body && 0 < currentSet.body.slots">
           <li *ngFor="let slot of currentSet.body.slots">
-            <button class="add-jewel">
+            <button class="add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
@@ -52,7 +52,7 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.arms && 0 < currentSet.arms.slots">
           <li *ngFor="let slot of currentSet.arms.slots">
-            <button class="add-jewel">
+            <button class="add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
@@ -71,7 +71,7 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.hip && 0 < currentSet.hip.slots">
           <li *ngFor="let slot of currentSet.hip.slots">
-            <button class="add-jewel">
+            <button class="add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
@@ -90,7 +90,7 @@
         </button>
         <ul class="current-set__deco-list" *ngIf="currentSet.legs && 0 < currentSet.legs.slots">
           <li *ngFor="let slot of currentSet.legs.slots">
-            <button class="add-jewel">
+            <button class="add-jewel add-jewel--size-{{ slot }}">
               Add Jewel ({{ slot }})
             </button>
           </li>
