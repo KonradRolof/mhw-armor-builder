@@ -9,6 +9,10 @@
   width: 90%;
   z-index: 1000;
 
+  @include media-breakpoint-up(lg) {
+    padding: 20px 0;
+  }
+
   @include media-breakpoint-up(xl) {
     left: 15%;
     width: 70%;
