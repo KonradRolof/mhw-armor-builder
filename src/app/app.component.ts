@@ -9,6 +9,7 @@ import ArmorPiecesObject from "../interface/armor-pieces-object.interface";
 import DataObject from "../interface/data-object.interface";
 import Skill from "../interface/skill.interface";
 import Decoration from "../interface/decoration.interface";
+import CurSetPiece from "../interface/cur-set-piece.interface";
 
 @Component({
   selector: "mhw-root",
@@ -45,15 +46,10 @@ export class AppComponent implements OnInit {
   public openedArmorSet: number = null;
   public curSet: CurSet = {
     head: null,
-    headSlots: null,
     chest: null,
-    chestSlots: null,
     gloves: null,
-    glovesSlots: null,
     waist: null,
-    waistSlots: null,
     legs: null,
-    legsSlots: null
   };
 
   private skillsReady = false;
@@ -80,15 +76,31 @@ export class AppComponent implements OnInit {
   public toggleArmorPart(part: ArmorPiece, type: string) {
     const piece = this.armorPieces[part.rank].find((item) => item.id === part.id);
 
-    if (null !== this.curSet[type] && this.curSet[type].id === piece.id) {
-      this.curSet[type] = null;
+    if (null !== this.curSet[type]) {
+      if (this.curSet[type].piece.id === piece.id) {
+        this.curSet[type] = null;
+      } else {
+        this.setArmorPiece(piece, type);
+      }
     } else {
-      this.curSet[type] = piece;
+      this.setArmorPiece(piece, type);
     }
+
+    console.log(this.curSet);
   }
 
   public postSetToStats(curSet: any) {
     this.curSet = curSet;
+  }
+
+  private setArmorPiece(piece: ArmorPiece, type: string) {
+    const setPiece = { piece } as CurSetPiece;
+
+    if (piece.slots) {
+      setPiece.slots = piece.slots.map((item) => item);
+    }
+
+    this.curSet[type] = setPiece;
   }
 
   private loadingCallback() {

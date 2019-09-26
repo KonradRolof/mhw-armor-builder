@@ -7,22 +7,31 @@
         <button type="button" class="current-set__part-item" (click)="openSelectPop(part.part)">
           <ng-container *ngIf="currentSet[part.part]">
             <span class="current-set__part-label">
-              {{ currentSet[part.part].name }}
+              {{ currentSet[part.part].piece.name }}
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet[part.part]">
             Select a {{ part.label }}
           </ng-container>
         </button>
-        <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part])"></button>
-        <ul class="current-set__deco-list" *ngIf="currentSet[part.part] && 0 < currentSet[part.part].slots.length">
-          <li *ngFor="let slot of currentSet[part.part].slots; let i = index">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot.rank }}"
-              (click)="openSelectPop('decoration', { part: part.part, index: i, rank: slot.rank })">
-              Add Jewel ({{ slot.rank }})
-            </button>
-          </li>
-        </ul>
+        <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part].piece)"></button>
+        <ng-container *ngIf="currentSet[part.part]">
+          <ul class="current-set__deco-list" *ngIf="currentSet[part.part].slots">
+            <li *ngFor="let slot of currentSet[part.part].slots; let i = index">
+              <button class="current-set__part-item add-jewel"
+                      (click)="openSelectPop('decoration', { part: part.part, index: i, rank: slot.rank })">
+                <ng-container *ngIf="currentSet[part.part].slots[i].name">
+                <span class="current-set__part-label">
+                  {{ currentSet[part.part].slots.name }}
+                </span>
+                </ng-container>
+                <ng-container *ngIf="currentSet[part.part].slots[i].rank">
+                  Add Jewel ({{ slot.rank }})
+                </ng-container>
+              </button>
+            </li>
+          </ul>
+        </ng-container>
       </div>
     </li>
   </ul>

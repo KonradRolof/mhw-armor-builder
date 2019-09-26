@@ -6,6 +6,7 @@ import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
 import SlotSelection from "../../interface/slot-selection.interface";
 import SelectionPopData from "../../interface/selection-pop-data.interface";
 import SelectionPopResponse from "../../interface/selection-pop-response.interface";
+import CurSetPiece from "../../interface/cur-set-piece.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -14,15 +15,10 @@ import SelectionPopResponse from "../../interface/selection-pop-response.interfa
 export class MhwCurrentSetComponent implements OnInit, OnChanges {
   public currentSet: CurSet = {
     head: null,
-    headSlots: null,
     chest: null,
-    chestSlots: null,
     gloves: null,
-    glovesSlots: null,
     waist: null,
-    waistSlots: null,
     legs: null,
-    legsSlots: null
   };
   public levelOneParts = [
     {
@@ -127,14 +123,16 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
           break;
 
         case "armor":
-          const item = response.item as ArmorPiece;
+          const piece = response.item as ArmorPiece;
+          const setPiece = { piece } as CurSetPiece;
 
-          this.currentSet[item.type] = item;
+          // @TODO fix decoration selection
 
-          if (this.currentSet[item.type].slots) {
-            this.currentSet[`${item.type}Slots`] = [];
-            item.slots.map(() => this.currentSet[`${item.type}Slots`].push(null));
+          if (piece.slots) {
+            setPiece.slots = piece.slots.map((item) => item);
           }
+
+          this.currentSet[piece.type] = setPiece;
 
           break;
       }

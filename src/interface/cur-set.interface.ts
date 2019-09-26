@@ -1,15 +1,10 @@
-import ArmorPiece from "./armor-piece.interface";
+import CurSetPiece from "./cur-set-piece.interface";
 
 // @TODO change parts to { part: Peace, slots: Array }
 export default interface CurSet {
-  head?: ArmorPiece;
-  headSlots?: any[];
-  chest?: ArmorPiece;
-  chestSlots?: any[];
-  gloves?: ArmorPiece;
-  glovesSlots?: any[];
-  waist?: ArmorPiece;
-  waistSlots?: any[];
-  legs?: ArmorPiece;
-  legsSlots?: any[];
+  head: CurSetPiece;
+  chest?: CurSetPiece;
+  gloves?: CurSetPiece;
+  waist?: CurSetPiece;
+  legs?: CurSetPiece;
 }
