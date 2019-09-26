@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import CurSet from "../interface/cur-set.interface";
 import { MhwDataService } from "./service/mhw-data.service";
-import ArmorSet from "../interface/armor-set.interface";
 import {Observable} from "rxjs";
+import CurSet from "../interface/cur-set.interface";
+import ArmorSet from "../interface/armor-set.interface";
 import ArmorSetsObject from "../interface/armor-sets-object.interface";
 import ArmorPiece from "../interface/armor-piece.interface";
 import ArmorPiecesObject from "../interface/armor-pieces-object.interface";
@@ -107,9 +107,9 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.armorSets.ready = true;
-        this.loadingCallback()
+        this.loadingCallback();
       }
-    )
+    );
   }
 
   private getArmorPieces() {
@@ -128,9 +128,9 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.armorPieces.ready = true;
-        this.loadingCallback()
+        this.loadingCallback();
       }
-    )
+    );
   }
 
   private getSkills() {
@@ -149,8 +149,8 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.skillsReady = true;
-        this.loadingCallback()
+        this.loadingCallback();
       }
-    )
+    );
   }
 }
