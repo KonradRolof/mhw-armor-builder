@@ -3,6 +3,9 @@ import CurSet from "../../interface/cur-set.interface";
 import DataObject from "../../interface/data-object.interface";
 import ArmorPiece from "../../interface/armor-piece.interface";
 import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
+import SlotSelection from "../../interface/slot-selection.interface";
+import SelectionPopData from "../../interface/selection-pop-data.interface";
+import SelectionPopResponse from "../../interface/selection-pop-response.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -11,10 +14,15 @@ import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
 export class MhwCurrentSetComponent implements OnInit, OnChanges {
   public currentSet: CurSet = {
     head: null,
+    headSlots: null,
     chest: null,
+    chestSlots: null,
     gloves: null,
+    glovesSlots: null,
     waist: null,
-    legs: null
+    waistSlots: null,
+    legs: null,
+    legsSlots: null
   };
   public levelOneParts = [
     {
@@ -45,7 +53,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
   ];
 
   public popOpen = false;
-  public itemsForPop: any;
+  public itemsForPop: SelectionPopData = null;
 
   @Input() dataObj: DataObject;
   @Input() curSet: CurSet;
@@ -70,8 +78,15 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     }
   }
 
-  public openSelectPop(itemType: string, isArmor = false) {
-    if (isArmor) {
+  public openSelectPop(itemType: string, isSlot: SlotSelection = null) {
+    const armorArray = ["head", "chest", "gloves", "waist", "legs"];
+    const data: SelectionPopData = {
+      type: null,
+      items: null,
+      rankSelectable: false
+    };
+
+    if (armorArray.includes(itemType)) {
       const pieces = this.dataObj.pieces;
       const piecesObject: ArmorPiecesObject = {
         low: [],
@@ -84,17 +99,46 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
       piecesObject.high = pieces.high.filter((item) => item.type === itemType);
       piecesObject.master = pieces.master.filter((item) => item.type === itemType);
 
-      this.itemsForPop = piecesObject;
+      data.type = "armor";
+      data.items = piecesObject;
+      data.rankSelectable = true;
+
+      this.itemsForPop = data;
+    }
+
+    if ("decoration" === itemType && null !== isSlot) {
+      data.type = "decoration";
+      data.items = this.dataObj.decorations;
+      data.slot = isSlot;
+
+      this.itemsForPop = data;
     }
 
     this.popOpen = true;
   }
 
-  public processSelection(response: any) {
+  public processSelection(response: SelectionPopResponse) {
     this.popOpen = false;
 
     if (null !== response) {
-      this.currentSet[response.type] = response;
+      switch (response.type) {
+        case "decoration":
+          this.currentSet[`${response.slot.part}Slots`][response.slot.index] = response.item;
+          break;
+
+        case "armor":
+          const item = response.item as ArmorPiece;
+
+          this.currentSet[item.type] = item;
+
+          if (this.currentSet[item.type].slots) {
+            this.currentSet[`${item.type}Slots`] = [];
+            item.slots.map(() => this.currentSet[`${item.type}Slots`].push(null));
+          }
+
+          break;
+      }
+
       this.emitSelectionChange();
     }
   }

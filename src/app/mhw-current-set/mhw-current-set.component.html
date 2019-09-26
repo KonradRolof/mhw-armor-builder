@@ -4,7 +4,7 @@
   <ul class="current-set__list">
     <li *ngFor="let part of levelOneParts">
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop(part.part, part.isArmor)">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop(part.part)">
           <ng-container *ngIf="currentSet[part.part]">
             <span class="current-set__part-label">
               {{ currentSet[part.part].name }}
@@ -16,8 +16,9 @@
         </button>
         <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part])"></button>
         <ul class="current-set__deco-list" *ngIf="currentSet[part.part] && 0 < currentSet[part.part].slots.length">
-          <li *ngFor="let slot of currentSet[part.part].slots">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot.rank }}">
+          <li *ngFor="let slot of currentSet[part.part].slots; let i = index">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot.rank }}"
+              (click)="openSelectPop('decoration', { part: part.part, index: i, rank: slot.rank })">
               Add Jewel ({{ slot.rank }})
             </button>
           </li>
@@ -27,6 +28,6 @@
   </ul>
   <mhw-mhw-select-pop
   [open]="popOpen"
-  [items]="itemsForPop"
+  [data]="itemsForPop"
   (selectedItem)="processSelection($event)"></mhw-mhw-select-pop>
 </section>

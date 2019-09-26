@@ -45,10 +45,15 @@ export class AppComponent implements OnInit {
   public openedArmorSet: number = null;
   public curSet: CurSet = {
     head: null,
+    headSlots: null,
     chest: null,
+    chestSlots: null,
     gloves: null,
+    glovesSlots: null,
     waist: null,
-    legs: null
+    waistSlots: null,
+    legs: null,
+    legsSlots: null
   };
 
   private skillsReady = false;

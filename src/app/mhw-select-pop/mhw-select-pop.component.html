@@ -5,7 +5,7 @@
       <div class="box">
         <div class="box__inner">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-5">
+            <div class="col-sm-12 col-md-6 col-lg-5" *ngIf="true === rankSelectable">
               <div class="select-pop__select-area">
                 <label for="sp-select">Select Rank</label>
                 <select id="sp-select" [(ngModel)]="selectedRank">
@@ -16,7 +16,7 @@
               </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-7">
+            <div [ngClass]="{ 'col-sm-12': true, 'col-md-6 col-lg-7': true === rankSelectable }">
               <div class="select-pop__filter-area">
                 <label for="sp-filter">Search for item</label>
                 <input type="search" id="sp-filter" placeholder="Add at least 3 chars"
