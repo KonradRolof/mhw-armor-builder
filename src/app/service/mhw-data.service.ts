@@ -13,11 +13,15 @@ export class MhwDataService {
 
   constructor(private http: HttpClient) { }
 
-  public getArmorSets(): Observable<any> {
-    return this.http.get("/assets/data/armor-sets.json", { headers });
+  public getArmorSets(url: string): Observable<any> {
+    return this.http.get(url, { headers });
   }
 
-  public getArmorPieces(): Observable<any> {
-    return this.http.get("/assets/data/armor-pieces.json", { headers });
+  public getArmorPieces(url: string): Observable<any> {
+    return this.http.get(url, { headers });
+  }
+
+  public getSkills(url: string): Observable<any> {
+    return this.http.get(url, { headers });
   }
 }

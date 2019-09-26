@@ -7,6 +7,7 @@ import ArmorSetsObject from "../interface/armor-sets-object.interface";
 import ArmorPiece from "../interface/armor-piece.interface";
 import ArmorPiecesObject from "../interface/armor-pieces-object.interface";
 import DataObject from "../interface/data-object.interface";
+import Skill from "../interface/skill.interface";
 
 @Component({
   selector: "mhw-root",
@@ -17,6 +18,7 @@ import DataObject from "../interface/data-object.interface";
 export class AppComponent implements OnInit {
   title = "mhw-armor-builder";
 
+  public skills: Skill[] = [];
   public armorSets: ArmorSetsObject = {
     low: [],
     high: [],
@@ -31,7 +33,8 @@ export class AppComponent implements OnInit {
   };
   public data: DataObject = {
     armors: this.armorSets,
-    pieces: this.armorPieces
+    pieces: this.armorPieces,
+    skills: this.skills
   };
 
   public isLoading: boolean;
@@ -45,12 +48,15 @@ export class AppComponent implements OnInit {
     legs: null
   };
 
+  private skillsReady = false;
+
   constructor(private mhwDataService: MhwDataService) { }
 
   ngOnInit(): void {
     this.isLoading = true;
     this.getArmorSets();
     this.getArmorPieces();
+    this.getSkills();
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {
@@ -78,14 +84,15 @@ export class AppComponent implements OnInit {
   private loadingCallback() {
     if (
       true === this.armorSets.ready &&
-      true === this.armorPieces.ready
+      true === this.armorPieces.ready &&
+      true === this.skillsReady
     ) {
       this.isLoading = false;
     }
   }
 
   private getArmorSets() {
-    const armorSetData$: Observable<any> = this.mhwDataService.getArmorSets();
+    const armorSetData$: Observable<any> = this.mhwDataService.getArmorSets("/assets/data/armor-sets.json");
 
     armorSetData$.subscribe(
       (data) => {
@@ -106,7 +113,7 @@ export class AppComponent implements OnInit {
   }
 
   private getArmorPieces() {
-    const armorPieceData$: Observable<any> = this.mhwDataService.getArmorPieces();
+    const armorPieceData$: Observable<any> = this.mhwDataService.getArmorPieces("/assets/data/armor-pieces.json");
 
     armorPieceData$.subscribe(
       (data) => {
@@ -121,6 +128,27 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.armorPieces.ready = true;
+        this.loadingCallback()
+      }
+    )
+  }
+
+  private getSkills() {
+    const skillsData$: Observable<any> = this.mhwDataService.getSkills("/assets/data/skills.json");
+
+    skillsData$.subscribe(
+      (data) => {
+        const skills = data as Skill[];
+
+        skills.map((skill) => {
+          this.skills.push(skill);
+        });
+      },
+      (error) => {
+        // @TODO adds error handling
+      },
+      () => {
+        this.skillsReady = true;
         this.loadingCallback()
       }
     )

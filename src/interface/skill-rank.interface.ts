@@ -1,3 +1,5 @@
+import SkillRankModifiers from "./skill-rank-modifiers.interface";
+
 export default interface SkillRank {
   id: number; // The ID of the skill rank
   slug?: string; // A human readable unique identifier
@@ -5,5 +7,5 @@ export default interface SkillRank {
   description?: string; // A text description of the skill rank
   skill: number; // The ID of the skill that the rank belongs to
   skillName: string; // The name of the skill that the rank belongs to
-  modifiers?: any; // See SkillRank Modifiers for more information
+  modifiers?: SkillRankModifiers; // See SkillRank Modifiers for more information
 }
