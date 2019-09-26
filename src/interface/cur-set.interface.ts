@@ -1,5 +1,6 @@
 import ArmorPiece from "./armor-piece.interface";
 
+// @TODO change parts to { part: Peace, slots: Array }
 export default interface CurSet {
   head?: ArmorPiece;
   headSlots?: any[];
