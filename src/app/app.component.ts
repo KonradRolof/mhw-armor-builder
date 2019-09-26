@@ -1,8 +1,6 @@
 import { Component } from "@angular/core";
 import dataObject from "../data/index";
 import Armor from "../interface/armor.interface";
-import Skill from "../interface/skill.interface";
-import Jewel from "../interface/jewel.interface";
 import CurSet from "../interface/cur-set.interface";
 import ArmorPart from "../interface/armor-part.interface";
 
@@ -22,8 +20,6 @@ export class AppComponent {
     hip: null,
     legs: null
   };
-  private skills: Skill[] = dataObject.skills;
-  private decorations: Jewel[] = dataObject.decorations;
 
   public toggleArmorSub(armor: Armor) {
     this.armors.find((item) => item.id === armor.id).open = !armor.open;

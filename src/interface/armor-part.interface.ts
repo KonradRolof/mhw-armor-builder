@@ -1,6 +1,3 @@
-import SkillShort from "./skill-short.interface";
-import ElementalStats from "./elemental-stats.interface";
-
 export default interface ArmorPart {
   id: number;
   armorId: number;
@@ -9,7 +6,7 @@ export default interface ArmorPart {
   rang: number;
   rarity: number;
   defense: number;
-  skills?: SkillShort[];
+  skills?: any;
   slots?: number[];
-  elemental: ElementalStats;
+  elemental: any;
 }

@@ -1,15 +1,14 @@
 import ArmorPart from "./armor-part.interface";
-import Jewel from "./jewel.interface";
 
 export default interface CurSet {
   head?: ArmorPart;
-  headSlots?: Jewel[];
+  headSlots?: any[];
   body?: ArmorPart;
-  bodySlots?: Jewel[];
+  bodySlots?: any[];
   arms?: ArmorPart;
-  armsSlots?: Jewel[];
+  armsSlots?: any[];
   hip?: ArmorPart;
-  hipSlots?: Jewel[];
+  hipSlots?: any[];
   legs?: ArmorPart;
-  legsSlots?: Jewel[];
+  legsSlots?: any[];
 }
