@@ -23,9 +23,9 @@ export class MhwSelectPopComponent implements OnChanges {
         const { low, high, master } = this.items;
 
         this.itemsToShow = {
-          low: low,
-          high: high,
-          master: master
+          low,
+          high,
+          master
         };
       }
     }

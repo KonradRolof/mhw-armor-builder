@@ -8,6 +8,7 @@ import ArmorPiece from "../interface/armor-piece.interface";
 import ArmorPiecesObject from "../interface/armor-pieces-object.interface";
 import DataObject from "../interface/data-object.interface";
 import Skill from "../interface/skill.interface";
+import Decoration from "../interface/decoration.interface";
 
 @Component({
   selector: "mhw-root",
@@ -31,10 +32,12 @@ export class AppComponent implements OnInit {
     master: [],
     ready: false
   };
+  public decorations: Decoration[] = [];
   public data: DataObject = {
     armors: this.armorSets,
     pieces: this.armorPieces,
-    skills: this.skills
+    skills: this.skills,
+    decorations: this.decorations
   };
 
   public isLoading: boolean;
@@ -49,6 +52,7 @@ export class AppComponent implements OnInit {
   };
 
   private skillsReady = false;
+  private decorationsReady = false;
 
   constructor(private mhwDataService: MhwDataService) { }
 
@@ -57,6 +61,7 @@ export class AppComponent implements OnInit {
     this.getArmorSets();
     this.getArmorPieces();
     this.getSkills();
+    this.getDecorations();
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {
@@ -85,7 +90,8 @@ export class AppComponent implements OnInit {
     if (
       true === this.armorSets.ready &&
       true === this.armorPieces.ready &&
-      true === this.skillsReady
+      true === this.skillsReady &&
+      true === this.decorationsReady
     ) {
       this.isLoading = false;
     }
@@ -149,6 +155,27 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.skillsReady = true;
+        this.loadingCallback();
+      }
+    );
+  }
+
+  private getDecorations() {
+    const decorationsData$: Observable<any> = this.mhwDataService.getDecorations("/assets/data/decorations.json");
+
+    decorationsData$.subscribe(
+      (data) => {
+        const decorations = data as Decoration[];
+
+        decorations.map((decoration) => {
+          this.decorations.push(decoration);
+        });
+      },
+      (error) => {
+        // @TODO adds error handling
+      },
+      () => {
+        this.decorationsReady = true;
         this.loadingCallback();
       }
     );

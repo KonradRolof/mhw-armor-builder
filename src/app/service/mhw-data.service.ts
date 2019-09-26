@@ -3,11 +3,11 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable } from "rxjs";
 
 const headers: HttpHeaders = new HttpHeaders({
-  "Accept": "application/json"
+  Accept: "application/json"
 });
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class MhwDataService {
 
@@ -22,6 +22,10 @@ export class MhwDataService {
   }
 
   public getSkills(url: string): Observable<any> {
+    return this.http.get(url, { headers });
+  }
+
+  public getDecorations(url: string): Observable<any> {
     return this.http.get(url, { headers });
   }
 }
