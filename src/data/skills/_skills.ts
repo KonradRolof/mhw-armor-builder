@@ -1,7 +1,3 @@
-import partBreaker from "./partbreaker";
-
-const skills = [
-  partBreaker
-];
+const skills = [];
 
 export default skills;
