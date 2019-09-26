@@ -19,13 +19,17 @@
           <ul class="current-set__deco-list" *ngIf="currentSet[part.part].slots">
             <li *ngFor="let slot of currentSet[part.part].slots; let i = index">
               <button class="current-set__part-item add-jewel"
-                      (click)="openSelectPop('decoration', { part: part.part, index: i, rank: slot.rank })">
-                <ng-container *ngIf="currentSet[part.part].slots[i].name">
+                  (click)="openSelectPop('decoration', {
+                      part: part.part,
+                      index: i,
+                      rank: currentSet[part.part].piece.slots[i].rank
+                  })">
+                <ng-container *ngIf="slot.name">
                 <span class="current-set__part-label">
-                  {{ currentSet[part.part].slots.name }}
+                  {{ slot.name }}
                 </span>
                 </ng-container>
-                <ng-container *ngIf="currentSet[part.part].slots[i].rank">
+                <ng-container *ngIf="slot.rank">
                   Add Jewel ({{ slot.rank }})
                 </ng-container>
               </button>

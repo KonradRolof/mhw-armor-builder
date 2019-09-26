@@ -11,8 +11,11 @@ import SelectionPopResponse from "../../interface/selection-pop-response.interfa
 export class MhwSelectPopComponent implements OnChanges {
   public rankSelectable = false;
   public selectedRank = "high";
+  public rankSelect = "high";
   public filterInput = "";
   public itemsToShow: any = null;
+
+  private storedItems: any = null;
 
   @Input() open = false;
   @Input() data: SelectionPopData = null;
@@ -28,6 +31,10 @@ export class MhwSelectPopComponent implements OnChanges {
     if (changes.isOpen && null !== this.data) {
       this.open = changes.open.currentValue;
     }
+  }
+
+  public switchRank(value) {
+    this.selectedRank = value;
   }
 
   public emitSelection(item: any) {
@@ -46,15 +53,13 @@ export class MhwSelectPopComponent implements OnChanges {
     }
 
     this.selectedItem.emit(response);
+    this.filterInput = "";
     this.data = null;
   }
 
   public filterItems() {
-    if (3 > this.filterInput.length) {
-      this.itemsToShow[this.selectedRank] = this.data.items[this.selectedRank];
-
-      return;
-    }
+    this.itemsToShow[this.selectedRank] = [];
+    this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item);
 
     this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) =>
       item.name.toLowerCase().includes(this.filterInput.toLowerCase())
@@ -68,6 +73,12 @@ export class MhwSelectPopComponent implements OnChanges {
       case "armor":
         const { low, high, master } = data.items as ArmorPiecesObject;
 
+        this.storedItems = {
+          low,
+          high,
+          master
+        };
+
         this.itemsToShow = {
           low,
           high,
@@ -76,14 +87,15 @@ export class MhwSelectPopComponent implements OnChanges {
 
         break;
 
-        case "decoration":
-          this.selectedRank = "all";
-          this.data.items = data.items as Decoration[];
-          this.itemsToShow = {
-            all: this.data.items.map((item) => item)
-          };
+      case "decoration":
+        this.storedItems = {};
+        this.storedItems[this.selectedRank] = data.items as Decoration[];
+        this.storedItems[this.selectedRank] = this.storedItems[this.selectedRank].filter((item) => item.slot <= data.slot.rank);
 
-          break;
+        this.itemsToShow = {};
+        this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Decoration[];
+
+        break;
     }
 
     this.rankSelectable = data.rankSelectable;

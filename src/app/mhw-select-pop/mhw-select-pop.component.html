@@ -8,7 +8,7 @@
             <div class="col-sm-12 col-md-6 col-lg-5" *ngIf="true === rankSelectable">
               <div class="select-pop__select-area">
                 <label for="sp-select">Select Rank</label>
-                <select id="sp-select" [(ngModel)]="selectedRank">
+                <select id="sp-select" [(ngModel)]="rankSelect" (change)="switchRank(rankSelect)">
                   <option value="low">Low Rank</option>
                   <option value="high">High Rank</option>
                   <option value="master">Master Rank</option>
@@ -16,7 +16,7 @@
               </div>
             </div>
 
-            <div [ngClass]="{ 'col-sm-12': true, 'col-md-6 col-lg-7': true === rankSelectable }">
+            <div class="col-sm-12 col-md-6 col-lg-7">
               <div class="select-pop__filter-area">
                 <label for="sp-filter">Search for item</label>
                 <input type="search" id="sp-filter" placeholder="Add at least 3 chars"
@@ -28,7 +28,7 @@
       </div>
     </section>
     <div class="select-pop__inner">
-      <ul class="item-list select-pop__list" *ngIf="0 < itemsToShow[selectedRank].length">
+      <ul class="item-list select-pop__list" *ngIf="itemsToShow[selectedRank]">
         <li *ngFor="let item of itemsToShow[selectedRank]">
           <div class="item-list__item">
             <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">

@@ -23,28 +23,23 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
   public levelOneParts = [
     {
       label: "Head Armor",
-      part: "head",
-      isArmor: true
+      part: "head"
     },
     {
       label: "Chest Armor",
-      part: "chest",
-      isArmor: true
+      part: "chest"
     },
     {
       label: "Gloves Armor",
-      part: "gloves",
-      isArmor: true
+      part: "gloves"
     },
     {
       label: "Waist Armor",
-      part: "waist",
-      isArmor: true
+      part: "waist"
     },
     {
       label: "Legs Armor",
-      part: "legs",
-      isArmor: true
+      part: "legs"
     }
   ];
 
@@ -119,7 +114,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     if (null !== response) {
       switch (response.type) {
         case "decoration":
-          this.currentSet[`${response.slot.part}Slots`][response.slot.index] = response.item;
+          this.currentSet[response.slot.part].slots[response.slot.index] = response.item;
           break;
 
         case "armor":
