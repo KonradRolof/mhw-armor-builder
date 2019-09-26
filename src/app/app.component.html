@@ -4,33 +4,16 @@
       <div class="col-xl-3">
         <h2>Armors</h2>
         <ul class="item-list">
-          <li *ngFor="let armor of armors">
-            <div class="item-list__item armor-item armor-item--rarity-{{ armor.rarity }}">
-              <button type="button" class="item-list__btn" (click)="toggleArmorSub(armor)">{{ armor.name }}</button>
-              <ul [ngClass]="{'part-list': true, 'open': true === armor.open}">
-                <li *ngIf="null !== armor.head">
-                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.head)">
-                    {{ armor.head.name }}
-                  </button>
-                </li>
-                <li *ngIf="null !== armor.body">
-                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.body)">
-                    {{ armor.body.name }}
-                  </button>
-                </li>
-                <li *ngIf="null !== armor.arms">
-                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.arms)">
-                    {{ armor.arms.name }}
-                  </button>
-                </li>
-                <li *ngIf="null !== armor.hip">
-                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.hip)">
-                    {{ armor.hip.name }}
-                  </button>
-                </li>
-                <li *ngIf="null !== armor.legs">
-                  <button type="button" class="item-list__btn armor-item__part" (click)="toggleArmorPart(armor.legs)">
-                    {{ armor.legs.name }}
+          <li *ngFor="let armorSet of armorSets[selectedRank]">
+            <div class="item-list__item armor-item">
+              <button type="button" class="item-list__btn" (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
+              <ul [ngClass]="{'part-list': true, 'open': armorSet.id === openedArmorSet}">
+                <li *ngFor="let piece of armorSet.pieces">
+                  <button
+                    type="button"
+                    class="item-list__btn item-list__btn--rarity-{{ piece.rarity }} armor-item__part"
+                    (click)="toggleArmorPart(piece, piece.type)">
+                    {{ piece.name }}
                   </button>
                 </li>
               </ul>

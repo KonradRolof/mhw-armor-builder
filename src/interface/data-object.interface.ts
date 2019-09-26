@@ -1,5 +1,7 @@
-import Armor from "./armor.interface";
+import ArmorSetsObject from "./armor-sets-object.interface";
+import ArmorPiecesObject from "./armor-pieces-object.interface";
 
 export default interface DataObject {
-  armors: Armor[];
+  armors: ArmorSetsObject;
+  pieces: ArmorPiecesObject;
 }

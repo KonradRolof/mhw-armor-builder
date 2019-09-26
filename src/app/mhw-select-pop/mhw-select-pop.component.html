@@ -3,7 +3,7 @@
     <button class="select-pop__close" (click)="emitSelection(null)"></button>
     <div class="select-pop__inner">
       <ul class="item-list">
-        <li *ngFor="let item of items">
+        <li *ngFor="let item of items[selectedRank]">
           <div class="item-list__item">
             <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
               {{ item.name }}

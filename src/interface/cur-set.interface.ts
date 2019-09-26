@@ -1,14 +1,14 @@
-import ArmorPart from "./armor-part.interface";
+import ArmorPiece from "./armor-piece.interface";
 
 export default interface CurSet {
-  head?: ArmorPart;
+  head?: ArmorPiece;
   headSlots?: any[];
-  body?: ArmorPart;
-  bodySlots?: any[];
-  arms?: ArmorPart;
-  armsSlots?: any[];
-  hip?: ArmorPart;
-  hipSlots?: any[];
-  legs?: ArmorPart;
+  chest?: ArmorPiece;
+  chestSlots?: any[];
+  gloves?: ArmorPiece;
+  glovesSlots?: any[];
+  waist?: ArmorPiece;
+  waistSlots?: any[];
+  legs?: ArmorPiece;
   legsSlots?: any[];
 }

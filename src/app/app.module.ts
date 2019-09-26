@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MhwCurrentSetComponent } from './mhw-current-set/mhw-current-set.component';
 import { MhwSelectPopComponent } from './mhw-select-pop/mhw-select-pop.component';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MhwSelectPopComponent } from './mhw-select-pop/mhw-select-pop.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

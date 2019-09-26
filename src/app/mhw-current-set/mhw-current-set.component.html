@@ -2,115 +2,23 @@
   <h2>Current set selected</h2>
 
   <ul class="current-set__list">
-    <li>
+    <li *ngFor="let part of levelOneParts">
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop('head')">
-          <ng-container *ngIf="currentSet.head">
+        <button type="button" class="current-set__part-item" (click)="openSelectPop(part.part, part.isArmor)">
+          <ng-container *ngIf="currentSet[part.part]">
             <span class="current-set__part-label">
-              {{ currentSet.head.name }}
+              {{ currentSet[part.part].name }}
             </span>
           </ng-container>
-          <ng-container *ngIf="!currentSet.head">
-            Select a helm
+          <ng-container *ngIf="!currentSet[part.part]">
+            Select a {{ part.label }}
           </ng-container>
         </button>
-        <button class="current-set__part-remove" *ngIf="currentSet.head" (click)="removeItem(currentSet.head)"></button>
-        <ul class="current-set__deco-list" *ngIf="currentSet.head && 0 < currentSet.head.slots">
-          <li *ngFor="let slot of currentSet.head.slots">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
-              Add Jewel ({{ slot }})
-            </button>
-          </li>
-        </ul>
-      </div>
-    </li>
-
-    <li>
-      <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop('body')">
-          <ng-container *ngIf="currentSet.body">
-            <span class="current-set__part-label">
-              {{ currentSet.body.name }}
-            </span>
-          </ng-container>
-          <ng-container *ngIf="!currentSet.body">
-            Select a body armor
-          </ng-container>
-        </button>
-        <button class="current-set__part-remove" *ngIf="currentSet.body" (click)="removeItem(currentSet.body)"></button>
-        <ul class="current-set__deco-list" *ngIf="currentSet.body && 0 < currentSet.body.slots">
-          <li *ngFor="let slot of currentSet.body.slots">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
-              Add Jewel ({{ slot }})
-            </button>
-          </li>
-        </ul>
-      </div>
-    </li>
-
-    <li>
-      <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop('arms')">
-          <ng-container *ngIf="currentSet.arms">
-            <span class="current-set__part-label">
-              {{ currentSet.arms.name }}
-            </span>
-          </ng-container>
-          <ng-container *ngIf="!currentSet.arms">
-            Select an arms armor
-          </ng-container>
-        </button>
-        <button class="current-set__part-remove" *ngIf="currentSet.arms" (click)="removeItem(currentSet.arms)"></button>
-        <ul class="current-set__deco-list" *ngIf="currentSet.arms && 0 < currentSet.arms.slots">
-          <li *ngFor="let slot of currentSet.arms.slots">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
-              Add Jewel ({{ slot }})
-            </button>
-          </li>
-        </ul>
-      </div>
-    </li>
-
-    <li>
-      <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop('hip')">
-          <ng-container *ngIf="currentSet.hip">
-            <span class="current-set__part-label">
-              {{ currentSet.hip.name }}
-            </span>
-          </ng-container>
-          <ng-container *ngIf="!currentSet.hip">
-            Select a hip armor
-          </ng-container>
-        </button>
-        <button class="current-set__part-remove" *ngIf="currentSet.hip" (click)="removeItem(currentSet.hip)"></button>
-        <ul class="current-set__deco-list" *ngIf="currentSet.hip && 0 < currentSet.hip.slots">
-          <li *ngFor="let slot of currentSet.hip.slots">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
-              Add Jewel ({{ slot }})
-            </button>
-          </li>
-        </ul>
-      </div>
-    </li>
-
-    <li>
-      <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop('legs')">
-          <ng-container *ngIf="currentSet.legs">
-            <span class="current-set__part-label">
-              {{ currentSet.legs.name }}
-            </span>
-          </ng-container>
-          <ng-container *ngIf="!currentSet.legs">
-            Select a leg armor
-          </ng-container>
-        </button>
-        <button class="current-set__part-remove" *ngIf="currentSet.legs" (click)="removeItem(currentSet.legs)"></button>
-        <ul class="current-set__deco-list" *ngIf="currentSet.legs && 0 < currentSet.legs.slots">
-          <li *ngFor="let slot of currentSet.legs.slots">
-            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot }}">
-              Add Jewel ({{ slot }})
+        <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part])"></button>
+        <ul class="current-set__deco-list" *ngIf="currentSet[part.part] && 0 < currentSet[part.part].slots.length">
+          <li *ngFor="let slot of currentSet[part.part].slots">
+            <button class="current-set__part-item add-jewel add-jewel--size-{{ slot.rank }}">
+              Add Jewel ({{ slot.rank }})
             </button>
           </li>
         </ul>

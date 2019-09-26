@@ -1,41 +1,117 @@
-import { Component } from "@angular/core";
-import dataObject from "../data/index";
-import Armor from "../interface/armor.interface";
+import { Component, OnInit } from "@angular/core";
 import CurSet from "../interface/cur-set.interface";
-import ArmorPart from "../interface/armor-part.interface";
+import { MhwDataService } from "./service/mhw-data.service";
+import ArmorSet from "../interface/armor-set.interface";
+import {Observable} from "rxjs";
+import ArmorSetsObject from "../interface/armor-sets-object.interface";
+import ArmorPiece from "../interface/armor-piece.interface";
+import ArmorPiecesObject from "../interface/armor-pieces-object.interface";
+import DataObject from "../interface/data-object.interface";
 
 @Component({
   selector: "mhw-root",
   templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"]
+  styleUrls: ["./app.component.scss"],
+  providers: [MhwDataService]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = "mhw-armor-builder";
-  public data = dataObject;
-  public armors: Armor[] = dataObject.armors;
+
+  public armorSets: ArmorSetsObject = {
+    low: [],
+    high: [],
+    master: [],
+    ready: false
+  };
+  public armorPieces: ArmorPiecesObject = {
+    low: [],
+    high: [],
+    master: [],
+    ready: false
+  };
+  public data: DataObject = {
+    armors: this.armorSets,
+    pieces: this.armorPieces
+  };
+
+  public selectedRank = "high";
+  public openedArmorSet: number = null;
   public curSet: CurSet = {
     head: null,
-    body: null,
-    arms: null,
-    hip: null,
+    chest: null,
+    gloves: null,
+    waist: null,
     legs: null
   };
 
-  public toggleArmorSub(armor: Armor) {
-    this.armors.find((item) => item.id === armor.id).open = !armor.open;
+  constructor(private mhwDataService: MhwDataService) { }
+
+  ngOnInit(): void {
+    this.getArmorSets();
+    this.getArmorPieces();
   }
 
-  public toggleArmorPart(part: ArmorPart) {
-    const partType = part.type;
-
-    if (null !== this.curSet[partType] && this.curSet[partType].id === part.id) {
-      this.curSet[partType] = null;
+  public toggleArmorSub(armorSet: ArmorSet) {
+    if (this.openedArmorSet === armorSet.id) {
+      this.openedArmorSet = null;
     } else {
-      this.curSet[partType] = part;
+      this.openedArmorSet = this.armorSets[this.selectedRank].find((item) => item.id === armorSet.id).id;
+    }
+  }
+
+  public toggleArmorPart(part: ArmorPiece, type: string) {
+    const piece = this.armorPieces[part.rank].find((item) => item.id === part.id);
+
+    if (null !== this.curSet[type] && this.curSet[type].id === piece.id) {
+      this.curSet[type] = null;
+    } else {
+      this.curSet[type] = piece;
     }
   }
 
   public postSetToStats(curSet: any) {
     this.curSet = curSet;
+  }
+
+  private getArmorSets() {
+    const armorSetData$: Observable<any> = this.mhwDataService.getArmorSets();
+
+    armorSetData$.subscribe(
+      (data) => {
+        const armorSets = data as ArmorSet[];
+
+        armorSets.map((set) => {
+          this.armorSets[set.rank].push(set);
+        });
+      },
+      (error) => {
+        // @TODO adds error handling
+      },
+      () => {
+        this.armorSets.ready = true;
+        // @TODO add load finisher
+      }
+    )
+  }
+
+  private getArmorPieces() {
+    const armorPieceData$: Observable<any> = this.mhwDataService.getArmorPieces();
+
+    armorPieceData$.subscribe(
+      (data) => {
+        const armorPieces = data as ArmorPiece[];
+
+        armorPieces.map((piece) => {
+          this.armorPieces[piece.rank].push(piece);
+        });
+      },
+      (error) => {
+        // @TODO adds error handling
+      },
+      () => {
+        this.armorPieces.ready = true;
+        // @TODO add load finisher
+      }
+    )
   }
 }

@@ -1,8 +1,8 @@
 import {Component, Input, OnInit, OnChanges, SimpleChanges, Output, EventEmitter} from "@angular/core";
 import CurSet from "../../interface/cur-set.interface";
 import DataObject from "../../interface/data-object.interface";
-import Armor from "../../interface/armor.interface";
-import ArmorPart from "../../interface/armor-part.interface";
+import ArmorPiece from "../../interface/armor-piece.interface";
+import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -11,13 +11,42 @@ import ArmorPart from "../../interface/armor-part.interface";
 export class MhwCurrentSetComponent implements OnInit, OnChanges {
   public currentSet: CurSet = {
     head: null,
-    body: null,
-    arms: null,
-    hip: null,
+    chest: null,
+    gloves: null,
+    waist: null,
     legs: null
   };
+  public levelOneParts = [
+    {
+      label: "Head Armor",
+      part: "head",
+      isArmor: true
+    },
+    {
+      label: "Chest Armor",
+      part: "chest",
+      isArmor: true
+    },
+    {
+      label: "Gloves Armor",
+      part: "gloves",
+      isArmor: true
+    },
+    {
+      label: "Waist Armor",
+      part: "waist",
+      isArmor: true
+    },
+    {
+      label: "Legs Armor",
+      part: "legs",
+      isArmor: true
+    }
+  ];
+
   public popOpen = false;
-  public itemsForPop: any[];
+  public itemsForPop: any;
+
   @Input() dataObj: DataObject;
   @Input() curSet: CurSet;
   @Input() resetSelection: boolean;
@@ -41,27 +70,21 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     }
   }
 
-  public openSelectPop(itemType: string) {
-    switch (itemType) {
-      case "head":
-        this.itemsForPop = this.dataObj.armors.map((armor) => armor.head);
-        break;
+  public openSelectPop(itemType: string, isArmor = false) {
+    if (isArmor) {
+      const pieces = this.dataObj.pieces;
+      const piecesObject: ArmorPiecesObject = {
+        low: [],
+        high: [],
+        master: [],
+        ready: true
+      };
 
-      case "body":
-        this.itemsForPop = this.dataObj.armors.map((armor) => armor.body);
-        break;
+      piecesObject.low = pieces.low.filter((item) => item.type === itemType);
+      piecesObject.high = pieces.high.filter((item) => item.type === itemType);
+      piecesObject.master = pieces.master.filter((item) => item.type === itemType);
 
-      case "arms":
-        this.itemsForPop = this.dataObj.armors.map((armor) => armor.arms);
-        break;
-
-      case "hip":
-        this.itemsForPop = this.dataObj.armors.map((armor) => armor.hip);
-        break;
-
-      case "legs":
-        this.itemsForPop = this.dataObj.armors.map((armor) => armor.legs);
-        break;
+      this.itemsForPop = piecesObject;
     }
 
     this.popOpen = true;
@@ -76,7 +99,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     }
   }
 
-  public removeItem(item: ArmorPart) {
+  public removeItem(item: ArmorPiece) {
     this.currentSet[item.type] = null;
     this.emitSelectionChange();
   }
