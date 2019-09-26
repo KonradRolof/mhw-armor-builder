@@ -34,6 +34,7 @@ export class AppComponent implements OnInit {
     pieces: this.armorPieces
   };
 
+  public isLoading: boolean;
   public selectedRank = "high";
   public openedArmorSet: number = null;
   public curSet: CurSet = {
@@ -47,6 +48,7 @@ export class AppComponent implements OnInit {
   constructor(private mhwDataService: MhwDataService) { }
 
   ngOnInit(): void {
+    this.isLoading = true;
     this.getArmorSets();
     this.getArmorPieces();
   }
@@ -73,6 +75,15 @@ export class AppComponent implements OnInit {
     this.curSet = curSet;
   }
 
+  private loadingCallback() {
+    if (
+      true === this.armorSets.ready &&
+      true === this.armorPieces.ready
+    ) {
+      this.isLoading = false;
+    }
+  }
+
   private getArmorSets() {
     const armorSetData$: Observable<any> = this.mhwDataService.getArmorSets();
 
@@ -89,7 +100,7 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.armorSets.ready = true;
-        // @TODO add load finisher
+        this.loadingCallback()
       }
     )
   }
@@ -110,7 +121,7 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.armorPieces.ready = true;
-        // @TODO add load finisher
+        this.loadingCallback()
       }
     )
   }

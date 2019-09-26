@@ -34,5 +34,10 @@
       </div>
     </div>
   </div>
+  <div class="load-overlay" *ngIf="true === isLoading">
+    <div class="load-overlay__content">
+      Loading ...
+    </div>
+  </div>
   <router-outlet></router-outlet>
 </article>
