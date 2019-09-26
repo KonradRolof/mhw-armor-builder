@@ -1,0 +1,21 @@
+.select-pop__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: calc(100% + 20px);
+
+  > li {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      width: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 33.33333%;
+    }
+  }
+}

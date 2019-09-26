@@ -7,7 +7,8 @@
   color: $ci-light;
   display: block;
   flex: 1 1 auto;
-  padding: 17px;
+  font-size: 14px;
+  padding: 10px 17px;
 }
 
 .current-set__part-label {
@@ -16,9 +17,11 @@
   box-shadow: inset 0 1px 3px rgba($black, .1);
   color: $white;
   display: block;
+  font-size: 14px;
   font-weight: bold;
-  margin: -18px;
-  padding: 15px;
+  height: 43px;
+  margin: -11px -18px;
+  padding: 8px 15px;
   text-shadow: 0 1px 3px rgba($black, .1);
 }
 
@@ -27,11 +30,11 @@
   background: $gray-900;
   border: 1px double $gray-800;
   border-radius: 3px;
-  height: 60px;
+  height: 43px;
   margin-left: 5px;
   position: relative;
   transition: border-bottom-color .2s ease-in-out;
-  width: 60px;
+  width: 43px;
 
   &::before,
   &::after {
@@ -39,9 +42,9 @@
     content: " ";
     display: block;
     height: 2px;
-    left: 18px;
+    left: 10px;
     position: absolute;
-    top: 28px;
+    top: 20px;
     transition: background-color .2s ease-in-out;
     width: 20px;
   }

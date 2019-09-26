@@ -1,0 +1,7 @@
+.select-pop__controls {
+  padding: 10px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 10px 30px;
+  }
+}

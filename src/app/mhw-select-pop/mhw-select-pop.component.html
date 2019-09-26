@@ -1,9 +1,35 @@
 <ng-container *ngIf="true === open">
   <div class="select-pop">
     <button class="select-pop__close" (click)="emitSelection(null)"></button>
+    <section class="select-pop__controls">
+      <div class="box">
+        <div class="box__inner">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-5">
+              <div class="select-pop__select-area">
+                <label for="sp-select">Select Rank</label>
+                <select id="sp-select" [(ngModel)]="selectedRank">
+                  <option value="low">Low Rank</option>
+                  <option value="high">High Rank</option>
+                  <option value="master">Master Rank</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-7">
+              <div class="select-pop__filter-area">
+                <label for="sp-filter">Search for item</label>
+                <input type="search" id="sp-filter" placeholder="Add at least 3 chars"
+                       [(ngModel)]="filterInput" (keyup)="filterItems()">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="select-pop__inner">
-      <ul class="item-list">
-        <li *ngFor="let item of items[selectedRank]">
+      <ul class="item-list select-pop__list" *ngIf="0 < itemsToShow[selectedRank].length">
+        <li *ngFor="let item of itemsToShow[selectedRank]">
           <div class="item-list__item">
             <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
               {{ item.name }}
@@ -11,6 +37,9 @@
           </div>
         </li>
       </ul>
+      <div class="alert alert-warning" *ngIf="0 === itemsToShow[selectedRank].length">
+        Sorry. For your selection no items exists.
+      </div>
     </div>
   </div>
   <div class="select-pop-layer" (click)="emitSelection(null)"></div>

@@ -2,28 +2,32 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xl-3">
-        <h2>Armors</h2>
-        <ul class="item-list">
-          <li *ngFor="let armorSet of armorSets[selectedRank]">
-            <div class="item-list__item armor-item">
-              <button type="button" class="item-list__btn" (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
-              <ul [ngClass]="{'part-list': true, 'open': armorSet.id === openedArmorSet}">
-                <li *ngFor="let piece of armorSet.pieces">
-                  <button
-                    type="button"
-                    class="item-list__btn item-list__btn--rarity-{{ piece.rarity }} armor-item__part"
-                    (click)="toggleArmorPart(piece, piece.type)">
-                    {{ piece.name }}
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+        <div class="box box--small">
+          <div class="box__inner">
+            <h3>Armors</h3>
+            <ul class="item-list">
+              <li *ngFor="let armorSet of armorSets[selectedRank]">
+                <div class="item-list__item armor-item">
+                  <button type="button" class="item-list__btn" (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
+                  <ul [ngClass]="{'part-list': true, 'open': armorSet.id === openedArmorSet}">
+                    <li *ngFor="let piece of armorSet.pieces">
+                      <button
+                        type="button"
+                        class="item-list__btn item-list__btn--rarity-{{ piece.rarity }} armor-item__part"
+                        (click)="toggleArmorPart(piece, piece.type)">
+                        {{ piece.name }}
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="col-xl-8">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <mhw-mhw-current-set
               [dataObj]="data"
               [curSet]="curSet"

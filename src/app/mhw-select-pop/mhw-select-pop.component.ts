@@ -6,9 +6,11 @@ import {Component, EventEmitter, Input, OnChanges, Output, SimpleChanges} from "
 })
 export class MhwSelectPopComponent implements OnChanges {
   public selectedRank = "high";
+  public filterInput = "";
+  public itemsToShow: any = null;
 
   @Input() open = false;
-  @Input() items: any[] = null;
+  @Input() items: any = null;
   @Output() selectedItem: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
@@ -16,6 +18,16 @@ export class MhwSelectPopComponent implements OnChanges {
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.items) {
       this.items = changes.items.currentValue;
+
+      if ("object" === typeof this.items) {
+        const { low, high, master } = this.items;
+
+        this.itemsToShow = {
+          low: low,
+          high: high,
+          master: master
+        };
+      }
     }
 
     if (changes.isOpen && null !== this.items) {
@@ -25,6 +37,18 @@ export class MhwSelectPopComponent implements OnChanges {
 
   public emitSelection(item: any) {
     this.selectedItem.emit(item);
+  }
+
+  public filterItems() {
+    if (3 > this.filterInput.length) {
+      this.itemsToShow[this.selectedRank] = this.items[this.selectedRank];
+
+      return;
+    }
+
+    this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) =>
+      item.name.toLowerCase().includes(this.filterInput.toLowerCase())
+    );
   }
 
 }
