@@ -115,7 +115,7 @@ export class AppComponent implements OnInit {
   }
 
   private getArmorSets() {
-    const armorSetData$: Observable<any> = this.mhwDataService.getArmorSets("/assets/data/armor-sets.json");
+    const armorSetData$: Observable<any> = this.mhwDataService.getData("/assets/data/armor-sets.json");
 
     armorSetData$.subscribe(
       (data) => {
@@ -136,7 +136,7 @@ export class AppComponent implements OnInit {
   }
 
   private getArmorPieces() {
-    const armorPieceData$: Observable<any> = this.mhwDataService.getArmorPieces("/assets/data/armor-pieces.json");
+    const armorPieceData$: Observable<any> = this.mhwDataService.getData("/assets/data/armor-pieces.json");
 
     armorPieceData$.subscribe(
       (data) => {
@@ -157,7 +157,7 @@ export class AppComponent implements OnInit {
   }
 
   private getSkills() {
-    const skillsData$: Observable<any> = this.mhwDataService.getSkills("/assets/data/skills.json");
+    const skillsData$: Observable<any> = this.mhwDataService.getData("/assets/data/skills.json");
 
     skillsData$.subscribe(
       (data) => {
@@ -178,7 +178,7 @@ export class AppComponent implements OnInit {
   }
 
   private getDecorations() {
-    const decorationsData$: Observable<any> = this.mhwDataService.getDecorations("/assets/data/decorations.json");
+    const decorationsData$: Observable<any> = this.mhwDataService.getData("/assets/data/decorations.json");
 
     decorationsData$.subscribe(
       (data) => {
