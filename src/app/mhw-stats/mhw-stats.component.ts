@@ -23,14 +23,11 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
   constructor() { }
 
-  ngOnInit() {
-    this.readSet();
-  }
+  ngOnInit() { }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.curSet) {
       this.currentSet = changes.curSet.currentValue || {};
-      this.readSet();
     }
 
     if (changes.forceRefresh) {
@@ -49,7 +46,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
     setTimeout(() => {
       this.resetRefresh.emit(false);
-    }, 10);
+    }, 1);
   }
 
   private addSkill(skill: SkillRank) {
