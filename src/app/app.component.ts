@@ -66,6 +66,7 @@ export class AppComponent implements OnInit {
     weapons: this.weapons
   };
 
+  public forceRefresh = false;
   public isLoading: boolean;
   public hasDataError = false;
   public dataErrorMessage: string;
@@ -163,6 +164,11 @@ export class AppComponent implements OnInit {
 
   public postSetToStats(curSet: any) {
     this.curSet = curSet;
+    this.forceRefresh = true;
+  }
+
+  public readRefresh(response: boolean) {
+    this.forceRefresh = response;
   }
 
   private handleLoadError(error: any) {

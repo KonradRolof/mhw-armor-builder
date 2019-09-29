@@ -7,12 +7,14 @@ import { MhwCurrentSetComponent } from './mhw-current-set/mhw-current-set.compon
 import { MhwSelectPopComponent } from './mhw-select-pop/mhw-select-pop.component';
 import { HttpClientModule } from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
+import { MhwStatsComponent } from './mhw-stats/mhw-stats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MhwCurrentSetComponent,
-    MhwSelectPopComponent
+    MhwSelectPopComponent,
+    MhwStatsComponent
   ],
   imports: [
     BrowserModule,

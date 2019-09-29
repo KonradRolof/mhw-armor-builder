@@ -91,6 +91,15 @@
               [resetSelection]="false"
               (setChanged)="postSetToStats($event)"></mhw-mhw-current-set>
           </div>
+
+          <div class="col-lg-7">
+            <mhw-stats
+              [forceRefresh]="forceRefresh"
+              [dataObj]="data"
+              [curSet]="curSet"
+              (resetRefresh)="readRefresh($event)">
+            </mhw-stats>
+          </div>
         </div>
       </div>
     </div>

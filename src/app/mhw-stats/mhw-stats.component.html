@@ -1,0 +1,17 @@
+<section class="box">
+  <header class="box__head">
+    <h3>Stats for your selection</h3>
+  </header>
+  <div class="box__inner">
+    <h4>Skills</h4>
+    <ul class="skill-list">
+      <li *ngFor="let skill of skills">
+        <div class="skill-list__skill skill-item">
+          <div class="skill-item__name">{{ skill.skill.name }}</div>
+          <div class="skill-item__description">{{ skill.skill.description}}</div>
+          {{ skill.level }}
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
