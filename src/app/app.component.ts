@@ -59,17 +59,17 @@ export class AppComponent implements OnInit {
 
   private skillsReady = false;
   private decorationsReady = false;
-  private charmsReadyy = false;
+  private charmsReady = false;
 
   constructor(private mhwDataService: MhwDataService) { }
 
   ngOnInit(): void {
     this.isLoading = true;
-    this.getArmorSets();
-    this.getArmorPieces();
-    this.getSkills();
-    this.getDecorations();
-    this.getCharms();
+    this.getData("/assets/data/armor-sets.json", "armorSets");
+    this.getData("/assets/data/armor-pieces.json", "armorPieces");
+    this.getData("/assets/data/skills.json", "skills");
+    this.getData("/assets/data/decorations.json", "decorations");
+    this.getData("/assets/data/charms.json", "charms");
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {
@@ -133,120 +133,96 @@ export class AppComponent implements OnInit {
     this.curSet.charm = { piece } as CurSetPiece;
   }
 
-  private loadingCallback() {
+  private loadingCallback(type: string) {
+    switch (type) {
+      case "armorSets":
+        this.armorSets.ready = true;
+        break;
+
+      case "armorPieces":
+        this.armorPieces.ready = true;
+        break;
+
+      case "skills":
+        this.skillsReady = true;
+        break;
+
+      case "decorations":
+        this.decorationsReady = true;
+        break;
+
+      case "charms":
+        this.charmsReady = true;
+        break;
+    }
+
+    this.privateCheckDate();
+  }
+
+  private privateCheckDate() {
     if (
       true === this.armorSets.ready &&
       true === this.armorPieces.ready &&
       true === this.skillsReady &&
       true === this.decorationsReady &&
-      true === this.charmsReadyy
+      true === this.charmsReady
     ) {
       this.isLoading = false;
     }
   }
 
-  private getArmorSets() {
-    const armorSetData$: Observable<any> = this.mhwDataService.getData("/assets/data/armor-sets.json");
+  private getData(url: string, type: "armorSets" | "armorPieces" | "skills" | "decorations" | "charms" | "weapons") {
+    const data$: Observable<any> = this.mhwDataService.getData(url);
 
-    armorSetData$.subscribe(
+    data$.subscribe(
       (data) => {
-        const armorSets = data as ArmorSet[];
+        this.handleData(data, type);
+      },
+      (error) => {
+        // @TODO adds error handling
+      },
+      () => {
+        this.loadingCallback(type);
+      }
+    );
+  }
 
+  private handleData(data: any, type: "armorSets" | "armorPieces" | "skills" | "decorations" | "charms" | "weapons") {
+    switch (type) {
+      case "armorSets":
+        const armorSets = data as ArmorSet[];
         armorSets.map((set) => {
           this.armorSets[set.rank].push(set);
         });
-      },
-      (error) => {
-        // @TODO adds error handling
-      },
-      () => {
-        this.armorSets.ready = true;
-        this.loadingCallback();
-      }
-    );
-  }
+        break;
 
-  private getArmorPieces() {
-    const armorPieceData$: Observable<any> = this.mhwDataService.getData("/assets/data/armor-pieces.json");
-
-    armorPieceData$.subscribe(
-      (data) => {
+      case "armorPieces":
         const armorPieces = data as ArmorPiece[];
-
         armorPieces.map((piece) => {
           this.armorPieces[piece.rank].push(piece);
         });
-      },
-      (error) => {
-        // @TODO adds error handling
-      },
-      () => {
-        this.armorPieces.ready = true;
-        this.loadingCallback();
-      }
-    );
-  }
+        break;
 
-  private getSkills() {
-    const skillsData$: Observable<any> = this.mhwDataService.getData("/assets/data/skills.json");
-
-    skillsData$.subscribe(
-      (data) => {
+      case "skills":
         const skills = data as Skill[];
-
         skills.map((skill) => {
           this.skills.push(skill);
         });
-      },
-      (error) => {
-        // @TODO adds error handling
-      },
-      () => {
-        this.skillsReady = true;
-        this.loadingCallback();
-      }
-    );
-  }
+        break;
 
-  private getDecorations() {
-    const decorationsData$: Observable<any> = this.mhwDataService.getData("/assets/data/decorations.json");
-
-    decorationsData$.subscribe(
-      (data) => {
+      case "decorations":
         const decorations = data as Decoration[];
-
         decorations.map((decoration) => {
           this.decorations.push(decoration);
         });
-      },
-      (error) => {
-        // @TODO adds error handling
-      },
-      () => {
-        this.decorationsReady = true;
-        this.loadingCallback();
-      }
-    );
-  }
+        break;
 
-  private getCharms() {
-    const charmsData$: Observable<any> = this.mhwDataService.getData("/assets/data/charms.json");
-
-    charmsData$.subscribe(
-      (data) => {
+      case "charms":
         const charms = data as Charm[];
-
         charms.map((charm) => {
           this.charms.push(charm);
         });
-      },
-      (error) => {
-        // @TODO adds error handling
-      },
-      () => {
-        this.charmsReadyy = true;
-        this.loadingCallback();
-      }
-    );
+        break;
+    }
   }
 }
