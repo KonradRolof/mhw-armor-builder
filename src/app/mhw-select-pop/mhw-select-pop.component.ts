@@ -3,6 +3,7 @@ import SelectionPopData from "../../interface/selection-pop-data.interface";
 import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
 import Decoration from "../../interface/decoration.interface";
 import SelectionPopResponse from "../../interface/selection-pop-response.interface";
+import Charm from "../../interface/charm.interface";
 
 @Component({
   selector: "mhw-mhw-select-pop",
@@ -95,6 +96,14 @@ export class MhwSelectPopComponent implements OnChanges {
         this.itemsToShow = {};
         this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Decoration[];
 
+        break;
+
+      case "charm":
+        this.storedItems = {};
+        this.storedItems[this.selectedRank] = data.items as Charm[];
+
+        this.itemsToShow = {};
+        this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Charm[];
         break;
     }
 

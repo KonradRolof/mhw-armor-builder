@@ -7,4 +7,5 @@ export default interface CurSet {
   gloves?: CurSetPiece;
   waist?: CurSetPiece;
   legs?: CurSetPiece;
+  charm?: CurSetPiece;
 }

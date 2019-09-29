@@ -7,6 +7,7 @@ import SlotSelection from "../../interface/slot-selection.interface";
 import SelectionPopData from "../../interface/selection-pop-data.interface";
 import SelectionPopResponse from "../../interface/selection-pop-response.interface";
 import CurSetPiece from "../../interface/cur-set-piece.interface";
+import Charm from "../../interface/charm.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -19,27 +20,38 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     gloves: null,
     waist: null,
     legs: null,
+    charm: null
   };
   public levelOneParts = [
     {
       label: "Head Armor",
-      part: "head"
+      part: "head",
+      type: "armor"
     },
     {
       label: "Chest Armor",
-      part: "chest"
+      part: "chest",
+      type: "armor"
     },
     {
       label: "Gloves Armor",
-      part: "gloves"
+      part: "gloves",
+      type: "armor"
     },
     {
       label: "Waist Armor",
-      part: "waist"
+      part: "waist",
+      type: "armor"
     },
     {
       label: "Legs Armor",
-      part: "legs"
+      part: "legs",
+      type: "armor"
+    },
+    {
+      label: "Charm",
+      part: "charm",
+      type: "charm"
     }
   ];
 
@@ -93,22 +105,26 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
       data.type = "armor";
       data.items = piecesObject;
       data.rankSelectable = true;
-
-      this.itemsForPop = data;
     }
 
     if ("decoration" === itemType && null !== isSlot) {
       data.type = "decoration";
       data.items = this.dataObj.decorations;
       data.slot = isSlot;
-
-      this.itemsForPop = data;
     }
 
+    if ("charm" === itemType) {
+      data.type = "charm";
+      data.items = this.dataObj.charms;
+    }
+
+    this.itemsForPop = data;
     this.popOpen = true;
   }
 
   public processSelection(response: SelectionPopResponse) {
+    let piece;
+    let setPiece;
     this.popOpen = false;
 
     if (null !== response) {
@@ -118,8 +134,8 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
           break;
 
         case "armor":
-          const piece = response.item as ArmorPiece;
-          const setPiece = { piece } as CurSetPiece;
+          piece = response.item as ArmorPiece;
+          setPiece = { piece } as CurSetPiece;
 
           // @TODO fix decoration selection
 
@@ -130,14 +146,34 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
           this.currentSet[piece.type] = setPiece;
 
           break;
+
+        case "charm":
+          piece = response.item as Charm;
+          setPiece = { piece } as CurSetPiece;
+
+          this.currentSet.charm = setPiece;
+          break;
       }
 
       this.emitSelectionChange();
     }
   }
 
-  public removeItem(item: ArmorPiece) {
-    this.currentSet[item.type] = null;
+  public removeItem(item: ArmorPiece | Charm, type: "armor" | "charm") {
+    switch (type) {
+      case "armor":
+        const armor = item as ArmorPiece;
+
+        this.currentSet[armor.type] = null;
+
+        break;
+
+      case "charm":
+        this.currentSet.charm = null;
+
+        break;
+    }
+
     this.emitSelectionChange();
   }
 

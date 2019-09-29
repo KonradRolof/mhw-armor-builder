@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xl-3">
+
         <div class="box box--small">
           <div class="box__inner">
             <h3>Armors</h3>
@@ -24,6 +25,20 @@
             </ul>
           </div>
         </div>
+
+        <div class="box box--small">
+          <div class="box__inner">
+            <h3>Charms</h3>
+            <ul class="item-list">
+              <li *ngFor="let charm of charms">
+                <div class="item-list__item">
+                  <button type="button" class="item-list__btn" (click)="toggleCharmOrWeapon(charm, 'charm')">{{ charm.name }}</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
       <div class="col-xl-8">
         <div class="row">

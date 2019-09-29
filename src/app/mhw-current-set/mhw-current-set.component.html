@@ -14,7 +14,7 @@
             Select a {{ part.label }}
           </ng-container>
         </button>
-        <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part].piece)"></button>
+        <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part].piece, part.type)"></button>
         <ng-container *ngIf="currentSet[part.part]">
           <ul class="current-set__deco-list" *ngIf="currentSet[part.part].slots">
             <li *ngFor="let slot of currentSet[part.part].slots; let i = index">

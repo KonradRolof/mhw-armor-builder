@@ -10,6 +10,7 @@ import DataObject from "../interface/data-object.interface";
 import Skill from "../interface/skill.interface";
 import Decoration from "../interface/decoration.interface";
 import CurSetPiece from "../interface/cur-set-piece.interface";
+import Charm from "../interface/charm.interface";
 
 @Component({
   selector: "mhw-root",
@@ -33,12 +34,14 @@ export class AppComponent implements OnInit {
     master: [],
     ready: false
   };
+  public charms: Charm[] = [];
   public decorations: Decoration[] = [];
   public data: DataObject = {
     armors: this.armorSets,
     pieces: this.armorPieces,
     skills: this.skills,
-    decorations: this.decorations
+    decorations: this.decorations,
+    charms: this.charms
   };
 
   public isLoading: boolean;
@@ -50,10 +53,12 @@ export class AppComponent implements OnInit {
     gloves: null,
     waist: null,
     legs: null,
+    charm: null
   };
 
   private skillsReady = false;
   private decorationsReady = false;
+  private charmsReadyy = false;
 
   constructor(private mhwDataService: MhwDataService) { }
 
@@ -63,6 +68,7 @@ export class AppComponent implements OnInit {
     this.getArmorPieces();
     this.getSkills();
     this.getDecorations();
+    this.getCharms();
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {
@@ -85,8 +91,24 @@ export class AppComponent implements OnInit {
     } else {
       this.setArmorPiece(piece, type);
     }
+  }
 
-    console.log(this.curSet);
+  public toggleCharmOrWeapon(item: Charm, type: "charm" | "weapon") {
+    if ("charm" === type) {
+      if (null !== this.curSet[type]) {
+        if (this.curSet.charm.piece.id === item.id) {
+          this.curSet.charm = null;
+        } else {
+          this.setCharm(item);
+        }
+      } else {
+        this.setCharm(item);
+      }
+    }
+
+    if ("weapon" === type) {
+      // @TODO add weapon
+    }
   }
 
   public postSetToStats(curSet: any) {
@@ -103,12 +125,17 @@ export class AppComponent implements OnInit {
     this.curSet[type] = setPiece;
   }
 
+  private setCharm(piece: Charm) {
+    this.curSet.charm = { piece } as CurSetPiece;
+  }
+
   private loadingCallback() {
     if (
       true === this.armorSets.ready &&
       true === this.armorPieces.ready &&
       true === this.skillsReady &&
-      true === this.decorationsReady
+      true === this.decorationsReady &&
+      true === this.charmsReadyy
     ) {
       this.isLoading = false;
     }
@@ -193,6 +220,27 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.decorationsReady = true;
+        this.loadingCallback();
+      }
+    );
+  }
+
+  private getCharms() {
+    const charmsData$: Observable<any> = this.mhwDataService.getData("/assets/data/charms.json");
+
+    charmsData$.subscribe(
+      (data) => {
+        const charms = data as Charm[];
+
+        charms.map((charm) => {
+          this.charms.push(charm);
+        });
+      },
+      (error) => {
+        // @TODO adds error handling
+      },
+      () => {
+        this.charmsReadyy = true;
         this.loadingCallback();
       }
     );
