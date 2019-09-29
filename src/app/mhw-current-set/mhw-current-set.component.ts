@@ -10,6 +10,7 @@ import CurSetPiece from "../../interface/cur-set-piece.interface";
 import Charm from "../../interface/charm.interface";
 import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
 import Decoration from "../../interface/decoration.interface";
+import Weapon from "../../interface/weapon.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -17,6 +18,7 @@ import Decoration from "../../interface/decoration.interface";
 })
 export class MhwCurrentSetComponent implements OnInit, OnChanges {
   public currentSet: CurSet = {
+    weapon: null,
     head: null,
     chest: null,
     gloves: null,
@@ -25,6 +27,11 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     charm: null
   };
   public levelOneParts = [
+    {
+      label: "Weapon",
+      part: "weapon",
+      type: "weapon"
+    },
     {
       label: "Head Armor",
       part: "head",
@@ -132,14 +139,12 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     if (null !== response) {
       switch (response.type) {
         case "decoration":
-          this.currentSet[response.slot.part].slots[response.slot.index].decoration = response.item;
+          this.currentSet[response.slot.part].slots[response.slot.index].decoration = response.item as Decoration;
           break;
 
         case "armor":
           piece = response.item as ArmorPiece;
           setPiece = { piece } as CurSetPiece;
-
-          // @TODO fix decoration selection
 
           if (piece.slots) {
             setPiece.slots = [];
@@ -164,7 +169,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     }
   }
 
-  public removeItem(item: ArmorPiece | Charm, type: "armor" | "charm") {
+  public removeItem(item: ArmorPiece | Charm | Weapon, type: "armor" | "charm" | "weapon") {
     switch (type) {
       case "armor":
         const armor = item as ArmorPiece;
@@ -177,6 +182,9 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
         this.currentSet.charm = null;
 
         break;
+
+      case "weapon":
+        this.currentSet.weapon = null;
     }
 
     this.emitSelectionChange();

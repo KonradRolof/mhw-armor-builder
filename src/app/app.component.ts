@@ -12,6 +12,7 @@ import Decoration from "../interface/decoration.interface";
 import CurSetPiece from "../interface/cur-set-piece.interface";
 import Charm from "../interface/charm.interface";
 import CurSetPieceSlot from "../interface/cur-set-piece-slot.interface";
+import Weapon from "../interface/weapon.interface";
 
 @Component({
   selector: "mhw-root",
@@ -23,6 +24,23 @@ export class AppComponent implements OnInit {
   title = "mhw-armor-builder";
 
   public skills: Skill[] = [];
+  public weaponTypes = [
+    { type: "all", label: "All" },
+    { type: "great-sword", label: "Gread Sword" },
+    { type: "dual-blades", label: "Dual Blades" },
+    { type: "lance", label: "Lance" },
+    { type: "charge-blade", label: "Charge Blade" },
+    { type: "heavy-bowgun", label: "Heavy Bowgun" },
+    { type: "long-sword", label: "Long Sword" },
+    { type: "hammer", label: "Hammer" },
+    { type: "gunlance", label: "Gunlance" },
+    { type: "insect-glaive", label: "Insect Glaive" },
+    { type: "bow", label: "Bow"},
+    { type: "hunting-horn", label: "Hunting Horn" },
+    { type: "switch-axe", label: "Switch Axe" },
+    { type: "light-bowgun", label: "Light Bowgun" }
+  ];
+  public currentWeaponType: string;
   public armorSets: ArmorSetsObject = {
     low: [],
     high: [],
@@ -37,6 +55,8 @@ export class AppComponent implements OnInit {
   };
   public charms: Charm[] = [];
   public decorations: Decoration[] = [];
+  public weapons: Weapon[] = [];
+  public weaponsToShow: Weapon[] = [];
   public data: DataObject = {
     armors: this.armorSets,
     pieces: this.armorPieces,
@@ -46,9 +66,12 @@ export class AppComponent implements OnInit {
   };
 
   public isLoading: boolean;
+  public hasDataError = false;
+  public dataErrorMessage: string;
   public selectedRank = "high";
   public openedArmorSet: number = null;
   public curSet: CurSet = {
+    weapon: null,
     head: null,
     chest: null,
     gloves: null,
@@ -60,16 +83,19 @@ export class AppComponent implements OnInit {
   private skillsReady = false;
   private decorationsReady = false;
   private charmsReady = false;
+  private weaponsReady = false;
 
   constructor(private mhwDataService: MhwDataService) { }
 
   ngOnInit(): void {
+    this.currentWeaponType = this.weaponTypes[0].type;
     this.isLoading = true;
     this.getData("/assets/data/armor-sets.json", "armorSets");
     this.getData("/assets/data/armor-pieces.json", "armorPieces");
     this.getData("/assets/data/skills.json", "skills");
     this.getData("/assets/data/decorations.json", "decorations");
     this.getData("/assets/data/charms.json", "charms");
+    this.getData("/assets/data/weapons.json", "weapons");
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {
@@ -94,26 +120,43 @@ export class AppComponent implements OnInit {
     }
   }
 
-  public toggleCharmOrWeapon(item: Charm, type: "charm" | "weapon") {
+  public toggleCharmOrWeapon(item: Charm | Weapon, type: "charm" | "weapon") {
     if ("charm" === type) {
+      const charm = item as Charm;
+
       if (null !== this.curSet[type]) {
-        if (this.curSet.charm.piece.id === item.id) {
+        if (this.curSet.charm.piece.id === charm.id) {
           this.curSet.charm = null;
         } else {
-          this.setCharm(item);
+          this.setCharm(charm);
         }
       } else {
-        this.setCharm(item);
+        this.setCharm(charm);
       }
     }
 
     if ("weapon" === type) {
-      // @TODO add weapon
+      const weapon = item as Weapon;
+
+      if (null !== this.curSet[type]) {
+        if (this.curSet.weapon.piece.id === weapon.id) {
+          this.curSet.charm = null;
+        } else {
+          this.setWeapon(weapon);
+        }
+      } else {
+        this.setWeapon(weapon);
+      }
     }
   }
 
   public postSetToStats(curSet: any) {
     this.curSet = curSet;
+  }
+
+  private handleLoadError(error: any) {
+    this.hasDataError = true;
+    this.dataErrorMessage = error.message;
   }
 
   private setArmorPiece(piece: ArmorPiece, type: string) {
@@ -131,6 +174,10 @@ export class AppComponent implements OnInit {
 
   private setCharm(piece: Charm) {
     this.curSet.charm = { piece } as CurSetPiece;
+  }
+
+  private setWeapon(piece: Weapon) {
+    this.curSet.weapon = { piece } as CurSetPiece;
   }
 
   private loadingCallback(type: string) {
@@ -154,18 +201,19 @@ export class AppComponent implements OnInit {
       case "charms":
         this.charmsReady = true;
         break;
+
+      case "weapons":
+        this.weaponsReady = true;
+        break;
     }
 
-    this.privateCheckDate();
-  }
-
-  private privateCheckDate() {
     if (
       true === this.armorSets.ready &&
       true === this.armorPieces.ready &&
       true === this.skillsReady &&
       true === this.decorationsReady &&
-      true === this.charmsReady
+      true === this.charmsReady &&
+      true === this.weaponsReady
     ) {
       this.isLoading = false;
     }
@@ -179,7 +227,7 @@ export class AppComponent implements OnInit {
         this.handleData(data, type);
       },
       (error) => {
-        // @TODO adds error handling
+        this.handleLoadError(error);
       },
       () => {
         this.loadingCallback(type);
@@ -221,6 +269,15 @@ export class AppComponent implements OnInit {
         const charms = data as Charm[];
         charms.map((charm) => {
           this.charms.push(charm);
+        });
+        break;
+
+      case "weapons":
+        const weapons = data as Weapon[];
+
+        weapons.map((weapon) => {
+          this.weapons.push(weapon);
+          this.weaponsToShow.push(weapon);
         });
         break;
     }

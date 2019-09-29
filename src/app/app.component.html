@@ -5,6 +5,26 @@
 
         <div class="box box--small">
           <div class="box__inner">
+            <h3>Weapons</h3>
+            <label for="box-weapon-type">Select weapon type</label>
+            <select id="box-weapon-type" [(ngModel)]="currentWeaponType">
+              <ng-container *ngFor="let weaponType of weaponTypes">
+                <option value="{{ weaponType.type }}">{{ weaponType.label }}</option>
+              </ng-container>
+            </select>
+
+            <ul class="item-list">
+              <li *ngFor="let weapon of weaponsToShow">
+                <div class="item-list__item">
+                  <button type="button" class="item-list__btn" (click)="toggleCharmOrWeapon(weapon, 'weapon')">{{ weapon.name }}</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="box box--small">
+          <div class="box__inner">
             <h3>Armors</h3>
             <ul class="item-list">
               <li *ngFor="let armorSet of armorSets[selectedRank]">
@@ -53,9 +73,18 @@
       </div>
     </div>
   </div>
-  <div class="load-overlay" *ngIf="true === isLoading">
+  <div class="load-overlay" *ngIf="true === isLoading || true === hasDataError">
     <div class="load-overlay__content">
-      Loading ...
+      <ng-container *ngIf="false === hasDataError">
+        Loading ...
+      </ng-container>
+      <ng-container *ngIf="true === hasDataError">
+        <div class="alert alert-danger">
+          <p><b>Sorry! An error has occurred</b><br>
+          {{ dataErrorMessage }}</p>
+          Please refresh page or try again later.
+        </div>
+      </ng-container>
     </div>
   </div>
   <router-outlet></router-outlet>
