@@ -9,6 +9,7 @@ import SelectionPopResponse from "../../interface/selection-pop-response.interfa
 import CurSetPiece from "../../interface/cur-set-piece.interface";
 import Charm from "../../interface/charm.interface";
 import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
+import Decoration from "../../interface/decoration.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -177,6 +178,12 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
 
         break;
     }
+
+    this.emitSelectionChange();
+  }
+
+  public removeDecoration(slotSelection: SlotSelection) {
+    this.currentSet[slotSelection.part].slots[slotSelection.index].decoration = null;
 
     this.emitSelectionChange();
   }
