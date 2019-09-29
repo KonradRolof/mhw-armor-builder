@@ -1,10 +1,19 @@
 <article class="mhw-armor-builder">
+  <header class="title-bar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-auto">
+          <h1>Monster Hunter World - Set Builder</h1>
+        </div>
+      </div>
+    </div>
+  </header>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xl-3">
 
-        <div class="box box--small">
-          <div class="box__inner">
+        <section class="box box--small">
+          <header class="box__head">
             <h3>Weapons</h3>
             <label for="box-weapon-type">Select weapon type</label>
             <select id="box-weapon-type" [(ngModel)]="currentWeaponType" (change)="switchWeaponType(currentWeaponType)">
@@ -12,7 +21,9 @@
                 <option value="{{ weaponType.type }}">{{ weaponType.label }}</option>
               </ng-container>
             </select>
+          </header>
 
+          <div class="box__inner">
             <ul class="item-list">
               <li *ngFor="let weapon of weaponsToShow">
                 <div class="item-list__item">
@@ -21,11 +32,20 @@
               </li>
             </ul>
           </div>
-        </div>
+        </section>
 
-        <div class="box box--small">
-          <div class="box__inner">
+        <section class="box box--small">
+          <header class="box__head">
             <h3>Armors</h3>
+            <label for="rank-select">Select Rank</label>
+            <select id="rank-select" [(ngModel)]="selectedRank">
+              <option value="low">Low Rank</option>
+              <option value="high">High Rank</option>
+              <option value="master">Master Rank</option>
+            </select>
+          </header>
+
+          <div class="box__inner">
             <ul class="item-list">
               <li *ngFor="let armorSet of armorSets[selectedRank]">
                 <div class="item-list__item armor-item">
@@ -44,11 +64,13 @@
               </li>
             </ul>
           </div>
-        </div>
+        </section>
 
-        <div class="box box--small">
-          <div class="box__inner">
+        <section class="box box--small">
+          <header class="box__head">
             <h3>Charms</h3>
+          </header>
+          <div class="box__inner">
             <ul class="item-list">
               <li *ngFor="let charm of charms">
                 <div class="item-list__item">
@@ -57,7 +79,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </section>
 
       </div>
       <div class="col-xl-8">

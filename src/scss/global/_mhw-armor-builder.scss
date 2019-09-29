@@ -1,9 +1,15 @@
 .mhw-armor-builder {
   min-height: 100vh;
-  padding: 50px 0;
+  padding: 90px 0 0;
 
   @include media-breakpoint-up(lg) {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
   }
 }
