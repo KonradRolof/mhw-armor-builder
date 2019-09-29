@@ -62,7 +62,8 @@ export class AppComponent implements OnInit {
     pieces: this.armorPieces,
     skills: this.skills,
     decorations: this.decorations,
-    charms: this.charms
+    charms: this.charms,
+    weapons: this.weapons
   };
 
   public isLoading: boolean;
@@ -96,6 +97,16 @@ export class AppComponent implements OnInit {
     this.getData("/assets/data/decorations.json", "decorations");
     this.getData("/assets/data/charms.json", "charms");
     this.getData("/assets/data/weapons.json", "weapons");
+  }
+
+  public switchWeaponType(type: string) {
+    let weapons = this.weapons;
+
+    if (this.weaponTypes[0].type !== type) {
+      weapons = weapons.filter((weapon) => weapon.type === type);
+    }
+
+    this.weaponsToShow = weapons;
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {

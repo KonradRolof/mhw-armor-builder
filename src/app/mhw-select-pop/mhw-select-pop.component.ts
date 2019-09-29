@@ -4,6 +4,7 @@ import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
 import Decoration from "../../interface/decoration.interface";
 import SelectionPopResponse from "../../interface/selection-pop-response.interface";
 import Charm from "../../interface/charm.interface";
+import Weapon from "../../interface/weapon.interface";
 
 @Component({
   selector: "mhw-mhw-select-pop",
@@ -13,6 +14,24 @@ export class MhwSelectPopComponent implements OnChanges {
   public rankSelectable = false;
   public selectedRank = "high";
   public rankSelect = "high";
+  public weaponSelectable = false;
+  public weaponTypes = [
+    { type: "all", label: "All" },
+    { type: "great-sword", label: "Gread Sword" },
+    { type: "dual-blades", label: "Dual Blades" },
+    { type: "lance", label: "Lance" },
+    { type: "charge-blade", label: "Charge Blade" },
+    { type: "heavy-bowgun", label: "Heavy Bowgun" },
+    { type: "long-sword", label: "Long Sword" },
+    { type: "hammer", label: "Hammer" },
+    { type: "gunlance", label: "Gunlance" },
+    { type: "insect-glaive", label: "Insect Glaive" },
+    { type: "bow", label: "Bow"},
+    { type: "hunting-horn", label: "Hunting Horn" },
+    { type: "switch-axe", label: "Switch Axe" },
+    { type: "light-bowgun", label: "Light Bowgun" }
+  ];
+  public currentWeaponType: string;
   public filterInput = "";
   public itemsToShow: any = null;
 
@@ -62,13 +81,28 @@ export class MhwSelectPopComponent implements OnChanges {
     this.itemsToShow[this.selectedRank] = [];
     this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item);
 
+    if (this.weaponSelectable && this.currentWeaponType !== this.weaponTypes[0].type) {
+      this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) => item.type === this.currentWeaponType );
+    }
+
     this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) =>
       item.name.toLowerCase().includes(this.filterInput.toLowerCase())
     );
   }
 
+  public switchWeaponType(type: string) {
+    let weapons = this.storedItems[this.selectedRank];
+
+    if (this.weaponTypes[0].type !== type) {
+      weapons = weapons.filter((weapon) => weapon.type === type);
+    }
+
+    this.itemsToShow[this.selectedRank] = weapons;
+  }
+
   private readDataObject(data: SelectionPopData) {
     this.data = data;
+    this.weaponSelectable = false;
 
     switch (data.type) {
       case "armor":
@@ -105,6 +139,15 @@ export class MhwSelectPopComponent implements OnChanges {
         this.itemsToShow = {};
         this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Charm[];
         break;
+
+      case "weapon":
+        this.storedItems = {};
+        this.storedItems[this.selectedRank] = data.items as Weapon[];
+
+        this.itemsToShow = {};
+        this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Weapon[];
+        this.weaponSelectable = true;
+        this.currentWeaponType = this.weaponTypes[0].type;
     }
 
     this.rankSelectable = data.rankSelectable;

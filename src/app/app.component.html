@@ -7,7 +7,7 @@
           <div class="box__inner">
             <h3>Weapons</h3>
             <label for="box-weapon-type">Select weapon type</label>
-            <select id="box-weapon-type" [(ngModel)]="currentWeaponType">
+            <select id="box-weapon-type" [(ngModel)]="currentWeaponType" (change)="switchWeaponType(currentWeaponType)">
               <ng-container *ngFor="let weaponType of weaponTypes">
                 <option value="{{ weaponType.type }}">{{ weaponType.label }}</option>
               </ng-container>

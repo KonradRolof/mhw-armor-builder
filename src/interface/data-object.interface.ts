@@ -3,6 +3,7 @@ import ArmorPiecesObject from "./armor-pieces-object.interface";
 import Skill from "./skill.interface";
 import Decoration from "./decoration.interface";
 import Charm from "./charm.interface";
+import Weapon from "./weapon.interface";
 
 export default interface DataObject {
   armors: ArmorSetsObject;
@@ -10,4 +11,5 @@ export default interface DataObject {
   skills: Skill[];
   decorations: Decoration[];
   charms: Charm[];
+  weapons: Weapon[];
 }

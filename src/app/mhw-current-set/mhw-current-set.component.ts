@@ -127,6 +127,11 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
       data.items = this.dataObj.charms;
     }
 
+    if ("weapon" === itemType) {
+      data.type = "weapon";
+      data.items = this.dataObj.weapons;
+    }
+
     this.itemsForPop = data;
     this.popOpen = true;
   }
@@ -162,6 +167,21 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
           setPiece = { piece } as CurSetPiece;
 
           this.currentSet.charm = setPiece;
+          break;
+
+        case "weapon":
+          piece = response.item as Weapon;
+          setPiece = { piece } as CurSetPiece;
+
+          if (piece.slots) {
+            setPiece.slots = [];
+            piece.slots.map((slot) => {
+              setPiece.slots.push({ slot } as CurSetPieceSlot);
+            });
+          }
+
+          this.currentSet.weapon = setPiece;
+
           break;
       }
 

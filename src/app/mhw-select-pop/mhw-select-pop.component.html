@@ -16,6 +16,17 @@
               </div>
             </div>
 
+            <div class="col-sm-12 col-md-6 col-lg-5" *ngIf="true === weaponSelectable">
+              <div class="select-pop__select-area">
+                <label for="sp-select-weapon-type">Select Weapon Type</label>
+                <select id="sp-select-weapon-type" [(ngModel)]="currentWeaponType" (change)="switchWeaponType(currentWeaponType)">
+                  <ng-container *ngFor="let weaponType of weaponTypes">
+                    <option value="{{ weaponType.type }}">{{ weaponType.label }}</option>
+                  </ng-container>
+                </select>
+              </div>
+            </div>
+
             <div class="col-sm-12 col-md-6 col-lg-7">
               <div class="select-pop__filter-area">
                 <label for="sp-filter">Search for item</label>
