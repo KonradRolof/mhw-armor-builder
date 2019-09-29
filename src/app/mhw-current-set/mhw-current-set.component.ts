@@ -8,6 +8,7 @@ import SelectionPopData from "../../interface/selection-pop-data.interface";
 import SelectionPopResponse from "../../interface/selection-pop-response.interface";
 import CurSetPiece from "../../interface/cur-set-piece.interface";
 import Charm from "../../interface/charm.interface";
+import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",
@@ -130,7 +131,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     if (null !== response) {
       switch (response.type) {
         case "decoration":
-          this.currentSet[response.slot.part].slots[response.slot.index] = response.item;
+          this.currentSet[response.slot.part].slots[response.slot.index].decoration = response.item;
           break;
 
         case "armor":
@@ -140,7 +141,10 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
           // @TODO fix decoration selection
 
           if (piece.slots) {
-            setPiece.slots = piece.slots.map((item) => item);
+            setPiece.slots = [];
+            piece.slots.map((slot) => {
+              setPiece.slots.push({ slot } as CurSetPieceSlot);
+            });
           }
 
           this.currentSet[piece.type] = setPiece;

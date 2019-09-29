@@ -11,6 +11,7 @@ import Skill from "../interface/skill.interface";
 import Decoration from "../interface/decoration.interface";
 import CurSetPiece from "../interface/cur-set-piece.interface";
 import Charm from "../interface/charm.interface";
+import CurSetPieceSlot from "../interface/cur-set-piece-slot.interface";
 
 @Component({
   selector: "mhw-root",
@@ -119,7 +120,10 @@ export class AppComponent implements OnInit {
     const setPiece = { piece } as CurSetPiece;
 
     if (piece.slots) {
-      setPiece.slots = piece.slots.map((item) => item);
+      setPiece.slots = [];
+      piece.slots.map((slot) => {
+        setPiece.slots.push({ slot } as CurSetPieceSlot);
+      });
     }
 
     this.curSet[type] = setPiece;

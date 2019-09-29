@@ -22,15 +22,15 @@
                   (click)="openSelectPop('decoration', {
                       part: part.part,
                       index: i,
-                      rank: currentSet[part.part].piece.slots[i].rank
+                      rank: slot.slot.rank
                   })">
-                <ng-container *ngIf="slot.name">
-                <span class="current-set__part-label">
-                  {{ slot.name }}
-                </span>
+                <ng-container *ngIf="slot.decoration">
+                  <span class="current-set__part-label">
+                    {{ slot.decoration.name }}
+                  </span>
                 </ng-container>
-                <ng-container *ngIf="slot.rank">
-                  Add Jewel ({{ slot.rank }})
+                <ng-container *ngIf="!slot.decoration">
+                  Add Jewel ({{ slot.slot.rank }})
                 </ng-container>
               </button>
             </li>
