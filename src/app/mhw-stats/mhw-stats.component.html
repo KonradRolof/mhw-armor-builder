@@ -3,28 +3,30 @@
     <h3>Stats for your selection</h3>
   </header>
   <div class="box__inner">
-    <h4>Skills:</h4>
-    <ul class="skill-list">
-      <li *ngFor="let skill of skills">
-        <div class="skill-list__skill skill-item">
-          <div class="skill-item__name">{{ skill.skill.name }}</div>
-          <div class="skill-item__description">
-            {{ skill.skill.description }}
-            <small *ngIf="1 < skill.skill.ranks.length">{{ skill.skill.ranks[skill.level - 1].description}}</small>
-          </div>
-          <div class="skill-item__level skill-rank">
-            <ol class="skill-rank__ranks">
-              <li *ngFor="let levelMax of skill.skill.ranks">{{ levelMax.skillName }}</li>
-            </ol>
-            <ol class="skill-rank__ranks skill-rank__ranks--reached">
-              <li *ngFor="let level of skill.levelArray">{{ level }}</li>
-            </ol>
-            <span class="skill-rank__warning" *ngIf="skill.trueLevel > skill.max">
+    <ng-container *ngIf="0 < skills.length">
+      <h4>Skills:</h4>
+      <ul class="skill-list">
+        <li *ngFor="let skill of skills">
+          <div class="skill-list__skill skill-item">
+            <div class="skill-item__name">{{ skill.skill.name }}</div>
+            <div class="skill-item__description">
+              {{ skill.skill.description }}
+              <small *ngIf="1 < skill.skill.ranks.length">{{ skill.skill.ranks[skill.level - 1].description}}</small>
+            </div>
+            <div class="skill-item__level skill-rank">
+              <ol class="skill-rank__ranks">
+                <li *ngFor="let levelMax of skill.skill.ranks">{{ levelMax.skillName }}</li>
+              </ol>
+              <ol class="skill-rank__ranks skill-rank__ranks--reached">
+                <li *ngFor="let level of skill.levelArray">{{ level }}</li>
+              </ol>
+              <span class="skill-rank__warning" *ngIf="skill.trueLevel > skill.max">
               You overused this skill by {{ skill.trueLevel - skill.max }}
             </span>
+            </div>
           </div>
-        </div>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </ng-container>
   </div>
 </section>

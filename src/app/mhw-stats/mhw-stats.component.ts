@@ -6,6 +6,7 @@ import Decoration from "../../interface/decoration.interface";
 import SkillRank from "../../interface/skill-rank.interface";
 import CurSetPiece from "../../interface/cur-set-piece.interface";
 import ArmorPiece from "../../interface/armor-piece.interface";
+import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -15,7 +16,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   public currentSet: CurSet;
   public skills: SkillSet[] = [];
 
-  private decorations: Decoration[];
+  private decorations: Decoration[] = [];
 
   @Input() dataObj: DataObject;
   @Input() forceRefresh: boolean;
@@ -38,12 +39,15 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
   private readSet() {
     this.skills = [];
+    this.decorations = [];
 
     for (const key in this.currentSet) {
       if (this.currentSet.hasOwnProperty(key)) {
         this.readSetPiece(this.currentSet[key] as CurSetPiece);
       }
     }
+
+    this.applyDecoSkills();
 
     setTimeout(() => {
       this.resetRefresh.emit(false);
@@ -65,8 +69,10 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       // @TODO handle weapon
     }
 
-    // console.log(setPiece);
-
+    // handle decorations
+    if (setPiece.slots) {
+      setPiece.slots.map((slot) => this.addDeco(slot));
+    }
   }
 
   private handleArmorPiece(armorPiece: ArmorPiece) {
@@ -81,12 +87,12 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     if (this.skills.find((item) => item.id === realSkill.id)) {
       const newLevel = this.skills.find((item) => item.id === realSkill.id).trueLevel += skill.level;
 
-      this.skills.find((item) => item.id === realSkill.id).trueLevel;
+      this.skills.find((item) => item.id === realSkill.id).trueLevel = newLevel;
       this.skills.find((item) => item.id === realSkill.id).level = newLevel <=
         this.skills.find((item) => item.id === realSkill.id).max ? newLevel :
         this.skills.find((item) => item.id === realSkill.id).max;
       this.skills.find((item) => item.id === realSkill.id).levelArray =
-        Array(this.skills.find((item) => item.id === realSkill.id).level).fill(1).map((n) => n);
+        Array(this.skills.find((item) => item.id === realSkill.id).level).fill(1).map((value, n) => n);
     } else {
       const skillSet: SkillSet = {
         id: realSkill.id,
@@ -97,14 +103,20 @@ export class MhwStatsComponent implements OnInit, OnChanges {
         levelArray: Array(skill.level).fill(1).map((n) => n)
       };
 
-      console.log(skillSet);
-
       this.skills.push(skillSet);
     }
   }
 
-  private addDeco(decoration: Decoration) {
-    this.decorations.push(decoration);
+  private addDeco(slot: CurSetPieceSlot) {
+    if (slot.decoration) {
+      this.decorations.push(slot.decoration);
+    }
+  }
+
+  private applyDecoSkills() {
+    this.decorations.map((decoration) => {
+      decoration.skills.map((skill) => this.addSkill(skill));
+    });
   }
 
 }
