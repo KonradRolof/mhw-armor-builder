@@ -5,4 +5,5 @@ export default interface Charm {
   slug?: string; // A human readable unique identifier
   name: string; // The name of the charm
   ranks: CharmRank[]; // An array of the different ranks of the charm
+  type?: "charm";
 }

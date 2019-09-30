@@ -5,4 +5,6 @@ export default interface SkillSet {
   skill: Skill;
   max: number;
   level: number;
+  trueLevel: number;
+  levelArray: number[];
 }

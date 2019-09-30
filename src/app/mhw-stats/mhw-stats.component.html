@@ -8,8 +8,21 @@
       <li *ngFor="let skill of skills">
         <div class="skill-list__skill skill-item">
           <div class="skill-item__name">{{ skill.skill.name }}</div>
-          <div class="skill-item__description">{{ skill.skill.description}}</div>
-          {{ skill.level }}
+          <div class="skill-item__description">
+            {{ skill.skill.description }}<br>
+            {{ skill.skill.ranks[skill.level - 1].description}}
+          </div>
+          <div class="skill-item__level skill-rank">
+            <ol class="skill-rank__ranks">
+              <li *ngFor="let levelMax of skill.skill.ranks">{{ levelMax.skillName }}</li>
+            </ol>
+            <ol class="skill-rank__ranks skill-rank__ranks--reached">
+              <li *ngFor="let level of skill.levelArray">{{ level }}</li>
+            </ol>
+            <span class="skill-rank__warning" *ngIf="skill.trueLevel > skill.max">
+              You overused this skill by {{ skill.trueLevel - skill.max }}
+            </span>
+          </div>
         </div>
       </li>
     </ul>

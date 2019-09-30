@@ -285,6 +285,7 @@ export class AppComponent implements OnInit {
       case "charms":
         const charms = data as Charm[];
         charms.map((charm) => {
+          charm.type = "charm";
           this.charms.push(charm);
         });
         break;

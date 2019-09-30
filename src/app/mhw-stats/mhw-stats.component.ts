@@ -5,6 +5,7 @@ import SkillSet from "../../interface/skill-set.interface";
 import Decoration from "../../interface/decoration.interface";
 import SkillRank from "../../interface/skill-rank.interface";
 import CurSetPiece from "../../interface/cur-set-piece.interface";
+import ArmorPiece from "../../interface/armor-piece.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -12,7 +13,7 @@ import CurSetPiece from "../../interface/cur-set-piece.interface";
 })
 export class MhwStatsComponent implements OnInit, OnChanges {
   public currentSet: CurSet;
-  public skills: SkillSet[];
+  public skills: SkillSet[] = [];
 
   private decorations: Decoration[];
 
@@ -36,11 +37,11 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private readSet() {
-    for (const key in this.currentSet) {
-      if (this.currentSet[key]) {
-        const piece = this.currentSet[key] as CurSetPiece;
+    this.skills = [];
 
-        console.log(piece);
+    for (const key in this.currentSet) {
+      if (this.currentSet.hasOwnProperty(key)) {
+        this.readSetPiece(this.currentSet[key] as CurSetPiece);
       }
     }
 
@@ -49,18 +50,56 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }, 1);
   }
 
-  private addSkill(skill: SkillRank) {
-    const skillItem = this.dataObj.skills.find((item) => item.id === skill.skill);
+  private readSetPiece(setPiece: CurSetPiece) {
+    const armorPieces = ["head", "chest", "gloves", "waist", "legs"];
 
-    if (this.skills.find((item) => item.id === skillItem.id)) {
-      this.skills.find((item) => item.id === skillItem.id).level += skill.level;
+    if (null === setPiece) {
+      return;
+    }
+
+    if (armorPieces.includes(setPiece.piece.type)) {
+      this.handleArmorPiece(setPiece.piece as ArmorPiece);
+    } else if ("charm" === setPiece.piece.type) {
+      // @TODO handle charm
     } else {
-      this.skills.push({
-        id: skillItem.id,
-        skill: skillItem,
-        max: skillItem.ranks.length,
-        level: skill.level
-      } as SkillSet);
+      // @TODO handle weapon
+    }
+
+    // console.log(setPiece);
+
+  }
+
+  private handleArmorPiece(armorPiece: ArmorPiece) {
+    const { skills } = armorPiece;
+
+    skills.map((skill) => this.addSkill(skill));
+  }
+
+  private addSkill(skill: SkillRank) {
+    const realSkill = this.dataObj.skills.find((item) => item.id === skill.skill);
+
+    if (this.skills.find((item) => item.id === realSkill.id)) {
+      const newLevel = this.skills.find((item) => item.id === realSkill.id).trueLevel += skill.level;
+
+      this.skills.find((item) => item.id === realSkill.id).trueLevel;
+      this.skills.find((item) => item.id === realSkill.id).level = newLevel <=
+        this.skills.find((item) => item.id === realSkill.id).max ? newLevel :
+        this.skills.find((item) => item.id === realSkill.id).max;
+      this.skills.find((item) => item.id === realSkill.id).levelArray =
+        Array(this.skills.find((item) => item.id === realSkill.id).level).fill(1).map((n) => n);
+    } else {
+      const skillSet: SkillSet = {
+        id: realSkill.id,
+        skill: realSkill,
+        max: realSkill.ranks.length,
+        level: skill.level,
+        trueLevel: skill.level,
+        levelArray: Array(skill.level).fill(1).map((n) => n)
+      };
+
+      console.log(skillSet);
+
+      this.skills.push(skillSet);
     }
   }
 
