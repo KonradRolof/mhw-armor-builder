@@ -187,14 +187,17 @@ export class AppComponent implements OnInit {
     }
 
     this.curSet[type] = setPiece;
+    this.forceRefresh = true;
   }
 
   private setCharm(piece: Charm) {
     this.curSet.charm = { piece } as CurSetPiece;
+    this.forceRefresh = true;
   }
 
   private setWeapon(piece: Weapon) {
     this.curSet.weapon = { piece } as CurSetPiece;
+    this.forceRefresh = true;
   }
 
   private loadingCallback(type: string) {

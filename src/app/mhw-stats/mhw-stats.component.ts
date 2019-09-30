@@ -23,6 +23,18 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   @Input() curSet: CurSet;
   @Output() resetRefresh: EventEmitter<boolean> = new EventEmitter();
 
+  public static sortSkillsByLevel(skills: SkillSet[]): SkillSet[] {
+    return skills.sort((a, b) => {
+      if (a.level > b.level) {
+        return -1;
+      }
+      if (a.level < b.level) {
+        return 1;
+      }
+      return 0;
+    });
+  }
+
   constructor() { }
 
   ngOnInit() { }
@@ -48,6 +60,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
 
     this.applyDecoSkills();
+    MhwStatsComponent.sortSkillsByLevel(this.skills);
 
     setTimeout(() => {
       this.resetRefresh.emit(false);
