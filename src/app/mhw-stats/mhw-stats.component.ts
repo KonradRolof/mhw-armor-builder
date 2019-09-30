@@ -7,6 +7,7 @@ import SkillRank from "../../interface/skill-rank.interface";
 import CurSetPiece from "../../interface/cur-set-piece.interface";
 import ArmorPiece from "../../interface/armor-piece.interface";
 import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
+import Resistances from "../../interface/resistances.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -15,6 +16,11 @@ import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
 export class MhwStatsComponent implements OnInit, OnChanges {
   public currentSet: CurSet;
   public skills: SkillSet[] = [];
+  public resistances: Resistances;
+  public defense: number;
+
+  public armorPieces = ["head", "chest", "gloves", "waist", "legs"];
+  public elements = ["fire", "water", "ice", "thunder", "dragon"];
 
   private decorations: Decoration[] = [];
 
@@ -37,7 +43,9 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
   constructor() { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.resetStats();
+  }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.curSet) {
@@ -49,9 +57,21 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
   }
 
-  private readSet() {
+  private resetStats() {
     this.skills = [];
     this.decorations = [];
+    this.defense = 0;
+    this.resistances = {
+      fire: 0,
+      water: 0,
+      ice: 0,
+      thunder: 0,
+      dragon: 0
+    };
+  }
+
+  private readSet() {
+    this.resetStats();
 
     for (const key in this.currentSet) {
       if (this.currentSet.hasOwnProperty(key)) {
@@ -68,13 +88,11 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private readSetPiece(setPiece: CurSetPiece) {
-    const armorPieces = ["head", "chest", "gloves", "waist", "legs"];
-
     if (null === setPiece) {
       return;
     }
 
-    if (armorPieces.includes(setPiece.piece.type)) {
+    if (this.armorPieces.includes(setPiece.piece.type)) {
       this.handleArmorPiece(setPiece.piece as ArmorPiece);
     } else if ("charm" === setPiece.piece.type) {
       // @TODO handle charm
@@ -91,7 +109,23 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   private handleArmorPiece(armorPiece: ArmorPiece) {
     const { skills } = armorPiece;
 
+    // get armor set skills
     skills.map((skill) => this.addSkill(skill));
+
+    // calculate base defense value
+    this.defense += armorPiece.defense.base;
+
+    // calculate resistances
+    if (armorPiece.resistances) {
+      this.elements.map((element) => {
+        if (
+          armorPiece.resistances.hasOwnProperty(element) &&
+          this.resistances.hasOwnProperty(element)
+        ) {
+          this.resistances[element] += armorPiece.resistances[element];
+        }
+      });
+    }
   }
 
   private addSkill(skill: SkillRank) {

@@ -3,6 +3,55 @@
     <h3>Stats for your selection</h3>
   </header>
   <div class="box__inner">
+    <h4>Defense*</h4>
+    <div class="table-responsive-lg">
+      <table class="table table-bordered table-striped table-dark text-center">
+        <thead>
+          <tr>
+            <th>Total</th>
+            <th *ngFor="let piece of armorPieces">{{ piece | titlecase }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ defense }}</td>
+            <td *ngFor="let part of armorPieces">
+              <ng-container *ngIf="currentSet[part]">
+                {{ currentSet[part].piece.defense.base }}
+              </ng-container>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      <small>*Defense values are higher by upgraded or augmented armor pieces.</small>
+    </p>
+
+    <h4>Resistances</h4>
+    <div class="table-responsive-lg">
+      <table class="table table-bordered table-striped table-dark">
+        <thead>
+        <tr>
+          <th>Element</th>
+          <th class="text-center">Total</th>
+          <th class="text-center" *ngFor="let piece of armorPieces">{{ piece | titlecase }}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let element of elements">
+          <th>{{ element | titlecase }}</th>
+          <td class="text-center">{{ resistances[element] }}</td>
+          <td class="text-center" *ngFor="let part of armorPieces">
+            <ng-container *ngIf="currentSet[part]">
+              {{ currentSet[part].piece.resistances[element] }}
+            </ng-container>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
     <ng-container *ngIf="0 < skills.length">
       <h4>Skills:</h4>
       <ul class="skill-list">
