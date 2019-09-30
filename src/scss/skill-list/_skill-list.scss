@@ -1,4 +1,60 @@
+.skill-list {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+
+  > li {
+    border-bottom: 1px dashed $gray-700;
+    padding: 15px 0;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    &:last-of-type {
+      border: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.skill-item__name {
+  color: $ci-primary;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.skill-item__description {
+  font-size: 14px;
+  margin-bottom: 5px;
+
+  small {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 10px;
+    position: relative;
+
+    &::before {
+      border: 0 solid $gray-500;
+      border-top-width: 2px;
+      border-right-width: 2px;
+      content: " ";
+      display: block;
+      height: 5px;
+      left: 0;
+      position: absolute;
+      top: 6px;
+      transform: rotate(45deg);
+      width: 5px;
+    }
+  }
+}
+
 .skill-rank {
+  margin-bottom: 3px;
   position: relative;
 }
 
@@ -38,4 +94,12 @@
     border-color: $warning;
     box-shadow: inset 1px 1px 0 $danger, inset -1px -1px 0 $danger;
   }
+}
+
+.skill-rank__warning {
+  display: block;
+  color: $danger;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
 }
