@@ -13,7 +13,7 @@
     "resistances": {
       "fire": 2,
       "water": 0,
-      "ice": 1,
+      "ice": 0,
       "thunder": 0,
       "dragon": 0
     },
