@@ -41,6 +41,18 @@ export class MhwSelectPopComponent implements OnChanges {
   @Input() data: SelectionPopData = null;
   @Output() selectedItem: EventEmitter<any> = new EventEmitter();
 
+  public static sortDecorations(decorations: Decoration[]): Decoration[] {
+    return decorations.sort((a, b) => {
+      if (a.slot > b.slot) {
+        return -1;
+      }
+      if (a.slot < b.slot) {
+        return 1;
+      }
+      return 0;
+    });
+  }
+
   constructor() { }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -88,6 +100,9 @@ export class MhwSelectPopComponent implements OnChanges {
     this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) =>
       item.name.toLowerCase().includes(this.filterInput.toLowerCase())
     );
+    if ("decoration" === this.data.type) {
+      this.itemsToShow[this.selectedRank] = MhwSelectPopComponent.sortDecorations(this.itemsToShow[this.selectedRank]);
+    }
   }
 
   public switchWeaponType(type: string) {
@@ -129,6 +144,7 @@ export class MhwSelectPopComponent implements OnChanges {
 
         this.itemsToShow = {};
         this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Decoration[];
+        this.itemsToShow[this.selectedRank] = MhwSelectPopComponent.sortDecorations(this.itemsToShow[this.selectedRank]);
 
         break;
 
