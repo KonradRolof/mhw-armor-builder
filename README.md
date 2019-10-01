@@ -1,4 +1,4 @@
-Monster Hunter World: Iceborne Armor Builder
+Monster Hunter World Armor Builder
 ============================================
 
 > Set builder for video game Monster Hunter World.  
@@ -11,7 +11,39 @@ Monster Hunter World: Iceborne Armor Builder
 2. Install dependencies with `npm install` from project root
 3. Start local dev server (webpack) with `npm run start`
 
+### Local angular build
+
+Requirements:
+
+* [Docker](https://www.docker.com)
+* [ddev](https://ddev.readthedocs.io/en/stable/)
+
+To enable nfs mounts copy `config.nfs.yaml.dist` to `config.nfs.yaml`:
+
+```bash
+cp .ddev/config.nfs.yaml.dist .ddev/config.nfs.yaml
+```
+
+Start ddev from project root:
+
+```bash
+ddev start
+```
+
+Stop ddev:
+
+```bash
+ddev stop
+```
+
+Document Root for ddev server is the `dist` directory from Angular build command.
+
 ## Angular
+
+### Tasks
+
+* `npm run start` : Start webpack dev server for http://localhost:4200/
+* `npm run build -- --prod` : Build package in production mode to `dist`
 
 ### Development server
 
