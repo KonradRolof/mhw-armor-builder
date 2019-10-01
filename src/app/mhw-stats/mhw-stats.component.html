@@ -60,7 +60,8 @@
             <div class="skill-item__name">{{ skill.skill.name }}</div>
             <div class="skill-item__description">
               {{ skill.skill.description }}
-              <small *ngIf="1 < skill.skill.ranks.length">{{ skill.skill.ranks[skill.level - 1].description}}</small>
+              <small *ngIf="skill.skill.ranks[skill.level - 1].description !== skill.skill.description">
+                {{ skill.skill.ranks[skill.level - 1].description}}</small>
             </div>
             <div class="skill-item__level skill-rank">
               <ol class="skill-rank__ranks">
