@@ -1,0 +1,245 @@
+{
+  "id": 169,
+  "name": "Alloy Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 749,
+      "name": "Alloy Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 114,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 29,
+          "level": 2,
+          "description": "Reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
+        },
+        {
+          "id": 46,
+          "level": 1,
+          "description": "Defense +5",
+          "modifiers": {"defense": 5
+          },
+          "skill": 16,
+          "skillName": "Defense Boost"
+        }
+      ],
+        "armorSet": 169,
+        "assets": null,
+        "crafting": null
+  },
+  {
+    "id": 750,
+    "name": "Alloy Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 0,
+      "ice": -2,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 67,
+        "level": 3,
+        "description": "Water resistance +20 Defense +10",
+        "modifiers": {
+          "defense": 10,
+        "resistWater": 20
+      },
+        "skill": 21,
+        "skillName": "Water Resistance"
+      },
+      {
+        "id": 46,
+        "level": 1,
+        "description": "Defense +5",
+        "modifiers": {"defense": 5
+        },
+        "skill": 16,
+        "skillName": "Defense Boost"
+      }
+      ],
+      "armorSet": 169,
+      "assets": null,
+      "crafting": null
+    },
+    {
+        "id": 751,
+        "name": "Alloy Vambraces Alpha +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 114,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -2,
+          "water": 0,
+          "ice": -2,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 47,
+            "level": 2,
+            "description": "Defense +10",
+            "modifiers": {
+              "defense": 10
+          },
+            "skill": 16,
+            "skillName": "Defense Boost"
+          },
+          {
+            "id": 238,
+            "level": 1,
+            "description": "Removes one cycle from the sharpening process.",
+            "modifiers": {},
+            "skill": 76,
+            "skillName": "Speed Sharpening"
+          }
+        ],
+      "armorSet": 169,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 752,
+        "name": "Alloy Coil Alpha +",
+        "type": "waist",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 114,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -2,
+          "water": 0,
+          "ice": -2,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 2,
+            "level": 2,
+            "description": "Greatly reduces the number of times you take poison damage.",
+            "modifiers": {},
+            "skill": 1,
+            "skillName": "Poison Resistance"
+          },
+          {
+            "id": 28,
+            "level": 1,
+            "description": "Slightly reduces the effects of minor wind pressure.",
+            "modifiers": {},
+            "skill": 76,
+            "skillName": "Windproof"
+          }
+        ],
+      "armorSet": 169,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 753,
+        "name": "Alloy Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 114,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -2,
+          "water": 0,
+          "ice": -2,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 239,
+            "level": 2,
+            "description": "Removes two cycles from the sharpening process.",
+            "modifiers": {},
+            "skill": 76,
+            "skillName": "Speed Sharpening"
+          },
+          {
+            "id": 28,
+            "level": 1,
+            "description": "Slightly reduces the effects of minor wind pressure.",
+            "modifiers": {},
+            "skill": 76,
+            "skillName": "Windproof"
+          }
+        ],
+      "armorSet": 169,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": null
+}
