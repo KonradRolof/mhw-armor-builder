@@ -17,6 +17,11 @@
             <td>
               <ng-container *ngIf="currentSet.weapon">
                 {{ currentSet.weapon.piece.type | replace : '-' : ' ' | titlecase }}
+                <ng-container *ngIf="currentSet.weapon.piece.attributes">
+                  <ng-container *ngIf="currentSet.weapon.piece.attributes.damageType">
+                    ({{ currentSet.weapon.piece.attributes.damageType | titlecase }} Damage)
+                  </ng-container>
+                </ng-container>
               </ng-container>
             </td>
           </tr>
@@ -28,6 +33,26 @@
             <th>Affinity</th>
             <td>{{ offence.affinity }}%</td>
           </tr>
+          <ng-container *ngIf="offence.elements">
+            <ng-container *ngFor="let element of offence.elements">
+              <tr>
+                <th>{{ element.type | titlecase }}</th>
+                <td>
+                  <ng-container *ngIf="!element.hidden">{{ element.damage }}</ng-container>
+                  <span class="hidden-damage" *ngIf="true === element.hidden">({{ element.damage }})</span>
+                </td>
+              </tr>
+            </ng-container>
+          </ng-container>
+          <ng-container *ngIf="currentSet.weapon">
+            <ng-container *ngIf="currentSet.weapon.piece.attributes">
+              <tr *ngIf="currentSet.weapon.piece.attributes.elderseal">
+                <th>Elder Seal</th>
+                <td>{{ currentSet.weapon.piece.attributes.elderseal | titlecase }}</td>
+              </tr>
+            </ng-container>
+            <!-- @TODO add bow special stuff -->
+          </ng-container>
           <tr>
             <th>Sharpness</th>
             <td class="middle">

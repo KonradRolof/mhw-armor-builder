@@ -144,6 +144,11 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.offence.affinity = weapon.attributes.affinity || 0;
     }
 
+    if (weapon.elements) {
+      this.offence.elements = [];
+      weapon.elements.map((element) => this.offence.elements.push(element));
+    }
+
     if (weapon.durability) {
       this.offence.sharpness = weapon.durability;
       this.offence.maxHandicraft = weapon.durability.length;

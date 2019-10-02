@@ -1,4 +1,5 @@
 import WeaponSharpness from "./weapon-sharpness.interface";
+import WeaponElement from "./weapon-element.interface";
 
 export default interface Offence {
   health: number;
@@ -7,10 +8,5 @@ export default interface Offence {
   handicraftLevel: number;
   maxHandicraft: number;
   sharpness?: WeaponSharpness[];
-  damageFire?: number;
-  damageWater?: number;
-  damageIce?: number;
-  damageThunder?: number;
-  damageDragon?: number;
-  hiddenElement?: boolean;
+  elements?: WeaponElement[];
 }
