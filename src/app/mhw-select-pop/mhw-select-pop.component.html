@@ -40,13 +40,26 @@
     </section>
     <div class="select-pop__inner">
       <ul class="item-list select-pop__list" *ngIf="itemsToShow[selectedRank]">
-        <li *ngFor="let item of itemsToShow[selectedRank]">
-          <div class="item-list__item">
-            <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
-              {{ item.name }}
-            </button>
-          </div>
-        </li>
+        <ng-container *ngIf="'armor' === data.type || 'weapon' === data.type">
+          <li *ngFor="let item of itemsToShow[selectedRank]">
+            <div class="item-list__item">
+              <button type="button"
+                [ngClass]="['item-list__btn', 'item-list__btn-type-' + item.type, 'rarity-' + item.rarity]"
+                (click)="emitSelection(item)">
+                {{ item.name }}
+              </button>
+            </div>
+          </li>
+        </ng-container>
+        <ng-container *ngIf="'charm' === data.type || 'decoration' === data.type">
+          <li *ngFor="let item of itemsToShow[selectedRank]">
+            <div class="item-list__item">
+              <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
+                {{ item.name }}
+              </button>
+            </div>
+          </li>
+        </ng-container>
       </ul>
       <div class="alert alert-warning" *ngIf="0 === itemsToShow[selectedRank].length">
         Sorry. For your selection no items exists.

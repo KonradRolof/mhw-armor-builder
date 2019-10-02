@@ -27,10 +27,11 @@
   width: 100%;
 
   @each $rarity, $color in $rarities {
+    $dark: desaturate(darken($color, 15%), 10%);
     &.rarity-#{$rarity} {
-      background-color: $color;
-      border-color: lighten($color, 40%);
-      color: choose-contrast-color($color);
+      background-color: $dark;
+      border-color: $color;
+      color: choose-contrast-color($dark);
     }
   }
 

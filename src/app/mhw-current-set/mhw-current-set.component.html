@@ -4,7 +4,8 @@
   <ul class="current-set__list">
     <li *ngFor="let part of levelOneParts">
       <div class="current-set__part">
-        <button type="button" class="current-set__part-item" (click)="openSelectPop(part.part)">
+        <button type="button" class="current-set__part-item"
+          (click)="openSelectPop(part.part)">
           <ng-container *ngIf="currentSet[part.part]">
             <span class="current-set__part-label">
               {{ currentSet[part.part].piece.name }}
@@ -20,7 +21,7 @@
             <li *ngFor="let slot of currentSet[part.part].slots; let i = index">
               <div class="current-set__part">
                 <button class="current-set__part-item add-jewel"
-                        (click)="openSelectPop('decoration', {
+                  (click)="openSelectPop('decoration', {
                       part: part.part,
                       index: i,
                       rank: slot.slot.rank
