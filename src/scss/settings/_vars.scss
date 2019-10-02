@@ -16,3 +16,18 @@ $rarity-9: #bf6a87;
 $rarity-10: #43c5e8;
 $rarity-11: #dbbc53;
 $rarity-12: #bcd4df;
+
+$rarities: (
+  '1': $rarity-1,
+  '2': $rarity-2,
+  '3': $rarity-3,
+  '4': $rarity-4,
+  '5': $rarity-5,
+  '6': $rarity-6,
+  '7': $rarity-7,
+  '8': $rarity-8,
+  '9': $rarity-9,
+  '10': $rarity-10,
+  '11': $rarity-11,
+  '12': $rarity-12
+);

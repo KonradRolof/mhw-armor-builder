@@ -6,4 +6,5 @@ export default interface ArmorSet {
   rank: "low" | "high" | "master"; // The rank of the armor set
   pieces: ArmorPiece[]; // An array of armor pieces that are part of the set
   bonus?: any; // Either an object describing armor set bonus information, or null
+  rarity?: number; // comes from angular
 }

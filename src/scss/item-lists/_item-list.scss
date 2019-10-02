@@ -26,6 +26,14 @@
   text-shadow: 0 1px 3px rgba($black, .1);
   width: 100%;
 
+  @each $rarity, $color in $rarities {
+    &.rarity-#{$rarity} {
+      background-color: $color;
+      border-color: lighten($color, 40%);
+      color: choose-contrast-color($color);
+    }
+  }
+
   &:focus {
     outline: none;
   }

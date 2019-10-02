@@ -259,8 +259,11 @@ export class AppComponent implements OnInit {
     switch (type) {
       case "armorSets":
         const armorSets = data as ArmorSet[];
-        armorSets.map((set) => {
-          this.armorSets[set.rank].push(set);
+        armorSets.map((set: ArmorSet) => {
+          if (0 < set.pieces.length) {
+            set.rarity = set.pieces[0].rarity;
+            this.armorSets[set.rank].push(set);
+          }
         });
         break;
 

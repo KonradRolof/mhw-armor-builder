@@ -1,5 +1,6 @@
 @import "scss/settings/vars";
 @import "scss/settings/custom-settings";
+@import "scss/settings/linear-channel-values";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -46,6 +47,7 @@
 // @import "../node_modules/bootstrap/scss/print";
 
 // custom
+@import "scss/functions";
 @import "scss/global/index";
 @import "scss/footer/footer";
 @import "scss/title-bar/title-bar";

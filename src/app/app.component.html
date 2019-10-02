@@ -27,7 +27,10 @@
             <ul class="item-list">
               <li *ngFor="let weapon of weaponsToShow">
                 <div class="item-list__item">
-                  <button type="button" class="item-list__btn" (click)="toggleCharmOrWeapon(weapon, 'weapon')">{{ weapon.name }}</button>
+                  <button
+                    type="button"
+                    [ngClass]="['item-list__btn', 'rarity-' + weapon.rarity]"
+                    (click)="toggleCharmOrWeapon(weapon, 'weapon')">{{ weapon.name }}</button>
                 </div>
               </li>
             </ul>
@@ -49,12 +52,15 @@
             <ul class="item-list">
               <li *ngFor="let armorSet of armorSets[selectedRank]">
                 <div class="item-list__item armor-item">
-                  <button type="button" class="item-list__btn" (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
+                  <button
+                    type="button"
+                    [ngClass]="['item-list__btn', 'rarity-' + armorSet.rarity]"
+                    (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
                   <ul [ngClass]="{'part-list': true, 'open': armorSet.id === openedArmorSet}">
                     <li *ngFor="let piece of armorSet.pieces">
                       <button
                         type="button"
-                        class="item-list__btn item-list__btn--rarity-{{ piece.rarity }} armor-item__part"
+                        [ngClass]="['item-list__btn', 'armor-item__part', 'rarity-' + piece.rarity]"
                         (click)="toggleArmorPart(piece, piece.type)">
                         {{ piece.name }}
                       </button>
@@ -74,7 +80,10 @@
             <ul class="item-list">
               <li *ngFor="let charm of charms">
                 <div class="item-list__item">
-                  <button type="button" class="item-list__btn" (click)="toggleCharmOrWeapon(charm, 'charm')">{{ charm.name }}</button>
+                  <button
+                    type="button"
+                    class="item-list__btn"
+                    (click)="toggleCharmOrWeapon(charm, 'charm')">{{ charm.name }}</button>
                 </div>
               </li>
             </ul>
