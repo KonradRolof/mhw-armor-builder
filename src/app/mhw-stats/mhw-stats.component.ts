@@ -8,6 +8,8 @@ import CurSetPiece from "../../interface/cur-set-piece.interface";
 import ArmorPiece from "../../interface/armor-piece.interface";
 import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
 import Resistances from "../../interface/resistances.interface";
+import Offence from "../../interface/offence.interface";
+import Weapon from "../../interface/weapon.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -18,6 +20,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   public skills: SkillSet[] = [];
   public resistances: Resistances;
   public defense: number;
+  public offence: Offence;
 
   public armorPieces = ["head", "chest", "gloves", "waist", "legs"];
   public elements = ["fire", "water", "ice", "thunder", "dragon"];
@@ -58,6 +61,12 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private resetStats() {
+    this.offence = {
+      health: 50,
+      attack: 0,
+      affinity: 0,
+      handicraftLevel: 0
+    };
     this.skills = [];
     this.decorations = [];
     this.defense = 0;
@@ -127,6 +136,8 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       });
     }
   }
+
+  private handleWeapon(weapon: Weapon) { }
 
   private addSkill(skill: SkillRank) {
     const realSkill = this.dataObj.skills.find((item) => item.id === skill.skill);

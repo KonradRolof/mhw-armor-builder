@@ -1,3 +1,21 @@
 .table {
   font-size: 14px;
+
+  &.table-transparent {
+    background-color: transparent;
+
+    tr:first-child {
+      th,
+      td {
+        border-top: 0;
+      }
+    }
+  }
+}
+
+th,
+td {
+  &.middle {
+    vertical-align: middle;
+  }
 }

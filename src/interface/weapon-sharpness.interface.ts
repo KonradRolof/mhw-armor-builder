@@ -6,4 +6,5 @@ export default interface WeaponSharpness {
   green?: number; // The number of normal hits the weapon can make at green sharpness
   blue?: number; // The number of normal hits the weapon can make at blue sharpness
   white?: number; // The number of normal hits the weapon can make at white sharpness
+  purple?: number; // The number of normal hits the weapon can make at purple sharpness
 }
