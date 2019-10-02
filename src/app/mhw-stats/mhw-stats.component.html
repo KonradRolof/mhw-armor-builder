@@ -32,37 +32,35 @@
             <th>Sharpness</th>
             <td class="middle">
               <div class="sharpness-bar">
-                <ng-container *ngIf="currentSet.weapon">
-                  <ng-container *ngIf="currentSet.weapon.piece.durability">
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].red"
-                      [ngClass]="['sharpness-bar__item', 'red']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].red | sharpnessPxl : 150 }"></div>
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].orange"
-                      [ngClass]="['sharpness-bar__item', 'orange']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].orange | sharpnessPxl : 150 }"></div>
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].yellow"
-                      [ngClass]="['sharpness-bar__item', 'yellow']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].yellow | sharpnessPxl : 150 }"></div>
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].green"
-                      [ngClass]="['sharpness-bar__item', 'green']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].green | sharpnessPxl : 150 }"></div>
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].blue"
-                      [ngClass]="['sharpness-bar__item', 'blue']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].blue | sharpnessPxl : 150 }"></div>
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].white"
-                      [ngClass]="['sharpness-bar__item', 'white']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].white | sharpnessPxl : 150 }"></div>
-                    <div
-                      *ngIf="currentSet.weapon.piece.durability[offence.handicraftLevel].purple"
-                      [ngClass]="['sharpness-bar__item', 'purple']"
-                      [ngStyle]="{ width: currentSet.weapon.piece.durability[offence.handicraftLevel].purple | sharpnessPxl : 150 }"></div>
-                  </ng-container>
+                <ng-container *ngIf="offence.sharpness">
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].red"
+                    [ngClass]="['sharpness-bar__item', 'red']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].red | sharpnessPxl : 150 }"></div>
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].orange"
+                    [ngClass]="['sharpness-bar__item', 'orange']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].orange | sharpnessPxl : 150 }"></div>
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].yellow"
+                    [ngClass]="['sharpness-bar__item', 'yellow']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].yellow | sharpnessPxl : 150 }"></div>
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].green"
+                    [ngClass]="['sharpness-bar__item', 'green']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].green | sharpnessPxl : 150 }"></div>
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].blue"
+                    [ngClass]="['sharpness-bar__item', 'blue']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].blue | sharpnessPxl : 150 }"></div>
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].white"
+                    [ngClass]="['sharpness-bar__item', 'white']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].white | sharpnessPxl : 150 }"></div>
+                  <div
+                    *ngIf="offence.sharpness[offence.handicraftLevel].purple"
+                    [ngClass]="['sharpness-bar__item', 'purple']"
+                    [ngStyle]="{ width: offence.sharpness[offence.handicraftLevel].purple | sharpnessPxl : 150 }"></div>
                 </ng-container>
               </div>
             </td>

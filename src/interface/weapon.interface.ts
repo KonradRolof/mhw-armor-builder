@@ -5,6 +5,7 @@ import WeaponAssets from "./weapon-assets.interface";
 import WeaponCraftingInfo from "./weapon-crafting-info.interface";
 import WeaponSharpnessD from "./weapon-sharpness-d.interface";
 import WeaponSharpness from "./weapon-sharpness.interface";
+import WeaponAttributes from "./weapon-attributes.interface";
 
 export default interface Weapon {
   id: number; // The ID of the weapon
@@ -21,5 +22,5 @@ export default interface Weapon {
   sharpness?: WeaponSharpnessD; // (deprecated) Contains sharpness information
   durability?: WeaponSharpness[]; // An array of sharpness information, ordered by handicraft level;
   // base sharpness can always be found at index 0
-  attributes?: object; // See WeaponAttributes for more information
+  attributes?: WeaponAttributes; // See WeaponAttributes for more information
 }

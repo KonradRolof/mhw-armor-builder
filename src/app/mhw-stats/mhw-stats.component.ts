@@ -65,7 +65,8 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       health: 50,
       attack: 0,
       affinity: 0,
-      handicraftLevel: 0
+      handicraftLevel: 0,
+      maxHandicraft: 0
     };
     this.skills = [];
     this.decorations = [];
@@ -106,7 +107,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     } else if ("charm" === setPiece.piece.type) {
       // @TODO handle charm
     } else {
-      // @TODO handle weapon
+      this.handleWeapon(setPiece.piece as Weapon);
     }
 
     // handle decorations
@@ -137,7 +138,20 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
   }
 
-  private handleWeapon(weapon: Weapon) { }
+  private handleWeapon(weapon: Weapon) {
+    this.offence.attack = weapon.attack.display;
+    if (weapon.attributes) {
+      this.offence.affinity = weapon.attributes.affinity || 0;
+    }
+
+    if (weapon.durability) {
+      this.offence.sharpness = weapon.durability;
+      this.offence.maxHandicraft = weapon.durability.length;
+    } else if (weapon.sharpness) {
+      this.offence.sharpness[0] = weapon.sharpness;
+      this.offence.maxHandicraft = 0;
+    }
+  }
 
   private addSkill(skill: SkillRank) {
     const realSkill = this.dataObj.skills.find((item) => item.id === skill.skill);
