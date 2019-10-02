@@ -1,0 +1,27 @@
+.page-footer {
+  background-color: $black;
+  color: $gray-400;
+  font-size: 13px;
+  padding: 30px 0;
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  hr {
+    border: 0 dashed $gray-700;
+    border-bottom-width: 1px;
+    height: 1px;
+  }
+
+  a {
+    color: $ci-primary;
+
+    &:hover,
+    &:active {
+      color: $ci-primary;
+      text-decoration: underline;
+    }
+  }
+}
