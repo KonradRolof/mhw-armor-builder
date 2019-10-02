@@ -1,0 +1,58 @@
+  {
+    "id": 753,
+    "name": "Alloy Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 0,
+      "ice": -2,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 239,
+        "level": 2,
+        "description": "Removes two cycles from the sharpening process.",
+        "modifiers": {},
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 28,
+        "level": 1,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "modifiers": {},
+        "skill": 76,
+        "skillName": "Windproof"
+      }
+    ],
+    "armorSet": {
+      "id": 169,
+      "name": "Alloy Alpha +",
+      "rank": "master",
+      "pieces": [
+        749,
+        750,
+        751,
+        752,
+        753
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  }
