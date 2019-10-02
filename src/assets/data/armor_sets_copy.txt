@@ -1,0 +1,472 @@
+  {
+    "id": 168,
+    "name": "Teostra Gamma",
+    "rank": "high",
+    "pieces": [
+      {
+        "id": 744,
+        "name": "Kaiser Crown Gamma",
+        "type": "head",
+        "rank": "high",
+        "rarity": 8,
+        "attributes": {},
+        "defense": {
+          "base": 72,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -3,
+          "ice": -3,
+          "thunder": 1,
+          "dragon": 1
+        },
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 124,
+            "level": 2,
+            "description": "Affinity +10%",
+            "modifiers": {
+              "affinity": 10
+            },
+            "skill": "Critical Eye",
+            "skillName": "Critical Eye"
+          }
+        ],
+        "armorSet": 168,
+        "assets": null,
+        "crafting": {
+          "materials": [
+            {
+              "quantity": 1,
+              "item": {
+                "id": 609,
+                "name": "Teostra Ticket",
+                "description": "A ticket bearing Teostra, ruling over purgatory. Redeem at the Smithy to make novel equipment.",
+                "rarity": 8,
+                "carryLimit": 99,
+                "value": 800
+              }
+            },
+            {
+              "quantity": 5,
+              "item": {
+                "id": 420,
+                "name": "Teostra Carapace",
+                "description": "Rare Teostra material. Mostly obtained as a reward. Solid, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 3400
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 426,
+                "name": "Teostra Webbing",
+                "description": "Rare Teostra material. Obtained by breaking its wings. Supple, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 4500
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 427,
+                "name": "Teostra Powder",
+                "description": "Rare Teostra material. Obtained by collecting rare drops. Unusual, used in select gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 3600
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 745,
+        "name": "Kaiser Mail Gamma",
+        "type": "chest",
+        "rank": "high",
+        "rarity": 8,
+        "attributes": {},
+        "defense": {
+          "base": 72,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -3,
+          "ice": -3,
+          "thunder": 1,
+          "dragon": 1
+        },
+        "slots": [
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 133,
+            "level": 1,
+            "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+            "modifiers": [],
+            "skill": "Weakness Exploit",
+            "skillName": "Weakness Exploit"
+          },
+          {
+            "id": 162,
+            "level": 2,
+            "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+            "modifiers": [],
+            "skill": "Latent Power",
+            "skillName": "Latent Power"
+          }
+        ],
+        "armorSet": 168,
+        "assets": null,
+        "crafting": {
+          "materials": [
+            {
+              "quantity": 1,
+              "item": {
+                "id": 609,
+                "name": "Teostra Ticket",
+                "description": "A ticket bearing Teostra, ruling over purgatory. Redeem at the Smithy to make novel equipment.",
+                "rarity": 8,
+                "carryLimit": 99,
+                "value": 800
+              }
+            },
+            {
+              "quantity": 5,
+              "item": {
+                "id": 420,
+                "name": "Teostra Carapace",
+                "description": "Rare Teostra material. Mostly obtained as a reward. Solid, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 3400
+              }
+            },
+            {
+              "quantity": 2,
+              "item": {
+                "id": 423,
+                "name": "Teostra Horn+",
+                "description": "Rare Teostra material. Obtained by breaking its head. Stout, used in many weapons.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 5500
+              }
+            },
+            {
+              "quantity": 2,
+              "item": {
+                "id": 422,
+                "name": "Teostra Tail",
+                "description": "Rare Teostra material. Obtained by carving its severed tail. Stiff, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 4900
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 746,
+        "name": "Kaiser Vambraces Gamma",
+        "type": "gloves",
+        "rank": "high",
+        "rarity": 8,
+        "attributes": {},
+        "defense": {
+          "base": 72,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -3,
+          "ice": -3,
+          "thunder": 1,
+          "dragon": 1
+        },
+        "slots": [
+          {
+            "rank": 3
+          }
+        ],
+        "skills": [
+          {
+            "id": 125,
+            "level": 3,
+            "description": "Affinity +15%",
+            "modifiers": {
+              "affinity": 15
+            },
+            "skill": "Critical Eye",
+            "skillName": "Critical Eye"
+          }
+        ],
+        "armorSet": 168,
+        "assets": null,
+        "crafting": {
+          "materials": [
+            {
+              "quantity": 1,
+              "item": {
+                "id": 609,
+                "name": "Teostra Ticket",
+                "description": "A ticket bearing Teostra, ruling over purgatory. Redeem at the Smithy to make novel equipment.",
+                "rarity": 8,
+                "carryLimit": 99,
+                "value": 800
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 424,
+                "name": "Fire Dragon Scale+",
+                "description": "Rare Teostra material. Mostly obtained by carving. Broadly used for many purposes.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 2300
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 420,
+                "name": "Teostra Carapace",
+                "description": "Rare Teostra material. Mostly obtained as a reward. Solid, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 3400
+              }
+            },
+            {
+              "quantity": 3,
+              "item": {
+                "id": 421,
+                "name": "Teostra Mane",
+                "description": "Rare Teostra material. Obtained by breaking its head. Highly fire-resistant, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 3400
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 747,
+        "name": "Kaiser Coil Gamma",
+        "type": "waist",
+        "rank": "high",
+        "rarity": 8,
+        "attributes": {},
+        "defense": {
+          "base": 72,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -3,
+          "ice": -3,
+          "thunder": 1,
+          "dragon": 1
+        },
+        "slots": [
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 163,
+            "level": 3,
+            "description": "While active, increases affinity by 30% and reduces stamina depletion by 30%.",
+            "modifiers": [],
+            "skill": "Latent Power",
+            "skillName": "Latent Power"
+          }
+        ],
+        "armorSet": 168,
+        "assets": null,
+        "crafting": {
+          "materials": [
+            {
+              "quantity": 1,
+              "item": {
+                "id": 609,
+                "name": "Teostra Ticket",
+                "description": "A ticket bearing Teostra, ruling over purgatory. Redeem at the Smithy to make novel equipment.",
+                "rarity": 8,
+                "carryLimit": 99,
+                "value": 800
+              }
+            },
+            {
+              "quantity": 3,
+              "item": {
+                "id": 423,
+                "name": "Teostra Horn+",
+                "description": "Rare Teostra material. Obtained by breaking its head. Stout, used in many weapons.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 5500
+              }
+            },
+            {
+              "quantity": 6,
+              "item": {
+                "id": 424,
+                "name": "Fire Dragon Scale+",
+                "description": "Rare Teostra material. Mostly obtained by carving. Broadly used for many purposes.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 2300
+              }
+            },
+            {
+              "quantity": 1,
+              "item": {
+                "id": 428,
+                "name": "Teostra Gem",
+                "description": "A rare gem said to have formed within Teostra tissue. Within it lies unimaginable power.",
+                "rarity": 8,
+                "carryLimit": 0,
+                "value": 12000
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 748,
+        "name": "Kaiser Greaves Gamma",
+        "type": "legs",
+        "rank": "high",
+        "rarity": 8,
+        "attributes": {},
+        "defense": {
+          "base": 72,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -3,
+          "ice": -3,
+          "thunder": 1,
+          "dragon": 1
+        },
+        "slots": [
+          {
+            "rank": 3
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 124,
+            "level": 2,
+            "description": "Affinity +10%",
+            "modifiers": {
+              "affinity": 10
+            },
+            "skill": "Critical Eye",
+            "skillName": "Critical Eye"
+          }
+        ],
+        "armorSet": 168,
+        "assets": null,
+        "crafting": {
+          "materials": [
+            {
+              "quantity": 1,
+              "item": {
+                "id": 609,
+                "name": "Teostra Ticket",
+                "description": "A ticket bearing Teostra, ruling over purgatory. Redeem at the Smithy to make novel equipment.",
+                "rarity": 8,
+                "carryLimit": 99,
+                "value": 800
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 424,
+                "name": "Fire Dragon Scale+",
+                "description": "Rare Teostra material. Mostly obtained by carving. Broadly used for many purposes.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 2300
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 420,
+                "name": "Teostra Carapace",
+                "description": "Rare Teostra material. Mostly obtained as a reward. Solid, used to craft gear.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 3400
+              }
+            },
+            {
+              "quantity": 4,
+              "item": {
+                "id": 425,
+                "name": "Teostra Claw+",
+                "description": "Rare Teostra material. Mostly obtained by carving. Sharp, used in many weapons.",
+                "rarity": 7,
+                "carryLimit": 0,
+                "value": 4700
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "bonus": {
+      "id": 16,
+      "name": "Teostra Technique",
+      "ranks": [
+        {
+          "pieces": 3,
+          "skill": {
+            "id": 320,
+            "level": 1,
+            "description": "Prevents your weapon from losing sharpness during critical hits.",
+            "modifiers": {},
+            "skill": 121,
+            "skillName": "Master\u0027s Touch"
+          }
+        }
+      ]
+    }
+  }
