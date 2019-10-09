@@ -1,11 +1,11 @@
 {
-  "id": 170,
-  "name": "Alloy Beta +",
+  "id": 172,
+  "name": "Bone Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 754,
-      "name": "Alloy Helm Beta +",
+      "id": 764,
+      "name": "Bone Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -15,11 +15,59 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
+        "fire": 2,
         "water": 0,
-        "ice": -2,
-        "thunder": -2,
-        "dragon": 0
+        "ice": 0,
+        "thunder": 2,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 53,
+          "level": 1,
+          "description": "Health +15",
+          "modifiers": {
+            "health": 15
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
+        },
+        {
+          "id": 150,
+          "level": 1,
+          "description": "Part damage +10%",
+          "modifiers": {},
+          "skill": 46,
+          "skillName": "Partbreaker"
+        }
+      ],
+      "armorSet": 172,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 765,
+      "name": "Bone Mail Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 114,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": 2,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -32,112 +80,64 @@
       ],
       "skills": [
         {
-          "id": 28,
-          "level": 2,
-          "description": "Slightly reduces the effects of minor wind pressure.",
-          "modifiers": {},
-          "skill": 10,
-          "skillName": "Windproof"
+          "id": 39,
+          "level": 1,
+          "description": "Attack +3",
+          "modifiers": {
+            "attack": 3
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        }
+        ],
+      "armorSet": 172,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 766,
+      "name": "Bone Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 114,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": 2,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
-      "armorSet": 170,
-      "assets": null,
-      "crafting": null
-    },
-      {
-        "id": 755,
-        "name": "Alloy Mail Beta +",
-        "type": "chest",
-        "rank": "master",
-        "rarity": 9,
-        "defense": {
-          "base": 114,
-          "max": 0,
-          "augmented": 0
-        },
-        "resistances": {
-          "fire": -2,
-          "water": 0,
-          "ice": -2,
-          "thunder": -2,
-          "dragon": 0
-        },
-        "attributes": {},
-        "slots": [
-          {
-            "rank": 4
-          },
-          {
-            "rank": 1
-          }
+      "skills": [
+        {
+          "id": 153,
+          "level": 1,
+          "description": "Stun power +20%",
+          "modifiers": {},
+          "skill": 47,
+          "skillName": "Slugger"
+        }
         ],
-        "skills": [
-          {
-            "id": 65,
-            "level": 1,
-            "description": "Water resistance +6",
-            "modifiers": {
-              "resistWater": 6
-            },
-            "skill": 21,
-            "skillName": "Water Resistance"
-          }
-        ],
-        "armorSet": 169,
-        "assets": null,
-        "crafting": null
-      },
-      {
-        "id": 751,
-        "name": "Alloy Vambraces Alpha +",
-        "type": "gloves",
-        "rank": "master",
-        "rarity": 9,
-        "defense": {
-          "base": 114,
-          "max": 0,
-          "augmented": 0
-        },
-        "resistances": {
-          "fire": -2,
-          "water": 0,
-          "ice": -2,
-          "thunder": -2,
-          "dragon": 0
-        },
-        "attributes": {},
-        "slots": [
-          {
-            "rank": 4
-          }
-        ],
-        "skills": [
-          {
-            "id": 47,
-            "level": 2,
-            "description": "Defense +10",
-            "modifiers": {
-              "defense": 10
-          },
-            "skill": 16,
-            "skillName": "Defense Boost"
-          },
-          {
-            "id": 238,
-            "level": 1,
-            "description": "Removes one cycle from the sharpening process.",
-            "modifiers": {},
-            "skill": 76,
-            "skillName": "Speed Sharpening"
-          }
-        ],
-      "armorSet": 169,
+      "armorSet": 172,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 752,
-        "name": "Alloy Coil Alpha +",
+        "id": 767,
+        "name": "Bone Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -147,44 +147,39 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -2,
+          "fire": 2,
           "water": 0,
-          "ice": -2,
-          "thunder": -2,
-          "dragon": 0
+          "ice": 0,
+          "thunder": 2,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 4
+            "rank": 3
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 2,
-            "level": 2,
-            "description": "Greatly reduces the number of times you take poison damage.",
-            "modifiers": {},
-            "skill": 1,
-            "skillName": "Poison Resistance"
-          },
-          {
-            "id": 28,
+            "id": 186,
             "level": 1,
-            "description": "Slightly reduces the effects of minor wind pressure.",
+            "description": "Extends melody effect duration and increases health recovery.",
             "modifiers": {},
-            "skill": 76,
-            "skillName": "Windproof"
+            "skill": 58,
+            "skillName": "Horn Maestro"
           }
         ],
-      "armorSet": 169,
+      "armorSet": 172,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 753,
-        "name": "Alloy Greaves Alpha +",
-        "type": "legs",
+        "id": 768,
+        "name": "Bone Greaves Beta +",
+        "type": "waist",
         "rank": "master",
         "rarity": 9,
         "defense": {
@@ -193,11 +188,11 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -2,
+          "fire": 2,
           "water": 0,
-          "ice": -2,
-          "thunder": -2,
-          "dragon": 0
+          "ice": 0,
+          "thunder": 2,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
@@ -207,23 +202,15 @@
         ],
         "skills": [
           {
-            "id": 239,
-            "level": 2,
-            "description": "Removes two cycles from the sharpening process.",
-            "modifiers": {},
-            "skill": 76,
-            "skillName": "Speed Sharpening"
-          },
-          {
-            "id": 28,
+            "id": 153,
             "level": 1,
-            "description": "Slightly reduces the effects of minor wind pressure.",
+            "description": "Stun power +20%",
             "modifiers": {},
-            "skill": 76,
-            "skillName": "Windproof"
+            "skill": 47,
+            "skillName": "Slugger"
           }
         ],
-      "armorSet": 169,
+      "armorSet": 172,
       "assets": null,
       "crafting": null
     }
