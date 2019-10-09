@@ -55,7 +55,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
   private resetStats() {
     this.offence = {
-      health: 50,
+      health: 100,
       attack: 0,
       affinity: 0,
       handicraftLevel: 0,
