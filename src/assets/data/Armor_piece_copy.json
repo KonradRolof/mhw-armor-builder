@@ -1,58 +1,50 @@
-{
-  "id": 758,
-  "name": "Alloy Greaves Beta +",
-  "type": "legs",
-  "rank": "master",
-  "rarity": 9,
-  "defense": {
-    "base": 114,
-    "max": 0,
-    "augmented": 0
-  },
-  "resistances": {
-    "fire": -2,
-    "water": 0,
-    "ice": -2,
-    "thunder": -2,
-    "dragon": 0
-  },
-  "attributes": {},
-  "slots": [
-    {
-      "rank": 4
-    }
-  ],
-  "skills": [
-    {
-      "id": 238,
-      "level": 1,
-      "description": "Removes one cycle from the sharpening process.",
-      "modifiers": {},
-      "skill": 76,
-      "skillName": "Speed Sharpening"
-    },
-    {
-      "id": 28,
-      "level": 1,
-      "description": "Slightly reduces the effects of minor wind pressure.",
-      "modifiers": {},
-      "skill": 10,
-      "skillName": "Windproof"
-    }
-  ],
-  "armorSet": {
-    "id": 169,
-    "name": "Alloy Beta +",
+  {
+    "id": 768,
+    "name": "Bone Greaves Beta +",
+    "type": "waist",
     "rank": "master",
-    "pieces": [
-      754,
-      755,
-      756,
-      757,
-      758
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
     ],
-    "bonus": null
-  },
-  "assets": null,
-  "crafting": null
-}
+    "skills": [
+      {
+        "id": 153,
+        "level": 1,
+        "description": "Stun power +20%",
+        "modifiers": {},
+        "skill": 47,
+        "skillName": "Slugger"
+      }
+    ],
+    "armorSet": {
+      "id": 172,
+      "name": "Bone Beta +",
+      "rank": "master",
+      "pieces": [
+        764,
+        765,
+        766,
+        767,
+        768
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  }

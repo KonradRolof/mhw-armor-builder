@@ -2031,6 +2031,14 @@
         "level": 1,
         "description": "Extends melody effect duration and increases health recovery.",
         "modifiers": {}
+      },
+      {
+        "id": 335,
+        "skill": 58,
+        "skillName": "Horn Maestro",
+        "level": 2,
+        "description": "Greatly increases the effect duration of hunting horn melodies.",
+        "modifiers": {}
       }
     ]
   },
