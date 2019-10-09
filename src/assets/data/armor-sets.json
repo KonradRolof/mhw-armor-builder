@@ -66081,7 +66081,7 @@
       "attributes": {},
       "slots": [
         {
-          "rank": 4
+          "rank": 3
         }
       ],
       "skills": [
@@ -66131,7 +66131,7 @@
           "attributes": {},
           "slots": [
             {
-              "rank": 4
+              "rank": 3
             }
           ],
           "skills": [
@@ -66179,7 +66179,7 @@
           "attributes": {},
           "slots": [
             {
-              "rank": 4
+              "rank": 3
             }
           ],
           "skills": [
@@ -66196,7 +66196,7 @@
               "level": 1,
               "description": "Slightly reduces the effects of minor wind pressure.",
               "modifiers": {},
-              "skill": 76,
+              "skill": 10,
               "skillName": "Windproof"
             }
           ],
@@ -66225,7 +66225,7 @@
           "attributes": {},
           "slots": [
             {
-              "rank": 4
+              "rank": 3
             }
           ],
           "skills": [
@@ -66242,7 +66242,7 @@
               "level": 1,
               "description": "Slightly reduces the effects of minor wind pressure.",
               "modifiers": {},
-              "skill": 76,
+              "skill": 10,
               "skillName": "Windproof"
             }
           ],
