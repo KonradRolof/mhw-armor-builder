@@ -73446,7 +73446,7 @@
     "skills": [
       {
         "id": 28,
-        "level": 2,
+        "level": 1,
         "description": "Slightly reduces the effects of minor wind pressure.",
         "modifiers": {},
         "skill": 10,
@@ -73454,7 +73454,7 @@
       }
     ],
     "armorSet": {
-      "id": 169,
+      "id": 170,
       "name": "Alloy Beta +",
       "rank": "master",
       "pieces": [
@@ -73509,7 +73509,7 @@
       }
     ],
     "armorSet": {
-      "id": 169,
+      "id": 170,
       "name": "Alloy Beta +",
       "rank": "master",
       "pieces": [
@@ -73525,7 +73525,7 @@
     "crafting": null
   },
   {
-    "id": 755,
+    "id": 756,
     "name": "Alloy Vambraces Beta +",
     "type": "gloves",
     "rank": "master",
@@ -73564,7 +73564,7 @@
       }
     ],
     "armorSet": {
-      "id": 169,
+      "id": 170,
       "name": "Alloy Beta +",
       "rank": "master",
       "pieces": [
@@ -73622,7 +73622,7 @@
       }
     ],
     "armorSet": {
-      "id": 169,
+      "id": 170,
       "name": "Alloy Beta +",
       "rank": "master",
       "pieces": [
@@ -73680,7 +73680,7 @@
       }
     ],
     "armorSet": {
-      "id": 169,
+      "id": 170,
       "name": "Alloy Beta +",
       "rank": "master",
       "pieces": [
@@ -73689,6 +73689,575 @@
         756,
         757,
         758
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 759,
+    "name": "Bone Helm Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 54,
+        "level": 2,
+        "description": "Health +30",
+        "modifiers": {
+          "health": 30
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      },
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      }
+    ],
+    "armorSet": {
+      "id": 171,
+      "name": "Bone Alpha +",
+      "rank": "master",
+      "pieces": [
+        759,
+        760,
+        761,
+        762,
+        763
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 760,
+    "name": "Bone Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 40,
+        "level": 2,
+        "description": "Attack +6",
+        "modifiers": {
+          "attack": 6
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      },
+      {
+        "id": 53,
+        "level": 1,
+        "description": "Health +15",
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 171,
+      "name": "Bone Alpha +",
+      "rank": "master",
+      "pieces": [
+        759,
+        760,
+        761,
+        762,
+        763
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 761,
+    "name": "Bone Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 154,
+        "level": 2,
+        "description": "Stun power +30%",
+        "modifiers": {},
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 39,
+        "level": 1,
+        "description": "Attack +3",
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 171,
+      "name": "Bone Alpha +",
+      "rank": "master",
+      "pieces": [
+        759,
+        760,
+        761,
+        762,
+        763
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 762,
+    "name": "Bone Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 186,
+        "level": 1,
+        "description": "Extends melody effect duration and increases health recovery.",
+        "modifiers": {},
+        "skill": 58,
+        "skillName": "Horn Maestro"
+      },
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      }
+    ],
+    "armorSet": {
+      "id": 171,
+      "name": "Bone Alpha +",
+      "rank": "master",
+      "pieces": [
+        759,
+        760,
+        761,
+        762,
+        763
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 763,
+    "name": "Bone Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 153,
+        "level": 1,
+        "description": "Stun power +20%",
+        "modifiers": {},
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 186,
+        "level": 1,
+        "description": "Extends melody effect duration and increases health recovery.",
+        "modifiers": {},
+        "skill": 58,
+        "skillName": "Horn Maestro"
+      }
+    ],
+    "armorSet": {
+      "id": 171,
+      "name": "Bone Alpha +",
+      "rank": "master",
+      "pieces": [
+        759,
+        760,
+        761,
+        762,
+        763
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 764,
+    "name": "Bone Helm Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 53,
+        "level": 1,
+        "description": "Health +15",
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      },
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      }
+    ],
+    "armorSet": {
+      "id": 172,
+      "name": "Bone Beta +",
+      "rank": "master",
+      "pieces": [
+        764,
+        765,
+        766,
+        767,
+        768
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 765,
+    "name": "Bone Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 39,
+        "level": 1,
+        "description": "Attack +3",
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 172,
+      "name": "Bone Beta +",
+      "rank": "master",
+      "pieces": [
+        764,
+        765,
+        766,
+        767,
+        768
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 766,
+    "name": "Bone Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 153,
+        "level": 1,
+        "description": "Stun power +20%",
+        "modifiers": {},
+        "skill": 47,
+        "skillName": "Slugger"
+      }
+    ],
+    "armorSet": {
+      "id": 172,
+      "name": "Bone Beta +",
+      "rank": "master",
+      "pieces": [
+        764,
+        765,
+        766,
+        767,
+        768
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 767,
+    "name": "Bone Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 186,
+        "level": 1,
+        "description": "Extends melody effect duration and increases health recovery.",
+        "modifiers": {},
+        "skill": 58,
+        "skillName": "Horn Maestro"
+      }
+    ],
+    "armorSet": {
+      "id": 172,
+      "name": "Bone Beta +",
+      "rank": "master",
+      "pieces": [
+        764,
+        765,
+        766,
+        767,
+        768
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 768,
+    "name": "Bone Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 114,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": 2,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 153,
+        "level": 1,
+        "description": "Stun power +20%",
+        "modifiers": {},
+        "skill": 47,
+        "skillName": "Slugger"
+      }
+    ],
+    "armorSet": {
+      "id": 172,
+      "name": "Bone Beta +",
+      "rank": "master",
+      "pieces": [
+        764,
+        765,
+        766,
+        767,
+        768
       ],
       "bonus": null
     },
