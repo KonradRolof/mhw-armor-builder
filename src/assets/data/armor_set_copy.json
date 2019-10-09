@@ -1,11 +1,11 @@
 {
-  "id": 169,
-  "name": "Alloy Alpha +",
+  "id": 170,
+  "name": "Alloy Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 749,
-      "name": "Alloy Helm Alpha +",
+      "id": 754,
+      "name": "Alloy Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -18,89 +18,76 @@
         "fire": -2,
         "water": 0,
         "ice": -2,
-        "thunder": -1,
+        "thunder": -2,
         "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 2
+          "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 29,
+          "id": 28,
           "level": 2,
-          "description": "Reduces the effects of minor wind pressure.",
+          "description": "Slightly reduces the effects of minor wind pressure.",
           "modifiers": {},
           "skill": 10,
           "skillName": "Windproof"
-        },
-        {
-          "id": 46,
-          "level": 1,
-          "description": "Defense +5",
-          "modifiers": {"defense": 5
-          },
-          "skill": 16,
-          "skillName": "Defense Boost"
         }
       ],
-        "armorSet": 169,
-        "assets": null,
-        "crafting": null
-  },
-  {
-    "id": 750,
-    "name": "Alloy Mail Alpha +",
-    "type": "chest",
-    "rank": "master",
-    "rarity": 9,
-    "defense": {
-      "base": 114,
-      "max": 0,
-      "augmented": 0
-    },
-    "resistances": {
-      "fire": -2,
-      "water": 0,
-      "ice": -2,
-      "thunder": -2,
-      "dragon": 0
-    },
-    "attributes": {},
-    "slots": [
-      {
-        "rank": 4
-      }
-    ],
-    "skills": [
-      {
-        "id": 67,
-        "level": 3,
-        "description": "Water resistance +20 Defense +10",
-        "modifiers": {
-          "defense": 10,
-        "resistWater": 20
-      },
-        "skill": 21,
-        "skillName": "Water Resistance"
-      },
-      {
-        "id": 46,
-        "level": 1,
-        "description": "Defense +5",
-        "modifiers": {"defense": 5
-        },
-        "skill": 16,
-        "skillName": "Defense Boost"
-      }
-      ],
-      "armorSet": 169,
+      "armorSet": 170,
       "assets": null,
       "crafting": null
     },
-    {
+      {
+        "id": 755,
+        "name": "Alloy Mail Beta +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 114,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -2,
+          "water": 0,
+          "ice": -2,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 65,
+            "level": 1,
+            "description": "Water resistance +6",
+            "modifiers": {
+              "resistWater": 6
+            },
+            "skill": 21,
+            "skillName": "Water Resistance"
+          }
+        ],
+        "armorSet": 169,
+        "assets": null,
+        "crafting": null
+      },
+      {
         "id": 751,
         "name": "Alloy Vambraces Alpha +",
         "type": "gloves",
