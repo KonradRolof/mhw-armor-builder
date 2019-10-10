@@ -21,6 +21,11 @@ $container-max-widths: (
 $grid-gutter-width: 40px;
 
 $font-size-base: 1rem;
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$font-weight-light: $ci-font-light;
+$font-weight-normal: $ci-font-normal;
+$font-weight-bold: $ci-font-bold;
 
 $h1-font-size: $font-size-base * 1.7;
 $h2-font-size: $font-size-base * 1.4;
