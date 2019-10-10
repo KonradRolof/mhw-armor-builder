@@ -10,7 +10,7 @@ import { FormsModule } from "@angular/forms";
 import { MhwStatsComponent } from "./mhw-stats/mhw-stats.component";
 import { MhwFooterComponent } from "./mhw-footer/mhw-footer.component";
 import { ReplacePipe } from "./pipe/replace.pipe";
-import { SharpnessPxlPipe } from './pipe/sharpness-pxl.pipe';
+import { SharpnessPxlPipe } from "./pipe/sharpness-pxl.pipe";
 
 @NgModule({
   declarations: [
