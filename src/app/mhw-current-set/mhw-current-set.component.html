@@ -10,11 +10,22 @@
             <span class="current-set__part-label">
               {{ currentSet[part.part].piece.name }}
               <ng-container *ngIf="'armor' === part.type">
-                <small class="item-list__skills" *ngIf="currentSet[part.part].piece.skills">
+                <ng-container *ngIf="currentSet[part.part].piece.skills">
+                  <small class="item-list__skills" *ngIf="0 < currentSet[part.part].piece.skills.length">
                   [<ng-container *ngFor="let skillRank of currentSet[part.part].piece.skills">
                     <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
                   </ng-container>]
                 </small>
+                </ng-container>
+              </ng-container>
+              <ng-container *ngIf="'charm' === part.type">
+                <ng-container *ngIf="currentSet.charm.piece.ranks[charmRank].skills">
+                  <small class="item-list__skills" *ngIf="0 < currentSet.charm.piece.ranks[charmRank].skills.length">
+                  [<ng-container *ngFor="let skillRank of currentSet.charm.piece.ranks[charmRank].skills">
+                    <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                  </ng-container>]
+                </small>
+                </ng-container>
               </ng-container>
             </span>
           </ng-container>
@@ -22,6 +33,17 @@
             Select a {{ part.label }}
           </ng-container>
         </button>
+        <ng-container *ngIf="'charm' === part.type && currentSet[part.part]">
+          <label for="cur-set-charm-rank" class="current-set__form-label">Select charm rank</label>
+          <select id="cur-set-charm-rank" class="current-set__select" title="Select charm rank"
+                  *ngIf="1 < currentSet[part.part].piece.ranks.length"
+                  [(ngModel)]="charmRank"
+                  (change)="changeCharmRank(charmRank)">
+            <ng-container *ngFor="let rank of currentSet[part.part].piece.ranks; let i = index">
+              <option value="{{ i }}">{{ i + 1 }}</option>
+            </ng-container>
+          </select>
+        </ng-container>
         <button class="current-set__part-remove" *ngIf="currentSet[part.part]" (click)="removeItem(currentSet[part.part].piece, part.type)"></button>
         <ng-container *ngIf="currentSet[part.part]">
           <ul class="current-set__deco-list" *ngIf="currentSet[part.part].slots">
@@ -36,11 +58,13 @@
                   <ng-container *ngIf="slot.decoration">
                     <span class="current-set__part-label">
                       {{ slot.decoration.name }}
-                      <small class="item-list__skills" *ngIf="slot.decoration.skills">
+                      <ng-container *ngIf="slot.decoration.skills">
+                        <small class="item-list__skills" *ngIf="0 < slot.decoration.skills.length">
                         [<ng-container *ngFor="let skillRank of slot.decoration.skills">
                           <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
                         </ng-container>]
                       </small>
+                      </ng-container>
                     </span>
                   </ng-container>
                   <ng-container *ngIf="!slot.decoration">

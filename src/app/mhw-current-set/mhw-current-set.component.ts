@@ -24,7 +24,8 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     gloves: null,
     waist: null,
     legs: null,
-    charm: null
+    charm: null,
+    charmRank: 0
   };
   public levelOneParts = [
     {
@@ -64,6 +65,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
     }
   ];
 
+  public charmRank = 0;
   public popOpen = false;
   public itemsForPop: SelectionPopData = null;
 
@@ -166,6 +168,7 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
           piece = response.item as Charm;
           setPiece = { piece } as CurSetPiece;
 
+          this.currentSet.charmRank = 0;
           this.currentSet.charm = setPiece;
           break;
 
@@ -206,6 +209,12 @@ export class MhwCurrentSetComponent implements OnInit, OnChanges {
       case "weapon":
         this.currentSet.weapon = null;
     }
+
+    this.emitSelectionChange();
+  }
+
+  public changeCharmRank(rank: number) {
+    this.currentSet.charmRank = rank;
 
     this.emitSelectionChange();
   }

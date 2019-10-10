@@ -72,6 +72,11 @@
             <div class="item-list__item">
               <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
                 {{ item.name }}
+                <small class="item-list__skills" *ngIf="item.ranks[0].skills">
+                  [<ng-container *ngFor="let skillRank of item.ranks[0].skills">
+                    <span>{{ skillRank.skillName }}</span>
+                  </ng-container>]
+                </small>
               </button>
             </div>
           </li>
@@ -83,8 +88,8 @@
                 {{ item.name }}
                 <small class="item-list__skills" *ngIf="item.skills">
                   [<ng-container *ngFor="let skillRank of item.skills">
-                  <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
-                </ng-container>]
+                    <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                  </ng-container>]
                 </small>
               </button>
             </div>

@@ -9,4 +9,5 @@ export default interface CurSet {
   waist?: CurSetPiece;
   legs?: CurSetPiece;
   charm?: CurSetPiece;
+  charmRank: number;
 }

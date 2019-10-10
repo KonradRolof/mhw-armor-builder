@@ -79,7 +79,8 @@ export class AppComponent implements OnInit {
     gloves: null,
     waist: null,
     legs: null,
-    charm: null
+    charm: null,
+    charmRank: 0
   };
 
   private skillsReady = false;
@@ -135,6 +136,8 @@ export class AppComponent implements OnInit {
   public toggleCharmOrWeapon(item: Charm | Weapon, type: "charm" | "weapon") {
     if ("charm" === type) {
       const charm = item as Charm;
+
+      this.curSet.charmRank = 0;
 
       if (null !== this.curSet[type]) {
         if (this.curSet.charm.piece.id === charm.id) {

@@ -25,6 +25,16 @@
   text-shadow: 0 1px 3px rgba($black, .1);
 }
 
+.current-set__form-label {
+  display: none;
+}
+
+.current-set__select {
+  height: 43px;
+  margin-left: 5px;
+  width: 43px;
+}
+
 .current-set__part-remove {
   -webkit-appearance: none;
   background: $gray-900;

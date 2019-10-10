@@ -10,6 +10,8 @@ import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
 import Resistances from "../../interface/resistances.interface";
 import Offence from "../../interface/offence.interface";
 import Weapon from "../../interface/weapon.interface";
+import Charm from "../../interface/charm.interface";
+import CharmRank from "../../interface/charm-rank.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -85,7 +87,9 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
     for (const key in this.currentSet) {
       if (this.currentSet.hasOwnProperty(key)) {
-        this.readSetPiece(this.currentSet[key] as CurSetPiece);
+        if ("object" === typeof this.currentSet[key]) {
+          this.readSetPiece(this.currentSet[key] as CurSetPiece);
+        }
       }
     }
 
@@ -105,7 +109,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     if (this.armorPieces.includes(setPiece.piece.type)) {
       this.handleArmorPiece(setPiece.piece as ArmorPiece);
     } else if ("charm" === setPiece.piece.type) {
-      // @TODO handle charm
+      this.handleCharm(setPiece.piece as Charm);
     } else {
       this.handleWeapon(setPiece.piece as Weapon);
     }
@@ -156,6 +160,12 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.offence.sharpness[0] = weapon.sharpness;
       this.offence.maxHandicraft = 0;
     }
+  }
+
+  private handleCharm(charm: Charm) {
+    const charmRank: CharmRank = charm.ranks[this.currentSet.charmRank];
+
+    charmRank.skills.map((skill) => this.addSkill(skill));
   }
 
   private addSkill(skill: SkillRank) {
