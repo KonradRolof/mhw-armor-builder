@@ -1,72 +1,65 @@
 {
-  "id": 172,
-  "name": "Bone Beta +",
+  "id": 174,
+  "name": "Vespoid Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 764,
-      "name": "Bone Helm Beta +",
+      "id": 774,
+      "name": "Vespoid Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 114,
+        "base": 116,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 2,
+        "fire": -2,
+        "water": 1,
+        "ice": 1,
+        "thunder": 1,
         "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 53,
+          "id": 273,
           "level": 1,
-          "description": "Health +15",
-          "modifiers": {
-            "health": 15
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
-        },
-        {
-          "id": 150,
-          "level": 1,
-          "description": "Part damage +10%",
+          "description": "Slightly increases sheathing speed.",
           "modifiers": {},
-          "skill": 46,
-          "skillName": "Partbreaker"
+          "skill": 71,
+          "skillName": "Quick Sheath"
         }
       ],
-      "armorSet": 172,
+      "armorSet": 173,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 765,
-      "name": "Bone Mail Beta +",
-      "type": "head",
+      "id": 775,
+      "name": "Vespoid Mail Beta +",
+      "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 114,
+        "base": 116,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 2,
+        "fire": -2,
+        "water": 1,
+        "ice": 1,
+        "thunder": 1,
         "dragon": 2
       },
       "attributes": {},
@@ -80,36 +73,34 @@
       ],
       "skills": [
         {
-          "id": 39,
+          "id": 28,
           "level": 1,
-          "description": "Attack +3",
-          "modifiers": {
-            "attack": 3
-          },
-          "skill": 15,
-          "skillName": "Attack Boost"
+          "description": "Slightly reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
         }
         ],
-      "armorSet": 172,
+      "armorSet": 173,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 766,
-      "name": "Bone Vambraces Beta +",
+      "id": 776,
+      "name": "Vespoid Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 114,
+        "base": 116,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 2,
+        "fire": -2,
+        "water": 1,
+        "ice": 1,
+        "thunder": 1,
         "dragon": 2
       },
       "attributes": {},
@@ -123,34 +114,34 @@
       ],
       "skills": [
         {
-          "id": 153,
+          "id": 108,
           "level": 1,
-          "description": "Stun power +20%",
+          "description": "Paralysis buildup +5% Bonus: +10",
           "modifiers": {},
-          "skill": 47,
-          "skillName": "Slugger"
+          "skill": 32,
+          "skillName": "Paralysis Attack"
         }
         ],
-      "armorSet": 172,
+      "armorSet": 173,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 767,
-        "name": "Bone Coil Beta +",
+        "id": 777,
+        "name": "Vespoid Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 114,
+          "base": 116,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 0,
-          "ice": 0,
-          "thunder": 2,
+          "fire": -2,
+          "water": 1,
+          "ice": 1,
+          "thunder": 1,
           "dragon": 2
         },
         "attributes": {},
@@ -164,53 +155,56 @@
         ],
         "skills": [
           {
-            "id": 186,
-            "level": 1,
-            "description": "Extends melody effect duration and increases health recovery.",
+            "id": 5,
+            "level": 2,
+            "description": "Reduces the duration of paralysis by 60%.",
             "modifiers": {},
-            "skill": 58,
-            "skillName": "Horn Maestro"
+            "skill": 2,
+            "skillName": "Paralysis Resistance"
           }
         ],
-      "armorSet": 172,
+      "armorSet": 173,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 768,
-        "name": "Bone Greaves Beta +",
-        "type": "waist",
+        "id": 778,
+        "name": "Vespoid Greaves Beta +",
+        "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 114,
+          "base": 116,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 0,
-          "ice": 0,
-          "thunder": 2,
+          "fire": -2,
+          "water": 1,
+          "ice": 1,
+          "thunder": 1,
           "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 153,
+            "id": 147,
             "level": 1,
-            "description": "Stun power +20%",
+            "description": "Draw attack affinity +30%",
             "modifiers": {},
-            "skill": 47,
-            "skillName": "Slugger"
+            "skill": 45,
+            "skillName": "Critical Draw"
           }
         ],
-      "armorSet": 172,
+      "armorSet": 173,
       "assets": null,
       "crafting": null
     }
