@@ -1,11 +1,11 @@
 {
-  "id": 174,
-  "name": "Vespoid Beta +",
+  "id": 176,
+  "name": "Hornetaur Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 774,
-      "name": "Vespoid Helm Beta +",
+      "id": 784,
+      "name": "Hornetaur Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -15,38 +15,43 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
-        "water": 1,
-        "ice": 1,
-        "thunder": 1,
+        "fire": -1,
+        "water": -1,
+        "ice": 0,
+        "thunder": 0,
         "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 273,
+          "id": 133,
           "level": 1,
-          "description": "Slightly increases sheathing speed.",
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
           "modifiers": {},
-          "skill": 71,
-          "skillName": "Quick Sheath"
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+        },
+        {
+          "id": 100,
+          "level": 1,
+          "description": "Dragon attack +30",
+          "modifiers": {},
+          "skill": 30,
+          "skillName": "Dragon Attack"
         }
       ],
-      "armorSet": 173,
+      "armorSet": 176,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 775,
-      "name": "Vespoid Mail Beta +",
+      "id": 785,
+      "name": "Hornetaur Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
@@ -56,10 +61,10 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
-        "water": 1,
-        "ice": 1,
-        "thunder": 1,
+        "fire": -1,
+        "water": -1,
+        "ice": 0,
+        "thunder": 0,
         "dragon": 2
       },
       "attributes": {},
@@ -68,26 +73,29 @@
           "rank": 4
         },
         {
+          "rank": 2
+        },
+        {
           "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 28,
+          "id": 37,
           "level": 1,
-          "description": "Slightly reduces the effects of minor wind pressure.",
+          "description": "Nullifies damage from effluvia and reduces damage from acids.",
           "modifiers": {},
-          "skill": 10,
-          "skillName": "Windproof"
+          "skill": 13,
+          "skillName": "Effluvial Expert"
         }
         ],
-      "armorSet": 173,
+      "armorSet": 176,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 776,
-      "name": "Vespoid Vambraces Beta +",
+      "id": 786,
+      "name": "Hornetaur Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
@@ -97,10 +105,10 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
-        "water": 1,
-        "ice": 1,
-        "thunder": 1,
+        "fire": -1,
+        "water": -1,
+        "ice": 0,
+        "thunder": 0,
         "dragon": 2
       },
       "attributes": {},
@@ -109,26 +117,26 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 108,
+          "id": 234,
           "level": 1,
-          "description": "Paralysis buildup +5% Bonus: +10",
+          "description": "Activates 25% of the time.",
           "modifiers": {},
-          "skill": 32,
-          "skillName": "Paralysis Attack"
+          "skill": 74,
+          "skillName": "Free Meal"
         }
         ],
-      "armorSet": 173,
+      "armorSet": 176,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 777,
-        "name": "Vespoid Coil Beta +",
+        "id": 787,
+        "name": "Hornetaur Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -138,51 +146,10 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -2,
-          "water": 1,
-          "ice": 1,
-          "thunder": 1,
-          "dragon": 2
-        },
-        "attributes": {},
-        "slots": [
-          {
-            "rank": 3
-          },
-          {
-            "rank": 1
-          }
-        ],
-        "skills": [
-          {
-            "id": 5,
-            "level": 2,
-            "description": "Reduces the duration of paralysis by 60%.",
-            "modifiers": {},
-            "skill": 2,
-            "skillName": "Paralysis Resistance"
-          }
-        ],
-      "armorSet": 173,
-      "assets": null,
-      "crafting": null
-      },
-      {
-        "id": 778,
-        "name": "Vespoid Greaves Beta +",
-        "type": "legs",
-        "rank": "master",
-        "rarity": 9,
-        "defense": {
-          "base": 116,
-          "max": 0,
-          "augmented": 0
-        },
-        "resistances": {
-          "fire": -2,
-          "water": 1,
-          "ice": 1,
-          "thunder": 1,
+          "fire": -1,
+          "water": -1,
+          "ice": 0,
+          "thunder": 0,
           "dragon": 2
         },
         "attributes": {},
@@ -196,15 +163,58 @@
         ],
         "skills": [
           {
-            "id": 147,
+            "id": 133,
             "level": 1,
-            "description": "Draw attack affinity +30%",
+            "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
             "modifiers": {},
-            "skill": 45,
-            "skillName": "Critical Draw"
+            "skill": 41,
+            "skillName": "Weakness Exploit"
           }
         ],
-      "armorSet": 173,
+      "armorSet": 176,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 788,
+        "name": "Hornetaur Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -1,
+          "water": -1,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 143,
+            "level": 1,
+            "description": "Weapon sharpness +10",
+            "modifiers": {
+              "sharpnessBonus": 20
+            },
+            "skill": 44,
+            "skillName": "Handicraft"
+          }
+        ],
+      "armorSet": 176,
       "assets": null,
       "crafting": null
     }
