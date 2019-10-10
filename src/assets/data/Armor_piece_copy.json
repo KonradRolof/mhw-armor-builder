@@ -1,7 +1,7 @@
 {
-  "id": 787,
-  "name": "Hornetaur Greaves Beta +",
-  "type": "legs",
+  "id": 790,
+  "name": "Jagras Mail Alpha +",
+  "type": "chest",
   "rank": "master",
   "rarity": 9,
   "defense": {
@@ -10,43 +10,46 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": -1,
-    "water": -1,
-    "ice": 0,
-    "thunder": 0,
-    "dragon": 2
+    "fire": -2,
+    "water": 2,
+    "ice": -1,
+    "thunder": -1,
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
     {
-      "rank": 4
-    },
-    {
-      "rank": 1
+      "rank": 3
     }
   ],
   "skills": [
     {
-      "id": 143,
+      "id": 215,
       "level": 1,
-      "description": "Weapon sharpness +10",
-      "modifiers": {
-        "sharpnessBonus": 20
-      },
-      "skill": 44,
-      "skillName": "Handicraft"
+      "description": "Slightly extends evasion distance.",
+      "modifiers": {},
+      "skill": 69,
+      "skillName": "Evade Extender"
+    },
+    {
+      "id": 40,
+      "level": 2,
+      "description": "Attack +6",
+      "modifiers": {},
+      "skill": 15,
+      "skillName": "Attack Boost"
     }
   ],
   "armorSet": {
-    "id": 175,
-    "name": "Hornetaur Beta +",
+    "id": 177,
+    "name": "Jagras Alpha +",
     "rank": "master",
     "pieces": [
-      784,
-      785,
-      786,
-      787,
-      788
+      789,
+      790,
+      791,
+      792,
+      793
     ],
     "bonus": null
   },
