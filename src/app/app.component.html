@@ -63,6 +63,11 @@
                         [ngClass]="['item-list__btn', 'armor-item__part', 'rarity-' + piece.rarity]"
                         (click)="toggleArmorPart(piece, piece.type)">
                         {{ piece.name }}
+                        <small class="item-list__skills" *ngIf="piece.skills">
+                          [<ng-container *ngFor="let skillRank of piece.skills">
+                            <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                          </ng-container>]
+                        </small>
                       </button>
                     </li>
                   </ul>
@@ -83,7 +88,14 @@
                   <button
                     type="button"
                     class="item-list__btn"
-                    (click)="toggleCharmOrWeapon(charm, 'charm')">{{ charm.name }}</button>
+                    (click)="toggleCharmOrWeapon(charm, 'charm')">
+                    {{ charm.name }}
+                    <small class="item-list__skills" *ngIf="charm.ranks[0].skills">
+                      [<ng-container *ngFor="let skillRank of charm.ranks[0].skills">
+                      <span>{{ skillRank.skillName }}</span>
+                    </ng-container>]
+                    </small>
+                  </button>
                 </div>
               </li>
             </ul>

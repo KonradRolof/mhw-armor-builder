@@ -9,6 +9,13 @@
           <ng-container *ngIf="currentSet[part.part]">
             <span class="current-set__part-label">
               {{ currentSet[part.part].piece.name }}
+              <ng-container *ngIf="'armor' === part.type">
+                <small class="item-list__skills" *ngIf="currentSet[part.part].piece.skills">
+                  [<ng-container *ngFor="let skillRank of currentSet[part.part].piece.skills">
+                    <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                  </ng-container>]
+                </small>
+              </ng-container>
             </span>
           </ng-container>
           <ng-container *ngIf="!currentSet[part.part]">
@@ -27,9 +34,14 @@
                       rank: slot.slot.rank
                   })">
                   <ng-container *ngIf="slot.decoration">
-                  <span class="current-set__part-label">
-                    {{ slot.decoration.name }}
-                  </span>
+                    <span class="current-set__part-label">
+                      {{ slot.decoration.name }}
+                      <small class="item-list__skills" *ngIf="slot.decoration.skills">
+                        [<ng-container *ngFor="let skillRank of slot.decoration.skills">
+                          <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                        </ng-container>]
+                      </small>
+                    </span>
                   </ng-container>
                   <ng-container *ngIf="!slot.decoration">
                     Add Jewel ({{ slot.slot.rank }})

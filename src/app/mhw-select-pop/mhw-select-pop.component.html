@@ -40,22 +40,52 @@
     </section>
     <div class="select-pop__inner">
       <ul class="item-list select-pop__list" *ngIf="itemsToShow[selectedRank]">
-        <ng-container *ngIf="'armor' === data.type || 'weapon' === data.type">
+        <ng-container *ngIf="'weapon' === data.type">
+          <li *ngFor="let item of itemsToShow[selectedRank]">
+            <div class="item-list__item">
+              <button type="button"
+                      [ngClass]="['item-list__btn', 'item-list__btn-type-' + item.type, 'rarity-' + item.rarity]"
+                      (click)="emitSelection(item)">
+                {{ item.name }}
+              </button>
+            </div>
+          </li>
+        </ng-container>
+        <ng-container *ngIf="'armor' === data.type">
           <li *ngFor="let item of itemsToShow[selectedRank]">
             <div class="item-list__item">
               <button type="button"
                 [ngClass]="['item-list__btn', 'item-list__btn-type-' + item.type, 'rarity-' + item.rarity]"
                 (click)="emitSelection(item)">
                 {{ item.name }}
+                <small class="item-list__skills" *ngIf="item.skills">
+                  [<ng-container *ngFor="let skillRank of item.skills">
+                    <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                  </ng-container>]
+                </small>
               </button>
             </div>
           </li>
         </ng-container>
-        <ng-container *ngIf="'charm' === data.type || 'decoration' === data.type">
+        <ng-container *ngIf="'charm' === data.type">
           <li *ngFor="let item of itemsToShow[selectedRank]">
             <div class="item-list__item">
               <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
                 {{ item.name }}
+              </button>
+            </div>
+          </li>
+        </ng-container>
+        <ng-container *ngIf="'decoration' === data.type">
+          <li *ngFor="let item of itemsToShow[selectedRank]">
+            <div class="item-list__item">
+              <button type="button" class="item-list__btn item-list__btn-type-{{ item.type }}" (click)="emitSelection(item)">
+                {{ item.name }}
+                <small class="item-list__skills" *ngIf="item.skills">
+                  [<ng-container *ngFor="let skillRank of item.skills">
+                  <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
+                </ng-container>]
+                </small>
               </button>
             </div>
           </li>
