@@ -1,50 +1,53 @@
-  {
-    "id": 768,
-    "name": "Bone Greaves Beta +",
-    "type": "waist",
+{
+  "id": 778,
+  "name": "Vespoid Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 147,
+      "level": 1,
+      "description": "Draw attack affinity +30%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    }
+  ],
+  "armorSet": {
+    "id": 174,
+    "name": "Vespoid Beta +",
     "rank": "master",
-    "rarity": 9,
-    "defense": {
-      "base": 114,
-      "max": 0,
-      "augmented": 0
-    },
-    "resistances": {
-      "fire": 2,
-      "water": 0,
-      "ice": 0,
-      "thunder": 2,
-      "dragon": 2
-    },
-    "attributes": {},
-    "slots": [
-      {
-        "rank": 4
-      }
+    "pieces": [
+      774,
+      775,
+      776,
+      777,
+      778
     ],
-    "skills": [
-      {
-        "id": 153,
-        "level": 1,
-        "description": "Stun power +20%",
-        "modifiers": {},
-        "skill": 47,
-        "skillName": "Slugger"
-      }
-    ],
-    "armorSet": {
-      "id": 172,
-      "name": "Bone Beta +",
-      "rank": "master",
-      "pieces": [
-        764,
-        765,
-        766,
-        767,
-        768
-      ],
-      "bonus": null
-    },
-    "assets": null,
-    "crafting": null
-  }
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+}
