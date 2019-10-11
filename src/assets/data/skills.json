@@ -1217,6 +1217,14 @@
         "level": 3,
         "description": "Paralysis buildup +20% Bonus: +10",
         "modifiers": {}
+      },
+      {
+        "id": 336,
+        "skill": 32,
+        "skillName": "Paralysis Attack",
+        "level": 4,
+        "description": "Paralysis buildup +30% Bonus: +10",
+        "modifiers": {}
       }
     ]
   },
