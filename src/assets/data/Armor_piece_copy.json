@@ -1,7 +1,7 @@
 {
-  "id": 790,
-  "name": "Jagras Mail Alpha +",
-  "type": "chest",
+  "id": 798,
+  "name": "Jagras Greaves Beta +",
+  "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
@@ -19,37 +19,32 @@
   "attributes": {},
   "slots": [
     {
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 215,
+      "id": 234,
       "level": 1,
-      "description": "Slightly extends evasion distance.",
+      "description": "Activates 25% of the time.",
       "modifiers": {},
-      "skill": 69,
-      "skillName": "Evade Extender"
-    },
-    {
-      "id": 40,
-      "level": 2,
-      "description": "Attack +6",
-      "modifiers": {},
-      "skill": 15,
-      "skillName": "Attack Boost"
+      "skill": 74,
+      "skillName": "Free Meal"
     }
   ],
   "armorSet": {
-    "id": 177,
-    "name": "Jagras Alpha +",
+    "id": 178,
+    "name": "Jagras Beta +",
     "rank": "master",
     "pieces": [
-      789,
-      790,
-      791,
-      792,
-      793
+      794,
+      795,
+      796,
+      797,
+      798
     ],
     "bonus": null
   },
