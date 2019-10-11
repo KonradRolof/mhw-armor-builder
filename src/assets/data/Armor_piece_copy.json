@@ -1,7 +1,7 @@
 {
-  "id": 798,
-  "name": "Jagras Greaves Beta +",
-  "type": "legs",
+  "id": 808,
+  "name": "Tzitzi Greaves Beta +",
+  "type": "waist",
   "rank": "master",
   "rarity": 9,
   "defense": {
@@ -10,41 +10,46 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": -2,
-    "water": 2,
-    "ice": -1,
-    "thunder": -1,
-    "dragon": 1
+    "fire": 0,
+    "water": 0,
+    "ice": -2,
+    "thunder": -3,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 234,
+      "id": 7,
       "level": 1,
-      "description": "Activates 25% of the time.",
+      "description": "Reduces the duration of sleep by 30%.",
       "modifiers": {},
-      "skill": 74,
-      "skillName": "Free Meal"
+      "skill": 3,
+      "skillName": "Sleep Resistance"
+    },
+    {
+      "id": 226,
+      "level": 1,
+      "description": "Items affect nearby allies with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
     }
   ],
   "armorSet": {
-    "id": 178,
-    "name": "Jagras Beta +",
+    "id": 180,
+    "name": "Tzitzi Beta +",
     "rank": "master",
     "pieces": [
-      794,
-      795,
-      796,
-      797,
-      798
+      804,
+      805,
+      806,
+      807,
+      808
     ],
     "bonus": null
   },
