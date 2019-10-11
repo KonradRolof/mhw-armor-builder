@@ -75504,7 +75504,1352 @@
     },
     "assets": null,
     "crafting": null
+  },
+
+  {
+    "id": 791,
+    "name": "Jagras Vamcraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 216,
+        "level": 2,
+        "description": "Extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 177,
+      "name": "Jagras Alpha +",
+      "rank": "master",
+      "pieces": [
+        789,
+        790,
+        791,
+        792,
+        793
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 792,
+    "name": "Jagras Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      },
+      {
+        "id": 235,
+        "level": 1,
+        "description": "Slightly increases item use speed.",
+        "modifiers": {},
+        "skill": 75,
+        "skillName": "Speed Eating"
+      }
+    ],
+    "armorSet": {
+      "id": 177,
+      "name": "Jagras Alpha +",
+      "rank": "master",
+      "pieces": [
+        789,
+        790,
+        791,
+        792,
+        793
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 793,
+    "name": "Jagras Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 234,
+        "level": 1,
+        "description": "Activates 25% of the time.",
+        "modifiers": {},
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 177,
+      "name": "Jagras Alpha +",
+      "rank": "master",
+      "pieces": [
+        789,
+        790,
+        791,
+        792,
+        793
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 794,
+    "name": "Jagras Helm Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 235,
+        "level": 1,
+        "description": "Slightly increases item use speed.",
+        "modifiers": {},
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 39,
+        "level": 1,
+        "description": "Attack +3",
+        "modifiers": {},
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 178,
+      "name": "Jagras Beta +",
+      "rank": "master",
+      "pieces": [
+        794,
+        795,
+        796,
+        797,
+        798
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 795,
+    "name": "Jagras Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 215,
+        "level": 1,
+        "description": "Slightly extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 39,
+        "level": 1,
+        "description": "Attack +3",
+        "modifiers": {},
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 178,
+      "name": "Jagras Beta +",
+      "rank": "master",
+      "pieces": [
+        794,
+        795,
+        796,
+        797,
+        798
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 796,
+    "name": "Jagras Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 215,
+        "level": 1,
+        "description": "Slightly extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 178,
+      "name": "Jagras Beta +",
+      "rank": "master",
+      "pieces": [
+        794,
+        795,
+        796,
+        797,
+        798
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 797,
+    "name": "Jagras Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 178,
+      "name": "Jagras Beta +",
+      "rank": "master",
+      "pieces": [
+        794,
+        795,
+        796,
+        797,
+        798
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 798,
+    "name": "Jagras Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": -1,
+      "thunder": -1,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 234,
+        "level": 1,
+        "description": "Activates 25% of the time.",
+        "modifiers": {},
+        "skill": 74,
+        "skillName": "Free Meal"
+      }
+    ],
+    "armorSet": {
+      "id": 178,
+      "name": "Jagras Beta +",
+      "rank": "master",
+      "pieces": [
+        794,
+        795,
+        796,
+        797,
+        798
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 799,
+    "name": "Tzitzi Headgear Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 120,
+        "level": 1,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "modifiers": {},
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 10,
+        "level": 1,
+        "description": "Reduces the duration of stun by 60%.",
+        "modifiers": {},
+        "skill": 4,
+        "skillName": "Stun Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 179,
+      "name": "Tzitzi Alpha +",
+      "rank": "master",
+      "pieces": [
+        799,
+        800,
+        801,
+        802,
+        803
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 800,
+    "name": "Tzitzi Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 199,
+        "level": 2,
+        "description": "Reduces fixed stamina depletion by 20%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      },
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {
+          "damageWater": 60
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 179,
+      "name": "Tzitzi Alpha +",
+      "rank": "master",
+      "pieces": [
+        799,
+        800,
+        801,
+        802,
+        803
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 801,
+    "name": "Tzitzi Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 11,
+        "level": 2,
+        "description": "Reduces the duration of stun by 90%.",
+        "modifiers": {},
+        "skill": 4,
+        "skillName": "Stun Resistance"
+      },
+      {
+        "id": 228,
+        "level": 2,
+        "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+        "modifiers": {},
+        "skill": 72,
+        "skillName": "Wide-Range"
+      }
+    ],
+    "armorSet": {
+      "id": 179,
+      "name": "Tzitzi Alpha +",
+      "rank": "master",
+      "pieces": [
+        799,
+        800,
+        801,
+        802,
+        803
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 802,
+    "name": "Tzitzi Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {
+          "damageWater": 60
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      },
+      {
+        "id": 227,
+        "level": 2,
+        "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+        "modifiers": {},
+        "skill": 72,
+        "skillName": "Wide-Range"
+      }
+    ],
+    "armorSet": {
+      "id": 179,
+      "name": "Tzitzi Alpha +",
+      "rank": "master",
+      "pieces": [
+        799,
+        800,
+        801,
+        802,
+        803
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 803,
+    "name": "Tzitzi Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 8,
+        "level": 2,
+        "description": "Reduces the duration of sleep by 60%.",
+        "modifiers": {},
+        "skill": 3,
+        "skillName": "Sleep Resistance"
+      },
+      {
+        "id": 226,
+        "level": 1,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "modifiers": {},
+        "skill": 72,
+        "skillName": "Wide-Range"
+      }
+    ],
+    "armorSet": {
+      "id": 179,
+      "name": "Tzitzi Alpha +",
+      "rank": "master",
+      "pieces": [
+        799,
+        800,
+        801,
+        802,
+        803
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 804,
+    "name": "Tzitzi Headgear Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 120,
+        "level": 1,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "modifiers": {},
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+
+    ],
+    "armorSet": {
+      "id": 180,
+      "name": "Tzitzi Beta +",
+      "rank": "master",
+      "pieces": [
+        804,
+        805,
+        806,
+        807,
+        808
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 805,
+    "name": "Tzitzi Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 198,
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      },
+      {
+        "id": 85,
+        "level": 1,
+        "description": "Water attack +30",
+        "modifiers": {
+          "damageWater": 30
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+
+    ],
+    "armorSet": {
+      "id": 180,
+      "name": "Tzitzi Beta +",
+      "rank": "master",
+      "pieces": [
+        804,
+        805,
+        806,
+        807,
+        808
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 806,
+    "name": "Tzitzi Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 11,
+        "level": 2,
+        "description": "Reduces the duration of stun by 90%.",
+        "modifiers": {},
+        "skill": 4,
+        "skillName": "Stun Resistance"
+      },
+      {
+        "id": 226,
+        "level": 1,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "modifiers": {},
+        "skill": 72,
+        "skillName": "Wide-Range"
+      }
+    ],
+    "armorSet": {
+      "id": 180,
+      "name": "Tzitzi Beta +",
+      "rank": "master",
+      "pieces": [
+        804,
+        805,
+        806,
+        807,
+        808
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 807,
+    "name": "Tzitzi Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 227,
+        "level": 2,
+        "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+        "modifiers": {},
+        "skill": 72,
+        "skillName": "Wide-Range"
+      }
+    ],
+    "armorSet": {
+      "id": 180,
+      "name": "Tzitzi Beta +",
+      "rank": "master",
+      "pieces": [
+        804,
+        805,
+        806,
+        807,
+        808
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 808,
+    "name": "Tzitzi Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 7,
+        "level": 1,
+        "description": "Reduces the duration of sleep by 30%.",
+        "modifiers": {},
+        "skill": 3,
+        "skillName": "Sleep Resistance"
+      },
+      {
+        "id": 226,
+        "level": 1,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "modifiers": {},
+        "skill": 72,
+        "skillName": "Wide-Range"
+      }
+    ],
+    "armorSet": {
+      "id": 180,
+      "name": "Tzitzi Beta +",
+      "rank": "master",
+      "pieces": [
+        804,
+        805,
+        806,
+        807,
+        808
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 809,
+    "name": "Girros Headgear Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 2,
+      "thunder": 0,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 335,
+        "level": 2,
+        "description": "Greatly increases the effect duration of hunting horn melodies.",
+        "modifiers": {},
+        "skill": 58,
+        "skillName": "Horn Maestro"
+      },
+      {
+        "id": 4,
+        "level": 1,
+        "description": "Reduces the duration of paralysis by 30%.",
+        "modifiers": {},
+        "skill": 2,
+        "skillName": "Paralysis Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 181,
+      "name": "Girros Alpha +",
+      "rank": "master",
+      "pieces": [
+        809,
+        810,
+        811,
+        812,
+        813
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 810,
+    "name": "Girros Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 2,
+      "thunder": 0,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 120,
+        "level": 1,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "modifiers": {},
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 5,
+        "level": 2,
+        "description": "Reduces the duration of paralysis by 60%.",
+        "modifiers": {},
+        "skill": 2,
+        "skillName": "Paralysis Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 181,
+      "name": "Girros Alpha +",
+      "rank": "master",
+      "pieces": [
+        809,
+        810,
+        811,
+        812,
+        813
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 811,
+    "name": "Girros Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 2,
+      "thunder": 0,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 120,
+        "level": 1,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "modifiers": {},
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 295,
+        "level": 2,
+        "description": "Greatly reduces effluvial buildup.",
+        "modifiers": {},
+        "skill": 101,
+        "skillName": "Effluvia Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 181,
+      "name": "Girros Alpha +",
+      "rank": "master",
+      "pieces": [
+        809,
+        810,
+        811,
+        812,
+        813
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 812,
+    "name": "Girros Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 2,
+      "thunder": 0,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 109,
+        "level": 2,
+        "description": "Paralysis buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 32,
+        "skillName": "Paralysis Attack"
+      },
+      {
+        "id": 294,
+        "level": 1,
+        "description": "Reduces effluvial buildup.",
+        "modifiers": {},
+        "skill": 101,
+        "skillName": "Effluvia Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 181,
+      "name": "Girros Alpha +",
+      "rank": "master",
+      "pieces": [
+        809,
+        810,
+        811,
+        812,
+        813
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 813,
+    "name": "Girros Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 2,
+      "thunder": 0,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 109,
+        "level": 2,
+        "description": "Paralysis buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 32,
+        "skillName": "Paralysis Attack"
+      },
+      {
+        "id": 120,
+        "level": 1,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "modifiers": {},
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ],
+    "armorSet": {
+      "id": 181,
+      "name": "Girros Alpha +",
+      "rank": "master",
+      "pieces": [
+        809,
+        810,
+        811,
+        812,
+        813
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
+
+
+
+
 
 
 
