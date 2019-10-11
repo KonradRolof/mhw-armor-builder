@@ -1,7 +1,7 @@
 {
-  "id": 808,
-  "name": "Tzitzi Greaves Beta +",
-  "type": "waist",
+  "id": 813,
+  "name": "Girros Greaves Alpha +",
+  "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
@@ -11,45 +11,45 @@
   },
   "resistances": {
     "fire": 0,
-    "water": 0,
-    "ice": -2,
-    "thunder": -3,
-    "dragon": 0
+    "water": -3,
+    "ice": 2,
+    "thunder": 0,
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
     {
-      "rank": 4
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 7,
-      "level": 1,
-      "description": "Reduces the duration of sleep by 30%.",
+      "id": 109,
+      "level": 2,
+      "description": "Paralysis buildup +10% Bonus: +10",
       "modifiers": {},
-      "skill": 3,
-      "skillName": "Sleep Resistance"
+      "skill": 32,
+      "skillName": "Paralysis Attack"
     },
     {
-      "id": 226,
+      "id": 120,
       "level": 1,
-      "description": "Items affect nearby allies with 33% of their efficacy.",
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
       "modifiers": {},
-      "skill": 72,
-      "skillName": "Wide-Range"
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
     }
   ],
   "armorSet": {
-    "id": 180,
-    "name": "Tzitzi Beta +",
+    "id": 181,
+    "name": "Girros Alpha +",
     "rank": "master",
     "pieces": [
-      804,
-      805,
-      806,
-      807,
-      808
+      809,
+      810,
+      811,
+      812,
+      813
     ],
     "bonus": null
   },
