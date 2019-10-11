@@ -13,6 +13,7 @@ import Skill from "./interface/data/skill.interface";
 import Decoration from "./interface/data/decoration.interface";
 import Charm from "./interface/data/charm.interface";
 import Weapon from "./interface/data/weapon.interface";
+import {MhwSortingService} from "./service/mhw-sorting.service";
 
 @Component({
   selector: "mhw-root",
@@ -268,6 +269,10 @@ export class AppComponent implements OnInit {
             this.armorSets[set.rank].push(set);
           }
         });
+
+        this.armorSets.low = MhwSortingService.sortArmorsByRarity(this.armorSets.low);
+        this.armorSets.high = MhwSortingService.sortArmorsByRarity(this.armorSets.high);
+        this.armorSets.master = MhwSortingService.sortArmorsByRarity(this.armorSets.master);
         break;
 
       case "armorPieces":
@@ -306,6 +311,8 @@ export class AppComponent implements OnInit {
           this.weapons.push(weapon);
           this.weaponsToShow.push(weapon);
         });
+        this.weapons = MhwSortingService.sortWeaponsByRarity(this.weapons);
+        this.weaponsToShow = MhwSortingService.sortWeaponsByRarity(this.weaponsToShow);
         break;
     }
   }

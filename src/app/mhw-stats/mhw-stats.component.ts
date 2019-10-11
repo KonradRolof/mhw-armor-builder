@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from "@angular/core";
+import { MhwSortingService } from "../service/mhw-sorting.service";
 import CurSet from "../interface/app/cur-set.interface";
 import DataObject from "../interface/app/data-object.interface";
 import SkillSet from "../interface/app/skill-set.interface";
@@ -33,18 +34,6 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   @Input() forceRefresh: boolean;
   @Input() curSet: CurSet;
   @Output() resetRefresh: EventEmitter<boolean> = new EventEmitter();
-
-  public static sortSkillsByLevel(skills: SkillSet[]): SkillSet[] {
-    return skills.sort((a, b) => {
-      if (a.level > b.level) {
-        return -1;
-      }
-      if (a.level < b.level) {
-        return 1;
-      }
-      return 0;
-    });
-  }
 
   constructor() { }
 
@@ -94,7 +83,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
 
     this.applyDecoSkills();
-    MhwStatsComponent.sortSkillsByLevel(this.skills);
+    MhwSortingService.sortSkillsByLevel(this.skills);
 
     setTimeout(() => {
       this.resetRefresh.emit(false);

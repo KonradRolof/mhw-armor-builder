@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Input, OnChanges, Output, SimpleChanges} from "@angular/core";
+import { MhwSortingService } from "../service/mhw-sorting.service";
 import SelectionPopData from "../interface/app/selection-pop-data.interface";
 import ArmorPiecesObject from "../interface/app/armor-pieces-object.interface";
 import SelectionPopResponse from "../interface/app/selection-pop-response.interface";
@@ -40,18 +41,6 @@ export class MhwSelectPopComponent implements OnChanges {
   @Input() open = false;
   @Input() data: SelectionPopData = null;
   @Output() selectedItem: EventEmitter<any> = new EventEmitter();
-
-  public static sortDecorations(decorations: Decoration[]): Decoration[] {
-    return decorations.sort((a, b) => {
-      if (a.slot > b.slot) {
-        return -1;
-      }
-      if (a.slot < b.slot) {
-        return 1;
-      }
-      return 0;
-    });
-  }
 
   constructor() { }
 
@@ -101,7 +90,7 @@ export class MhwSelectPopComponent implements OnChanges {
       item.name.toLowerCase().includes(this.filterInput.toLowerCase())
     );
     if ("decoration" === this.data.type) {
-      this.itemsToShow[this.selectedRank] = MhwSelectPopComponent.sortDecorations(this.itemsToShow[this.selectedRank]);
+      this.itemsToShow[this.selectedRank] = MhwSortingService.sortDecorationsBySize(this.itemsToShow[this.selectedRank]);
     }
   }
 
@@ -121,7 +110,11 @@ export class MhwSelectPopComponent implements OnChanges {
 
     switch (data.type) {
       case "armor":
-        const { low, high, master } = data.items as ArmorPiecesObject;
+        let { low, high, master } = data.items as ArmorPiecesObject;
+
+        low = MhwSortingService.sortArmorPieceByRarity(low);
+        high = MhwSortingService.sortArmorPieceByRarity(high);
+        master = MhwSortingService.sortArmorPieceByRarity(master);
 
         this.storedItems = {
           low,
@@ -144,7 +137,7 @@ export class MhwSelectPopComponent implements OnChanges {
 
         this.itemsToShow = {};
         this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Decoration[];
-        this.itemsToShow[this.selectedRank] = MhwSelectPopComponent.sortDecorations(this.itemsToShow[this.selectedRank]);
+        this.itemsToShow[this.selectedRank] = MhwSortingService.sortDecorationsBySize(this.itemsToShow[this.selectedRank]);
 
         break;
 
