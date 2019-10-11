@@ -1,6 +1,7 @@
 .mhw-armor-builder {
   min-height: 100vh;
   padding: 90px 0 0;
+  position: relative;
 
   @include media-breakpoint-up(lg) {
     padding-left: 20px;

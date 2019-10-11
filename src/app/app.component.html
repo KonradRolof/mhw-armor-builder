@@ -10,102 +10,108 @@
   </header>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xl-4 col-xxl-3">
+      <aside [ngClass]="{'col-sm-12 col-md-7 col-lg-5 item-bar': true, 'open': sidebarOpen}">
+        <div class="item-bar__button">
+          <button class="item-bar__toggle" (click)="sidebarOpen = !sidebarOpen">
+            <span></span>
+          </button>
+        </div>
 
-        <section class="box box--small">
-          <header class="box__head">
-            <h3>Weapons</h3>
-            <label for="box-weapon-type">Select weapon type</label>
-            <select id="box-weapon-type" [(ngModel)]="currentWeaponType" (change)="switchWeaponType(currentWeaponType)">
-              <ng-container *ngFor="let weaponType of weaponTypes">
-                <option value="{{ weaponType.type }}">{{ weaponType.label }}</option>
-              </ng-container>
-            </select>
-          </header>
+        <div class="item-bar__inner">
+          <section class="box box--small">
+            <header class="box__head">
+              <h3>Weapons</h3>
+              <label for="box-weapon-type">Select weapon type</label>
+              <select id="box-weapon-type" [(ngModel)]="currentWeaponType" (change)="switchWeaponType(currentWeaponType)">
+                <ng-container *ngFor="let weaponType of weaponTypes">
+                  <option value="{{ weaponType.type }}">{{ weaponType.label }}</option>
+                </ng-container>
+              </select>
+            </header>
 
-          <div class="box__inner">
-            <ul class="item-list">
-              <li *ngFor="let weapon of weaponsToShow">
-                <div class="item-list__item">
-                  <button
-                    type="button"
-                    [ngClass]="['item-list__btn', 'rarity-' + weapon.rarity]"
-                    (click)="toggleCharmOrWeapon(weapon, 'weapon')">{{ weapon.name }}</button>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
+            <div class="box__inner">
+              <ul class="item-list">
+                <li *ngFor="let weapon of weaponsToShow">
+                  <div class="item-list__item">
+                    <button
+                      type="button"
+                      [ngClass]="['item-list__btn', 'rarity-' + weapon.rarity]"
+                      (click)="toggleCharmOrWeapon(weapon, 'weapon')">{{ weapon.name }}</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
 
-        <section class="box box--small">
-          <header class="box__head">
-            <h3>Armors</h3>
-            <label for="rank-select">Select Rank</label>
-            <select id="rank-select" [(ngModel)]="selectedRank">
-              <option value="low">Low Rank</option>
-              <option value="high">High Rank</option>
-              <option value="master">Master Rank</option>
-            </select>
-          </header>
+          <section class="box box--small">
+            <header class="box__head">
+              <h3>Armors</h3>
+              <label for="rank-select">Select Rank</label>
+              <select id="rank-select" [(ngModel)]="selectedRank">
+                <option value="low">Low Rank</option>
+                <option value="high">High Rank</option>
+                <option value="master">Master Rank</option>
+              </select>
+            </header>
 
-          <div class="box__inner">
-            <ul class="item-list">
-              <li *ngFor="let armorSet of armorSets[selectedRank]">
-                <div class="item-list__item armor-item">
-                  <button
-                    type="button"
-                    [ngClass]="['item-list__btn', 'rarity-' + armorSet.rarity]"
-                    (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
-                  <ul [ngClass]="{'part-list': true, 'open': armorSet.id === openedArmorSet}">
-                    <li *ngFor="let piece of armorSet.pieces">
-                      <button
-                        type="button"
-                        [ngClass]="['item-list__btn', 'armor-item__part', 'rarity-' + piece.rarity]"
-                        (click)="toggleArmorPart(piece, piece.type)">
-                        {{ piece.name }}
-                        <small class="item-list__skills" *ngIf="piece.skills">
-                          [<ng-container *ngFor="let skillRank of piece.skills">
+            <div class="box__inner">
+              <ul class="item-list">
+                <li *ngFor="let armorSet of armorSets[selectedRank]">
+                  <div class="item-list__item armor-item">
+                    <button
+                      type="button"
+                      [ngClass]="['item-list__btn', 'rarity-' + armorSet.rarity]"
+                      (click)="toggleArmorSub(armorSet)">{{ armorSet.name }}</button>
+                    <ul [ngClass]="{'part-list': true, 'open': armorSet.id === openedArmorSet}">
+                      <li *ngFor="let piece of armorSet.pieces">
+                        <button
+                          type="button"
+                          [ngClass]="['item-list__btn', 'armor-item__part', 'rarity-' + piece.rarity]"
+                          (click)="toggleArmorPart(piece, piece.type)">
+                          {{ piece.name }}
+                          <small class="item-list__skills" *ngIf="piece.skills">
+                            [<ng-container *ngFor="let skillRank of piece.skills">
                             <span>{{ skillRank.skillName }} ({{skillRank.level}})</span>
                           </ng-container>]
-                        </small>
-                      </button>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
+                          </small>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
 
-        <section class="box box--small">
-          <header class="box__head">
-            <h3>Charms</h3>
-          </header>
-          <div class="box__inner">
-            <ul class="item-list">
-              <li *ngFor="let charm of charms">
-                <div class="item-list__item">
-                  <button
-                    type="button"
-                    class="item-list__btn"
-                    (click)="toggleCharmOrWeapon(charm, 'charm')">
-                    {{ charm.name }}
-                    <small class="item-list__skills" *ngIf="charm.ranks[0].skills">
-                      [<ng-container *ngFor="let skillRank of charm.ranks[0].skills">
-                      <span>{{ skillRank.skillName }}</span>
-                    </ng-container>]
-                    </small>
-                  </button>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-      </div>
-      <div class="col-xl-8 col-xxl-9">
+          <section class="box box--small">
+            <header class="box__head">
+              <h3>Charms</h3>
+            </header>
+            <div class="box__inner">
+              <ul class="item-list">
+                <li *ngFor="let charm of charms">
+                  <div class="item-list__item">
+                    <button
+                      type="button"
+                      class="item-list__btn"
+                      (click)="toggleCharmOrWeapon(charm, 'charm')">
+                      {{ charm.name }}
+                      <small class="item-list__skills" *ngIf="charm.ranks[0].skills">
+                        [<ng-container *ngFor="let skillRank of charm.ranks[0].skills">
+                        <span>{{ skillRank.skillName }}</span>
+                      </ng-container>]
+                      </small>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </aside>
+      <div class="col-sm-12">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-sm-12 col-md-6 col-lg-5 col-xxl-4 offset-xxl-1">
             <mhw-mhw-current-set
               [dataObj]="data"
               [curSet]="curSet"
@@ -113,7 +119,7 @@
               (setChanged)="postSetToStats($event)"></mhw-mhw-current-set>
           </div>
 
-          <div class="col-lg-7">
+          <div class="col-sm-12 col-md-6 col-lg-7 col-xxl-6 offset-xxl-1">
             <mhw-stats
               [forceRefresh]="forceRefresh"
               [dataObj]="data"

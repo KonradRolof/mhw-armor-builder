@@ -67,6 +67,7 @@ export class AppComponent implements OnInit {
     weapons: this.weapons
   };
 
+  public sidebarOpen = false;
   public forceRefresh = false;
   public isLoading: boolean;
   public hasDataError = false;
