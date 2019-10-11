@@ -1,11 +1,11 @@
 {
-  "id": 180,
-  "name": "Tzitzi Beta +",
+  "id": 181,
+  "name": "Girros Alpha +",
   "rank": "master",
   "pieces": [
     {
-      "id": 804,
-      "name": "Tzitzi Headgear Beta +",
+      "id": 809,
+      "name": "Girros Headgear Alpha +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -16,16 +16,105 @@
       },
       "resistances": {
         "fire": 0,
-        "water": 0,
-        "ice": -2,
-        "thunder": -3,
-        "dragon": 0
+        "water": -3,
+        "ice": 2,
+        "thunder": 0,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 4
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 335,
+          "level": 2,
+          "description": "Greatly increases the effect duration of hunting horn melodies.",
+          "modifiers": {},
+          "skill": 58,
+          "skillName": "Horn Maestro"
         },
+        {
+          "id": 4,
+          "level": 1,
+          "description": "Reduces the duration of paralysis by 30%.",
+          "modifiers": {},
+          "skill": 2,
+          "skillName": "Paralysis Resistance"
+        }
+      ],
+      "armorSet": 181,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 810,
+      "name": "Girros Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 116,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "ice": 2,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 120,
+          "level": 1,
+          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+          "modifiers": {},
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
+        },
+        {
+          "id": 5,
+          "level": 2,
+          "description": "Reduces the duration of paralysis by 60%.",
+          "modifiers": {},
+          "skill": 2,
+          "skillName": "Paralysis Resistance"
+        }
+        ],
+      "armorSet": 181,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 811,
+      "name": "Girros Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 116,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "ice": 2,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
         {
           "rank": 1
         }
@@ -38,112 +127,23 @@
           "modifiers": {},
           "skill": 38,
           "skillName": "Free Elem\/Ammo Up"
-        }
-      ],
-      "armorSet": 180,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 805,
-      "name": "Tzitzi Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 116,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": 0,
-        "ice": -2,
-        "thunder": -3,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
         },
         {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 198,
-          "level": 1,
-          "description": "Reduces fixed stamina depletion by 10%.",
-          "modifiers": {},
-          "skill": 64,
-          "skillName": "Constitution"
-        },
-        {
-          "id": 85,
-          "level": 1,
-          "description": "Water attack +30",
-          "modifiers": {
-            "damageWater": 30
-          },
-          "skill": 27,
-          "skillName": "Water Attack"
-        }
-        ],
-      "armorSet": 180,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 806,
-      "name": "Tzitzi Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 116,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": 0,
-        "ice": -2,
-        "thunder": -3,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 11,
+          "id": 295,
           "level": 2,
-          "description": "Reduces the duration of stun by 90%.",
+          "description": "Greatly reduces effluvial buildup.",
           "modifiers": {},
-          "skill": 4,
-          "skillName": "Stun Resistance"
-        },
-        {
-          "id": 226,
-          "level": 1,
-          "description": "Items affect nearby allies with 33% of their efficacy.",
-          "modifiers": {},
-          "skill": 72,
-          "skillName": "Wide-Range"
+          "skill": 101,
+          "skillName": "Effluvia Resistance"
         }
         ],
-      "armorSet": 180,
+      "armorSet": 181,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 807,
-        "name": "Tzitzi Coil Beta +",
+        "id": 812,
+        "name": "Girros Coil Alpha +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -154,77 +154,82 @@
         },
         "resistances": {
           "fire": 0,
-          "water": 0,
-          "ice": -2,
-          "thunder": -3,
-          "dragon": 0
+          "water": -3,
+          "ice": 2,
+          "thunder": 0,
+          "dragon": 1
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 4
+            "rank": 3
+          }
+        ],
+        "skills": [
+          {
+            "id": 109,
+            "level": 2,
+            "description": "Paralysis buildup +10% Bonus: +10",
+            "modifiers": {},
+            "skill": 32,
+            "skillName": "Paralysis Attack"
           },
+          {
+            "id": 294,
+            "level": 1,
+            "description": "Reduces effluvial buildup.",
+            "modifiers": {},
+            "skill": 101,
+            "skillName": "Effluvia Resistance"
+          }
+        ],
+      "armorSet": 181,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 813,
+        "name": "Girros Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -3,
+          "ice": 2,
+          "thunder": 0,
+          "dragon": 1
+        },
+        "attributes": {},
+        "slots": [
           {
             "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 227,
+            "id": 109,
             "level": 2,
-            "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+            "description": "Paralysis buildup +10% Bonus: +10",
             "modifiers": {},
-            "skill": 72,
-            "skillName": "Wide-Range"
-          }
-        ],
-      "armorSet": 180,
-      "assets": null,
-      "crafting": null
-      },
-      {
-        "id": 808,
-        "name": "Tzitzi Greaves Beta +",
-        "type": "waist",
-        "rank": "master",
-        "rarity": 9,
-        "defense": {
-          "base": 116,
-          "max": 0,
-          "augmented": 0
-        },
-        "resistances": {
-          "fire": 0,
-          "water": 0,
-          "ice": -2,
-          "thunder": -3,
-          "dragon": 0
-        },
-        "attributes": {},
-        "slots": [
-          {
-            "rank": 4
-          }
-        ],
-        "skills": [
-          {
-            "id": 7,
-            "level": 1,
-            "description": "Reduces the duration of sleep by 30%.",
-            "modifiers": {},
-            "skill": 3,
-            "skillName": "Sleep Resistance"
+            "skill": 32,
+            "skillName": "Paralysis Attack"
           },
           {
-            "id": 226,
+            "id": 120,
             "level": 1,
-            "description": "Items affect nearby allies with 33% of their efficacy.",
+            "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
             "modifiers": {},
-            "skill": 72,
-            "skillName": "Wide-Range"
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
           }
         ],
-      "armorSet": 180,
+      "armorSet": 181,
       "assets": null,
       "crafting": null
     }
