@@ -1,4 +1,4 @@
-import Skill from "./skill.interface";
+import Skill from "../data/skill.interface";
 
 export default interface SkillSet {
   id: number;

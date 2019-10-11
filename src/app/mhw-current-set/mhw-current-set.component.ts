@@ -1,16 +1,16 @@
 import {Component, Input, OnInit, OnChanges, SimpleChanges, Output, EventEmitter} from "@angular/core";
-import CurSet from "../../interface/cur-set.interface";
-import DataObject from "../../interface/data-object.interface";
-import ArmorPiece from "../../interface/armor-piece.interface";
-import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
-import SlotSelection from "../../interface/slot-selection.interface";
-import SelectionPopData from "../../interface/selection-pop-data.interface";
-import SelectionPopResponse from "../../interface/selection-pop-response.interface";
-import CurSetPiece from "../../interface/cur-set-piece.interface";
-import Charm from "../../interface/charm.interface";
-import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
-import Decoration from "../../interface/decoration.interface";
-import Weapon from "../../interface/weapon.interface";
+import CurSet from "../interface/app/cur-set.interface";
+import DataObject from "../interface/app/data-object.interface";
+import ArmorPiecesObject from "../interface/app/armor-pieces-object.interface";
+import SlotSelection from "../interface/app/slot-selection.interface";
+import SelectionPopData from "../interface/app/selection-pop-data.interface";
+import SelectionPopResponse from "../interface/app/selection-pop-response.interface";
+import CurSetPiece from "../interface/app/cur-set-piece.interface";
+import CurSetPieceSlot from "../interface/app/cur-set-piece-slot.interface";
+import ArmorPiece from "../interface/data/armor-piece.interface";
+import Charm from "../interface/data/charm.interface";
+import Decoration from "../interface/data/decoration.interface";
+import Weapon from "../interface/data/weapon.interface";
 
 @Component({
   selector: "mhw-mhw-current-set",

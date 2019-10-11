@@ -1,10 +1,10 @@
 import {Component, EventEmitter, Input, OnChanges, Output, SimpleChanges} from "@angular/core";
-import SelectionPopData from "../../interface/selection-pop-data.interface";
-import ArmorPiecesObject from "../../interface/armor-pieces-object.interface";
-import Decoration from "../../interface/decoration.interface";
-import SelectionPopResponse from "../../interface/selection-pop-response.interface";
-import Charm from "../../interface/charm.interface";
-import Weapon from "../../interface/weapon.interface";
+import SelectionPopData from "../interface/app/selection-pop-data.interface";
+import ArmorPiecesObject from "../interface/app/armor-pieces-object.interface";
+import SelectionPopResponse from "../interface/app/selection-pop-response.interface";
+import Decoration from "../interface/data/decoration.interface";
+import Charm from "../interface/data/charm.interface";
+import Weapon from "../interface/data/weapon.interface";
 
 @Component({
   selector: "mhw-mhw-select-pop",

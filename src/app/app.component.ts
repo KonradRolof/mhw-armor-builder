@@ -1,18 +1,18 @@
 import { Component, OnInit } from "@angular/core";
 import { MhwDataService } from "./service/mhw-data.service";
 import {Observable} from "rxjs";
-import CurSet from "../interface/cur-set.interface";
-import ArmorSet from "../interface/armor-set.interface";
-import ArmorSetsObject from "../interface/armor-sets-object.interface";
-import ArmorPiece from "../interface/armor-piece.interface";
-import ArmorPiecesObject from "../interface/armor-pieces-object.interface";
-import DataObject from "../interface/data-object.interface";
-import Skill from "../interface/skill.interface";
-import Decoration from "../interface/decoration.interface";
-import CurSetPiece from "../interface/cur-set-piece.interface";
-import Charm from "../interface/charm.interface";
-import CurSetPieceSlot from "../interface/cur-set-piece-slot.interface";
-import Weapon from "../interface/weapon.interface";
+import CurSet from "./interface/app/cur-set.interface";
+import ArmorSetsObject from "./interface/app/armor-sets-object.interface";
+import ArmorPiecesObject from "./interface/app/armor-pieces-object.interface";
+import DataObject from "./interface/app/data-object.interface";
+import CurSetPiece from "./interface/app/cur-set-piece.interface";
+import CurSetPieceSlot from "./interface/app/cur-set-piece-slot.interface";
+import ArmorSet from "./interface/data/armor-set.interface";
+import ArmorPiece from "./interface/data/armor-piece.interface";
+import Skill from "./interface/data/skill.interface";
+import Decoration from "./interface/data/decoration.interface";
+import Charm from "./interface/data/charm.interface";
+import Weapon from "./interface/data/weapon.interface";
 
 @Component({
   selector: "mhw-root",

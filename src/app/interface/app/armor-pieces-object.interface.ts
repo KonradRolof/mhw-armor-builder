@@ -1,4 +1,4 @@
-import ArmorPiece from "./armor-piece.interface";
+import ArmorPiece from "../data/armor-piece.interface";
 
 export default interface ArmorPiecesObject {
   low?: ArmorPiece[];

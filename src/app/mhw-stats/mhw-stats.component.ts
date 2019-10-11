@@ -1,17 +1,17 @@
 import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from "@angular/core";
-import CurSet from "../../interface/cur-set.interface";
-import DataObject from "../../interface/data-object.interface";
-import SkillSet from "../../interface/skill-set.interface";
-import Decoration from "../../interface/decoration.interface";
-import SkillRank from "../../interface/skill-rank.interface";
-import CurSetPiece from "../../interface/cur-set-piece.interface";
-import ArmorPiece from "../../interface/armor-piece.interface";
-import CurSetPieceSlot from "../../interface/cur-set-piece-slot.interface";
-import Resistances from "../../interface/resistances.interface";
-import Offence from "../../interface/offence.interface";
-import Weapon from "../../interface/weapon.interface";
-import Charm from "../../interface/charm.interface";
-import CharmRank from "../../interface/charm-rank.interface";
+import CurSet from "../interface/app/cur-set.interface";
+import DataObject from "../interface/app/data-object.interface";
+import SkillSet from "../interface/app/skill-set.interface";
+import CurSetPiece from "../interface/app/cur-set-piece.interface";
+import CurSetPieceSlot from "../interface/app/cur-set-piece-slot.interface";
+import Offence from "../interface/app/offence.interface";
+import SkillRank from "../interface/data/skill-rank.interface";
+import ArmorPiece from "../interface/data/armor-piece.interface";
+import Decoration from "../interface/data/decoration.interface";
+import Resistances from "../interface/data/resistances.interface";
+import Weapon from "../interface/data/weapon.interface";
+import Charm from "../interface/data/charm.interface";
+import CharmRank from "../interface/data/charm-rank.interface";
 
 @Component({
   selector: "mhw-stats",
