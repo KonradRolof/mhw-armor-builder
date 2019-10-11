@@ -1,11 +1,11 @@
 {
-  "id": 176,
-  "name": "Hornetaur Beta +",
+  "id": 180,
+  "name": "Tzitzi Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 784,
-      "name": "Hornetaur Helm Beta +",
+      "id": 804,
+      "name": "Tzitzi Headgear Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -15,43 +15,38 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 2
+        "fire": 0,
+        "water": 0,
+        "ice": -2,
+        "thunder": -3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 133,
+          "id": 120,
           "level": 1,
-          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
           "modifiers": {},
-          "skill": 41,
-          "skillName": "Weakness Exploit"
-        },
-        {
-          "id": 100,
-          "level": 1,
-          "description": "Dragon attack +30",
-          "modifiers": {},
-          "skill": 30,
-          "skillName": "Dragon Attack"
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
         }
       ],
-      "armorSet": 176,
+      "armorSet": 180,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 785,
-      "name": "Hornetaur Mail Beta +",
+      "id": 805,
+      "name": "Tzitzi Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
@@ -61,11 +56,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 2
+        "fire": 0,
+        "water": 0,
+        "ice": -2,
+        "thunder": -3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -73,29 +68,36 @@
           "rank": 4
         },
         {
-          "rank": 2
-        },
-        {
           "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 37,
+          "id": 198,
           "level": 1,
-          "description": "Nullifies damage from effluvia and reduces damage from acids.",
+          "description": "Reduces fixed stamina depletion by 10%.",
           "modifiers": {},
-          "skill": 13,
-          "skillName": "Effluvial Expert"
+          "skill": 64,
+          "skillName": "Constitution"
+        },
+        {
+          "id": 85,
+          "level": 1,
+          "description": "Water attack +30",
+          "modifiers": {
+            "damageWater": 30
+          },
+          "skill": 27,
+          "skillName": "Water Attack"
         }
         ],
-      "armorSet": 176,
+      "armorSet": 180,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 786,
-      "name": "Hornetaur Vambraces Beta +",
+      "id": 806,
+      "name": "Tzitzi Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
@@ -105,38 +107,43 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 2
+        "fire": 0,
+        "water": 0,
+        "ice": -2,
+        "thunder": -3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 234,
-          "level": 1,
-          "description": "Activates 25% of the time.",
+          "id": 11,
+          "level": 2,
+          "description": "Reduces the duration of stun by 90%.",
           "modifiers": {},
-          "skill": 74,
-          "skillName": "Free Meal"
+          "skill": 4,
+          "skillName": "Stun Resistance"
+        },
+        {
+          "id": 226,
+          "level": 1,
+          "description": "Items affect nearby allies with 33% of their efficacy.",
+          "modifiers": {},
+          "skill": 72,
+          "skillName": "Wide-Range"
         }
         ],
-      "armorSet": 176,
+      "armorSet": 180,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 787,
-        "name": "Hornetaur Coil Beta +",
+        "id": 807,
+        "name": "Tzitzi Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -146,11 +153,11 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
-          "water": -1,
-          "ice": 0,
-          "thunder": 0,
-          "dragon": 2
+          "fire": 0,
+          "water": 0,
+          "ice": -2,
+          "thunder": -3,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
@@ -163,22 +170,22 @@
         ],
         "skills": [
           {
-            "id": 133,
-            "level": 1,
-            "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+            "id": 227,
+            "level": 2,
+            "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
             "modifiers": {},
-            "skill": 41,
-            "skillName": "Weakness Exploit"
+            "skill": 72,
+            "skillName": "Wide-Range"
           }
         ],
-      "armorSet": 176,
+      "armorSet": 180,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 788,
-        "name": "Hornetaur Greaves Beta +",
-        "type": "legs",
+        "id": 808,
+        "name": "Tzitzi Greaves Beta +",
+        "type": "waist",
         "rank": "master",
         "rarity": 9,
         "defense": {
@@ -187,34 +194,37 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
-          "water": -1,
-          "ice": 0,
-          "thunder": 0,
-          "dragon": 2
+          "fire": 0,
+          "water": 0,
+          "ice": -2,
+          "thunder": -3,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 143,
+            "id": 7,
             "level": 1,
-            "description": "Weapon sharpness +10",
-            "modifiers": {
-              "sharpnessBonus": 20
-            },
-            "skill": 44,
-            "skillName": "Handicraft"
+            "description": "Reduces the duration of sleep by 30%.",
+            "modifiers": {},
+            "skill": 3,
+            "skillName": "Sleep Resistance"
+          },
+          {
+            "id": 226,
+            "level": 1,
+            "description": "Items affect nearby allies with 33% of their efficacy.",
+            "modifiers": {},
+            "skill": 72,
+            "skillName": "Wide-Range"
           }
         ],
-      "armorSet": 176,
+      "armorSet": 180,
       "assets": null,
       "crafting": null
     }
