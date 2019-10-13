@@ -1,20 +1,20 @@
 {
-  "id": 848,
-  "name": "Pukei Greaves Beta +",
+  "id": 858,
+  "name": "Pukei Lagoon Greves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 118,
+    "base": 132,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
     "fire": 0,
     "water": 3,
-    "ice": 0,
-    "thunder": -3,
-    "dragon": 1
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
@@ -22,29 +22,29 @@
       "rank": 4
     },
     {
-      "rank": 2
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 2,
+      "id": 232,
       "level": 2,
-      "description": "Greatly reduces the number of times you take poison damage.",
+      "description": "Item effect duration +25%",
       "modifiers": {},
-      "skill": 1,
-      "skillName": "Poison Resistance"
+      "skill": 73,
+      "skillName": "Item Prolonger"
     }
   ],
   "armorSet": {
-    "id": 188,
-    "name": "Pukei Beta +",
+    "id": 190,
+    "name": "Coral Pukei Beta +",
     "rank": "master",
     "pieces": [
-      844,
-      845,
-      846,
-      847,
-      848
+      854,
+      855,
+      856,
+      857,
+      858
     ],
     "bonus": null
   },
