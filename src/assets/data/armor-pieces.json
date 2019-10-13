@@ -78820,7 +78820,573 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 849,
+    "name": "Pukei Lagoon Hat Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 148,
+        "level": 2,
+        "description": "Draw attack affinity +60%",
+        "modifiers": {},
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 189,
+      "name": "Coral Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        849,
+        850,
+        851,
+        852,
+        853
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 850,
+    "name": "Pukei Lagoon Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 147,
+        "level": 1,
+        "description": "Draw attack affinity +30%",
+        "modifiers": {},
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 139,
+        "level": 1,
+        "description": "Bonus duration +10%",
+        "modifiers": {},
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 189,
+      "name": "Coral Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        849,
+        850,
+        851,
+        852,
+        853
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 851,
+    "name": "Pukei Lagoon Braces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 139,
+        "level": 1,
+        "description": "Bonus duration +10%",
+        "modifiers": {},
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 189,
+      "name": "Coral Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        849,
+        850,
+        851,
+        852,
+        853
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 852,
+    "name": "Pukei Lagoon Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {},
+        "skill": 27,
+        "skillName": "Water Attack"
+      },
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      }
+    ],
+    "armorSet": {
+      "id": 189,
+      "name": "Coral Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        849,
+        850,
+        851,
+        852,
+        853
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 853,
+    "name": "Pukei Lagoon Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 232,
+        "level": 2,
+        "description": "Item effect duration +25%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {},
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 189,
+      "name": "Coral Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        849,
+        850,
+        851,
+        852,
+        853
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 854,
+    "name": "Pukei Lagoon Hat Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 147,
+        "level": 1,
+        "description": "Draw attack affinity +30%",
+        "modifiers": {},
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 190,
+      "name": "Coral Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        854,
+        855,
+        856,
+        857,
+        858
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 855,
+    "name": "Pukei Lagoon Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 139,
+        "level": 1,
+        "description": "Bonus duration +10%",
+        "modifiers": {},
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 190,
+      "name": "Coral Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        854,
+        855,
+        856,
+        857,
+        858
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 856,
+    "name": "Pukei Lagoon Braces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      }
+    ],
+    "armorSet": {
+      "id": 190,
+      "name": "Coral Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        854,
+        855,
+        856,
+        857,
+        858
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 857,
+    "name": "Pukei Lagoon Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 85,
+        "level": 1,
+        "description": "Water attack +30",
+        "modifiers": {},
+        "skill": 27,
+        "skillName": "Water Attack"
+      },
+      {
+        "id": 150,
+        "level": 1,
+        "description": "Part damage +10%",
+        "modifiers": {},
+        "skill": 46,
+        "skillName": "Partbreaker"
+      }
+    ],
+    "armorSet": {
+      "id": 190,
+      "name": "Coral Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        854,
+        855,
+        856,
+        857,
+        858
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 858,
+    "name": "Pukei Lagoon Greves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": -3,
+      "thunder": -2,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 232,
+        "level": 2,
+        "description": "Item effect duration +25%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 190,
+      "name": "Coral Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        854,
+        855,
+        856,
+        857,
+        858
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
+
 
 
 
