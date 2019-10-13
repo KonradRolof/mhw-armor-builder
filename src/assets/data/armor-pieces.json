@@ -77109,7 +77109,568 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 819,
+    "name": "Dodogama Helm Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 15,
+        "level": 2,
+        "description": "Greatly delays blastblight and greatly reduces blast damage.",
+        "modifiers": {},
+        "skill": 6,
+        "skillName": "Blast Resistance"
+      },
+      {
+        "id": 241,
+        "level": 1,
+        "description": "Explosive power +10%",
+        "modifiers": {},
+        "skill": 77,
+        "skillName": "Paralysis Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 183,
+      "name": "Dodogama Alpha +",
+      "rank": "master",
+      "pieces": [
+        819,
+        820,
+        821,
+        822,
+        823
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 820,
+    "name": "Dodogama Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 115,
+        "level": 2,
+        "description": "Blast buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 34,
+        "skillName": "Blast Attack"
+      },
+      {
+        "id": 190,
+        "level": 1,
+        "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+        "modifiers": {},
+        "skill": 61,
+        "skillName": "Artillery"
+      }
+    ],
+    "armorSet": {
+      "id": 183,
+      "name": "Dodogama Alpha +",
+      "rank": "master",
+      "pieces": [
+        819,
+        820,
+        821,
+        822,
+        823
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 821,
+    "name": "Dodogama Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 242,
+        "level": 2,
+        "description": "Explosive power +20%",
+        "modifiers": {},
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 114,
+        "level": 1,
+        "description": "Blast buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 34,
+        "skillName": "Blast Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 183,
+      "name": "Dodogama Alpha +",
+      "rank": "master",
+      "pieces": [
+        819,
+        820,
+        821,
+        822,
+        823
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 822,
+    "name": "Dodogama Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 191,
+        "level": 2,
+        "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+        "modifiers": {},
+        "skill": 61,
+        "skillName": "Artillery"
+      },
+      {
+        "id": 14,
+        "level": 1,
+        "description": "Delays blastblight and reduces blast damage.",
+        "modifiers": {},
+        "skill": 6,
+        "skillName": "Blast Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 183,
+      "name": "Dodogama Alpha +",
+      "rank": "master",
+      "pieces": [
+        819,
+        820,
+        821,
+        822,
+        823
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 823,
+    "name": "Dodogama Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 187,
+        "level": 1,
+        "description": "Loading capacity +1",
+        "modifiers": {},
+        "skill": 59,
+        "skillName": "Capacity Boost"
+      },
+      {
+        "id": 114,
+        "level": 1,
+        "description": "Blast buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 34,
+        "skillName": "Blast Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 183,
+      "name": "Dodogama Alpha +",
+      "rank": "master",
+      "pieces": [
+        819,
+        820,
+        821,
+        822,
+        823
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 824,
+    "name": "Dodogama Helm Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 15,
+        "level": 2,
+        "description": "Greatly delays blastblight and greatly reduces blast damage.",
+        "modifiers": {},
+        "skill": 6,
+        "skillName": "Blast Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 184,
+      "name": "Dodogama Beta +",
+      "rank": "master",
+      "pieces": [
+        824,
+        825,
+        826,
+        827,
+        828
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 825,
+    "name": "Dodogama Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 115,
+        "level": 2,
+        "description": "Blast buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 34,
+        "skillName": "Blast Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 184,
+      "name": "Dodogama Beta +",
+      "rank": "master",
+      "pieces": [
+        824,
+        825,
+        826,
+        827,
+        828
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 826,
+    "name": "Dodogama Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 241,
+        "level": 1,
+        "description": "Explosive power +10%",
+        "modifiers": {},
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 114,
+        "level": 1,
+        "description": "Blast buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 34,
+        "skillName": "Blast Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 184,
+      "name": "Dodogama Beta +",
+      "rank": "master",
+      "pieces": [
+        824,
+        825,
+        826,
+        827,
+        828
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 827,
+    "name": "Dodogama Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 191,
+        "level": 2,
+        "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+        "modifiers": {},
+        "skill": 61,
+        "skillName": "Artillery"
+      }
+    ],
+    "armorSet": {
+      "id": 184,
+      "name": "Dodogama Beta +",
+      "rank": "master",
+      "pieces": [
+        824,
+        825,
+        826,
+        827,
+        828
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 828,
+    "name": "Dodogama Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 2
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 187,
+        "level": 1,
+        "description": "Loading capacity +1",
+        "modifiers": {},
+        "skill": 59,
+        "skillName": "Capacity Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 184,
+      "name": "Dodogama Beta +",
+      "rank": "master",
+      "pieces": [
+        824,
+        825,
+        826,
+        827,
+        828
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
+
 
 
 
