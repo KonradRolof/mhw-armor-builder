@@ -1287,6 +1287,14 @@
         "level": 3,
         "description": "Blast buildup +20% Bonus: +10",
         "modifiers": {}
+      },
+      {
+        "id": 337,
+        "skill": 34,
+        "skillName": "Blast Attack",
+        "level": 4,
+        "description": "Blast buildup +30% Bonus: +10",
+        "modifiers": {}
       }
     ]
   },
