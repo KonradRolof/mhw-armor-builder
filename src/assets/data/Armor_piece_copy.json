@@ -1,50 +1,57 @@
 {
-  "id": 828,
-  "name": "Dodogama Greaves Beta +",
+  "id": 838,
+  "name": "Kulu Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 120,
+    "base": 116,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
     "fire": 0,
-    "water": 0,
-    "ice": 0,
-    "thunder": -3,
-    "dragon": 2
+    "water": -3,
+    "ice": 1,
+    "thunder": 0,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 187,
+      "id": 231,
       "level": 1,
-      "description": "Loading capacity +1",
+      "description": "Item effect duration +10%",
       "modifiers": {},
-      "skill": 59,
-      "skillName": "Capacity Boost"
+      "skill": 73,
+      "skillName": "Item Prolonger"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "description": "Affinity +5%",
+      "modifiers": {
+        "affinity": 5
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
     }
   ],
   "armorSet": {
-    "id": 184,
-    "name": "Dodogama Beta +",
+    "id": 186,
+    "name": "Kulu Beta +",
     "rank": "master",
     "pieces": [
-      824,
-      825,
-      826,
-      827,
-      828
+      834,
+      835,
+      836,
+      837,
+      838
     ],
     "bonus": null
   },

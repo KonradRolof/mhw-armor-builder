@@ -1,25 +1,25 @@
 {
-  "id": 184,
-  "name": "Dodogama Beta +",
+  "id": 186,
+  "name": "Kulu Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 824,
-      "name": "Dodogama Helm Beta +",
+      "id": 834,
+      "name": "Kulu Headpiece Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 120,
+        "base": 116,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": -3,
-        "dragon": 2
+        "water": -3,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -29,35 +29,35 @@
       ],
       "skills": [
         {
-          "id": 15,
+          "id": 271,
           "level": 2,
-          "description": "Greatly delays blastblight and greatly reduces blast damage.",
+          "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
           "modifiers": {},
-          "skill": 6,
-          "skillName": "Blast Resistance"
+          "skill": 89,
+          "skillName": "Slinger Capacity"
         }
       ],
-      "armorSet": 184,
+      "armorSet": 186,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 825,
-      "name": "Dodogama Mail Beta +",
+      "id": 835,
+      "name": "Kulu Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 120,
+        "base": 116,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": -3,
-        "dragon": 2
+        "water": -3,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -67,35 +67,45 @@
       ],
       "skills": [
         {
-          "id": 115,
-          "level": 2,
-          "description": "Blast buildup +10% Bonus: +10",
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
           "modifiers": {},
-          "skill": 34,
-          "skillName": "Blast Attack"
+          "skill": 66,
+          "skillName": "Stamina Surge"
+        },
+        {
+          "id": 123,
+          "level": 1,
+          "description": "Affinity +5%",
+          "modifiers": {
+            "affinity": 5
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
         }
         ],
-      "armorSet": 184,
+      "armorSet": 186,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 826,
-      "name": "Dodogama Vambraces Beta +",
+      "id": 836,
+      "name": "Kulu Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 120,
+        "base": 116,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": -3,
-        "dragon": 2
+        "water": -3,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -105,43 +115,35 @@
       ],
       "skills": [
         {
-          "id": 241,
+          "id": 130,
           "level": 1,
-          "description": "Explosive power +10%",
+          "description": "Increases damage dealt by critical hits by 30%.",
           "modifiers": {},
-          "skill": 77,
-          "skillName": "Bombardier"
-        },
-        {
-          "id": 114,
-          "level": 1,
-          "description": "Blast buildup +5% Bonus: +10",
-          "modifiers": {},
-          "skill": 34,
-          "skillName": "Blast Attack"
+          "skill": 40,
+          "skillName": "Critical Boost"
         }
         ],
-      "armorSet": 184,
+      "armorSet": 186,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 827,
-        "name": "Dodogama Coil Beta +",
+        "id": 837,
+        "name": "Kulu Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 120,
+          "base": 116,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
           "fire": 0,
-          "water": 0,
-          "ice": 0,
-          "thunder": -3,
-          "dragon": 2
+          "water": -3,
+          "ice": 1,
+          "thunder": 0,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
@@ -154,56 +156,63 @@
         ],
         "skills": [
           {
-            "id": 191,
+            "id": 232,
             "level": 2,
-            "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+            "description": "Item effect duration +25%",
             "modifiers": {},
-            "skill": 61,
-            "skillName": "Artillery"
+            "skill": 73,
+            "skillName": "Item Prolonger"
           }
         ],
-      "armorSet": 184,
+      "armorSet": 186,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 828,
-        "name": "Dodogama Greaves Beta +",
+        "id": 838,
+        "name": "Kulu Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 120,
+          "base": 116,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
           "fire": 0,
-          "water": 0,
-          "ice": 0,
-          "thunder": -3,
-          "dragon": 2
+          "water": -3,
+          "ice": 1,
+          "thunder": 0,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 187,
+            "id": 231,
             "level": 1,
-            "description": "Loading capacity +1",
+            "description": "Item effect duration +10%",
             "modifiers": {},
-            "skill": 59,
-            "skillName": "Capacity Boost"
+            "skill": 73,
+            "skillName": "Item Prolonger"
+          },
+          {
+            "id": 123,
+            "level": 1,
+            "description": "Affinity +5%",
+            "modifiers": {
+              "affinity": 5
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
           }
         ],
-      "armorSet": 184,
+      "armorSet": 186,
       "assets": null,
       "crafting": null
     }
