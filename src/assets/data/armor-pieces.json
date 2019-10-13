@@ -77669,7 +77669,581 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 829,
+    "name": "Kulu Headpiece Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 271,
+        "level": 2,
+        "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+        "modifiers": {},
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 130,
+        "level": 1,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "modifiers": {},
+        "skill": 40,
+        "skillName": "Critical Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 185,
+      "name": "Kulu Alpha +",
+      "rank": "master",
+      "pieces": [
+        829,
+        830,
+        831,
+        832,
+        833
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 830,
+    "name": "Kulu Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 204,
+        "level": 1,
+        "description": "Stamina recovery speed +10%",
+        "modifiers": {},
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 124,
+        "level": 2,
+        "description": "Affinity +10%",
+        "modifiers": {
+          "affinity": 10
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ],
+    "armorSet": {
+      "id": 185,
+      "name": "Kulu Alpha +",
+      "rank": "master",
+      "pieces": [
+        829,
+        830,
+        831,
+        832,
+        833
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 831,
+    "name": "Kulu Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 130,
+        "level": 1,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "modifiers": {},
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 248,
+        "level": 1,
+        "description": "Increases movement speed while transporting and reduces downtime on landings.",
+        "modifiers": {},
+        "skill": 80,
+        "skillName": "Pro Transporter"
+      }
+    ],
+    "armorSet": {
+      "id": 185,
+      "name": "Kulu Alpha +",
+      "rank": "master",
+      "pieces": [
+        829,
+        830,
+        831,
+        832,
+        833
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 832,
+    "name": "Kulu Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 232,
+        "level": 2,
+        "description": "Item effect duration +25%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 123,
+        "level": 1,
+        "description": "Affinity +5%",
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ],
+    "armorSet": {
+      "id": 185,
+      "name": "Kulu Alpha +",
+      "rank": "master",
+      "pieces": [
+        829,
+        830,
+        831,
+        832,
+        833
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 833,
+    "name": "Kulu Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 124,
+        "level": 2,
+        "description": "Affinity +10%",
+        "modifiers": {
+          "affinity": 10
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      },
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 185,
+      "name": "Kulu Alpha +",
+      "rank": "master",
+      "pieces": [
+        829,
+        830,
+        831,
+        832,
+        833
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 834,
+    "name": "Kulu Headpiece Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 271,
+        "level": 2,
+        "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+        "modifiers": {},
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      }
+    ],
+    "armorSet": {
+      "id": 186,
+      "name": "Kulu Beta +",
+      "rank": "master",
+      "pieces": [
+        834,
+        835,
+        836,
+        837,
+        838
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 835,
+    "name": "Kulu Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 204,
+        "level": 1,
+        "description": "Stamina recovery speed +10%",
+        "modifiers": {},
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 123,
+        "level": 1,
+        "description": "Affinity +5%",
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ],
+    "armorSet": {
+      "id": 186,
+      "name": "Kulu Beta +",
+      "rank": "master",
+      "pieces": [
+        834,
+        835,
+        836,
+        837,
+        838
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 836,
+    "name": "Kulu Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 130,
+        "level": 1,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "modifiers": {},
+        "skill": 40,
+        "skillName": "Critical Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 186,
+      "name": "Kulu Beta +",
+      "rank": "master",
+      "pieces": [
+        834,
+        835,
+        836,
+        837,
+        838
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 837,
+    "name": "Kulu Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 232,
+        "level": 2,
+        "description": "Item effect duration +25%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      }
+    ],
+    "armorSet": {
+      "id": 186,
+      "name": "Kulu Beta +",
+      "rank": "master",
+      "pieces": [
+        834,
+        835,
+        836,
+        837,
+        838
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 838,
+    "name": "Kulu Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 116,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 1,
+      "thunder": 0,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 123,
+        "level": 1,
+        "description": "Affinity +5%",
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ],
+    "armorSet": {
+      "id": 186,
+      "name": "Kulu Beta +",
+      "rank": "master",
+      "pieces": [
+        834,
+        835,
+        836,
+        837,
+        838
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
+
+
 
 
 
