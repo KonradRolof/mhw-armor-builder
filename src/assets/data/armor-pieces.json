@@ -78241,6 +78241,585 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 839,
+    "name": "Pukei Hat Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 283,
+        "level": 2,
+        "description": "Interactables restore an additional 80 health.",
+        "modifiers": {},
+        "skill": 95,
+        "skillName": "Survival Expert"
+      },
+      {
+        "id": 1,
+        "level": 1,
+        "description": "Reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 187,
+      "name": "Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 840,
+    "name": "Pukei Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 232,
+        "level": 2,
+        "description": "Item effect duration +25%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 171,
+        "level": 1,
+        "description": "While active, grants attack +5.",
+        "modifiers": {},
+        "skill": 53,
+        "skillName": "Peak Performance"
+      }
+    ],
+    "armorSet": {
+      "id": 187,
+      "name": "Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 841,
+    "name": "Pukei Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 172,
+        "level": 2,
+        "description": "While active, grants attack +10.",
+        "modifiers": {},
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 282,
+        "level": 1,
+        "description": "Interactables restore an additional 50 health.",
+        "modifiers": {},
+        "skill": 95,
+        "skillName": "Survival Expert"
+      }
+    ],
+    "armorSet": {
+      "id": 187,
+      "name": "Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 842,
+    "name": "Pukei Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 106,
+        "level": 2,
+        "description": "Poison buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 187,
+      "name": "Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 843,
+    "name": "Pukei Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 2,
+        "level": 2,
+        "description": "Greatly reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      },
+      {
+        "id": 106,
+        "level": 2,
+        "description": "Poison buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 187,
+      "name": "Pukei Alpha +",
+      "rank": "master",
+      "pieces": [
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 844,
+    "name": "Pukei Hat Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 283,
+        "level": 2,
+        "description": "Interactables restore an additional 80 health.",
+        "modifiers": {},
+        "skill": 95,
+        "skillName": "Survival Expert"
+      }
+    ],
+    "armorSet": {
+      "id": 188,
+      "name": "Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        844,
+        845,
+        846,
+        847,
+        848
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 845,
+    "name": "Pukei Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 171,
+        "level": 1,
+        "description": "While active, grants attack +5.",
+        "modifiers": {},
+        "skill": 53,
+        "skillName": "Peak Performance"
+      }
+    ],
+    "armorSet": {
+      "id": 188,
+      "name": "Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        844,
+        845,
+        846,
+        847,
+        848
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 846,
+    "name": "Pukei Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 282,
+        "level": 1,
+        "description": "Interactables restore an additional 50 health.",
+        "modifiers": {},
+        "skill": 95,
+        "skillName": "Survival Expert"
+      },
+      {
+        "id": 171,
+        "level": 1,
+        "description": "While active, grants attack +5.",
+        "modifiers": {},
+        "skill": 53,
+        "skillName": "Peak Performance"
+      }
+    ],
+    "armorSet": {
+      "id": 188,
+      "name": "Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        844,
+        845,
+        846,
+        847,
+        848
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 847,
+    "name": "Pukei Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 231,
+        "level": 1,
+        "description": "Item effect duration +10%",
+        "modifiers": {},
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      },
+      {
+        "id": 105,
+        "level": 1,
+        "description": "Poison buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 188,
+      "name": "Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        844,
+        845,
+        846,
+        847,
+        848
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 848,
+    "name": "Pukei Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": 3,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 2,
+        "level": 2,
+        "description": "Greatly reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 188,
+      "name": "Pukei Beta +",
+      "rank": "master",
+      "pieces": [
+        844,
+        845,
+        846,
+        847,
+        848
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
 
 

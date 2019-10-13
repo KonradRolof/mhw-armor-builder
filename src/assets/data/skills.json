@@ -1186,6 +1186,14 @@
         "level": 3,
         "description": "Poison buildup +20% Bonus: +10",
         "modifiers": {}
+      },
+      {
+        "id": 338,
+        "skill": 31,
+        "skillName": "Poison Attack",
+        "level": 4,
+        "description": "Poison buildup +20% Bonus: +10",
+        "modifiers": {}
       }
     ]
   },

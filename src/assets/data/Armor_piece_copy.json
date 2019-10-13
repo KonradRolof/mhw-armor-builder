@@ -1,57 +1,50 @@
 {
-  "id": 838,
-  "name": "Kulu Greaves Beta +",
+  "id": 848,
+  "name": "Pukei Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 116,
+    "base": 118,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
     "fire": 0,
-    "water": -3,
-    "ice": 1,
-    "thunder": 0,
-    "dragon": 0
+    "water": 3,
+    "ice": 0,
+    "thunder": -3,
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 231,
-      "level": 1,
-      "description": "Item effect duration +10%",
+      "id": 2,
+      "level": 2,
+      "description": "Greatly reduces the number of times you take poison damage.",
       "modifiers": {},
-      "skill": 73,
-      "skillName": "Item Prolonger"
-    },
-    {
-      "id": 123,
-      "level": 1,
-      "description": "Affinity +5%",
-      "modifiers": {
-        "affinity": 5
-      },
-      "skill": 39,
-      "skillName": "Critical Eye"
+      "skill": 1,
+      "skillName": "Poison Resistance"
     }
   ],
   "armorSet": {
-    "id": 186,
-    "name": "Kulu Beta +",
+    "id": 188,
+    "name": "Pukei Beta +",
     "rank": "master",
     "pieces": [
-      834,
-      835,
-      836,
-      837,
-      838
+      844,
+      845,
+      846,
+      847,
+      848
     ],
     "bonus": null
   },
