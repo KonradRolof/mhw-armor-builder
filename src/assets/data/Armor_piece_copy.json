@@ -1,6 +1,6 @@
 {
-  "id": 813,
-  "name": "Girros Greaves Alpha +",
+  "id": 818,
+  "name": "Girros Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
@@ -12,14 +12,14 @@
   "resistances": {
     "fire": 0,
     "water": -3,
-    "ice": 2,
-    "thunder": 0,
+    "ice": 0,
+    "thunder": 2,
     "dragon": 1
   },
   "attributes": {},
   "slots": [
     {
-      "rank": 1
+      "rank": 4
     }
   ],
   "skills": [
@@ -30,26 +30,18 @@
       "modifiers": {},
       "skill": 32,
       "skillName": "Paralysis Attack"
-    },
-    {
-      "id": 120,
-      "level": 1,
-      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
-      "modifiers": {},
-      "skill": 38,
-      "skillName": "Free Elem\/Ammo Up"
     }
   ],
   "armorSet": {
-    "id": 181,
-    "name": "Girros Alpha +",
+    "id": 182,
+    "name": "Girros Beta +",
     "rank": "master",
     "pieces": [
-      809,
-      810,
-      811,
-      812,
-      813
+      814,
+      815,
+      816,
+      817,
+      818
     ],
     "bonus": null
   },
