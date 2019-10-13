@@ -1,11 +1,11 @@
 {
-  "id": 181,
-  "name": "Girros Alpha +",
+  "id": 182,
+  "name": "Girros Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 809,
-      "name": "Girros Headgear Alpha +",
+      "id": 814,
+      "name": "Girros Headgear Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -17,14 +17,14 @@
       "resistances": {
         "fire": 0,
         "water": -3,
-        "ice": 2,
-        "thunder": 0,
+        "ice": 0,
+        "thunder": 2,
         "dragon": 1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 2
+          "rank": 4
         }
       ],
       "skills": [
@@ -35,23 +35,15 @@
           "modifiers": {},
           "skill": 58,
           "skillName": "Horn Maestro"
-        },
-        {
-          "id": 4,
-          "level": 1,
-          "description": "Reduces the duration of paralysis by 30%.",
-          "modifiers": {},
-          "skill": 2,
-          "skillName": "Paralysis Resistance"
         }
       ],
-      "armorSet": 181,
+      "armorSet": 182,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 810,
-      "name": "Girros Mail Alpha +",
+      "id": 815,
+      "name": "Girros Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
@@ -63,25 +55,20 @@
       "resistances": {
         "fire": 0,
         "water": -3,
-        "ice": 2,
-        "thunder": 0,
+        "ice": 0,
+        "thunder": 2,
         "dragon": 1
       },
       "attributes": {},
       "slots": [
         {
+          "rank": 4
+        },
+        {
           "rank": 2
         }
       ],
       "skills": [
-        {
-          "id": 120,
-          "level": 1,
-          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
-          "modifiers": {},
-          "skill": 38,
-          "skillName": "Free Elem\/Ammo Up"
-        },
         {
           "id": 5,
           "level": 2,
@@ -91,13 +78,13 @@
           "skillName": "Paralysis Resistance"
         }
         ],
-      "armorSet": 181,
+      "armorSet": 182,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 811,
-      "name": "Girros Vambraces Alpha +",
+      "id": 816,
+      "name": "Girros Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
@@ -109,14 +96,14 @@
       "resistances": {
         "fire": 0,
         "water": -3,
-        "ice": 2,
-        "thunder": 0,
+        "ice": 0,
+        "thunder": 2,
         "dragon": 1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 1
+          "rank": 4
         }
       ],
       "skills": [
@@ -129,9 +116,9 @@
           "skillName": "Free Elem\/Ammo Up"
         },
         {
-          "id": 295,
+          "id": 294,
           "level": 2,
-          "description": "Greatly reduces effluvial buildup.",
+          "description": "Reduces effluvial buildup.",
           "modifiers": {},
           "skill": 101,
           "skillName": "Effluvia Resistance"
@@ -142,8 +129,8 @@
       "crafting": null
       },
       {
-        "id": 812,
-        "name": "Girros Coil Alpha +",
+        "id": 817,
+        "name": "Girros Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -155,41 +142,36 @@
         "resistances": {
           "fire": 0,
           "water": -3,
-          "ice": 2,
-          "thunder": 0,
+          "ice": 0,
+          "thunder": 2,
           "dragon": 1
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 3
+            "rank": 4
+          },
+          {
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 109,
-            "level": 2,
-            "description": "Paralysis buildup +10% Bonus: +10",
-            "modifiers": {},
-            "skill": 32,
-            "skillName": "Paralysis Attack"
-          },
-          {
-            "id": 294,
+            "id": 37,
             "level": 1,
-            "description": "Reduces effluvial buildup.",
+            "description": "Nullifies damage from effluvia and reduces damage from acids.",
             "modifiers": {},
-            "skill": 101,
-            "skillName": "Effluvia Resistance"
+            "skill": 13,
+            "skillName": "Effluvial Expert"
           }
         ],
-      "armorSet": 181,
+      "armorSet": 182,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 813,
-        "name": "Girros Greaves Alpha +",
+        "id": 818,
+        "name": "Girros Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
@@ -201,14 +183,14 @@
         "resistances": {
           "fire": 0,
           "water": -3,
-          "ice": 2,
-          "thunder": 0,
+          "ice": 0,
+          "thunder": 2,
           "dragon": 1
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 1
+            "rank": 4
           }
         ],
         "skills": [
@@ -219,17 +201,9 @@
             "modifiers": {},
             "skill": 32,
             "skillName": "Paralysis Attack"
-          },
-          {
-            "id": 120,
-            "level": 1,
-            "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
-            "modifiers": {},
-            "skill": 38,
-            "skillName": "Free Elem\/Ammo Up"
           }
         ],
-      "armorSet": 181,
+      "armorSet": 182,
       "assets": null,
       "crafting": null
     }
