@@ -1,25 +1,25 @@
 {
-  "id": 182,
-  "name": "Girros Beta +",
+  "id": 184,
+  "name": "Dodogama Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 814,
-      "name": "Girros Headgear Beta +",
+      "id": 824,
+      "name": "Dodogama Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 116,
+        "base": 120,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 0,
-        "water": -3,
+        "water": 0,
         "ice": 0,
-        "thunder": 2,
-        "dragon": 1
+        "thunder": -3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -29,76 +29,73 @@
       ],
       "skills": [
         {
-          "id": 335,
+          "id": 15,
           "level": 2,
-          "description": "Greatly increases the effect duration of hunting horn melodies.",
+          "description": "Greatly delays blastblight and greatly reduces blast damage.",
           "modifiers": {},
-          "skill": 58,
-          "skillName": "Horn Maestro"
+          "skill": 6,
+          "skillName": "Blast Resistance"
         }
       ],
-      "armorSet": 182,
+      "armorSet": 184,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 815,
-      "name": "Girros Mail Beta +",
+      "id": 825,
+      "name": "Dodogama Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 116,
+        "base": 120,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 0,
-        "water": -3,
+        "water": 0,
         "ice": 0,
-        "thunder": 2,
-        "dragon": 1
+        "thunder": -3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 5,
+          "id": 115,
           "level": 2,
-          "description": "Reduces the duration of paralysis by 60%.",
+          "description": "Blast buildup +10% Bonus: +10",
           "modifiers": {},
-          "skill": 2,
-          "skillName": "Paralysis Resistance"
+          "skill": 34,
+          "skillName": "Blast Attack"
         }
         ],
-      "armorSet": 182,
+      "armorSet": 184,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 816,
-      "name": "Girros Vambraces Beta +",
+      "id": 826,
+      "name": "Dodogama Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 116,
+        "base": 120,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 0,
-        "water": -3,
+        "water": 0,
         "ice": 0,
-        "thunder": 2,
-        "dragon": 1
+        "thunder": -3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -108,43 +105,43 @@
       ],
       "skills": [
         {
-          "id": 120,
+          "id": 241,
           "level": 1,
-          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+          "description": "Explosive power +10%",
           "modifiers": {},
-          "skill": 38,
-          "skillName": "Free Elem\/Ammo Up"
+          "skill": 77,
+          "skillName": "Bombardier"
         },
         {
-          "id": 294,
-          "level": 2,
-          "description": "Reduces effluvial buildup.",
+          "id": 114,
+          "level": 1,
+          "description": "Blast buildup +5% Bonus: +10",
           "modifiers": {},
-          "skill": 101,
-          "skillName": "Effluvia Resistance"
+          "skill": 34,
+          "skillName": "Blast Attack"
         }
         ],
-      "armorSet": 181,
+      "armorSet": 184,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 817,
-        "name": "Girros Coil Beta +",
+        "id": 827,
+        "name": "Dodogama Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 116,
+          "base": 120,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
           "fire": 0,
-          "water": -3,
+          "water": 0,
           "ice": 0,
-          "thunder": 2,
-          "dragon": 1
+          "thunder": -3,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
@@ -152,58 +149,61 @@
             "rank": 4
           },
           {
-            "rank": 2
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 37,
-            "level": 1,
-            "description": "Nullifies damage from effluvia and reduces damage from acids.",
+            "id": 191,
+            "level": 2,
+            "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
             "modifiers": {},
-            "skill": 13,
-            "skillName": "Effluvial Expert"
+            "skill": 61,
+            "skillName": "Artillery"
           }
         ],
-      "armorSet": 182,
+      "armorSet": 184,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 818,
-        "name": "Girros Greaves Beta +",
+        "id": 828,
+        "name": "Dodogama Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 116,
+          "base": 120,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
           "fire": 0,
-          "water": -3,
+          "water": 0,
           "ice": 0,
-          "thunder": 2,
-          "dragon": 1
+          "thunder": -3,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 109,
-            "level": 2,
-            "description": "Paralysis buildup +10% Bonus: +10",
+            "id": 187,
+            "level": 1,
+            "description": "Loading capacity +1",
             "modifiers": {},
-            "skill": 32,
-            "skillName": "Paralysis Attack"
+            "skill": 59,
+            "skillName": "Capacity Boost"
           }
         ],
-      "armorSet": 182,
+      "armorSet": 184,
       "assets": null,
       "crafting": null
     }
