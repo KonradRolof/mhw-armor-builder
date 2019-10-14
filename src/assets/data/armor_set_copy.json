@@ -1,147 +1,25 @@
 {
-  "id": 196,
-  "name": "Beo Beta +",
+  "id": 198,
+  "name": "Kadachi Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 884,
-      "name": "Beo Helm Beta +",
-      "type": "head",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 118,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 0,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 286,
-          "level": 2,
-          "description": "Increases your evade window and prevents lowered movement speed.",
-          "modifiers": {},
-          "skill": 96,
-          "skillName": "Aquatic\/Polar Mobility"
-        }
-      ],
-      "armorSet": 196,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 885,
-      "name": "Beo Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 118,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 0,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 204,
-          "level": 1,
-          "description": "Stamina recovery speed +10%",
-          "modifiers": {},
-          "skill": 66,
-          "skillName": "Stamina Surge"
-        }
-        ],
-      "armorSet": 196,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 886,
-      "name": "Beo Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 118,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 0,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 91,
-          "level": 2,
-          "description": "Ice attack +60",
-          "modifiers": {
-            "damageIce": 60
-          },
-          "skill": 28,
-          "skillName": "Ice Attack"
-        }
-        ],
-      "armorSet": 196,
-      "assets": null,
-      "crafting": null
-      },
-      {
-        "id": 887,
-        "name": "Beo Coil Beta +",
-        "type": "waist",
+        "id": 894,
+        "name": "Kadachi Hat Alpha +",
+        "type": "head",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 118,
+          "base": 120,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": 0,
-          "ice": 3,
-          "thunder": -2,
-          "dragon": 2
+          "fire": 0,
+          "water": -3,
+          "ice": 0,
+          "thunder": 3,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
@@ -154,63 +32,204 @@
         ],
         "skills": [
           {
-            "id": 54,
-            "level": 2,
-            "description": "Health +30",
-            "modifiers": {
-              "health": 15
-            },
-            "skill": 17,
-            "skillName": "Health Boost"
+            "id": 198,
+            "level": 1,
+            "description": "Reduces fixed stamina depletion by 10%.",
+            "modifiers": {},
+            "skill": 64,
+            "skillName": "Constitution"
           },
           {
-            "id": 23,
+            "id": 215,
             "level": 1,
-            "description": "Slightly reduces the effects of weak monster roars.",
+            "description": "Slightly extends evasion distance.",
             "modifiers": {},
-            "skill": 9,
-            "skillName": "Earplugs"
-          }
+            "skill": 69,
+            "skillName": "Evade Extender"
+        }
+      ],
+      "armorSet": 198,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 895,
+      "name": "Kadachi Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 120,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 281,
+          "level": 1,
+          "description": "Negates knockback during jumps.",
+          "modifiers": {},
+          "skill": 94,
+          "skillName": "Jump Master"
+        }
         ],
-      "armorSet": 196,
+      "armorSet": 198,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 896,
+      "name": "Kadachi Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 120,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 215,
+          "level": 1,
+          "description": "Slightly extends evasion distance.",
+          "modifiers": {},
+          "skill": 69,
+          "skillName": "Evade Extender"
+        },
+        {
+          "id": 96,
+          "level": 2,
+          "description": "Thunder attack +60",
+          "modifiers": {
+            "damageThunder": 60
+          },
+          "skill": 29,
+          "skillName": "Thunder Attack"
+        }
+        ],
+      "armorSet": 198,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 888,
-        "name": "Beo Greaves Beta +",
+          "id": 897,
+          "name": "Kadachi Coil Beta +",
+          "type": "waist",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 120,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": 0,
+            "water": -3,
+            "ice": 0,
+            "thunder": 3,
+            "dragon": 0
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 4
+            },
+            {
+              "rank": 1
+            }
+          ],
+          "skills": [
+            {
+              "id": 96,
+              "level": 2,
+              "description": "Thunder attack +60",
+              "modifiers": {
+                "damageThunder": 60
+              },
+              "skill": 29,
+              "skillName": "Thunder Attack"
+          }
+        ],
+      "armorSet": 198,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 898,
+        "name": "Kadachi Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 118,
+          "base": 120,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": 0,
-          "ice": 3,
-          "thunder": -2,
-          "dragon": 2
+          "fire": 0,
+          "water": -3,
+          "ice": 0,
+          "thunder": 3,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 24,
+            "id": 72,
             "level": 2,
-            "description": "Reduces the effects of weak monster roars.",
-            "modifiers": {},
-            "skill": 9,
-            "skillName": "Earplugs"
+            "description": "Thunder resistance +12",
+            "modifiers": {
+              "resistThunder": 12
+            },
+            "skill": 23,
+            "skillName": "Thunder Resistance"
           }
         ],
-      "armorSet": 196,
+      "armorSet": 198,
       "assets": null,
       "crafting": null
     }

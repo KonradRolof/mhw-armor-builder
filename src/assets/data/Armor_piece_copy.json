@@ -1,47 +1,55 @@
 {
-  "id": 888,
-  "name": "Beo Greaves Beta +",
+  "id": 903,
+  "name": "Viper Kadachi Greaves Alpha +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 118,
+    "base": 132,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": 0,
-    "ice": 3,
-    "thunder": -2,
-    "dragon": 2
+    "fire": 1,
+    "water": 3,
+    "ice": -2,
+    "thunder": -3,
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
     {
-      "rank": 4
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 24,
-      "level": 2,
-      "description": "Reduces the effects of weak monster roars.",
+      "id": 210,
+      "level": 1,
+      "description": "Very slightly increases invulnerability window.",
       "modifiers": {},
-      "skill": 9,
-      "skillName": "Earplugs"
+      "skill": 68,
+      "skillName": "Evade Window"
+    },
+    {
+      "id": 198,
+      "level": 1,
+      "description": "Reduces fixed stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
     }
   ],
   "armorSet": {
-    "id": 196,
-    "name": "Beo Beta +",
+    "id": 199,
+    "name": "Viper Kadachi Alpha +",
     "rank": "master",
     "pieces": [
-      884,
-      885,
-      886,
-      887,
-      888
+      899,
+      900,
+      901,
+      902,
+      903
     ],
     "bonus": null
   },
