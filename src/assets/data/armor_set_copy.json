@@ -1,11 +1,11 @@
 {
-  "id": 194,
-  "name": "Jyura Beta +",
+  "id": 196,
+  "name": "Beo Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 874,
-      "name": "Jyura Helm Beta +",
+      "id": 884,
+      "name": "Beo Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -15,11 +15,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": 2,
-        "ice": 0,
-        "thunder": -3,
-        "dragon": 0
+        "fire": -3,
+        "water": 0,
+        "ice": 3,
+        "thunder": -2,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -32,29 +32,21 @@
       ],
       "skills": [
         {
-          "id": 136,
-          "level": 1,
-          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "id": 286,
+          "level": 2,
+          "description": "Increases your evade window and prevents lowered movement speed.",
           "modifiers": {},
-          "skill": 42,
-          "skillName": "Focus"
-        },
-        {
-          "id": 161,
-          "level": 1,
-          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
-          "modifiers": {},
-          "skill": 51,
-          "skillName": "Latent Power"
+          "skill": 96,
+          "skillName": "Aquatic\/Polar Mobility"
         }
       ],
-      "armorSet": 194,
+      "armorSet": 196,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 875,
-      "name": "Jyura Mail Beta +",
+      "id": 885,
+      "name": "Beo Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
@@ -64,59 +56,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": 2,
-        "ice": 0,
-        "thunder": -3,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 161,
-          "level": 1,
-          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
-          "modifiers": {},
-          "skill": 51,
-          "skillName": "Latent Power"
-        },
-        {
-          "id": 85,
-          "level": 1,
-          "description": "Water attack +30",
-          "modifiers": {
-            "damageWater": 30
-          },
-          "skill": 27,
-          "skillName": "Water Attack"
-        }
-        ],
-      "armorSet": 194,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 876,
-      "name": "Jyura Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 118,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -1,
-        "water": 2,
-        "ice": 0,
-        "thunder": -3,
-        "dragon": 0
+        "fire": -3,
+        "water": 0,
+        "ice": 3,
+        "thunder": -2,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -129,23 +73,61 @@
       ],
       "skills": [
         {
-          "id": 86,
-          "level": 2,
-          "description": "Water attack +60",
-          "modifiers": {
-            "damageWater": 60
-          },
-          "skill": 27,
-          "skillName": "Water Attack"
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
+          "modifiers": {},
+          "skill": 66,
+          "skillName": "Stamina Surge"
         }
         ],
-      "armorSet": 194,
+      "armorSet": 196,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 886,
+      "name": "Beo Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 118,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 0,
+        "ice": 3,
+        "thunder": -2,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 91,
+          "level": 2,
+          "description": "Ice attack +60",
+          "modifiers": {
+            "damageIce": 60
+          },
+          "skill": 28,
+          "skillName": "Ice Attack"
+        }
+        ],
+      "armorSet": 196,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 877,
-        "name": "Jyura Coil Beta +",
+        "id": 887,
+        "name": "Beo Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -155,11 +137,11 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
-          "water": 2,
-          "ice": 0,
-          "thunder": -3,
-          "dragon": 0
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
@@ -172,23 +154,31 @@
         ],
         "skills": [
           {
-            "id": 69,
+            "id": 54,
             "level": 2,
-            "description": "Ice resistance +12",
+            "description": "Health +30",
             "modifiers": {
-              "resistIce": 12
+              "health": 15
             },
-            "skill": 22,
-            "skillName": "Ice Resistance"
+            "skill": 17,
+            "skillName": "Health Boost"
+          },
+          {
+            "id": 23,
+            "level": 1,
+            "description": "Slightly reduces the effects of weak monster roars.",
+            "modifiers": {},
+            "skill": 9,
+            "skillName": "Earplugs"
           }
         ],
-      "armorSet": 194,
+      "armorSet": 196,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 878,
-        "name": "Jyura Greaves Beta +",
+        "id": 888,
+        "name": "Beo Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
@@ -198,42 +188,29 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
-          "water": 2,
-          "ice": 0,
-          "thunder": -3,
-          "dragon": 0
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 136,
-            "level": 1,
-            "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+            "id": 24,
+            "level": 2,
+            "description": "Reduces the effects of weak monster roars.",
             "modifiers": {},
-            "skill": 42,
-            "skillName": "Focus"
-          },
-          {
-            "id": 85,
-            "level": 1,
-            "description": "Water attack +30",
-            "modifiers": {
-              "damageWater": 30
-            },
-            "skill": 27,
-            "skillName": "Water Attack"
+            "skill": 9,
+            "skillName": "Earplugs"
           }
         ],
-      "armorSet": 194,
+      "armorSet": 196,
       "assets": null,
       "crafting": null
     }
