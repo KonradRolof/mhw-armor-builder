@@ -79949,7 +79949,609 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 869,
+    "name": "Jyura Helm Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 162,
+        "level": 2,
+        "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 136,
+        "level": 1,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "modifiers": {},
+        "skill": 42,
+        "skillName": "Focus"
+      }
+    ],
+    "armorSet": {
+      "id": 193,
+      "name": "Jyura Alpha +",
+      "rank": "master",
+      "pieces": [
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 870,
+    "name": "Jyura Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 161,
+        "level": 1,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {
+          "damageWater": 60
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 193,
+      "name": "Jyura Alpha +",
+      "rank": "master",
+      "pieces": [
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 871,
+    "name": "Jyura Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {
+          "damageWater": 60
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      },
+      {
+        "id": 68,
+        "level": 1,
+        "description": "Ice resistance +6",
+        "modifiers": {
+          "resistIce": 6
+        },
+        "skill": 22,
+        "skillName": "Ice Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 193,
+      "name": "Jyura Alpha +",
+      "rank": "master",
+      "pieces": [
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 872,
+    "name": "Jyura Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 69,
+        "level": 2,
+        "description": "Ice resistance +12",
+        "modifiers": {
+          "resistIce": 12
+        },
+        "skill": 22,
+        "skillName": "Ice Resistance"
+      },
+      {
+        "id": 161,
+        "level": 1,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 51,
+        "skillName": "Latent Power"
+      }
+    ],
+    "armorSet": {
+      "id": 193,
+      "name": "Jyura Alpha +",
+      "rank": "master",
+      "pieces": [
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 873,
+    "name": "Jyura Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 137,
+        "level": 2,
+        "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+        "modifiers": {},
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 85,
+        "level": 1,
+        "description": "Water attack +30",
+        "modifiers": {
+          "damageWater": 30
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 193,
+      "name": "Jyura Alpha +",
+      "rank": "master",
+      "pieces": [
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 874,
+    "name": "Jyura Helm Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 136,
+        "level": 1,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "modifiers": {},
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 161,
+        "level": 1,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 51,
+        "skillName": "Latent Power"
+      }
+    ],
+    "armorSet": {
+      "id": 194,
+      "name": "Jyura Beta +",
+      "rank": "master",
+      "pieces": [
+        874,
+        875,
+        876,
+        877,
+        878
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 875,
+    "name": "Jyura Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 161,
+        "level": 1,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 85,
+        "level": 1,
+        "description": "Water attack +30",
+        "modifiers": {
+          "damageWater": 30
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 194,
+      "name": "Jyura Beta +",
+      "rank": "master",
+      "pieces": [
+        874,
+        875,
+        876,
+        877,
+        878
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 876,
+    "name": "Jyura Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 86,
+        "level": 2,
+        "description": "Water attack +60",
+        "modifiers": {
+          "damageWater": 60
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 194,
+      "name": "Jyura Beta +",
+      "rank": "master",
+      "pieces": [
+        874,
+        875,
+        876,
+        877,
+        878
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 877,
+    "name": "Jyura Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 69,
+        "level": 2,
+        "description": "Ice resistance +12",
+        "modifiers": {
+          "resistIce": 12
+        },
+        "skill": 22,
+        "skillName": "Ice Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 194,
+      "name": "Jyura Beta +",
+      "rank": "master",
+      "pieces": [
+        874,
+        875,
+        876,
+        877,
+        878
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 878,
+    "name": "Jyura Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 118,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -1,
+      "water": 2,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 136,
+        "level": 1,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "modifiers": {},
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 85,
+        "level": 1,
+        "description": "Water attack +30",
+        "modifiers": {
+          "damageWater": 30
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+
+    ],
+    "armorSet": {
+      "id": 194,
+      "name": "Jyura Beta +",
+      "rank": "master",
+      "pieces": [
+        874,
+        875,
+        876,
+        877,
+        878
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
+
 
 
 
