@@ -71851,6 +71851,473 @@
       }
     ],
     "bonus": null
+  },
+  {
+    "id": 195,
+    "name": "Beo Alpha +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 879,
+        "name": "Beo Helm Alpha +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 118,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 286,
+            "level": 2,
+            "description": "Increases your evade window and prevents lowered movement speed.",
+            "modifiers": {},
+            "skill": 96,
+            "skillName": "Aquatic\/Polar Mobility"
+          },
+          {
+            "id": 23,
+            "level": 1,
+            "description": "Slightly reduces the effects of weak monster roars.",
+            "modifiers": {},
+            "skill": 9,
+            "skillName": "Earplugs"
+          }
+        ],
+        "armorSet": 195,
+        "assets": null,
+        "crafting": null
+      },
+      {
+        "id": 880,
+        "name": "Beo Mail Alpha +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 118,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 3
+          }
+        ],
+        "skills": [
+          {
+            "id": 204,
+            "level": 1,
+            "description": "Stamina recovery speed +10%",
+            "modifiers": {},
+            "skill": 66,
+            "skillName": "Stamina Surge"
+          },
+          {
+            "id": 91,
+            "level": 2,
+            "description": "Ice attack +60",
+            "modifiers": {
+              "damageIce": 60
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          }
+          ],
+        "armorSet": 195,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 881,
+        "name": "Beo Vambraces Alpha +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 118,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 3
+          }
+        ],
+        "skills": [
+          {
+            "id": 91,
+            "level": 2,
+            "description": "Ice attack +60",
+            "modifiers": {
+              "damageIce": 60
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          },
+          {
+            "id": 53,
+            "level": 1,
+            "description": "Health +15",
+            "modifiers": {
+              "health": 15
+            },
+            "skill": 17,
+            "skillName": "Health Boost"
+          }
+          ],
+        "armorSet": 195,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 882,
+          "name": "Beo Coil Alpha +",
+          "type": "waist",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 118,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": -3,
+            "water": 0,
+            "ice": 3,
+            "thunder": -2,
+            "dragon": 2
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 2
+            }
+          ],
+          "skills": [
+            {
+              "id": 54,
+              "level": 2,
+              "description": "Health +30",
+              "modifiers": {
+                "health": 15
+              },
+              "skill": 17,
+              "skillName": "Health Boost"
+            },
+            {
+              "id": 24,
+              "level": 2,
+              "description": "Reduces the effects of weak monster roars.",
+              "modifiers": {},
+              "skill": 9,
+              "skillName": "Earplugs"
+            }
+          ],
+        "armorSet": 195,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 883,
+          "name": "Beo Greaves Alpha +",
+          "type": "legs",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 118,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": -3,
+            "water": 0,
+            "ice": 3,
+            "thunder": -2,
+            "dragon": 2
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 2
+            }
+          ],
+          "skills": [
+            {
+              "id": 90,
+              "level": 1,
+              "description": "Ice attack +30",
+              "modifiers": {
+                "damageIce": 30
+              },
+              "skill": 28,
+              "skillName": "Ice Attack"
+            },
+            {
+              "id": 24,
+              "level": 2,
+              "description": "Reduces the effects of weak monster roars.",
+              "modifiers": {},
+              "skill": 9,
+              "skillName": "Earplugs"
+            }
+          ],
+        "armorSet": 195,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
+  },
+  {
+    "id": 196,
+    "name": "Beo Beta +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 884,
+        "name": "Beo Helm Beta +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 118,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 286,
+            "level": 2,
+            "description": "Increases your evade window and prevents lowered movement speed.",
+            "modifiers": {},
+            "skill": 96,
+            "skillName": "Aquatic\/Polar Mobility"
+          }
+        ],
+        "armorSet": 196,
+        "assets": null,
+        "crafting": null
+      },
+      {
+        "id": 885,
+        "name": "Beo Mail Beta +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 118,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 204,
+            "level": 1,
+            "description": "Stamina recovery speed +10%",
+            "modifiers": {},
+            "skill": 66,
+            "skillName": "Stamina Surge"
+          }
+          ],
+        "armorSet": 196,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 886,
+        "name": "Beo Vambraces Beta +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 118,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 0,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 91,
+            "level": 2,
+            "description": "Ice attack +60",
+            "modifiers": {
+              "damageIce": 60
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          }
+          ],
+        "armorSet": 196,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 887,
+          "name": "Beo Coil Beta +",
+          "type": "waist",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 118,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": -3,
+            "water": 0,
+            "ice": 3,
+            "thunder": -2,
+            "dragon": 2
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 4
+            },
+            {
+              "rank": 1
+            }
+          ],
+          "skills": [
+            {
+              "id": 54,
+              "level": 2,
+              "description": "Health +30",
+              "modifiers": {
+                "health": 15
+              },
+              "skill": 17,
+              "skillName": "Health Boost"
+            },
+            {
+              "id": 23,
+              "level": 1,
+              "description": "Slightly reduces the effects of weak monster roars.",
+              "modifiers": {},
+              "skill": 9,
+              "skillName": "Earplugs"
+            }
+          ],
+        "armorSet": 196,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 888,
+          "name": "Beo Greaves Beta +",
+          "type": "legs",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 118,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": -3,
+            "water": 0,
+            "ice": 3,
+            "thunder": -2,
+            "dragon": 2
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 4
+            }
+          ],
+          "skills": [
+            {
+              "id": 24,
+              "level": 2,
+              "description": "Reduces the effects of weak monster roars.",
+              "modifiers": {},
+              "skill": 9,
+              "skillName": "Earplugs"
+            }
+          ],
+        "armorSet": 196,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
   }
 
 

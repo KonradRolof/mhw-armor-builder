@@ -1,6 +1,6 @@
 {
-  "id": 878,
-  "name": "Jyura Greaves Beta +",
+  "id": 888,
+  "name": "Beo Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
@@ -10,52 +10,38 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": -1,
-    "water": 2,
-    "ice": 0,
-    "thunder": -3,
-    "dragon": 0
+    "fire": -3,
+    "water": 0,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 2
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 136,
-      "level": 1,
-      "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
       "modifiers": {},
-      "skill": 42,
-      "skillName": "Focus"
-    },
-    {
-      "id": 85,
-      "level": 1,
-      "description": "Water attack +30",
-      "modifiers": {
-        "damageWater": 30
-      },
-      "skill": 27,
-      "skillName": "Water Attack"
+      "skill": 9,
+      "skillName": "Earplugs"
     }
-
   ],
   "armorSet": {
-    "id": 194,
-    "name": "Jyura Beta +",
+    "id": 196,
+    "name": "Beo Beta +",
     "rank": "master",
     "pieces": [
-      874,
-      875,
-      876,
-      877,
-      878
+      884,
+      885,
+      886,
+      887,
+      888
     ],
     "bonus": null
   },
