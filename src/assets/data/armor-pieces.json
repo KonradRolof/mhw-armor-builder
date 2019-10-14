@@ -81120,17 +81120,897 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 889,
+    "name": "Kadachi Hat Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 199,
+        "level": 2,
+        "description": "Reduces fixed stamina depletion by 20%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      },
+      {
+        "id": 215,
+        "level": 1,
+        "description": "Slightly extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      }
+    ],
+    "armorSet": {
+      "id": 197,
+      "name": "Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        889,
+        890,
+        891,
+        892,
+        893
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 890,
+    "name": "Kadachi Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 281,
+        "level": 1,
+        "description": "Negates knockback during jumps.",
+        "modifiers": {},
+        "skill": 94,
+        "skillName": "Jump Master"
+      },
+      {
+        "id": 198,
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ],
+    "armorSet": {
+      "id": 197,
+      "name": "Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        889,
+        890,
+        891,
+        892,
+        893
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 891,
+    "name": "Kadachi Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 216,
+        "level": 2,
+        "description": "Extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 96,
+        "level": 2,
+        "description": "Thunder attack +60",
+        "modifiers": {
+          "damageThunder": 60
+        },
+        "skill": 29,
+        "skillName": "Thunder Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 197,
+      "name": "Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        889,
+        890,
+        891,
+        892,
+        893
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 892,
+    "name": "Kadachi Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 71,
+        "level": 1,
+        "description": "Thunder resistance +6",
+        "modifiers": {
+          "resistThunder": 6
+        },
+        "skill": 23,
+        "skillName": "Thunder Resistance"
+      },
+      {
+        "id": 96,
+        "level": 2,
+        "description": "Thunder attack +60",
+        "modifiers": {
+          "damageThunder": 60
+        },
+        "skill": 29,
+        "skillName": "Thunder Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 197,
+      "name": "Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        889,
+        890,
+        891,
+        892,
+        893
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 893,
+    "name": "Kadachi Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 72,
+        "level": 2,
+        "description": "Thunder resistance +12",
+        "modifiers": {
+          "resistThunder": 12
+        },
+        "skill": 23,
+        "skillName": "Thunder Resistance"
+      },
+      {
+        "id": 198,
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ],
+    "armorSet": {
+      "id": 197,
+      "name": "Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        889,
+        890,
+        891,
+        892,
+        893
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 894,
+    "name": "Kadachi Hat Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 198,
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      },
+      {
+        "id": 215,
+        "level": 1,
+        "description": "Slightly extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      }
+    ],
+    "armorSet": {
+      "id": 198,
+      "name": "Kadachi Beta +",
+      "rank": "master",
+      "pieces": [
+        894,
+        895,
+        896,
+        897,
+        898
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 895,
+    "name": "Kadachi Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 281,
+        "level": 1,
+        "description": "Negates knockback during jumps.",
+        "modifiers": {},
+        "skill": 94,
+        "skillName": "Jump Master"
+      }
+    ],
+    "armorSet": {
+      "id": 198,
+      "name": "Kadachi Beta +",
+      "rank": "master",
+      "pieces": [
+        894,
+        895,
+        896,
+        897,
+        898
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 896,
+    "name": "Kadachi Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 215,
+        "level": 1,
+        "description": "Slightly extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 96,
+        "level": 2,
+        "description": "Thunder attack +60",
+        "modifiers": {
+          "damageThunder": 60
+        },
+        "skill": 29,
+        "skillName": "Thunder Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 198,
+      "name": "Kadachi Beta +",
+      "rank": "master",
+      "pieces": [
+        894,
+        895,
+        896,
+        897,
+        898
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 897,
+    "name": "Kadachi Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 96,
+        "level": 2,
+        "description": "Thunder attack +60",
+        "modifiers": {
+          "damageThunder": 60
+        },
+        "skill": 29,
+        "skillName": "Thunder Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 198,
+      "name": "Kadachi Beta +",
+      "rank": "master",
+      "pieces": [
+        894,
+        895,
+        896,
+        897,
+        898
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 898,
+    "name": "Kadachi Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 120,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 0,
+      "water": -3,
+      "ice": 0,
+      "thunder": 3,
+      "dragon": 0
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 72,
+        "level": 2,
+        "description": "Thunder resistance +12",
+        "modifiers": {
+          "resistThunder": 12
+        },
+        "skill": 23,
+        "skillName": "Thunder Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 198,
+      "name": "Kadachi Beta +",
+      "rank": "master",
+      "pieces": [
+        894,
+        895,
+        896,
+        897,
+        898
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 899,
+    "name": "Viper Kadachi Hat Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 1,
+      "water": 3,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 216,
+        "level": 2,
+        "description": "Extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 108,
+        "level": 1,
+        "description": "Paralysis buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 32,
+        "skillName": "Paralysis Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 199,
+      "name": "Viper Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        899,
+        900,
+        901,
+        902,
+        903
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 900,
+    "name": "Viper Kadachi Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 1,
+      "water": 3,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 223,
+        "level": 1,
+        "description": "Slightly increases sheathing speed.",
+        "modifiers": {},
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 215,
+        "level": 1,
+        "description": "Slightly extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      }
+    ],
+    "armorSet": {
+      "id": 199,
+      "name": "Viper Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        899,
+        900,
+        901,
+        902,
+        903
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 901,
+    "name": "Viper Kadachi Braces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 1,
+      "water": 3,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 106,
+        "level": 2,
+        "description": "Poison buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      },
+      {
+        "id": 210,
+        "level": 1,
+        "description": "Very slightly increases invulnerability window.",
+        "modifiers": {},
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ],
+    "armorSet": {
+      "id": 199,
+      "name": "Viper Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        899,
+        900,
+        901,
+        902,
+        903
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 902,
+    "name": "Viper Kadachi Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 1,
+      "water": 3,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 198,
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      },
+      {
+        "id": 223,
+        "level": 1,
+        "description": "Slightly increases sheathing speed.",
+        "modifiers": {},
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      }
+    ],
+    "armorSet": {
+      "id": 199,
+      "name": "Viper Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        899,
+        900,
+        901,
+        902,
+        903
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 903,
+    "name": "Viper Kadachi Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 1,
+      "water": 3,
+      "ice": -2,
+      "thunder": -3,
+      "dragon": 1
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 210,
+        "level": 1,
+        "description": "Very slightly increases invulnerability window.",
+        "modifiers": {},
+        "skill": 68,
+        "skillName": "Evade Window"
+      },
+      {
+        "id": 198,
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "modifiers": {},
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ],
+    "armorSet": {
+      "id": 199,
+      "name": "Viper Kadachi Alpha +",
+      "rank": "master",
+      "pieces": [
+        899,
+        900,
+        901,
+        902,
+        903
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
-
-
-
-
-
-
-
-
-
-
 
 
 
