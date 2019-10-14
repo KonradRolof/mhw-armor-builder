@@ -1,11 +1,11 @@
 {
-  "id": 192,
-  "name": "Barroth Beta +",
+  "id": 194,
+  "name": "Jyura Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 864,
-      "name": "Barroth Helm Beta +",
+      "id": 874,
+      "name": "Jyura Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -15,10 +15,10 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -1,
-        "ice": -1,
-        "thunder": 3,
+        "fire": -1,
+        "water": 2,
+        "ice": 0,
+        "thunder": -3,
         "dragon": 0
       },
       "attributes": {},
@@ -32,21 +32,29 @@
       ],
       "skills": [
         {
-          "id": 219,
-          "level": 2,
-          "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+          "id": 136,
+          "level": 1,
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
           "modifiers": {},
-          "skill": 70,
-          "skillName": "Guard"
+          "skill": 42,
+          "skillName": "Focus"
+        },
+        {
+          "id": 161,
+          "level": 1,
+          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+          "modifiers": {},
+          "skill": 51,
+          "skillName": "Latent Power"
         }
       ],
-      "armorSet": 192,
+      "armorSet": 194,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 865,
-      "name": "Barroth Mail Beta +",
+      "id": 875,
+      "name": "Jyura Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
@@ -56,38 +64,45 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -1,
-        "ice": -1,
-        "thunder": 3,
+        "fire": -1,
+        "water": 2,
+        "ice": 0,
+        "thunder": -3,
         "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 157,
-          "level": 2,
-          "description": "Exhaust power +30%",
+          "id": 161,
+          "level": 1,
+          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
           "modifiers": {},
-          "skill": 48,
-          "skillName": "Stamina Thief"
+          "skill": 51,
+          "skillName": "Latent Power"
+        },
+        {
+          "id": 85,
+          "level": 1,
+          "description": "Water attack +30",
+          "modifiers": {
+            "damageWater": 30
+          },
+          "skill": 27,
+          "skillName": "Water Attack"
         }
         ],
-      "armorSet": 192,
+      "armorSet": 194,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 866,
-      "name": "Barroth Vambraces Beta +",
+      "id": 876,
+      "name": "Jyura Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
@@ -97,10 +112,10 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -1,
-        "ice": -1,
-        "thunder": 3,
+        "fire": -1,
+        "water": 2,
+        "ice": 0,
+        "thunder": -3,
         "dragon": 0
       },
       "attributes": {},
@@ -114,21 +129,23 @@
       ],
       "skills": [
         {
-          "id": 195,
-          "level": 1,
-          "description": "Reduces continuous stamina depletion by 15%.",
-          "modifiers": {},
-          "skill": 63,
-          "skillName": "Marathon Runner"
+          "id": 86,
+          "level": 2,
+          "description": "Water attack +60",
+          "modifiers": {
+            "damageWater": 60
+          },
+          "skill": 27,
+          "skillName": "Water Attack"
         }
         ],
-      "armorSet": 192,
+      "armorSet": 194,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 867,
-        "name": "Barroth Coil Beta +",
+        "id": 877,
+        "name": "Jyura Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
@@ -138,35 +155,40 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": -1,
-          "ice": -1,
-          "thunder": 3,
+          "fire": -1,
+          "water": 2,
+          "ice": 0,
+          "thunder": -3,
           "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 167,
+            "id": 69,
             "level": 2,
-            "description": "While active, grants attack +8 and increases affinity by 5%.",
-            "modifiers": {},
-            "skill": 52,
-            "skillName": "Agitator"
+            "description": "Ice resistance +12",
+            "modifiers": {
+              "resistIce": 12
+            },
+            "skill": 22,
+            "skillName": "Ice Resistance"
           }
         ],
-      "armorSet": 192,
+      "armorSet": 194,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 868,
-        "name": "Barroth Greaves Beta +",
+        "id": 878,
+        "name": "Jyura Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
@@ -176,10 +198,10 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": -1,
-          "ice": -1,
-          "thunder": 3,
+          "fire": -1,
+          "water": 2,
+          "ice": 0,
+          "thunder": -3,
           "dragon": 0
         },
         "attributes": {},
@@ -188,23 +210,30 @@
             "rank": 4
           },
           {
-            "rank": 2
-          },
-          {
             "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 11,
-            "level": 2,
-            "description": "Reduces the duration of stun by 90%.",
+            "id": 136,
+            "level": 1,
+            "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
             "modifiers": {},
-            "skill": 4,
-            "skillName": "Stun Resistance"
+            "skill": 42,
+            "skillName": "Focus"
+          },
+          {
+            "id": 85,
+            "level": 1,
+            "description": "Water attack +30",
+            "modifiers": {
+              "damageWater": 30
+            },
+            "skill": 27,
+            "skillName": "Water Attack"
           }
         ],
-      "armorSet": 192,
+      "armorSet": 194,
       "assets": null,
       "crafting": null
     }

@@ -1,6 +1,6 @@
 {
-  "id": 868,
-  "name": "Barroth Greaves Beta +",
+  "id": 878,
+  "name": "Jyura Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
@@ -10,10 +10,10 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": -1,
-    "ice": -1,
-    "thunder": 3,
+    "fire": -1,
+    "water": 2,
+    "ice": 0,
+    "thunder": -3,
     "dragon": 0
   },
   "attributes": {},
@@ -22,32 +22,40 @@
       "rank": 4
     },
     {
-      "rank": 2
-    },
-    {
       "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 11,
-      "level": 2,
-      "description": "Reduces the duration of stun by 90%.",
+      "id": 136,
+      "level": 1,
+      "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
       "modifiers": {},
-      "skill": 4,
-      "skillName": "Stun Resistance"
+      "skill": 42,
+      "skillName": "Focus"
+    },
+    {
+      "id": 85,
+      "level": 1,
+      "description": "Water attack +30",
+      "modifiers": {
+        "damageWater": 30
+      },
+      "skill": 27,
+      "skillName": "Water Attack"
     }
+
   ],
   "armorSet": {
-    "id": 192,
-    "name": "Barroth Alpha +",
+    "id": 194,
+    "name": "Jyura Beta +",
     "rank": "master",
     "pieces": [
-      864,
-      865,
-      866,
-      867,
-      868
+      874,
+      875,
+      876,
+      877,
+      878
     ],
     "bonus": null
   },
