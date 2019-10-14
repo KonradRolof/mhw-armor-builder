@@ -1,69 +1,65 @@
 {
-  "id": 190,
-  "name": "Coral Pukei Beta +",
+  "id": 192,
+  "name": "Barroth Beta +",
   "rank": "master",
   "pieces": [
     {
-      "name": "Pukei Lagoon Hat Beta +",
+      "id": 864,
+      "name": "Barroth Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 118,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": 3,
-        "ice": -3,
-        "thunder": -2,
+        "fire": -3,
+        "water": -1,
+        "ice": -1,
+        "thunder": 3,
         "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 147,
-          "level": 1,
-          "description": "Draw attack affinity +30%",
+          "id": 219,
+          "level": 2,
+          "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
           "modifiers": {},
-          "skill": 45,
-          "skillName": "Critical Draw"
-        },
-        {
-          "id": 231,
-          "level": 1,
-          "description": "Item effect duration +10%",
-          "modifiers": {},
-          "skill": 73,
-          "skillName": "Item Prolonger"
+          "skill": 70,
+          "skillName": "Guard"
         }
       ],
-      "armorSet": 190,
+      "armorSet": 192,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 855,
-      "name": "Pukei Lagoon Mail Beta +",
+      "id": 865,
+      "name": "Barroth Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 118,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": 3,
-        "ice": -3,
-        "thunder": -2,
+        "fire": -3,
+        "water": -1,
+        "ice": -1,
+        "thunder": 3,
         "dragon": 0
       },
       "attributes": {},
@@ -77,34 +73,34 @@
       ],
       "skills": [
         {
-          "id": 139,
-          "level": 1,
-          "description": "Bonus duration +10%",
+          "id": 157,
+          "level": 2,
+          "description": "Exhaust power +30%",
           "modifiers": {},
-          "skill": 43,
-          "skillName": "Power Prolonger"
+          "skill": 48,
+          "skillName": "Stamina Thief"
         }
         ],
-      "armorSet": 190,
+      "armorSet": 192,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 856,
-      "name": "Pukei Lagoon Braces Beta +",
+      "id": 866,
+      "name": "Barroth Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 118,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": 3,
-        "ice": -3,
-        "thunder": -2,
+        "fire": -3,
+        "water": -1,
+        "ice": -1,
+        "thunder": 3,
         "dragon": 0
       },
       "attributes": {},
@@ -113,39 +109,39 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 150,
+          "id": 195,
           "level": 1,
-          "description": "Part damage +10%",
+          "description": "Reduces continuous stamina depletion by 15%.",
           "modifiers": {},
-          "skill": 46,
-          "skillName": "Partbreaker"
+          "skill": 63,
+          "skillName": "Marathon Runner"
         }
         ],
-      "armorSet": 189,
+      "armorSet": 192,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 857,
-        "name": "Pukei Lagoon Coil Beta +",
+        "id": 867,
+        "name": "Barroth Coil Beta +",
         "type": "waist",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 132,
+          "base": 118,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 0,
-          "water": 3,
-          "ice": -3,
-          "thunder": -2,
+          "fire": -3,
+          "water": -1,
+          "ice": -1,
+          "thunder": 3,
           "dragon": 0
         },
         "attributes": {},
@@ -156,48 +152,43 @@
         ],
         "skills": [
           {
-            "id": 85,
-            "level": 1,
-            "description": "Water attack +30",
+            "id": 167,
+            "level": 2,
+            "description": "While active, grants attack +8 and increases affinity by 5%.",
             "modifiers": {},
-            "skill": 27,
-            "skillName": "Water Attack"
-          },
-          {
-            "id": 150,
-            "level": 1,
-            "description": "Part damage +10%",
-            "modifiers": {},
-            "skill": 46,
-            "skillName": "Partbreaker"
+            "skill": 52,
+            "skillName": "Agitator"
           }
         ],
-      "armorSet": 190,
+      "armorSet": 192,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 858,
-        "name": "Pukei Lagoon Greves Beta +",
+        "id": 868,
+        "name": "Barroth Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 132,
+          "base": 118,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 0,
-          "water": 3,
-          "ice": -3,
-          "thunder": -2,
+          "fire": -3,
+          "water": -1,
+          "ice": -1,
+          "thunder": 3,
           "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 2
           },
           {
             "rank": 1
@@ -205,15 +196,15 @@
         ],
         "skills": [
           {
-            "id": 232,
+            "id": 11,
             "level": 2,
-            "description": "Item effect duration +25%",
+            "description": "Reduces the duration of stun by 90%.",
             "modifiers": {},
-            "skill": 73,
-            "skillName": "Item Prolonger"
+            "skill": 4,
+            "skillName": "Stun Resistance"
           }
         ],
-      "armorSet": 190,
+      "armorSet": 192,
       "assets": null,
       "crafting": null
     }
