@@ -1,19 +1,19 @@
 {
-  "id": 858,
-  "name": "Pukei Lagoon Greves Beta +",
+  "id": 868,
+  "name": "Barroth Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 132,
+    "base": 118,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 0,
-    "water": 3,
-    "ice": -3,
-    "thunder": -2,
+    "fire": -3,
+    "water": -1,
+    "ice": -1,
+    "thunder": 3,
     "dragon": 0
   },
   "attributes": {},
@@ -22,29 +22,32 @@
       "rank": 4
     },
     {
+      "rank": 2
+    },
+    {
       "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 232,
+      "id": 11,
       "level": 2,
-      "description": "Item effect duration +25%",
+      "description": "Reduces the duration of stun by 90%.",
       "modifiers": {},
-      "skill": 73,
-      "skillName": "Item Prolonger"
+      "skill": 4,
+      "skillName": "Stun Resistance"
     }
   ],
   "armorSet": {
-    "id": 190,
-    "name": "Coral Pukei Beta +",
+    "id": 192,
+    "name": "Barroth Alpha +",
     "rank": "master",
     "pieces": [
-      854,
-      855,
-      856,
-      857,
-      858
+      864,
+      865,
+      866,
+      867,
+      868
     ],
     "bonus": null
   },
