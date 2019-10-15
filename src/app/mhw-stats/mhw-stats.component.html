@@ -148,8 +148,8 @@
       <ul *ngIf="0 < setBonuses.length" class="set-bonus-list">
         <ng-container *ngFor="let bonus of setBonuses">
           <li *ngIf="bonus.bonusRank">
-            <div class="set-bonus">
-              <div class="set-bonus__label">Set Bonus</div>
+            <div class="alert alert-success set-bonus">
+              <div class="set-bonus__label">{{ bonus.setName }} Set Bonus</div>
               <div class="set-bonus__name">{{ bonus.bonus.name }}</div>
               <div class="set-bonus__description">{{ bonus.bonusRank.skill.description }}</div>
             </div>

@@ -134,6 +134,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.setBonuses.find((item) => item.bonus.id === set.bonus.id).current = currentSet.current;
     } else {
       const setSkill: SetSkill = {
+        setName: set.name.replace(/Alpha|Beta|Gamma/g, ""),
         current: 1,
         bonus: set.bonus,
         bonusRank: null
