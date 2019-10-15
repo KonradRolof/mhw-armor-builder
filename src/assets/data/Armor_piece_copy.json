@@ -1,6 +1,6 @@
 {
-  "id": 903,
-  "name": "Viper Kadachi Greaves Alpha +",
+  "id": 908,
+  "name": "Viper Kadachi Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
@@ -19,7 +19,10 @@
   "attributes": {},
   "slots": [
     {
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "rank": 1
     }
   ],
   "skills": [
@@ -30,26 +33,18 @@
       "modifiers": {},
       "skill": 68,
       "skillName": "Evade Window"
-    },
-    {
-      "id": 198,
-      "level": 1,
-      "description": "Reduces fixed stamina depletion by 10%.",
-      "modifiers": {},
-      "skill": 64,
-      "skillName": "Constitution"
     }
   ],
   "armorSet": {
-    "id": 199,
-    "name": "Viper Kadachi Alpha +",
+    "id": 200,
+    "name": "Viper Kadachi Beta +",
     "rank": "master",
     "pieces": [
-      899,
-      900,
-      901,
-      902,
-      903
+      904,
+      905,
+      906,
+      907,
+      908
     ],
     "bonus": null
   },
