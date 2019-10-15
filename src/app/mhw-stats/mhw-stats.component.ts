@@ -13,6 +13,7 @@ import Resistances from "../interface/data/resistances.interface";
 import Weapon from "../interface/data/weapon.interface";
 import Charm from "../interface/data/charm.interface";
 import CharmRank from "../interface/data/charm-rank.interface";
+import SetSkill from "../interface/app/set-skill.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -24,6 +25,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   public resistances: Resistances;
   public defense: number;
   public offence: Offence;
+  public setBonuses: SetSkill[];
 
   public armorPieces = ["head", "chest", "gloves", "waist", "legs"];
   public elements = ["fire", "water", "ice", "thunder", "dragon"];
@@ -69,6 +71,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       thunder: 0,
       dragon: 0
     };
+    this.setBonuses = [];
   }
 
   private readSet() {
@@ -109,8 +112,42 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
   }
 
+  private handleSetBonus(armorPiece: ArmorPiece) {
+    const set = this.dataObj.armors[armorPiece.rank].find((item) => item.id === armorPiece.armorSet.id);
+
+    if (null === set.bonus) {
+      return;
+    }
+
+    if (this.setBonuses.find((item) => item.bonus.id === set.bonus.id)) {
+      const currentSet = this.setBonuses.find((item) => item.bonus.id === set.bonus.id);
+
+      currentSet.current += 1;
+
+      currentSet.bonus.ranks.map((rank) => {
+        if (rank.pieces <= currentSet.current) {
+          currentSet.bonusRank = rank;
+          // @TODO handle set bonus modifiers
+        }
+      });
+
+      this.setBonuses.find((item) => item.bonus.id === set.bonus.id).current = currentSet.current;
+    } else {
+      const setSkill: SetSkill = {
+        current: 1,
+        bonus: set.bonus,
+        bonusRank: null
+      };
+
+      this.setBonuses.push(setSkill);
+    }
+  }
+
   private handleArmorPiece(armorPiece: ArmorPiece) {
     const { skills } = armorPiece;
+
+    // handle set bonus
+    this.handleSetBonus(armorPiece);
 
     // get armor set skills
     skills.map((skill) => this.addSkill(skill));

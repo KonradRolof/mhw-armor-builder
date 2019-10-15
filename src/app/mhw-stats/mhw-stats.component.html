@@ -145,6 +145,17 @@
 
     <ng-container *ngIf="0 < skills.length">
       <h4>Skills:</h4>
+      <ul *ngIf="0 < setBonuses.length" class="set-bonus-list">
+        <ng-container *ngFor="let bonus of setBonuses">
+          <li *ngIf="bonus.bonusRank">
+            <div class="set-bonus">
+              <div class="set-bonus__label">Set Bonus</div>
+              <div class="set-bonus__name">{{ bonus.bonus.name }}</div>
+              <div class="set-bonus__description">{{ bonus.bonusRank.skill.description }}</div>
+            </div>
+          </li>
+        </ng-container>
+      </ul>
       <ul class="skill-list">
         <li *ngFor="let skill of skills">
           <div class="skill-list__skill skill-item">
