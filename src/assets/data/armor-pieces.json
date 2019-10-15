@@ -73204,12 +73204,11 @@
     ],
     "skills": [
       {
-        "id": 67,
-        "level": 3,
-        "description": "Water resistance +20 Defense +10",
+        "id": 66,
+        "level": 2,
+        "description": "Water resistance +12",
         "modifiers": {
-          "defense": 10,
-        "resistWater": 20
+        "resistWater": 12
       },
         "skill": 21,
         "skillName": "Water Resistance"
@@ -73553,11 +73552,11 @@
     ],
     "skills": [
       {
-        "id": 47,
-        "level": 2,
-        "description": "Defense +10",
+        "id": 46,
+        "level": 1,
+        "description": "Defense +5",
         "modifiers": {
-          "defense": 10
+          "defense": 5
       },
         "skill": 16,
         "skillName": "Defense Boost"
@@ -74182,7 +74181,7 @@
     "attributes": {},
     "slots": [
       {
-        "rank": 3
+        "rank": 4
       },
       {
         "rank": 1
