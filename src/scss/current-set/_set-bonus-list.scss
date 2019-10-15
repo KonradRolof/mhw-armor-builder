@@ -11,10 +11,11 @@
 .set-bonus__name {
   font-size: 14px;
   font-weight: $ci-font-bold;
-  margin: 0 0 5px;
+  margin: 0 0 2px;
   text-transform: uppercase;
 }
 
 .set-bonus__description {
   font-size: 14px;
+  font-weight: $ci-font-medium;
 }
