@@ -73053,8 +73053,8 @@
     "bonus": null
   },
   {
-    "id": 199,
-    "name": "Viper Kadachi Alpha +",
+    "id": 200,
+    "name": "Viper Kadachi Beta +",
     "rank": "master",
     "pieces": [
       {
@@ -73274,7 +73274,535 @@
       }
     ],
     "bonus": null
+  },
+  {
+    "id": 201,
+    "name": "High Metal Alpha +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 909,
+        "name": "High Metal Helm Alpha +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 48,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -1,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 69,
+            "level": 2,
+            "description": "Ice resistance +12",
+            "modifiers": {
+              "resistIce": 12
+            },
+            "skill": 22,
+            "skillName": "Ice Resistance"
+          },
+          {
+            "id": 24,
+            "level": 2,
+            "description": "Reduces the effects of weak monster roars.",
+            "modifiers": {},
+            "skill": 9,
+            "skillName": "Earplugs"
+          }
+        ],
+        "armorSet": 201,
+        "assets": null,
+        "crafting": null
+      },
+      {
+        "id": 910,
+        "name": "High Metal Mail Alpha +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 48,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -1,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 24,
+            "level": 2,
+            "description": "Reduces the effects of weak monster roars.",
+            "modifiers": {},
+            "skill": 9,
+            "skillName": "Earplugs"
+          },
+          {
+            "id": 90,
+            "level": 1,
+            "description": "Ice attack +30",
+            "modifiers": {
+              "damageIce": 30
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          }
+          ],
+        "armorSet": 201,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 911,
+        "name": "High Metal Braces Alpha +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 48,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -1,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 47,
+            "level": 2,
+            "description": "Defense +10",
+            "modifiers": {
+              "defense": 10
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
+          },
+          {
+            "id": 91,
+            "level": 2,
+            "description": "Ice attack +60",
+            "modifiers": {
+              "damageIce": 60
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          }
+          ],
+        "armorSet": 201,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 912,
+          "name": "High Metal Coil Alpha +",
+          "type": "waist",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 48,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": 0,
+            "water": -1,
+            "ice": 3,
+            "thunder": -2,
+            "dragon": 0
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 2
+            },
+            {
+              "rank": 2
+            }
+          ],
+          "skills": [
+            {
+              "id": 187,
+              "level": 1,
+              "description": "Loading capacity +1",
+              "modifiers": {},
+              "skill": 59,
+              "skillName": "Capacity Boost"
+            },
+            {
+              "id": 47,
+              "level": 2,
+              "description": "Defense +10",
+              "modifiers": {
+                "defense": 10
+              },
+              "skill": 16,
+              "skillName": "Defense Boost"
+            }
+          ],
+        "armorSet": 201,
+        "assets": null,
+        "crafting": null
+        },
+          {
+            "id": 913,
+            "name": "High Metal Greaves Alpha +",
+            "type": "legs",
+            "rank": "master",
+            "rarity": 9,
+            "defense": {
+              "base": 48,
+              "max": 0,
+              "augmented": 0
+            },
+            "resistances": {
+              "fire": 0,
+              "water": -1,
+              "ice": 3,
+              "thunder": -2,
+              "dragon": 0
+            },
+            "attributes": {},
+            "slots": [
+              {
+                "rank": 2
+              },
+              {
+                "rank": 2
+              },
+              {
+                "rank": 1
+              }
+            ],
+            "skills": [
+              {
+                "id": 194,
+                "level": 2,
+                "description": "Firepower +100%",
+                "modifiers": {},
+                "skill": 62,
+                "skillName": "Heavy Artillery"
+              },
+              {
+                "id": 68,
+                "level": 1,
+                "description": "Ice resistance +6",
+                "modifiers": {
+                  "resistIce": 6
+                },
+                "skill": 22,
+                "skillName": "Ice Resistance"
+            }
+          ],
+        "armorSet": 201,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
+  },
+  {
+    "id": 202,
+    "name": "High Metal Beta +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 914,
+        "name": "High Metal Helm Beta +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 48,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -1,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 69,
+            "level": 2,
+            "description": "Ice resistance +12",
+            "modifiers": {
+              "resistIce": 12
+            },
+            "skill": 22,
+            "skillName": "Ice Resistance"
+          },
+          {
+            "id": 23,
+            "level": 1,
+            "description": "Slightly reduces the effects of weak monster roars.",
+            "modifiers": {},
+            "skill": 9,
+            "skillName": "Earplugs"
+          }
+        ],
+        "armorSet": 202,
+        "assets": null,
+        "crafting": null
+      },
+      {
+        "id": 915,
+        "name": "High Metal Mail Beta +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 48,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -1,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 23,
+            "level": 1,
+            "description": "Slightly reduces the effects of weak monster roars.",
+            "modifiers": {},
+            "skill": 9,
+            "skillName": "Earplugs"
+          },
+          {
+            "id": 90,
+            "level": 1,
+            "description": "Ice attack +30",
+            "modifiers": {
+              "damageIce": 30
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          }
+          ],
+        "armorSet": 202,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 916,
+        "name": "High Metal Braces Beta +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 48,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 0,
+          "water": -1,
+          "ice": 3,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 47,
+            "level": 2,
+            "description": "Defense +10",
+            "modifiers": {
+              "defense": 10
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
+          },
+          {
+            "id": 90,
+            "level": 1,
+            "description": "Ice attack +30",
+            "modifiers": {
+              "damageIce": 30
+            },
+            "skill": 28,
+            "skillName": "Ice Attack"
+          }
+          ],
+        "armorSet": 202,
+        "assets": null,
+        "crafting": null
+        },
+        {
+            "id": 917,
+            "name": "High Metal Coil Beta +",
+            "type": "waist",
+            "rank": "master",
+            "rarity": 9,
+            "defense": {
+              "base": 48,
+              "max": 0,
+              "augmented": 0
+            },
+            "resistances": {
+              "fire": 0,
+              "water": -1,
+              "ice": 3,
+              "thunder": -2,
+              "dragon": 0
+            },
+            "attributes": {},
+            "slots": [
+              {
+                "rank": 4
+              },
+              {
+                "rank": 2
+              }
+            ],
+            "skills": [
+              {
+                "id": 187,
+                "level": 1,
+                "description": "Loading capacity +1",
+                "modifiers": {},
+                "skill": 59,
+                "skillName": "Capacity Boost"
+              },
+              {
+                "id": 46,
+                "level": 1,
+                "description": "Defense +5",
+                "modifiers": {
+                  "defense": 5
+                },
+                "skill": 16,
+                "skillName": "Defense Boost"
+            }
+          ],
+        "armorSet": 202,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 918,
+          "name": "High Metal Greaves Beta +",
+          "type": "legs",
+          "rank": "master",
+          "rarity": 9,
+          "defense": {
+            "base": 48,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": 0,
+            "water": -1,
+            "ice": 3,
+            "thunder": -2,
+            "dragon": 0
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 4
+            },
+            {
+              "rank": 3
+            }
+          ],
+          "skills": [
+            {
+              "id": 193,
+              "level": 1,
+              "description": "Firepower +50%",
+              "modifiers": {},
+              "skill": 62,
+              "skillName": "Heavy Artillery"
+            },
+            {
+              "id": 68,
+              "level": 1,
+              "description": "Ice resistance +6",
+              "modifiers": {
+                "resistIce": 6
+              },
+              "skill": 22,
+              "skillName": "Ice Resistance"
+            }
+          ],
+        "armorSet": 202,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
   }
+
 
 
 

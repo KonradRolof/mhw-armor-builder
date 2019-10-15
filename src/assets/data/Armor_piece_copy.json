@@ -1,20 +1,20 @@
 {
-  "id": 908,
-  "name": "Viper Kadachi Greaves Beta +",
+  "id": 918,
+  "name": "High Metal Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 132,
+    "base": 48,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 1,
-    "water": 3,
-    "ice": -2,
-    "thunder": -3,
-    "dragon": 1
+    "fire": 0,
+    "water": -1,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
@@ -22,29 +22,39 @@
       "rank": 4
     },
     {
-      "rank": 1
+      "rank": 3
     }
   ],
   "skills": [
     {
-      "id": 210,
+      "id": 193,
       "level": 1,
-      "description": "Very slightly increases invulnerability window.",
+      "description": "Firepower +50%",
       "modifiers": {},
-      "skill": 68,
-      "skillName": "Evade Window"
+      "skill": 62,
+      "skillName": "Heavy Artillery"
+    },
+    {
+      "id": 68,
+      "level": 1,
+      "description": "Ice resistance +6",
+      "modifiers": {
+        "resistIce": 6
+      },
+      "skill": 22,
+      "skillName": "Ice Resistance"
     }
   ],
   "armorSet": {
-    "id": 200,
-    "name": "Viper Kadachi Beta +",
+    "id": 202,
+    "name": "High Metal Beta +",
     "rank": "master",
     "pieces": [
-      904,
-      905,
-      906,
-      907,
-      908
+      914,
+      915,
+      916,
+      917,
+      918
     ],
     "bonus": null
   },
