@@ -3816,5 +3816,34 @@
     "name": "Igni Intensity",
     "description": "Only those who complete the rigorous witcher training are allowed to use the powerful magic of the Igni Sign.",
     "ranks": []
-  }
+  },
+  {
+    "id": 138,
+    "name": "Offensive Guard",
+    "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "ranks": [
+      {
+        "id": 339,
+        "skill": 136,
+        "skillName": "Offensive Guard",
+        "level": 1,
+        "description": "While active increases attack power by 5%.",
+        "modifiers": {}
+      },
+      {
+        "id": 340,
+        "skill": 136,
+        "skillName": "Offensive Guard",
+        "level": 2,
+        "description": "While active increases attack power by 10%",
+        "modifiers": {}
+      },
+      {
+        "id": 341,
+        "skill": 136,
+        "skillName": "Offensive Guard",
+        "level": 3,
+        "description": "While active increases attack power by 15%",
+        "modifiers": {}
+      }
 ]

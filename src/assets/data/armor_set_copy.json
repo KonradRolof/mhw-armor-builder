@@ -1,56 +1,51 @@
 {
-  "id": 202,
-  "name": "High Metal Beta +",
+  "id": 203,
+  "name": "Banbaro Alpha +",
   "rank": "master",
   "pieces": [
     {
-      "id": 914,
-      "name": "High Metal Helm Beta +",
+      "id": 919,
+      "name": "Banbaro Helm Alpha +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 48,
+        "base": 130,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": -1,
+        "fire": -2,
+        "water": 2,
         "ice": 3,
-        "thunder": -2,
-        "dragon": 0
+        "thunder": -1,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 4
-        },
-        {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 69,
+          "id": 181,
           "level": 2,
-          "description": "Ice resistance +12",
-          "modifiers": {
-            "resistIce": 12
-          },
-          "skill": 22,
-          "skillName": "Ice Resistance"
+          "description": "While active, grants attack +10.",
+          "modifiers": {},
+          "skill": 56,
+          "skillName": "Resentment"
         },
         {
-          "id": 23,
+          "id": 244,
           "level": 1,
-          "description": "Slightly reduces the effects of weak monster roars.",
+          "description": "Lets you digest blue mushrooms and toadstools.",
           "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
+          "skill": 78,
+          "skillName": "Mushroomancer"
         }
       ],
-      "armorSet": 202,
+      "armorSet": 203,
       "assets": null,
       "crafting": null
     },
