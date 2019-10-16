@@ -1,52 +1,49 @@
 {
-  "id": 938,
-  "name": "Anjanath Greaves Beta +",
+  "id": 948,
+  "name": "Rathian Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 132,
+    "base": 130,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": -3,
-    "ice": -1,
-    "thunder": -1,
-    "dragon": 0
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": -2,
+    "dragon": -3
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 191,
+      "id": 57,
       "level": 2,
-      "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+      "description": "Recovery +20%",
       "modifiers": {},
-      "skill": 61,
-      "skillName": "Artillery"
+      "skill": 18,
+      "skillName": "Recovery Up"
     }
   ],
   "armorSet": {
-    "id": 206,
-    "name": "Anjanath Beta +",
+    "id": 208,
+    "name": "Rathian Beta +",
     "rank": "master",
     "pieces": [
-      934,
-      935,
-      936,
-      937,
-      938
+      944,
+      945,
+      946,
+      947,
+      948
     ],
-    "bonus": 25
+    "bonus": 26
   },
   "assets": null,
   "crafting": null
