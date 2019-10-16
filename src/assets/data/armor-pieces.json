@@ -84064,6 +84064,592 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 939,
+    "name": "Rathian Helm Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 54,
+        "level": 2,
+        "description": "Health +30",
+        "modifiers": {
+          "health": 30
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      },
+      {
+        "id": 105,
+        "level": 1,
+        "description": "Poison buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 207,
+      "name": "Rathian Alpha +",
+      "rank": "master",
+      "pieces": [
+        939,
+        940,
+        941,
+        942,
+        943
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 940,
+    "name": "Rathian Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 261,
+        "level": 2,
+        "description": "One extra consumable herb, fruit, nut, or seed item per gather.",
+        "modifiers": {},
+        "skill": 86,
+        "skillName": "Botanist"
+      },
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 207,
+      "name": "Rathian Alpha +",
+      "rank": "master",
+      "pieces": [
+        939,
+        940,
+        941,
+        942,
+        943
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 941,
+    "name": "Rathian Vambraces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 106,
+        "level": 2,
+        "description": "Poison buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      },
+      {
+        "id": 260,
+        "level": 1,
+        "description": "One extra consumable herb item per gather.",
+        "modifiers": {},
+        "skill": 86,
+        "skillName": "Botanist"
+      }
+    ],
+    "armorSet": {
+      "id": 207,
+      "name": "Rathian Alpha +",
+      "rank": "master",
+      "pieces": [
+        939,
+        940,
+        941,
+        942,
+        943
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 942,
+    "name": "Rathian Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 2,
+        "level": 2,
+        "description": "Greatly reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      },
+      {
+        "id": 53,
+        "level": 1,
+        "description": "Health +15",
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 207,
+      "name": "Rathian Alpha +",
+      "rank": "master",
+      "pieces": [
+        939,
+        940,
+        941,
+        942,
+        943
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 943,
+    "name": "Rathian Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+          "id": 53,
+          "level": 1,
+          "description": "Health +15",
+          "modifiers": {
+            "health": 15
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
+      },
+      {
+        "id": 1,
+        "level": 1,
+        "description": "Reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 207,
+      "name": "Rathian Alpha +",
+      "rank": "master",
+      "pieces": [
+        939,
+        940,
+        941,
+        942,
+        943
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 944,
+    "name": "Rathian Helm Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 53,
+        "level": 1,
+        "description": "Health +15",
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      },
+      {
+        "id": 105,
+        "level": 1,
+        "description": "Poison buildup +5% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 208,
+      "name": "Rathian Beta +",
+      "rank": "master",
+      "pieces": [
+        944,
+        945,
+        946,
+        947,
+        948
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 945,
+    "name": "Rathian Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 260,
+        "level": 1,
+        "description": "One extra consumable herb item per gather.",
+        "modifiers": {},
+        "skill": 86,
+        "skillName": "Botanist"
+      },
+      {
+        "id": 56,
+        "level": 1,
+        "description": "Recovery +10%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 208,
+      "name": "Rathian Beta +",
+      "rank": "master",
+      "pieces": [
+        944,
+        945,
+        946,
+        947,
+        948
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 946,
+    "name": "Rathian Vambraces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 106,
+        "level": 2,
+        "description": "Poison buildup +10% Bonus: +10",
+        "modifiers": {},
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ],
+    "armorSet": {
+      "id": 208,
+      "name": "Rathian Beta +",
+      "rank": "master",
+      "pieces": [
+        944,
+        945,
+        946,
+        947,
+        948
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 947,
+    "name": "Rathian Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "level": 1,
+        "description": "Reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      },
+      {
+        "id": 53,
+        "level": 1,
+        "description": "Health +15",
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ],
+    "armorSet": {
+      "id": 208,
+      "name": "Rathian Beta +",
+      "rank": "master",
+      "pieces": [
+        944,
+        945,
+        946,
+        947,
+        948
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 948,
+    "name": "Rathian Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "ice": 0,
+      "thunder": -2,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 57,
+        "level": 2,
+        "description": "Recovery +20%",
+        "modifiers": {},
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ],
+    "armorSet": {
+      "id": 208,
+      "name": "Rathian Beta +",
+      "rank": "master",
+      "pieces": [
+        944,
+        945,
+        946,
+        947,
+        948
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
   }
 
 
