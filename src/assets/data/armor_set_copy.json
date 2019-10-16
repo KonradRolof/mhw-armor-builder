@@ -1,11 +1,11 @@
 {
-  "id": 208,
-  "name": "Rathian Beta +",
+  "id": 210,
+  "name": "Lumu Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 944,
-      "name": "Rathian Helm Beta +",
+      "id": 954,
+      "name": "Lumu Hat Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
@@ -15,45 +15,38 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": -2,
-        "dragon": -3
+        "fire": -3,
+        "water": 2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 53,
-          "level": 1,
-          "description": "Health +15",
-          "modifiers": {
-            "health": 15
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
-        },
-        {
-          "id": 105,
-          "level": 1,
-          "description": "Poison buildup +5% Bonus: +10",
+          "id": 205,
+          "level": 2,
+          "description": "Stamina recovery speed +20%",
           "modifiers": {},
-          "skill": 31,
-          "skillName": "Poison Attack"
+          "skill": 66,
+          "skillName": "Stamina Surge"
         }
       ],
-      "armorSet": 208,
+      "armorSet": 210,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 945,
-      "name": "Rathian Mail Beta +",
+      "id": 955,
+      "name": "Lumu Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
@@ -63,11 +56,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": -2,
-        "dragon": -3
+        "fire": -3,
+        "water": 2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -75,34 +68,26 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 260,
+          "id": 159,
           "level": 1,
-          "description": "One extra consumable herb item per gather.",
+          "description": "Makes it easier to mount monsters and down mounted monsters.",
           "modifiers": {},
-          "skill": 86,
-          "skillName": "Botanist"
-        },
-        {
-          "id": 56,
-          "level": 1,
-          "description": "Recovery +10%",
-          "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
+          "skill": 49,
+          "skillName": "Master Mounter"
         }
         ],
-      "armorSet": 208,
+      "armorSet": 210,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 946,
-      "name": "Rathian Vambraces Beta +",
+      "id": 956,
+      "name": "Lumu Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
@@ -112,35 +97,46 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": -2,
-        "dragon": -3
+        "fire": -3,
+        "water": 2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 106,
-          "level": 2,
-          "description": "Poison buildup +10% Bonus: +10",
+          "id": 190,
+          "level": 1,
+          "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
           "modifiers": {},
-          "skill": 31,
-          "skillName": "Poison Attack"
+          "skill": 61,
+          "skillName": "Artillery"
+        },
+        {
+          "id": 28,
+          "level": 1,
+          "description": "Slightly reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
         }
         ],
-      "armorSet": 208,
+      "armorSet": 210,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 947,
-      "name": "Rathian Coil Beta +",
+      "id": 957,
+      "name": "Lumu Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 9,
@@ -150,11 +146,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": -2,
-        "dragon": -3
+        "fire": -3,
+        "water": 2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -162,36 +158,34 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 1,
+          "id": 252,
           "level": 1,
-          "description": "Reduces the number of times you take poison damage.",
+          "description": "While active, reduces damage taken by 15%.",
           "modifiers": {},
-          "skill": 1,
-          "skillName": "Poison Resistance"
+          "skill": 84,
+          "skillName": "Divine Blessing"
         },
         {
-          "id": 53,
+          "id": 28,
           "level": 1,
-          "description": "Health +15",
-          "modifiers": {
-            "health": 15
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
+          "description": "Slightly reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
           }
         ],
-      "armorSet": 208,
+      "armorSet": 210,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 948,
-        "name": "Rathian Greaves Beta +",
+        "id": 958,
+        "name": "Lumu Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
@@ -201,48 +195,35 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 0,
-          "ice": 0,
-          "thunder": -2,
-          "dragon": -3
+          "fire": -3,
+          "water": 2,
+          "ice": 1,
+          "thunder": 0,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 57,
+            "id": 29,
             "level": 2,
-            "description": "Recovery +20%",
+            "description": "Reduces the effects of minor wind pressure.",
             "modifiers": {},
-            "skill": 18,
-            "skillName": "Recovery Up"
+            "skill": 10,
+            "skillName": "Windproof"
           }
         ],
-      "armorSet": 208,
+      "armorSet": 210,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": {
-    "id": 26,
-    "name": "Rathian Essence",
-    "ranks": [
-      {
-        "pieces": 2,
-        "skill": {
-          "id": 310,
-          "level": 1,
-          "description": "Extends the duration of your poison\u0027s effect on monsters.",
-          "modifiers": {},
-          "skill": 111,
-          "skillName": "Poison Duration Up"
-        }
-      }
-    ]
-  }
+  "bonus": null
 }
