@@ -1,25 +1,25 @@
 {
-  "id": 206,
-  "name": "Anjanath Beta +",
+  "id": 208,
+  "name": "Rathian Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 934,
-      "name": "Anjanath Helm Beta +",
+      "id": 944,
+      "name": "Rathian Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 130,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
-        "thunder": -1,
-        "dragon": 0
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -29,134 +29,45 @@
       ],
       "skills": [
         {
-          "id": 81,
-          "level": 2,
-          "description": "Fire attack +60",
+          "id": 53,
+          "level": 1,
+          "description": "Health +15",
           "modifiers": {
-            "damageFire": 60
+            "health": 15
           },
-          "skill": 26,
-          "skillName": "Fire Attack"
+          "skill": 17,
+          "skillName": "Health Boost"
+        },
+        {
+          "id": 105,
+          "level": 1,
+          "description": "Poison buildup +5% Bonus: +10",
+          "modifiers": {},
+          "skill": 31,
+          "skillName": "Poison Attack"
         }
       ],
-      "armorSet": 206,
+      "armorSet": 208,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 935,
-      "name": "Anjanath Mail Beta +",
+      "id": 945,
+      "name": "Rathian Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 130,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
-        "thunder": -1,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 195,
-          "level": 1,
-          "description": "Reduces continuous stamina depletion by 15%.",
-          "modifiers": {},
-          "skill": 63,
-          "skillName": "Marathon Runner"
-        },
-        {
-          "id": 188,
-          "level": 1,
-          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
-          "modifiers": {},
-          "skill": 60,
-          "skillName": "Special Ammo Boost"
-        }
-        ],
-      "armorSet": 206,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 936,
-      "name": "Anjanath Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 132,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
-        "thunder": -1,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 188,
-          "level": 1,
-          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
-          "modifiers": {},
-          "skill": 60,
-          "skillName": "Special Ammo Boost"
-        },
-        {
-          "id": 80,
-          "level": 1,
-          "description": "Fire attack +30",
-          "modifiers": {
-            "damageFire": 30
-          },
-          "skill": 26,
-          "skillName": "Fire Attack"
-        }
-        ],
-      "armorSet": 206,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 937,
-      "name": "Anjanath Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 132,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
-        "thunder": -1,
-        "dragon": 0
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -169,75 +80,167 @@
       ],
       "skills": [
         {
-          "id": 63,
+          "id": 260,
+          "level": 1,
+          "description": "One extra consumable herb item per gather.",
+          "modifiers": {},
+          "skill": 86,
+          "skillName": "Botanist"
+        },
+        {
+          "id": 56,
+          "level": 1,
+          "description": "Recovery +10%",
+          "modifiers": {},
+          "skill": 18,
+          "skillName": "Recovery Up"
+        }
+        ],
+      "armorSet": 208,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 946,
+      "name": "Rathian Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 130,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": -3
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 106,
           "level": 2,
-          "description": "Fire resistance +12",
+          "description": "Poison buildup +10% Bonus: +10",
+          "modifiers": {},
+          "skill": 31,
+          "skillName": "Poison Attack"
+        }
+        ],
+      "armorSet": 208,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 947,
+      "name": "Rathian Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 130,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": -3
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 1,
+          "level": 1,
+          "description": "Reduces the number of times you take poison damage.",
+          "modifiers": {},
+          "skill": 1,
+          "skillName": "Poison Resistance"
+        },
+        {
+          "id": 53,
+          "level": 1,
+          "description": "Health +15",
           "modifiers": {
-            "resistFire": 12
+            "health": 15
           },
-          "skill": 20,
-          "skillName": "Fire Resistance"
+          "skill": 17,
+          "skillName": "Health Boost"
           }
         ],
-      "armorSet": 206,
+      "armorSet": 208,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 938,
-        "name": "Anjanath Greaves Beta +",
+        "id": 948,
+        "name": "Rathian Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 132,
+          "base": 130,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": -3,
-          "ice": -1,
-          "thunder": -1,
-          "dragon": 0
+          "fire": 2,
+          "water": 0,
+          "ice": 0,
+          "thunder": -2,
+          "dragon": -3
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 191,
+            "id": 57,
             "level": 2,
-            "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+            "description": "Recovery +20%",
             "modifiers": {},
-            "skill": 61,
-            "skillName": "Artillery"
+            "skill": 18,
+            "skillName": "Recovery Up"
           }
         ],
-      "armorSet": 206,
+      "armorSet": 208,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 25,
-    "name": "Anjanath Dominance",
+    "id": 26,
+    "name": "Rathian Essence",
     "ranks": [
       {
         "pieces": 2,
         "skill": {
-          "id": 312,
+          "id": 310,
           "level": 1,
-          "description": "Increases stamina cap.",
+          "description": "Extends the duration of your poison\u0027s effect on monsters.",
           "modifiers": {},
-          "skill": 113,
-          "skillName": "Stamina Cap Up"
+          "skill": 111,
+          "skillName": "Poison Duration Up"
         }
       }
     ]
