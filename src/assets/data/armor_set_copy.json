@@ -1,225 +1,204 @@
 {
-  "id": 203,
-  "name": "Banbaro Alpha +",
+  "id": 206,
+  "name": "Anjanath Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 919,
-      "name": "Banbaro Helm Alpha +",
+      "id": 934,
+      "name": "Anjanath Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 130,
+        "base": 132,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
-        "water": 2,
-        "ice": 3,
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
         "thunder": -1,
-        "dragon": -3
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 81,
+          "level": 2,
+          "description": "Fire attack +60",
+          "modifiers": {
+            "damageFire": 60
+          },
+          "skill": 26,
+          "skillName": "Fire Attack"
+        }
+      ],
+      "armorSet": 206,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 935,
+      "name": "Anjanath Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 132,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 195,
+          "level": 1,
+          "description": "Reduces continuous stamina depletion by 15%.",
+          "modifiers": {},
+          "skill": 63,
+          "skillName": "Marathon Runner"
+        },
+        {
+          "id": 188,
+          "level": 1,
+          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
+          "modifiers": {},
+          "skill": 60,
+          "skillName": "Special Ammo Boost"
+        }
+        ],
+      "armorSet": 206,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 936,
+      "name": "Anjanath Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 132,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 188,
+          "level": 1,
+          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
+          "modifiers": {},
+          "skill": 60,
+          "skillName": "Special Ammo Boost"
+        },
+        {
+          "id": 80,
+          "level": 1,
+          "description": "Fire attack +30",
+          "modifiers": {
+            "damageFire": 30
+          },
+          "skill": 26,
+          "skillName": "Fire Attack"
+        }
+        ],
+      "armorSet": 206,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 937,
+      "name": "Anjanath Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 9,
+      "defense": {
+        "base": 132,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
         {
           "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 181,
+          "id": 63,
           "level": 2,
-          "description": "While active, grants attack +10.",
-          "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
-        },
-        {
-          "id": 244,
-          "level": 1,
-          "description": "Lets you digest blue mushrooms and toadstools.",
-          "modifiers": {},
-          "skill": 78,
-          "skillName": "Mushroomancer"
-        }
-      ],
-      "armorSet": 203,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 915,
-      "name": "High Metal Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 48,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": -1,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 23,
-          "level": 1,
-          "description": "Slightly reduces the effects of weak monster roars.",
-          "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
-        },
-        {
-          "id": 90,
-          "level": 1,
-          "description": "Ice attack +30",
+          "description": "Fire resistance +12",
           "modifiers": {
-            "damageIce": 30
+            "resistFire": 12
           },
-          "skill": 28,
-          "skillName": "Ice Attack"
-        }
-        ],
-      "armorSet": 202,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 916,
-      "name": "High Metal Braces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 9,
-      "defense": {
-        "base": 48,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": -1,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 47,
-          "level": 2,
-          "description": "Defense +10",
-          "modifiers": {
-            "defense": 10
-          },
-          "skill": 16,
-          "skillName": "Defense Boost"
-        },
-        {
-          "id": 90,
-          "level": 1,
-          "description": "Ice attack +30",
-          "modifiers": {
-            "damageIce": 30
-          },
-          "skill": 28,
-          "skillName": "Ice Attack"
-        }
-        ],
-      "armorSet": 202,
-      "assets": null,
-      "crafting": null
-      },
-      {
-          "id": 917,
-          "name": "High Metal Coil Beta +",
-          "type": "waist",
-          "rank": "master",
-          "rarity": 9,
-          "defense": {
-            "base": 48,
-            "max": 0,
-            "augmented": 0
-          },
-          "resistances": {
-            "fire": 0,
-            "water": -1,
-            "ice": 3,
-            "thunder": -2,
-            "dragon": 0
-          },
-          "attributes": {},
-          "slots": [
-            {
-              "rank": 4
-            },
-            {
-              "rank": 2
-            }
-          ],
-          "skills": [
-            {
-              "id": 187,
-              "level": 1,
-              "description": "Loading capacity +1",
-              "modifiers": {},
-              "skill": 59,
-              "skillName": "Capacity Boost"
-            },
-            {
-              "id": 46,
-              "level": 1,
-              "description": "Defense +5",
-              "modifiers": {
-                "defense": 5
-              },
-              "skill": 16,
-              "skillName": "Defense Boost"
+          "skill": 20,
+          "skillName": "Fire Resistance"
           }
         ],
-      "armorSet": 202,
+      "armorSet": 206,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 918,
-        "name": "High Metal Greaves Beta +",
+        "id": 938,
+        "name": "Anjanath Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 48,
+          "base": 132,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 0,
-          "water": -1,
-          "ice": 3,
-          "thunder": -2,
+          "fire": 3,
+          "water": -3,
+          "ice": -1,
+          "thunder": -1,
           "dragon": 0
         },
         "attributes": {},
@@ -228,33 +207,39 @@
             "rank": 4
           },
           {
-            "rank": 3
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 193,
-            "level": 1,
-            "description": "Firepower +50%",
+            "id": 191,
+            "level": 2,
+            "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
             "modifiers": {},
-            "skill": 62,
-            "skillName": "Heavy Artillery"
-          },
-          {
-            "id": 68,
-            "level": 1,
-            "description": "Ice resistance +6",
-            "modifiers": {
-              "resistIce": 6
-            },
-            "skill": 22,
-            "skillName": "Ice Resistance"
+            "skill": 61,
+            "skillName": "Artillery"
           }
         ],
-      "armorSet": 202,
+      "armorSet": 206,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": null
+  "bonus": {
+    "id": 25,
+    "name": "Anjanath Dominance",
+    "ranks": [
+      {
+        "pieces": 2,
+        "skill": {
+          "id": 312,
+          "level": 1,
+          "description": "Increases stamina cap.",
+          "modifiers": {},
+          "skill": 113,
+          "skillName": "Stamina Cap Up"
+        }
+      }
+    ]
+  }
 }
