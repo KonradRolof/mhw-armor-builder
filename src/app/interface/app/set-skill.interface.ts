@@ -5,5 +5,6 @@ export default interface SetSkill {
   setName: string;
   current: number;
   bonus: ArmorSetBonus;
-  bonusRank?: ArmorSetBonusRank;
+  bonusRank: ArmorSetBonusRank;
+  active: boolean;
 }

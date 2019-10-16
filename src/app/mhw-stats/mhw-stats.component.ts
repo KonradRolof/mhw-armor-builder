@@ -127,6 +127,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       currentSet.bonus.ranks.map((rank) => {
         if (rank.pieces <= currentSet.current) {
           currentSet.bonusRank = rank;
+          currentSet.active = true;
           // @TODO handle set bonus modifiers
         }
       });
@@ -137,11 +138,14 @@ export class MhwStatsComponent implements OnInit, OnChanges {
         setName: set.name.replace(/Alpha|Beta|Gamma/g, ""),
         current: 1,
         bonus: set.bonus,
-        bonusRank: null
+        bonusRank: set.bonus.ranks[0],
+        active: false
       };
 
       this.setBonuses.push(setSkill);
     }
+
+    this.setBonuses = MhwSortingService.sortSetBonuses(this.setBonuses);
   }
 
   private handleArmorPiece(armorPiece: ArmorPiece) {
