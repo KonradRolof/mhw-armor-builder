@@ -3824,7 +3824,7 @@
     "ranks": [
       {
         "id": 339,
-        "skill": 136,
+        "skill": 138,
         "skillName": "Offensive Guard",
         "level": 1,
         "description": "While active increases attack power by 5%.",
@@ -3832,7 +3832,7 @@
       },
       {
         "id": 340,
-        "skill": 136,
+        "skill": 138,
         "skillName": "Offensive Guard",
         "level": 2,
         "description": "While active increases attack power by 10%",
@@ -3840,10 +3840,12 @@
       },
       {
         "id": 341,
-        "skill": 136,
+        "skill": 138,
         "skillName": "Offensive Guard",
         "level": 3,
         "description": "While active increases attack power by 15%",
         "modifiers": {}
       }
+    ]
+  }
 ]
