@@ -1,60 +1,55 @@
 {
-  "id": 918,
-  "name": "High Metal Greaves Beta +",
-  "type": "legs",
+  "id": 919,
+  "name": "Banbaro Mail Alpha +",
+  "type": "chest",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 48,
+    "base": 130,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 0,
-    "water": -1,
+    "fire": -2,
+    "water": 2,
     "ice": 3,
-    "thunder": -2,
-    "dragon": 0
+    "thunder": -1,
+    "dragon": -3
   },
   "attributes": {},
   "slots": [
-    {
-      "rank": 4
-    },
     {
       "rank": 3
     }
   ],
   "skills": [
     {
-      "id": 193,
+      "id": 235,
       "level": 1,
-      "description": "Firepower +50%",
+      "description": "Slightly increases item use speed.",
       "modifiers": {},
-      "skill": 62,
-      "skillName": "Heavy Artillery"
+      "skill": 75,
+      "skillName": "Speed Eating"
     },
     {
-      "id": 68,
+      "id": 244,
       "level": 1,
-      "description": "Ice resistance +6",
-      "modifiers": {
-        "resistIce": 6
-      },
-      "skill": 22,
-      "skillName": "Ice Resistance"
+      "description": "Lets you digest blue mushrooms and toadstools.",
+      "modifiers": {},
+      "skill": 78,
+      "skillName": "Mushroomancer"
     }
   ],
   "armorSet": {
-    "id": 202,
-    "name": "High Metal Beta +",
+    "id": 203,
+    "name": "Banbaro Alpha +",
     "rank": "master",
     "pieces": [
-      914,
-      915,
-      916,
-      917,
-      918
+      919,
+      920,
+      921,
+      922,
+      923
     ],
     "bonus": null
   },

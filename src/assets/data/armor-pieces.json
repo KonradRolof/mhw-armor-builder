@@ -82915,6 +82915,64 @@
     },
     "assets": null,
     "crafting": null
+  },
+  {
+    "id": 919,
+    "name": "Banbaro Helm Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 130,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": -2,
+      "water": 2,
+      "ice": 3,
+      "thunder": -1,
+      "dragon": -3
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 181,
+        "level": 2,
+        "description": "While active, grants attack +10.",
+        "modifiers": {},
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 244,
+        "level": 1,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "modifiers": {},
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      }
+    ],
+    "armorSet": {
+      "id": 203,
+      "name": "Banbaro Alpha +",
+      "rank": "master",
+      "pieces": [
+        919,
+        920,
+        921,
+        922,
+        923
+      ],
+      "bonus": null
+    },
+    "assets": null,
+    "crafting": null
   }
 
 
