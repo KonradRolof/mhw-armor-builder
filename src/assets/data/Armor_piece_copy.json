@@ -1,57 +1,52 @@
 {
-  "id": 919,
-  "name": "Banbaro Mail Alpha +",
-  "type": "chest",
+  "id": 938,
+  "name": "Anjanath Greaves Beta +",
+  "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 130,
+    "base": 132,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -2,
-    "water": 2,
-    "ice": 3,
+    "fire": 3,
+    "water": -3,
+    "ice": -1,
     "thunder": -1,
-    "dragon": -3
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 235,
-      "level": 1,
-      "description": "Slightly increases item use speed.",
+      "id": 191,
+      "level": 2,
+      "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
       "modifiers": {},
-      "skill": 75,
-      "skillName": "Speed Eating"
-    },
-    {
-      "id": 244,
-      "level": 1,
-      "description": "Lets you digest blue mushrooms and toadstools.",
-      "modifiers": {},
-      "skill": 78,
-      "skillName": "Mushroomancer"
+      "skill": 61,
+      "skillName": "Artillery"
     }
   ],
   "armorSet": {
-    "id": 203,
-    "name": "Banbaro Alpha +",
+    "id": 206,
+    "name": "Anjanath Beta +",
     "rank": "master",
     "pieces": [
-      919,
-      920,
-      921,
-      922,
-      923
+      934,
+      935,
+      936,
+      937,
+      938
     ],
-    "bonus": null
+    "bonus": 25
   },
   "assets": null,
   "crafting": null
