@@ -67785,9 +67785,9 @@
   {
     "id": 700,
     "name": "Vaal Hazak Mail Gamma",
-    "type": "head",
+    "type": "chest",
     "rank": "high",
-    "rarity": 1,
+    "rarity": 8,
     "defense": {
       "base": 72,
       "max": 78,
