@@ -1,20 +1,20 @@
 {
-  "id": 978,
-  "name": "Lumu Phantasm Greaves Beta +",
+  "id": 988,
+  "name": "Baan Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 132,
+    "base": 134,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": -3,
-    "ice": 1,
-    "thunder": 2,
-    "dragon": 1
+    "fire": 0,
+    "water": 2,
+    "ice": -1,
+    "thunder": 0,
+    "dragon": -2
   },
   "attributes": {},
   "slots": [
@@ -27,24 +27,24 @@
   ],
   "skills": [
     {
-      "id": 8,
+      "id": 18,
       "level": 2,
-      "description": "Reduces the duration of sleep by 60%.",
+      "description": "Greatly reduces damage while bleeding.",
       "modifiers": {},
-      "skill": 3,
-      "skillName": "Sleep Resistance"
+      "skill": 7,
+      "skillName": "Bleeding Resistance"
     }
   ],
   "armorSet": {
-    "id": 214,
-    "name": "Lumu Phantasm Beta +",
+    "id": 216,
+    "name": "Baan Beta +",
     "rank": "master",
     "pieces": [
-      974,
-      975,
-      976,
-      977,
-      978
+      984,
+      985,
+      986,
+      987,
+      988
     ],
     "bonus": null
   },
