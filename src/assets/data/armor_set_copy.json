@@ -1,25 +1,25 @@
 {
-  "id": 214,
-  "name": "Lumu Phantasm Beta +",
+  "id": 216,
+  "name": "Baan Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 974,
-      "name": "Lumu Phantasm Hood Beta +",
+      "id": 984,
+      "name": "Baan Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 134,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -3,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 0,
+        "water": 2,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -29,76 +29,73 @@
       ],
       "skills": [
         {
-          "id": 133,
-          "level": 1,
-          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "id": 34,
+          "level": 2,
+          "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
           "modifiers": {},
-          "skill": 41,
-          "skillName": "Weakness Exploit"
+          "skill": 11,
+          "skillName": "Tremor Resistance"
         }
       ],
-      "armorSet": 214,
+      "armorSet": 216,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 975,
-      "name": "Lumu Phantasm Mail Beta +",
+      "id": 985,
+      "name": "Baan Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 134,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -3,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 0,
+        "water": 2,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 227,
-          "level": 2,
-          "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+          "id": 111,
+          "level": 1,
+          "description": "Sleep buildup +5% Bonus: +10",
           "modifiers": {},
-          "skill": 72,
-          "skillName": "Wide-Range"
+          "skill": 33,
+          "skillName": "Sleep Attack"
         }
         ],
-      "armorSet": 214,
+      "armorSet": 216,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 976,
-      "name": "Lumu Phantasm Braces Beta +",
+      "id": 986,
+      "name": "Baan Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 134,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -3,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 0,
+        "water": 2,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -108,35 +105,43 @@
       ],
       "skills": [
         {
-          "id": 267,
+          "id": 111,
           "level": 1,
-          "description": "While active, increases affinity by 10%.",
+          "description": "Sleep buildup +5% Bonus: +10",
           "modifiers": {},
-          "skill": 88,
-          "skillName": "Maximum Might"
+          "skill": 33,
+          "skillName": "Sleep Attack"
+        },
+        {
+          "id": 218,
+          "level": 1,
+          "description": "Very slightly decreases the impact of attacks.",
+          "modifiers": {},
+          "skill": 70,
+          "skillName": "Guard"
         }
         ],
-      "armorSet": 214,
+      "armorSet": 216,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 977,
-      "name": "Lumu Phantasm Coil Beta +",
+      "id": 987,
+      "name": "Baan Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 132,
+        "base": 134,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -3,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 0,
+        "water": 2,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -146,35 +151,35 @@
       ],
       "skills": [
         {
-          "id": 112,
+          "id": 219,
           "level": 2,
-          "description": "Sleep buildup +10% Bonus: +10",
+          "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
           "modifiers": {},
-          "skill": 33,
-          "skillName": "Sleep Attack"
+          "skill": 70,
+          "skillName": "Guard"
           }
         ],
-      "armorSet": 214,
+      "armorSet": 216,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 978,
-        "name": "Lumu Phantasm Greaves Beta +",
+        "id": 988,
+        "name": "Baan Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 132,
+          "base": 134,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": -3,
-          "ice": 1,
-          "thunder": 2,
-          "dragon": 1
+          "fire": 0,
+          "water": 2,
+          "ice": -1,
+          "thunder": 0,
+          "dragon": -2
         },
         "attributes": {},
         "slots": [
@@ -187,15 +192,15 @@
         ],
         "skills": [
           {
-            "id": 8,
+            "id": 18,
             "level": 2,
-            "description": "Reduces the duration of sleep by 60%.",
+            "description": "Greatly reduces damage while bleeding.",
             "modifiers": {},
-            "skill": 3,
-            "skillName": "Sleep Resistance"
+            "skill": 7,
+            "skillName": "Bleeding Resistance"
           }
         ],
-      "armorSet": 214,
+      "armorSet": 216,
       "assets": null,
       "crafting": null
     }
