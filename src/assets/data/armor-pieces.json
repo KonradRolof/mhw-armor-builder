@@ -84653,6 +84653,580 @@
   },
   {
     "id": 949,
+    "name": "Rath Heart Helm Alpha +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 216,
+        "level": 2,
+        "description": "Extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 288,
+        "level": 1,
+        "description": "Reduces stamina depletion while climbing by 50%.",
+        "modifiers": {},
+        "skill": 97,
+        "skillName": "Cliffhanger"
+      }
+    ],
+    "armorSet": {
+      "id": 209,
+      "name": "Rath Heart Alpha +",
+      "rank": "master",
+      "pieces": [
+        949,
+        950,
+        951,
+        952,
+        953
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 950,
+    "name": "Rath Heart Mail Alpha +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 302,
+        "level": 2,
+        "description": "Shortens time until reuse by 20%.",
+        "modifiers": {},
+        "skill": 106,
+        "skillName": "Tool Specialist"
+      },
+      {
+        "id": 142,
+        "level": 1,
+        "description": "Weapon sharpness +10",
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ],
+    "armorSet": {
+      "id": 209,
+      "name": "Rath Heart Alpha +",
+      "rank": "master",
+      "pieces": [
+        949,
+        950,
+        951,
+        952,
+        953
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 951,
+    "name": "Rath Heart Braces Alpha +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 29,
+        "level": 2,
+        "description": "Reduces the effects of minor wind pressure.",
+        "modifiers": {},
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 142,
+        "level": 1,
+        "description": "Weapon sharpness +10",
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ],
+    "armorSet": {
+      "id": 209,
+      "name": "Rath Heart Alpha +",
+      "rank": "master",
+      "pieces": [
+        949,
+        950,
+        951,
+        952,
+        953
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 952,
+    "name": "Rath Heart Coil Alpha +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": 142,
+        "level": 1,
+        "description": "Weapon sharpness +10",
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "description": "Greatly reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 209,
+      "name": "Rath Heart Alpha +",
+      "rank": "master",
+      "pieces": [
+        949,
+        950,
+        951,
+        952,
+        953
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 953,
+    "name": "Rath Heart Greaves Alpha +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 2
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 301,
+        "level": 1,
+        "description": "Shortens time until reuse by 10%.",
+        "modifiers": {},
+        "skill": 106,
+        "skillName": "Tool Specialist"
+      },
+      {
+        "id": 28,
+        "level": 1,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "modifiers": {},
+        "skill": 10,
+        "skillName": "Windproof"
+      }
+    ],
+    "armorSet": {
+      "id": 209,
+      "name": "Rath Heart Alpha +",
+      "rank": "master",
+      "pieces": [
+        949,
+        950,
+        951,
+        952,
+        953
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 954,
+    "name": "Rath Heart Helm Beta +",
+    "type": "head",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 216,
+        "level": 2,
+        "description": "Extends evasion distance.",
+        "modifiers": {},
+        "skill": 69,
+        "skillName": "Evade Extender"
+      }
+    ],
+    "armorSet": {
+      "id": 210,
+      "name": "Rath Heart Beta +",
+      "rank": "master",
+      "pieces": [
+        954,
+        955,
+        956,
+        957,
+        958
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 955,
+    "name": "Rath Heart Mail Beta +",
+    "type": "chest",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 1
+      },
+      {
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": 302,
+        "level": 2,
+        "description": "Shortens time until reuse by 20%.",
+        "modifiers": {},
+        "skill": 106,
+        "skillName": "Tool Specialist"
+      }
+    ],
+    "armorSet": {
+      "id": 210,
+      "name": "Rath Heart Beta +",
+      "rank": "master",
+      "pieces": [
+        954,
+        955,
+        956,
+        957,
+        958
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 956,
+    "name": "Rath Heart Braces Beta +",
+    "type": "gloves",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 29,
+        "level": 2,
+        "description": "Reduces the effects of minor wind pressure.",
+        "modifiers": {},
+        "skill": 10,
+        "skillName": "Windproof"
+      }
+    ],
+    "armorSet": {
+      "id": 210,
+      "name": "Rath Heart Beta +",
+      "rank": "master",
+      "pieces": [
+        954,
+        955,
+        956,
+        957,
+        958
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 957,
+    "name": "Rath Heart Coil Beta +",
+    "type": "waist",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      }
+    ],
+    "skills": [
+      {
+        "id": 142,
+        "level": 1,
+        "description": "Weapon sharpness +10",
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 1,
+        "level": 1,
+        "description": "Reduces the number of times you take poison damage.",
+        "modifiers": {},
+        "skill": 1,
+        "skillName": "Poison Resistance"
+      }
+    ],
+    "armorSet": {
+      "id": 210,
+      "name": "Rath Heart Beta +",
+      "rank": "master",
+      "pieces": [
+        954,
+        955,
+        956,
+        957,
+        958
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 958,
+    "name": "Rath Heart Greaves Beta +",
+    "type": "legs",
+    "rank": "master",
+    "rarity": 9,
+    "defense": {
+      "base": 132,
+      "max": 0,
+      "augmented": 0
+    },
+    "resistances": {
+      "fire": 3,
+      "water": 0,
+      "ice": 0,
+      "thunder": -3,
+      "dragon": -4
+    },
+    "attributes": {},
+    "slots": [
+      {
+        "rank": 4
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": 301,
+        "level": 1,
+        "description": "Shortens time until reuse by 10%.",
+        "modifiers": {},
+        "skill": 106,
+        "skillName": "Tool Specialist"
+      }
+    ],
+    "armorSet": {
+      "id": 210,
+      "name": "Rath Heart Beta +",
+      "rank": "master",
+      "pieces": [
+        954,
+        955,
+        956,
+        957,
+        958
+      ],
+      "bonus": 26
+    },
+    "assets": null,
+    "crafting": null
+  },
+  {
+    "id": 959,
     "name": "Lumu Hat Alpha +",
     "type": "head",
     "rank": "master",
@@ -84694,15 +85268,15 @@
       }
     ],
     "armorSet": {
-      "id": 209,
+      "id": 211,
       "name": "Lumu Alpha +",
       "rank": "master",
       "pieces": [
-        949,
-        950,
-        951,
-        952,
-        953
+        959,
+        960,
+        961,
+        962,
+        963
       ],
       "bonus": null
     },
@@ -84710,7 +85284,7 @@
     "crafting": null
   },
   {
-    "id": 950,
+    "id": 960,
     "name": "Lumu Mail Alpha +",
     "type": "chest",
     "rank": "master",
@@ -84755,15 +85329,15 @@
       }
     ],
     "armorSet": {
-      "id": 209,
+      "id": 211,
       "name": "Lumu Alpha +",
       "rank": "master",
       "pieces": [
-        949,
-        950,
-        951,
-        952,
-        953
+        959,
+        960,
+        961,
+        962,
+        963
       ],
       "bonus": null
     },
@@ -84771,7 +85345,7 @@
     "crafting": null
   },
   {
-    "id": 951,
+    "id": 961,
     "name": "Lumu Vambraces Alpha +",
     "type": "gloves",
     "rank": "master",
@@ -84816,15 +85390,15 @@
       }
     ],
     "armorSet": {
-      "id": 209,
+      "id": 211,
       "name": "Lumu Alpha +",
       "rank": "master",
       "pieces": [
-        949,
-        950,
-        951,
-        952,
-        953
+        959,
+        960,
+        961,
+        962,
+        963
       ],
       "bonus": null
     },
@@ -84832,7 +85406,7 @@
     "crafting": null
   },
   {
-    "id": 952,
+    "id": 962,
     "name": "Lumu Coil Alpha +",
     "type": "waist",
     "rank": "master",
@@ -84877,15 +85451,15 @@
       }
     ],
     "armorSet": {
-      "id": 209,
+      "id": 211,
       "name": "Lumu Alpha +",
       "rank": "master",
       "pieces": [
-        949,
-        950,
-        951,
-        952,
-        953
+        959,
+        960,
+        961,
+        962,
+        963
       ],
       "bonus": null
     },
@@ -84893,7 +85467,7 @@
     "crafting": null
   },
   {
-    "id": 953,
+    "id": 963,
     "name": "Lumu Greaves Alpha +",
     "type": "legs",
     "rank": "master",
@@ -84935,15 +85509,15 @@
       }
     ],
     "armorSet": {
-      "id": 209,
+      "id": 211,
       "name": "Lumu Alpha +",
       "rank": "master",
       "pieces": [
-        949,
-        950,
-        951,
-        952,
-        953
+        959,
+        960,
+        961,
+        962,
+        963
       ],
       "bonus": null
     },
@@ -84951,7 +85525,7 @@
     "crafting": null
 },
 {
-  "id": 954,
+  "id": 964,
   "name": "Lumu Hat Beta +",
   "type": "head",
   "rank": "master",
@@ -84988,15 +85562,15 @@
     }
   ],
   "armorSet": {
-    "id": 210,
+    "id": 212,
     "name": "Lumu Beta +",
     "rank": "master",
     "pieces": [
-      954,
-      955,
-      956,
-      957,
-      958
+      964,
+      965,
+      966,
+      967,
+      968
     ],
     "bonus": null
   },
@@ -85004,7 +85578,7 @@
   "crafting": null
 },
 {
-  "id": 955,
+  "id": 965,
   "name": "Lumu Mail Beta +",
   "type": "chest",
   "rank": "master",
@@ -85041,15 +85615,15 @@
     }
   ],
   "armorSet": {
-    "id": 210,
+    "id": 212,
     "name": "Lumu Beta +",
     "rank": "master",
     "pieces": [
-      954,
-      955,
-      956,
-      957,
-      958
+      964,
+      965,
+      966,
+      967,
+      968
     ],
     "bonus": null
   },
@@ -85057,7 +85631,7 @@
   "crafting": null
 },
 {
-  "id": 956,
+  "id": 966,
   "name": "Lumu Vambraces Beta +",
   "type": "gloves",
   "rank": "master",
@@ -85102,15 +85676,15 @@
     }
   ],
   "armorSet": {
-    "id": 210,
+    "id": 212,
     "name": "Lumu Beta +",
     "rank": "master",
     "pieces": [
-      954,
-      955,
-      956,
-      957,
-      958
+      964,
+      965,
+      966,
+      967,
+      968
     ],
     "bonus": null
   },
@@ -85118,7 +85692,7 @@
   "crafting": null
 },
 {
-  "id": 957,
+  "id": 967,
   "name": "Lumu Coil Beta +",
   "type": "waist",
   "rank": "master",
@@ -85163,15 +85737,15 @@
     }
   ],
   "armorSet": {
-    "id": 210,
+    "id": 212,
     "name": "Lumu Beta +",
     "rank": "master",
     "pieces": [
-      954,
-      955,
-      956,
-      957,
-      958
+      964,
+      965,
+      966,
+      967,
+      968
     ],
     "bonus": null
   },
@@ -85179,7 +85753,7 @@
   "crafting": null
 },
 {
-  "id": 958,
+  "id": 968,
   "name": "Lumu Greaves Beta +",
   "type": "legs",
   "rank": "master",
@@ -85216,15 +85790,15 @@
     }
   ],
   "armorSet": {
-    "id": 210,
+    "id": 212,
     "name": "Lumu Beta +",
     "rank": "master",
     "pieces": [
-      954,
-      955,
-      956,
-      957,
-      958
+      964,
+      965,
+      966,
+      967,
+      968
     ],
     "bonus": null
   },

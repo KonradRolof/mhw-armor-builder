@@ -1,25 +1,25 @@
 {
   "id": 210,
-  "name": "Lumu Beta +",
+  "name": "Rath Heart Beta +",
   "rank": "master",
   "pieces": [
     {
       "id": 954,
-      "name": "Lumu Hat Beta +",
+      "name": "Rath Heart Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 130,
+        "base": 132,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 1,
-        "thunder": 0,
-        "dragon": 0
+        "fire": 3,
+        "water": 0,
+        "ice": 0,
+        "thunder": -3,
+        "dragon": -4
       },
       "attributes": {},
       "slots": [
@@ -32,12 +32,12 @@
       ],
       "skills": [
         {
-          "id": 205,
+          "id": 216,
           "level": 2,
-          "description": "Stamina recovery speed +20%",
+          "description": "Extends evasion distance.",
           "modifiers": {},
-          "skill": 66,
-          "skillName": "Stamina Surge"
+          "skill": 69,
+          "skillName": "Evade Extender"
         }
       ],
       "armorSet": 210,
@@ -46,21 +46,21 @@
     },
     {
       "id": 955,
-      "name": "Lumu Mail Beta +",
+      "name": "Rath Heart Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 130,
+        "base": 132,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 1,
-        "thunder": 0,
-        "dragon": 0
+        "fire": 3,
+        "water": 0,
+        "ice": 0,
+        "thunder": -3,
+        "dragon": -4
       },
       "attributes": {},
       "slots": [
@@ -69,16 +69,19 @@
         },
         {
           "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 159,
-          "level": 1,
-          "description": "Makes it easier to mount monsters and down mounted monsters.",
+          "id": 302,
+          "level": 2,
+          "description": "Shortens time until reuse by 20%.",
           "modifiers": {},
-          "skill": 49,
-          "skillName": "Master Mounter"
+          "skill": 106,
+          "skillName": "Tool Specialist"
         }
         ],
       "armorSet": 210,
@@ -86,22 +89,23 @@
       "crafting": null
       },
     {
+      "id": 951,
       "id": 956,
-      "name": "Lumu Vambraces Beta +",
+      "name": "Rath Heart Braces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 130,
+        "base": 132,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 1,
-        "thunder": 0,
-        "dragon": 0
+        "fire": 3,
+        "water": 0,
+        "ice": 0,
+        "thunder": -3,
+        "dragon": -4
       },
       "attributes": {},
       "slots": [
@@ -109,22 +113,14 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 190,
-          "level": 1,
-          "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
-          "modifiers": {},
-          "skill": 61,
-          "skillName": "Artillery"
-        },
-        {
-          "id": 28,
-          "level": 1,
-          "description": "Slightly reduces the effects of minor wind pressure.",
+          "id": 29,
+          "level": 2,
+          "description": "Reduces the effects of minor wind pressure.",
           "modifiers": {},
           "skill": 10,
           "skillName": "Windproof"
@@ -136,47 +132,46 @@
       },
     {
       "id": 957,
-      "name": "Lumu Coil Beta +",
+      "name": "Rath Heart Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 9,
       "defense": {
-        "base": 130,
+        "base": 132,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 1,
-        "thunder": 0,
-        "dragon": 0
+        "fire": 3,
+        "water": 0,
+        "ice": 0,
+        "thunder": -3,
+        "dragon": -4
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 252,
+          "id": 142,
           "level": 1,
-          "description": "While active, reduces damage taken by 15%.",
-          "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
+          "description": "Weapon sharpness +10",
+          "modifiers": {
+            "sharpnessBonus": 10
+          },
+          "skill": 44,
+          "skillName": "Handicraft"
         },
         {
-          "id": 28,
+          "id": 1,
           "level": 1,
-          "description": "Slightly reduces the effects of minor wind pressure.",
+          "description": "Reduces the number of times you take poison damage.",
           "modifiers": {},
-          "skill": 10,
-          "skillName": "Windproof"
+          "skill": 1,
+          "skillName": "Poison Resistance"
           }
         ],
       "armorSet": 210,
@@ -185,21 +180,21 @@
       },
       {
         "id": 958,
-        "name": "Lumu Greaves Beta +",
+        "name": "Rath Heart Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 9,
         "defense": {
-          "base": 130,
+          "base": 132,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": 2,
-          "ice": 1,
-          "thunder": 0,
-          "dragon": 0
+          "fire": 3,
+          "water": 0,
+          "ice": 0,
+          "thunder": -3,
+          "dragon": -4
         },
         "attributes": {},
         "slots": [
@@ -207,17 +202,17 @@
             "rank": 4
           },
           {
-            "rank": 1
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 29,
-            "level": 2,
-            "description": "Reduces the effects of minor wind pressure.",
+            "id": 301,
+            "level": 1,
+            "description": "Shortens time until reuse by 10%.",
             "modifiers": {},
-            "skill": 10,
-            "skillName": "Windproof"
+            "skill": 106,
+            "skillName": "Tool Specialist"
           }
         ],
       "armorSet": 210,
@@ -225,5 +220,21 @@
       "crafting": null
     }
   ],
-  "bonus": null
+  "bonus": {
+    "id": 26,
+    "name": "Rathian Essence",
+    "ranks": [
+      {
+        "pieces": 2,
+        "skill": {
+          "id": 310,
+          "level": 1,
+          "description": "Extends the duration of your poison\u0027s effect on monsters.",
+          "modifiers": {},
+          "skill": 111,
+          "skillName": "Poison Duration Up"
+        }
+      }
+    ]
+  }
 }
