@@ -1,6 +1,6 @@
 {
-  "id": 958,
-  "name": "Rath Heart Greaves Beta +",
+  "id": 978,
+  "name": "Lumu Phantasm Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 9,
@@ -10,11 +10,11 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": 0,
-    "ice": 0,
-    "thunder": -3,
-    "dragon": -4
+    "fire": -3,
+    "water": -3,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
@@ -22,31 +22,31 @@
       "rank": 4
     },
     {
-      "rank": 2
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 301,
-      "level": 1,
-      "description": "Shortens time until reuse by 10%.",
+      "id": 8,
+      "level": 2,
+      "description": "Reduces the duration of sleep by 60%.",
       "modifiers": {},
-      "skill": 106,
-      "skillName": "Tool Specialist"
+      "skill": 3,
+      "skillName": "Sleep Resistance"
     }
   ],
   "armorSet": {
-    "id": 210,
-    "name": "Rath Heart Beta +",
+    "id": 214,
+    "name": "Lumu Phantasm Beta +",
     "rank": "master",
     "pieces": [
-      954,
-      955,
-      956,
-      957,
-      958
+      974,
+      975,
+      976,
+      977,
+      978
     ],
-    "bonus": 26
+    "bonus": null
   },
   "assets": null,
   "crafting": null
