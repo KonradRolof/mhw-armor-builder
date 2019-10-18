@@ -54,13 +54,15 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private resetStats() {
+    const elements = [];
+
     this.offence = {
-      health: 50,
+      health: 100,
       attack: 0,
       affinity: 0,
       handicraftLevel: 0,
       maxHandicraft: 0,
-      elements: null
+      elements
     };
     this.skills = [];
     this.decorations = [];
@@ -184,8 +186,9 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
 
     if (weapon.elements) {
-      this.offence.elements = [];
-      weapon.elements.map((element) => this.offence.elements.push(element));
+      weapon.elements.map((element) => {
+        this.offence.elements.push({ ...element });
+      });
     }
 
     if (weapon.durability) {
@@ -252,7 +255,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.offence.affinity += modifiers.attack;
     }
 
-    if (modifiers.hasOwnProperty("damageFire")) {
+    if (modifiers.hasOwnProperty("damageFire") && 0 < this.offence.elements.length) {
       this.applyElementDamage(modifiers.damageFire, "fire");
     }
 

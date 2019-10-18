@@ -8,5 +8,5 @@ export default interface Offence {
   handicraftLevel: number;
   maxHandicraft: number;
   sharpness?: WeaponSharpness[];
-  elements?: WeaponElement[];
+  elements: WeaponElement[];
 }
