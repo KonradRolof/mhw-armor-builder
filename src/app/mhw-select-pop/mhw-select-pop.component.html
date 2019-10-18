@@ -29,7 +29,8 @@
 
             <div class="col-sm-12 col-md-6 col-lg-7">
               <div class="select-pop__filter-area">
-                <label for="sp-filter">Search for item</label>
+                <label for="sp-filter" *ngIf="'weapon' === data.type">Search for item</label>
+                <label for="sp-filter" *ngIf="'weapon' !== data.type">Search for item or skill</label>
                 <input type="search" id="sp-filter" placeholder="Add at least 3 chars"
                        [(ngModel)]="filterInput" (keyup)="filterItems()">
               </div>
