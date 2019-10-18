@@ -59,7 +59,8 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       attack: 0,
       affinity: 0,
       handicraftLevel: 0,
-      maxHandicraft: 0
+      maxHandicraft: 0,
+      elements: null
     };
     this.skills = [];
     this.decorations = [];
