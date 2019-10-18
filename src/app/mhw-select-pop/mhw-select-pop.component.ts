@@ -95,9 +95,26 @@ export class MhwSelectPopComponent implements OnChanges {
       this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) => item.type === this.currentWeaponType );
     }
 
-    this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) =>
-      item.name.toLowerCase().includes(this.filterInput.toLowerCase())
-    );
+    this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) => {
+      if ("armor" === this.data.type || "decoration" === this.data.type) {
+        if (
+          item.name.toLowerCase().includes(this.filterInput.toLowerCase()) ||
+          item.skills.find((skill) => skill.skillName.toLowerCase().match(this.filterInput.toLowerCase()))
+        ) {
+          return item;
+        }
+      } else if ("charm" === this.data.type) {
+        if (
+          item.name.toLowerCase().includes(this.filterInput.toLowerCase()) ||
+          item.ranks[0].skills.find((skill) => skill.skillName.toLowerCase().match(this.filterInput.toLowerCase()))
+        ) {
+          return item;
+        }
+      }
+
+      return item.name.toLowerCase().includes(this.filterInput.toLowerCase());
+    });
+
     if ("decoration" === this.data.type) {
       this.itemsToShow[this.selectedRank] = MhwSortingService.sortDecorationsBySize(this.itemsToShow[this.selectedRank]);
     }
