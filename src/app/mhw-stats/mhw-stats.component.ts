@@ -259,6 +259,22 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.applyElementDamage(modifiers.damageFire, "fire");
     }
 
+    if (modifiers.hasOwnProperty("damageWater") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageWater, "water");
+    }
+
+    if (modifiers.hasOwnProperty("damageIce") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageIce, "ice");
+    }
+
+    if (modifiers.hasOwnProperty("damageThunder") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageThunder, "thunder");
+    }
+
+    if (modifiers.hasOwnProperty("damageDragon") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageDragon, "dragon");
+    }
+
     if (modifiers.hasOwnProperty("defense")) {
       this.defense += modifiers.defense;
     }
