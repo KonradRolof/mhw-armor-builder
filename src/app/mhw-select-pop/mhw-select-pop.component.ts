@@ -1,5 +1,6 @@
-import {Component, EventEmitter, Input, OnChanges, Output, SimpleChanges} from "@angular/core";
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from "@angular/core";
 import { MhwSortingService } from "../service/mhw-sorting.service";
+import { MhwStorageService } from "../service/mhw-storage.service";
 import SelectionPopData from "../interface/app/selection-pop-data.interface";
 import ArmorPiecesObject from "../interface/app/armor-pieces-object.interface";
 import SelectionPopResponse from "../interface/app/selection-pop-response.interface";
@@ -42,7 +43,14 @@ export class MhwSelectPopComponent implements OnChanges {
   @Input() data: SelectionPopData = null;
   @Output() selectedItem: EventEmitter<any> = new EventEmitter();
 
-  constructor() { }
+  constructor() {
+    MhwStorageService.getAndUse("item-rank", (rank) => {
+      if (null !== rank) {
+        this.selectedRank = rank;
+        this.rankSelect = rank;
+      }
+    });
+  }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.data && null !== changes.data.currentValue) {
@@ -55,6 +63,7 @@ export class MhwSelectPopComponent implements OnChanges {
   }
 
   public switchRank(value) {
+    MhwStorageService.setItem("item-rank", value);
     this.selectedRank = value;
   }
 

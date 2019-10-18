@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.set-bonus--disabled {
+  line-height: 1.2;
+  opacity: .5;
+}
+
 .set-bonus__label {
   font-size: 10px;
 }
@@ -17,9 +22,18 @@
   span {
     font-weight: $ci-font-light;
   }
+
+  .set-bonus--disabled & {
+    font-size: 10px;
+    margin: 0;
+  }
 }
 
 .set-bonus__description {
   font-size: 14px;
   font-weight: $ci-font-medium;
+
+  .set-bonus--disabled & {
+    font-size: 10px;
+  }
 }

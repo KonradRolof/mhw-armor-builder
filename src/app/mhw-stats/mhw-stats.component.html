@@ -148,8 +148,9 @@
       <ul *ngIf="0 < setBonuses.length" class="set-bonus-list">
         <ng-container *ngFor="let bonus of setBonuses">
           <li *ngIf="bonus.bonusRank">
-            <div class="alert alert-success set-bonus">
-              <div class="set-bonus__label">{{ bonus.setName }} Set Bonus</div>
+            <div class="alert alert-success set-bonus"
+            [ngClass]="{'alert set-bonus': true, 'alert-success': true === bonus.active, 'set-bonus--disabled alert-danger': false === bonus.active }">
+              <div class="set-bonus__label">{{ bonus.setName }} Set Bonus ({{ bonus.current }} from {{ bonus.bonusRank.pieces }})</div>
               <div class="set-bonus__name">{{ bonus.bonus.name }}:
                 <span>{{ bonus.bonusRank.skill.skillName }}</span>
               </div>

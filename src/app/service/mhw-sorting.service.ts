@@ -4,6 +4,7 @@ import SkillSet from "../interface/app/skill-set.interface";
 import ArmorSet from "../interface/data/armor-set.interface";
 import Weapon from "../interface/data/weapon.interface";
 import ArmorPiece from "../interface/data/armor-piece.interface";
+import SetSkill from "../interface/app/set-skill.interface";
 
 @Injectable({
   providedIn: "root"
@@ -67,6 +68,18 @@ export class MhwSortingService {
       }
       if (a.rarity < b.rarity) {
         return -1;
+      }
+      return 0;
+    });
+  }
+
+  public static sortSetBonuses(setSkill: SetSkill[]): SetSkill[] {
+    return setSkill.sort((a, b) => {
+      if (true === a.active && false === b.active) {
+        return -1;
+      }
+      if (false === a.active && true === b.active) {
+        return 1;
       }
       return 0;
     });

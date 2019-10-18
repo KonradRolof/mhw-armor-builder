@@ -14,6 +14,7 @@ import Decoration from "./interface/data/decoration.interface";
 import Charm from "./interface/data/charm.interface";
 import Weapon from "./interface/data/weapon.interface";
 import {MhwSortingService} from "./service/mhw-sorting.service";
+import {MhwStorageService} from "./service/mhw-storage.service";
 
 @Component({
   selector: "mhw-root",
@@ -73,6 +74,7 @@ export class AppComponent implements OnInit {
   public hasDataError = false;
   public dataErrorMessage: string;
   public selectedRank = "high";
+  public rankSelection = "high";
   public openedArmorSet: number = null;
   public curSet: CurSet = {
     weapon: null,
@@ -90,7 +92,14 @@ export class AppComponent implements OnInit {
   private charmsReady = false;
   private weaponsReady = false;
 
-  constructor(private mhwDataService: MhwDataService) { }
+  constructor(private mhwDataService: MhwDataService) {
+    MhwStorageService.getAndUse("item-rank", (rank) => {
+      if (null !== rank) {
+        this.selectedRank = rank;
+        this.rankSelection = rank;
+      }
+    });
+  }
 
   ngOnInit(): void {
     this.currentWeaponType = this.weaponTypes[0].type;
@@ -101,6 +110,11 @@ export class AppComponent implements OnInit {
     this.getData("/assets/data/decorations.json", "decorations");
     this.getData("/assets/data/charms.json", "charms");
     this.getData("/assets/data/weapons.json", "weapons");
+  }
+
+  public switchRank(rank: string) {
+    MhwStorageService.setItem("item-rank", rank);
+    this.selectedRank = rank;
   }
 
   public switchWeaponType(type: string) {
