@@ -77614,6 +77614,120 @@
       }
     ],
     "bonus": null
+  },
+  {
+    "id": 225,
+    "name": "Barnos Alpha +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 997,
+        "name": "Barnos Jacket Alpha +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
+          "thunder": 0,
+          "dragon": -2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 38,
+            "level": 1,
+            "description": "Nullfies heat damage.",
+            "modifiers": {},
+            "skill": 14,
+            "skillName": "Heat Guard"
+          },
+          {
+            "id": 21,
+            "level": 2,
+            "description": "Reduces the duration of Defense Down by 75%.",
+            "modifiers": {},
+            "skill": 8,
+            "skillName": "Iron Skin"
+          }
+        ],
+        "armorSet": 225,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
+  },
+  {
+    "id": 226,
+    "name": "Barnos Beta +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 998,
+        "name": "Barnos Jacket Beta +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
+          "thunder": 0,
+          "dragon": -2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 38,
+            "level": 1,
+            "description": "Nullfies heat damage.",
+            "modifiers": {},
+            "skill": 14,
+            "skillName": "Heat Guard"
+          },
+          {
+            "id": 20,
+            "level": 1,
+            "description": "Reduces the duration of Defense Down by 50%.",
+            "modifiers": {},
+            "skill": 8,
+            "skillName": "Iron Skin"
+          }
+        ],
+        "armorSet": 225,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
   }
 
 
