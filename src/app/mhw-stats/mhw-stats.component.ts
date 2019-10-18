@@ -247,12 +247,12 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   private applySkillModifiers(skillRank: SkillRank) {
     const { modifiers } = skillRank;
 
-    if (modifiers.hasOwnProperty("affinity")) {
-      this.offence.affinity += modifiers.affinity;
+    if (modifiers.hasOwnProperty("attack")) {
+      this.offence.attack += modifiers.attack;
     }
 
-    if (modifiers.hasOwnProperty("attack")) {
-      this.offence.affinity += modifiers.attack;
+    if (modifiers.hasOwnProperty("affinity")) {
+      this.offence.affinity += modifiers.affinity;
     }
 
     if (modifiers.hasOwnProperty("damageFire") && 0 < this.offence.elements.length) {
