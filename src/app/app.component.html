@@ -47,7 +47,7 @@
             <header class="box__head">
               <h3>Armors</h3>
               <label for="rank-select">Select Rank</label>
-              <select id="rank-select" [(ngModel)]="selectedRank">
+              <select id="rank-select" [(ngModel)]="selectedRank" (change)="switchRank(selectedRank)">
                 <option value="low">Low Rank</option>
                 <option value="high">High Rank</option>
                 <option value="master">Master Rank</option>
