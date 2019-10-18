@@ -78735,6 +78735,245 @@
       }
     ]
   }
+},
+{
+  "id": 234,
+  "name": "Clockwork Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1018,
+      "name": "Clockwork Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 166,
+          "level": 1,
+          "description": "While active, grants attack +4 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        },
+        {
+          "id": 150,
+          "level": 1,
+          "description": "Part damage +10%",
+          "modifiers": {},
+          "skill": 46,
+          "skillName": "Partbreaker"
+        }
+      ],
+      "armorSet": 234,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1019,
+      "name": "Clockwork Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        }
+        ],
+      "armorSet": 234,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1020,
+      "name": "Clockwork Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 243,
+          "level": 3,
+          "description": "Explosive power +30%",
+          "modifiers": {},
+          "skill": 77,
+          "skillName": "Bombardier"
+        }
+        ],
+      "armorSet": 234,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1021,
+      "name": "Clockwork Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 151,
+          "level": 2,
+          "description": "Part damage +20%",
+          "modifiers": {},
+          "skill": 46,
+          "skillName": "Partbreaker"
+          }
+        ],
+      "armorSet": 234,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1022,
+        "name": "Clockwork Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 2,
+          "water": 2,
+          "ice": -1,
+          "thunder": 2,
+          "dragon": -1
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 130,
+            "level": 1,
+            "description": "Increases damage dealt by critical hits by 30%.",
+            "modifiers": {},
+            "skill": 40,
+            "skillName": "Critical Boost"
+          },
+          {
+            "id": 241,
+            "level": 1,
+            "description": "Explosive power +10%",
+            "modifiers": {},
+            "skill": 77,
+            "skillName": "Bombardier"
+          }
+        ],
+      "armorSet": 234,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 28,
+    "name": "Commission Alchemy",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 342,
+          "level": 1,
+          "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
+          "modifiers": {},
+          "skill": 139,
+          "skillName": "Bombardier Secret Effect"
+        }
+      }
+    ]
+  }
 }
 
 

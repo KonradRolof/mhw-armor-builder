@@ -1,11 +1,11 @@
 {
-  "id": 233,
-  "name": "Clockwork Alpha +",
+  "id": 234,
+  "name": "Clockwork Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1013,
-      "name": "Clockwork Helm Alpha +",
+      "id": 1018,
+      "name": "Clockwork Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
@@ -24,7 +24,7 @@
       "attributes": {},
       "slots": [
         {
-          "rank": 1
+          "rank": 4
         },
         {
           "rank": 1
@@ -32,9 +32,9 @@
       ],
       "skills": [
         {
-          "id": 167,
-          "level": 2,
-          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "id": 166,
+          "level": 1,
+          "description": "While active, grants attack +4 and increases affinity by 5%.",
           "modifiers": {},
           "skill": 52,
           "skillName": "Agitator"
@@ -48,13 +48,13 @@
           "skillName": "Partbreaker"
         }
       ],
-      "armorSet": 233,
+      "armorSet": 234,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1014,
-      "name": "Clockwork Mail Alpha +",
+      "id": 1019,
+      "name": "Clockwork Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
@@ -73,7 +73,7 @@
       "attributes": {},
       "slots": [
         {
-          "rank": 1
+          "rank": 4
         },
         {
           "rank": 1
@@ -87,23 +87,15 @@
           "modifiers": {},
           "skill": 52,
           "skillName": "Agitator"
-        },
-        {
-          "id": 188,
-          "level": 1,
-          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
-          "modifiers": {},
-          "skill": 60,
-          "skillName": "Special Ammo Boost"
         }
         ],
-      "armorSet": 233,
+      "armorSet": 234,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1015,
-      "name": "Clockwork Vambraces Alpha +",
+      "id": 1020,
+      "name": "Clockwork Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
@@ -122,7 +114,7 @@
       "attributes": {},
       "slots": [
         {
-          "rank": 2
+          "rank": 4
         }
       ],
       "skills": [
@@ -133,23 +125,15 @@
           "modifiers": {},
           "skill": 77,
           "skillName": "Bombardier"
-        },
-        {
-          "id": 33,
-          "level": 1,
-          "description": "Nullifies minor ground tremors.",
-          "modifiers": {},
-          "skill": 11,
-          "skillName": "Tremor Resistance"
         }
         ],
-      "armorSet": 233,
+      "armorSet": 234,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1016,
-      "name": "Clockwork Coil Alpha +",
+      "id": 1021,
+      "name": "Clockwork Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
@@ -168,7 +152,10 @@
       "attributes": {},
       "slots": [
         {
-          "rank": 2
+          "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
@@ -179,23 +166,15 @@
           "modifiers": {},
           "skill": 46,
           "skillName": "Partbreaker"
-        },
-        {
-          "id": 330,
-          "level": 1,
-          "description": "Lets you use sleep coating.",
-          "modifiers": {},
-          "skill": 131,
-          "skillName": "Sleep Functionality"
           }
         ],
-      "armorSet": 233,
+      "armorSet": 234,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1017,
-        "name": "Clockwork Greaves Alpha +",
+        "id": 1022,
+        "name": "Clockwork Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
@@ -214,10 +193,7 @@
         "attributes": {},
         "slots": [
           {
-            "rank": 1
-          },
-          {
-            "rank": 1
+            "rank": 4
           }
         ],
         "skills": [
@@ -230,15 +206,15 @@
             "skillName": "Critical Boost"
           },
           {
-            "id": 242,
-            "level": 2,
-            "description": "Explosive power +20%",
+            "id": 241,
+            "level": 1,
+            "description": "Explosive power +10%",
             "modifiers": {},
             "skill": 77,
             "skillName": "Bombardier"
           }
         ],
-      "armorSet": 233,
+      "armorSet": 234,
       "assets": null,
       "crafting": null
     }

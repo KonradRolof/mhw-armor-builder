@@ -1,6 +1,6 @@
 {
-  "id": 1017,
-  "name": "Clockwork Greaves Alpha +",
+  "id": 1022,
+  "name": "Clockwork Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
@@ -19,10 +19,7 @@
   "attributes": {},
   "slots": [
     {
-      "rank": 1
-    },
-    {
-      "rank": 1
+      "rank": 4
     }
   ],
   "skills": [
@@ -35,24 +32,24 @@
       "skillName": "Critical Boost"
     },
     {
-      "id": 242,
-      "level": 2,
-      "description": "Explosive power +20%",
+      "id": 241,
+      "level": 1,
+      "description": "Explosive power +10%",
       "modifiers": {},
       "skill": 77,
       "skillName": "Bombardier"
     }
   ],
   "armorSet": {
-    "id": 233,
-    "name": "Clockwork Alpha +",
+    "id": 234,
+    "name": "Clockwork Beta +",
     "rank": "master",
     "pieces": [
-      1013,
-      1014,
-      1015,
-      1016,
-      1017
+      1018,
+      1019,
+      1020,
+      1021,
+      1022
     ],
     "bonus": 28
   },
