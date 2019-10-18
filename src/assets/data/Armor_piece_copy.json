@@ -1,20 +1,20 @@
 {
-  "id": 988,
-  "name": "Baan Greaves Beta +",
-  "type": "legs",
+  "id": 990,
+  "name": "Kestodon Guards Beta +",
+  "type": "gloves",
   "rank": "master",
   "rarity": 9,
   "defense": {
-    "base": 134,
+    "base": 116,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 0,
-    "water": 2,
-    "ice": -1,
+    "fire": 4,
+    "water": 0,
+    "ice": 0,
     "thunder": 0,
-    "dragon": -2
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
@@ -27,24 +27,28 @@
   ],
   "skills": [
     {
-      "id": 18,
-      "level": 2,
-      "description": "Greatly reduces damage while bleeding.",
+      "id": 304,
+      "level": 1,
+      "description": "Increases affinity by 30% for a short time after sliding.",
       "modifiers": {},
-      "skill": 7,
-      "skillName": "Bleeding Resistance"
+      "skill": 107,
+      "skillName": "Affinity Sliding"
+    },
+    {
+      "id": 136,
+      "level": 1,
+      "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+      "modifiers": {},
+      "skill": 42,
+      "skillName": "Focus"
     }
   ],
   "armorSet": {
-    "id": 216,
-    "name": "Baan Beta +",
+    "id": 218,
+    "name": "Kestodon Beta +",
     "rank": "master",
     "pieces": [
-      984,
-      985,
-      986,
-      987,
-      988
+      990
     ],
     "bonus": null
   },
