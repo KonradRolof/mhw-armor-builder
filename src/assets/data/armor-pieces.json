@@ -87253,6 +87253,117 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 995,
+  "name": "Gastodon Horn Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 0,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 277,
+      "level": 2,
+      "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    },
+    {
+      "id": 14,
+      "level": 1,
+      "description": "Delays blastblight and reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 223,
+    "name": "Gastodon Alpha +",
+    "rank": "master",
+    "pieces": [
+      995
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 996,
+  "name": "Gastodon Horn Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 0,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 276,
+      "level": 1,
+      "description": "Prevents knockbacks.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    },
+    {
+      "id": 14,
+      "level": 1,
+      "description": "Delays blastblight and reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 224,
+    "name": "Gastodon Beta +",
+    "rank": "master",
+    "pieces": [
+      996
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
 }
 
 
