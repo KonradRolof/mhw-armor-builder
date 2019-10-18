@@ -87021,6 +87021,124 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 991,
+  "name": "Gajau Boots Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 5,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 286,
+      "level": 2,
+      "description": "Increases your evade window and prevents lowered movement speed.",
+      "modifiers": {},
+      "skill": 96,
+      "skillName": "Aquatic\/Polar Mobility"
+    },
+    {
+      "id": 86,
+      "level": 2,
+      "description": "Water attack +60",
+      "modifiers": {
+        "damageWater": 60
+      },
+      "skill": 27,
+      "skillName": "Water Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 219,
+    "name": "Gajau Alpha +",
+    "rank": "master",
+    "pieces": [
+      991
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 992,
+  "name": "Gajau Boots Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 5,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 285,
+      "level": 1,
+      "description": "Prevents lowered movement speed.",
+      "modifiers": {},
+      "skill": 96,
+      "skillName": "Aquatic\/Polar Mobility"
+    },
+    {
+      "id": 86,
+      "level": 2,
+      "description": "Water attack +60",
+      "modifiers": {
+        "damageWater": 60
+      },
+      "skill": 27,
+      "skillName": "Water Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 220,
+    "name": "Gajau Beta +",
+    "rank": "master",
+    "pieces": [
+      992
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

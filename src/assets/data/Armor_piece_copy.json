@@ -1,7 +1,7 @@
 {
-  "id": 990,
-  "name": "Kestodon Guards Beta +",
-  "type": "gloves",
+  "id": 993,
+  "name": "Shamos Googles Alpha +",
+  "type": "head",
   "rank": "master",
   "rarity": 9,
   "defense": {
@@ -10,16 +10,16 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": 4,
-    "water": 0,
-    "ice": 0,
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
     "thunder": 0,
     "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
-      "rank": 4
+      "rank": 2
     },
     {
       "rank": 1
@@ -27,28 +27,28 @@
   ],
   "skills": [
     {
-      "id": 304,
+      "id": 299,
       "level": 1,
-      "description": "Increases affinity by 30% for a short time after sliding.",
+      "description": "Marks rare sites on the wildlife map.",
       "modifiers": {},
-      "skill": 107,
-      "skillName": "Affinity Sliding"
+      "skill": 104,
+      "skillName": "Detector"
     },
     {
-      "id": 136,
-      "level": 1,
-      "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+      "id": 265,
+      "level": 2,
+      "description": "Allows you to gather one extra time from bonepiles and special item gathering points.",
       "modifiers": {},
-      "skill": 42,
-      "skillName": "Focus"
+      "skill": 87,
+      "skillName": "Geologist"
     }
   ],
   "armorSet": {
-    "id": 218,
-    "name": "Kestodon Beta +",
+    "id": 221,
+    "name": "Shamos Alpha +",
     "rank": "master",
     "pieces": [
-      990
+      993
     ],
     "bonus": null
   },
