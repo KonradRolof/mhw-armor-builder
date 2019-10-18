@@ -2653,6 +2653,24 @@
         "description": "Explosive power +30%",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 343,
+        "skill": 77,
+        "skillName": "Bombardier",
+        "level": 4,
+        "description": "Explosive power +40%",
+        "modifiers": {}
+      },
+      {
+        "id": 344,
+        "skill": 77,
+        "skillName": "Bombardier",
+        "level": 5,
+        "description": "Explosive power +50%",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -3847,5 +3865,23 @@
         "modifiers": {}
       }
     ]
+  },
+  {
+    "id": 139,
+    "name": "Bombardier Secret Effect",
+    "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
+    "ranks": [
+      {
+        "id": 342,
+        "skill": 139,
+        "skillName": "Bombardier Secret Effect",
+        "level": 1,
+        "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
+        "modifiers": {
+          "hiddenRanks": 77
+        }
+      }
+    ]
   }
+
 ]

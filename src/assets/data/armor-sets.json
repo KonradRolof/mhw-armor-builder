@@ -78472,7 +78472,270 @@
         }
       ]
     }
+  },
+  {
+  "id": 233,
+  "name": "Clockwork Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1013,
+      "name": "Clockwork Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        },
+        {
+          "id": 150,
+          "level": 1,
+          "description": "Part damage +10%",
+          "modifiers": {},
+          "skill": 46,
+          "skillName": "Partbreaker"
+        }
+      ],
+      "armorSet": 233,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1014,
+      "name": "Clockwork Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        },
+        {
+          "id": 188,
+          "level": 1,
+          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
+          "modifiers": {},
+          "skill": 60,
+          "skillName": "Special Ammo Boost"
+        }
+        ],
+      "armorSet": 233,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1015,
+      "name": "Clockwork Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 243,
+          "level": 3,
+          "description": "Explosive power +30%",
+          "modifiers": {},
+          "skill": 77,
+          "skillName": "Bombardier"
+        },
+        {
+          "id": 33,
+          "level": 1,
+          "description": "Nullifies minor ground tremors.",
+          "modifiers": {},
+          "skill": 11,
+          "skillName": "Tremor Resistance"
+        }
+        ],
+      "armorSet": 233,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1016,
+      "name": "Clockwork Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 151,
+          "level": 2,
+          "description": "Part damage +20%",
+          "modifiers": {},
+          "skill": 46,
+          "skillName": "Partbreaker"
+        },
+        {
+          "id": 330,
+          "level": 1,
+          "description": "Lets you use sleep coating.",
+          "modifiers": {},
+          "skill": 131,
+          "skillName": "Sleep Functionality"
+          }
+        ],
+      "armorSet": 233,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1017,
+        "name": "Clockwork Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 2,
+          "water": 2,
+          "ice": -1,
+          "thunder": 2,
+          "dragon": -1
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 130,
+            "level": 1,
+            "description": "Increases damage dealt by critical hits by 30%.",
+            "modifiers": {},
+            "skill": 40,
+            "skillName": "Critical Boost"
+          },
+          {
+            "id": 242,
+            "level": 2,
+            "description": "Explosive power +20%",
+            "modifiers": {},
+            "skill": 77,
+            "skillName": "Bombardier"
+          }
+        ],
+      "armorSet": 233,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 28,
+    "name": "Commission Alchemy",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 342,
+          "level": 1,
+          "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
+          "modifiers": {},
+          "skill": 139,
+          "skillName": "Bombardier Secret Effect"
+        }
+      }
+    ]
   }
+}
 
 
 

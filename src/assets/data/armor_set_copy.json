@@ -1,11 +1,11 @@
 {
-  "id": 232,
-  "name": "Artian Beta +",
+  "id": 233,
+  "name": "Clockwork Alpha +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1008,
-      "name": "Artian Helm Beta +",
+      "id": 1013,
+      "name": "Clockwork Helm Alpha +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
@@ -15,16 +15,16 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": -2,
-        "ice": 2,
-        "thunder": -2,
-        "dragon": 3
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 4
+          "rank": 1
         },
         {
           "rank": 1
@@ -32,29 +32,29 @@
       ],
       "skills": [
         {
-          "id": 270,
-          "level": 1,
-          "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
           "modifiers": {},
-          "skill": 89,
-          "skillName": "Slinger Capacity"
+          "skill": 52,
+          "skillName": "Agitator"
         },
         {
-          "id": 120,
+          "id": 150,
           "level": 1,
-          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+          "description": "Part damage +10%",
           "modifiers": {},
-          "skill": 38,
-          "skillName": "Free Elem\/Ammo Up"
+          "skill": 46,
+          "skillName": "Partbreaker"
         }
       ],
-      "armorSet": 232,
+      "armorSet": 233,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1009,
-      "name": "Artian Mail Beta +",
+      "id": 1014,
+      "name": "Clockwork Mail Alpha +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
@@ -64,45 +64,46 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": -2,
-        "ice": 2,
-        "thunder": -2,
-        "dragon": 3
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 4
+          "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 124,
+          "id": 167,
           "level": 2,
-          "description": "Affinity +10%",
-          "modifiers": {
-            "affinity": 10
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
         },
         {
-          "id": 171,
+          "id": 188,
           "level": 1,
-          "description": "While active, grants attack +5.",
+          "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
           "modifiers": {},
-          "skill": 53,
-          "skillName": "Peak Performance"
+          "skill": 60,
+          "skillName": "Special Ammo Boost"
         }
         ],
-      "armorSet": 232,
+      "armorSet": 233,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1010,
-      "name": "Artian Vambraces Beta +",
+      "id": 1015,
+      "name": "Clockwork Vambraces Alpha +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
@@ -112,35 +113,43 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": -2,
-        "ice": 2,
-        "thunder": -2,
-        "dragon": 3
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 4
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 121,
-          "level": 2,
-          "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+          "id": 243,
+          "level": 3,
+          "description": "Explosive power +30%",
           "modifiers": {},
-          "skill": 38,
-          "skillName": "Free Elem\/Ammo Up"
+          "skill": 77,
+          "skillName": "Bombardier"
+        },
+        {
+          "id": 33,
+          "level": 1,
+          "description": "Nullifies minor ground tremors.",
+          "modifiers": {},
+          "skill": 11,
+          "skillName": "Tremor Resistance"
         }
         ],
-      "armorSet": 232,
+      "armorSet": 233,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1011,
-      "name": "Artian Coil Beta +",
+      "id": 1016,
+      "name": "Clockwork Coil Alpha +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
@@ -150,48 +159,43 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": -2,
-        "ice": 2,
-        "thunder": -2,
-        "dragon": 3
+        "fire": 2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 4
-        },
-        {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 301,
-          "level": 1,
-          "description": "Shortens time until reuse by 10%.",
+          "id": 151,
+          "level": 2,
+          "description": "Part damage +20%",
           "modifiers": {},
-          "skill": 106,
-          "skillName": "Tool Specialist"
+          "skill": 46,
+          "skillName": "Partbreaker"
         },
         {
-          "id": 123,
+          "id": 330,
           "level": 1,
-          "description": "Affinity +5%",
-          "modifiers": {
-            "affinity": 5
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "description": "Lets you use sleep coating.",
+          "modifiers": {},
+          "skill": 131,
+          "skillName": "Sleep Functionality"
           }
         ],
-      "armorSet": 232,
+      "armorSet": 233,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1012,
-        "name": "Artian Greaves Beta +",
+        "id": 1017,
+        "name": "Clockwork Greaves Alpha +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
@@ -201,46 +205,57 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": 1,
-          "water": -2,
-          "ice": 2,
-          "thunder": -2,
-          "dragon": 3
+          "fire": 2,
+          "water": 2,
+          "ice": -1,
+          "thunder": 2,
+          "dragon": -1
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 4
+            "rank": 1
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 172,
-            "level": 2,
-            "description": "While active, grants attack +10.",
+            "id": 130,
+            "level": 1,
+            "description": "Increases damage dealt by critical hits by 30%.",
             "modifiers": {},
-            "skill": 53,
-            "skillName": "Peak Performance"
+            "skill": 40,
+            "skillName": "Critical Boost"
+          },
+          {
+            "id": 242,
+            "level": 2,
+            "description": "Explosive power +20%",
+            "modifiers": {},
+            "skill": 77,
+            "skillName": "Bombardier"
           }
         ],
-      "armorSet": 232,
+      "armorSet": 233,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 27,
-    "name": "Ancient Divinity",
+    "id": 28,
+    "name": "Commission Alchemy",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 323,
+          "id": 342,
           "level": 1,
-          "description": "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
+          "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
           "modifiers": {},
-          "skill": 124,
-          "skillName": "Critical Status"
+          "skill": 139,
+          "skillName": "Bombardier Secret Effect"
         }
       }
     ]
