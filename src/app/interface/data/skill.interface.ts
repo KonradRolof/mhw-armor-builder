@@ -6,4 +6,5 @@ export default interface Skill {
   name: string; // The name of the skill
   description?: string; // A short description of the skill
   ranks: SkillRank[]; // An array of available ranks for the skill
+  hiddenRanks?: SkillRank[]; // An array of available ranks to reach with an other skill
 }

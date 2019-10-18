@@ -14,5 +14,6 @@ export default interface SkillRankModifiers {
   resistWater?: number; // Modifies water resistance
   resistIce?: number; // Modifies ice resistance
   resistThunder?: number; // Modifies thunder resistance
-  resistDragon?: number; // Modifies dragon resistance
+  resistDragon?: number; // Modifies dragon resistance,
+  hiddenRanks?: number; // ID of the skill to activate hidden ranks
 }
