@@ -77957,6 +77957,521 @@
       }
     ],
     "bonus": null
+  },
+  {
+    "id": 231,
+    "name": "Artian Alpha +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 1003,
+        "name": "Artian Helm Alpha +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 271,
+            "level": 2,
+            "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+            "modifiers": {},
+            "skill": 89,
+            "skillName": "Slinger Capacity"
+          },
+          {
+            "id": 120,
+            "level": 1,
+            "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+            "modifiers": {},
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
+          }
+        ],
+        "armorSet": 231,
+        "assets": null,
+        "crafting": null
+      },
+      {
+        "id": 1004,
+        "name": "Artian Mail Alpha +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 125,
+            "level": 3,
+            "description": "Affinity +15%",
+            "modifiers": {
+              "affinity": 15
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
+          },
+          {
+            "id": 171,
+            "level": 1,
+            "description": "While active, grants attack +5.",
+            "modifiers": {},
+            "skill": 53,
+            "skillName": "Peak Performance"
+          }
+          ],
+        "armorSet": 231,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 1005,
+        "name": "Artian Vambraces Alpha +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 121,
+            "level": 2,
+            "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+            "modifiers": {},
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
+          },
+          {
+            "id": 301,
+            "level": 1,
+            "description": "Shortens time until reuse by 10%.",
+            "modifiers": {},
+            "skill": 106,
+            "skillName": "Tool Specialist"
+          }
+          ],
+        "armorSet": 231,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 1006,
+        "name": "Artian Coil Alpha +",
+        "type": "waist",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 302,
+            "level": 2,
+            "description": "Shortens time until reuse by 20%.",
+            "modifiers": {},
+            "skill": 106,
+            "skillName": "Tool Specialist"
+          },
+          {
+            "id": 123,
+            "level": 1,
+            "description": "Affinity +5%",
+            "modifiers": {
+              "affinity": 5
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
+            }
+          ],
+        "armorSet": 231,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 1007,
+          "name": "Artian Greaves Alpha +",
+          "type": "legs",
+          "rank": "master",
+          "rarity": 10,
+          "defense": {
+            "base": 142,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": 1,
+            "water": -2,
+            "ice": 2,
+            "thunder": -2,
+            "dragon": 3
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 1
+            },
+            {
+              "rank": 1
+            }
+          ],
+          "skills": [
+            {
+              "id": 172,
+              "level": 2,
+              "description": "While active, grants attack +10.",
+              "modifiers": {},
+              "skill": 53,
+              "skillName": "Peak Performance"
+            },
+            {
+              "id": 270,
+              "level": 1,
+              "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+              "modifiers": {},
+              "skill": 89,
+              "skillName": "Slinger Capacity"
+            }
+          ],
+        "armorSet": 231,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": {
+      "id": 27,
+      "name": "Ancient Divinity",
+      "ranks": [
+        {
+          "pieces": 2,
+          "skill": {
+            "id": 323,
+            "level": 1,
+            "description": "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
+            "modifiers": {},
+            "skill": 124,
+            "skillName": "Critical Status"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 232,
+    "name": "Artian Beta +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 1008,
+        "name": "Artian Helm Beta +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 270,
+            "level": 1,
+            "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+            "modifiers": {},
+            "skill": 89,
+            "skillName": "Slinger Capacity"
+          },
+          {
+            "id": 120,
+            "level": 1,
+            "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+            "modifiers": {},
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
+          }
+        ],
+        "armorSet": 232,
+        "assets": null,
+        "crafting": null
+      },
+      {
+        "id": 1009,
+        "name": "Artian Mail Beta +",
+        "type": "chest",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 124,
+            "level": 2,
+            "description": "Affinity +10%",
+            "modifiers": {
+              "affinity": 10
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
+          },
+          {
+            "id": 171,
+            "level": 1,
+            "description": "While active, grants attack +5.",
+            "modifiers": {},
+            "skill": 53,
+            "skillName": "Peak Performance"
+          }
+          ],
+        "armorSet": 232,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 1010,
+        "name": "Artian Vambraces Beta +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 121,
+            "level": 2,
+            "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+            "modifiers": {},
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
+          }
+          ],
+        "armorSet": 232,
+        "assets": null,
+        "crafting": null
+        },
+      {
+        "id": 1011,
+        "name": "Artian Coil Beta +",
+        "type": "waist",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 142,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 1,
+          "water": -2,
+          "ice": 2,
+          "thunder": -2,
+          "dragon": 3
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 301,
+            "level": 1,
+            "description": "Shortens time until reuse by 10%.",
+            "modifiers": {},
+            "skill": 106,
+            "skillName": "Tool Specialist"
+          },
+          {
+            "id": 123,
+            "level": 1,
+            "description": "Affinity +5%",
+            "modifiers": {
+              "affinity": 5
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
+            }
+          ],
+        "armorSet": 232,
+        "assets": null,
+        "crafting": null
+        },
+        {
+          "id": 1012,
+          "name": "Artian Greaves Beta +",
+          "type": "legs",
+          "rank": "master",
+          "rarity": 10,
+          "defense": {
+            "base": 142,
+            "max": 0,
+            "augmented": 0
+          },
+          "resistances": {
+            "fire": 1,
+            "water": -2,
+            "ice": 2,
+            "thunder": -2,
+            "dragon": 3
+          },
+          "attributes": {},
+          "slots": [
+            {
+              "rank": 4
+            }
+          ],
+          "skills": [
+            {
+              "id": 172,
+              "level": 2,
+              "description": "While active, grants attack +10.",
+              "modifiers": {},
+              "skill": 53,
+              "skillName": "Peak Performance"
+            }
+          ],
+        "armorSet": 232,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": {
+      "id": 27,
+      "name": "Ancient Divinity",
+      "ranks": [
+        {
+          "pieces": 2,
+          "skill": {
+            "id": 323,
+            "level": 1,
+            "description": "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
+            "modifiers": {},
+            "skill": 124,
+            "skillName": "Critical Status"
+          }
+        }
+      ]
+    }
   }
 
 
