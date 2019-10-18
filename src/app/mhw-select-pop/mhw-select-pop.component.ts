@@ -63,6 +63,8 @@ export class MhwSelectPopComponent implements OnChanges {
   }
 
   public switchRank(value) {
+    this.resetFilter();
+    this.filterInput = "";
     MhwStorageService.setItem("item-rank", value);
     this.selectedRank = value;
   }
@@ -88,8 +90,7 @@ export class MhwSelectPopComponent implements OnChanges {
   }
 
   public filterItems() {
-    this.itemsToShow[this.selectedRank] = [];
-    this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item);
+    this.resetFilter();
 
     if (this.weaponSelectable && this.currentWeaponType !== this.weaponTypes[0].type) {
       this.itemsToShow[this.selectedRank] = this.itemsToShow[this.selectedRank].filter((item) => item.type === this.currentWeaponType );
@@ -123,11 +124,19 @@ export class MhwSelectPopComponent implements OnChanges {
   public switchWeaponType(type: string) {
     let weapons = this.storedItems[this.selectedRank];
 
+    this.resetFilter();
+    this.filterInput = "";
+
     if (this.weaponTypes[0].type !== type) {
       weapons = weapons.filter((weapon) => weapon.type === type);
     }
 
     this.itemsToShow[this.selectedRank] = weapons;
+  }
+
+  private resetFilter() {
+    this.itemsToShow[this.selectedRank] = [];
+    this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item);
   }
 
   private readDataObject(data: SelectionPopData) {

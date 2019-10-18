@@ -88,6 +88,9 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     this.applyDecoSkills();
     MhwSortingService.sortSkillsByLevel(this.skills);
 
+    // handle skill modifiers
+    this.skills.map((skill) => this.applySkillModifiers(skill.skill.ranks[skill.level - 1]));
+
     setTimeout(() => {
       this.resetRefresh.emit(false);
     }, 1);
@@ -234,6 +237,46 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   private applyDecoSkills() {
     this.decorations.map((decoration) => {
       decoration.skills.map((skill) => this.addSkill(skill));
+    });
+  }
+
+  private applySkillModifiers(skillRank: SkillRank) {
+    const { modifiers } = skillRank;
+
+    if (modifiers.hasOwnProperty("affinity")) {
+      this.offence.affinity += modifiers.affinity;
+    }
+
+    if (modifiers.hasOwnProperty("attack")) {
+      this.offence.affinity += modifiers.attack;
+    }
+
+    if (modifiers.hasOwnProperty("damageFire")) {
+      this.applyElementDamage(modifiers.damageFire, "fire");
+    }
+
+    if (modifiers.hasOwnProperty("defense")) {
+      this.defense += modifiers.defense;
+    }
+  }
+
+  private applyElementDamage(modifier: number|string, elementType: string) {
+    let damageNum;
+    let damagePercent = 100;
+
+    if ("number" === typeof modifier) {
+      damageNum = modifier;
+    } else {
+      const damage = modifier.split("+");
+      damageNum = parseInt(damage[0], 10);
+      damagePercent += parseInt(damage[1], 10);
+    }
+
+    this.offence.elements.map((element) => {
+      if (element.type === elementType) {
+        element.damage += damageNum;
+        element.damage = Math.floor(element.damage * (damagePercent / 100));
+      }
     });
   }
 
