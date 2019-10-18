@@ -77160,7 +77160,117 @@
       }
     ],
     "bonus": null
+  },
+  {
+    "id": 217,
+    "name": "Kestodon Alpha +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 989,
+        "name": "Kestodon Gurads Alpha +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 4,
+          "water": 0,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 304,
+            "level": 1,
+            "description": "Increases affinity by 30% for a short time after sliding.",
+            "modifiers": {},
+            "skill": 107,
+            "skillName": "Affinity Sliding"
+          },
+          {
+            "id": 137,
+            "level": 2,
+            "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+            "modifiers": {},
+            "skill": 42,
+            "skillName": "Focus"
+          }
+        ],
+        "armorSet": 217,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
+  },
+  {
+    "id": 218,
+    "name": "Kestodon Beta +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 990,
+        "name": "Kestodon Guards Beta +",
+        "type": "gloves",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 4,
+          "water": 0,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 304,
+            "level": 1,
+            "description": "Increases affinity by 30% for a short time after sliding.",
+            "modifiers": {},
+            "skill": 107,
+            "skillName": "Affinity Sliding"
+          },
+          {
+            "id": 136,
+            "level": 1,
+            "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+            "modifiers": {},
+            "skill": 42,
+            "skillName": "Focus"
+          }
+        ],
+        "armorSet": 218,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
   }
-
 
 ]

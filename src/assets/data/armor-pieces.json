@@ -86907,6 +86907,120 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 989,
+  "name": "Kestodon Guards Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": 0,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 304,
+      "level": 1,
+      "description": "Increases affinity by 30% for a short time after sliding.",
+      "modifiers": {},
+      "skill": 107,
+      "skillName": "Affinity Sliding"
+    },
+    {
+      "id": 137,
+      "level": 2,
+      "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+      "modifiers": {},
+      "skill": 42,
+      "skillName": "Focus"
+    }
+  ],
+  "armorSet": {
+    "id": 217,
+    "name": "Kestodon Alpha +",
+    "rank": "master",
+    "pieces": [
+      989
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 990,
+  "name": "Kestodon Guards Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 9,
+  "defense": {
+    "base": 116,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": 0,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 304,
+      "level": 1,
+      "description": "Increases affinity by 30% for a short time after sliding.",
+      "modifiers": {},
+      "skill": 107,
+      "skillName": "Affinity Sliding"
+    },
+    {
+      "id": 136,
+      "level": 1,
+      "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+      "modifiers": {},
+      "skill": 42,
+      "skillName": "Focus"
+    }
+  ],
+  "armorSet": {
+    "id": 218,
+    "name": "Kestodon Beta +",
+    "rank": "master",
+    "pieces": [
+      990
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
 }
 
 
