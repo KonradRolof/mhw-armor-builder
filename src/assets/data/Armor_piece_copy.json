@@ -1,6 +1,6 @@
 {
-  "id": 993,
-  "name": "Shamos Googles Alpha +",
+  "id": 994,
+  "name": "Shamos Goggles Beta +",
   "type": "head",
   "rank": "master",
   "rarity": 9,
@@ -19,10 +19,10 @@
   "attributes": {},
   "slots": [
     {
-      "rank": 2
+      "rank": 4
     },
     {
-      "rank": 1
+      "rank": 2
     }
   ],
   "skills": [
@@ -35,20 +35,20 @@
       "skillName": "Detector"
     },
     {
-      "id": 265,
-      "level": 2,
-      "description": "Allows you to gather one extra time from bonepiles and special item gathering points.",
+      "id": 264,
+      "level": 1,
+      "description": "Allows you to gather one extra time from bonepiles.",
       "modifiers": {},
       "skill": 87,
       "skillName": "Geologist"
     }
   ],
   "armorSet": {
-    "id": 221,
-    "name": "Shamos Alpha +",
+    "id": 222,
+    "name": "Shamos Beta +",
     "rank": "master",
     "pieces": [
-      993
+      994
     ],
     "bonus": null
   },

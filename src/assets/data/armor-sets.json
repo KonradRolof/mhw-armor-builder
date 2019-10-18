@@ -77389,6 +77389,120 @@
       }
     ],
     "bonus": null
+  },
+  {
+    "id": 221,
+    "name": "Shamos Alpha +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 993,
+        "name": "Shamos Goggles Alpha +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 2,
+          "water": 2,
+          "ice": -3,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 299,
+            "level": 1,
+            "description": "Marks rare sites on the wildlife map.",
+            "modifiers": {},
+            "skill": 104,
+            "skillName": "Detector"
+          },
+          {
+            "id": 265,
+            "level": 2,
+            "description": "Allows you to gather one extra time from bonepiles and special item gathering points.",
+            "modifiers": {},
+            "skill": 87,
+            "skillName": "Geologist"
+          }
+        ],
+        "armorSet": 221,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
+  },
+  {
+    "id": 222,
+    "name": "Shamos Beta +",
+    "rank": "master",
+    "pieces": [
+      {
+        "id": 994,
+        "name": "Shamos Goggles Beta +",
+        "type": "head",
+        "rank": "master",
+        "rarity": 9,
+        "defense": {
+          "base": 116,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 2,
+          "water": 2,
+          "ice": -3,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 299,
+            "level": 1,
+            "description": "Marks rare sites on the wildlife map.",
+            "modifiers": {},
+            "skill": 104,
+            "skillName": "Detector"
+          },
+          {
+            "id": 264,
+            "level": 1,
+            "description": "Allows you to gather one extra time from bonepiles.",
+            "modifiers": {},
+            "skill": 87,
+            "skillName": "Geologist"
+          }
+        ],
+        "armorSet": 222,
+        "assets": null,
+        "crafting": null
+      }
+    ],
+    "bonus": null
   }
 
 ]
