@@ -88868,6 +88868,607 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1023,
+  "name": "Ingot Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 96,
+      "level": 2,
+      "description": "Thunder attack +60",
+      "modifiers": {
+        "damageThunder": 60
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    },
+    {
+      "id": 28,
+      "level": 1,
+      "description": "Slightly reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    }
+  ],
+  "armorSet": {
+    "id": 235,
+    "name": "Ingot Alpha +",
+    "rank": "master",
+    "pieces": [
+      1023,
+      1024,
+      1025,
+      1026,
+      1027
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1024,
+  "name": "Ingot Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 72,
+      "level": 2,
+      "description": "Thunder resistance +12",
+      "modifiers": {
+        "resistThunder": 12
+      },
+      "skill": 23,
+      "skillName": "Thunder Resistance"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "modifiers": {},
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
+    }
+  ],
+  "armorSet": {
+    "id": 235,
+    "name": "Ingot Alpha +",
+    "rank": "master",
+    "pieces": [
+      1023,
+      1024,
+      1025,
+      1026,
+      1027
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1025,
+  "name": "Ingot Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    },
+    {
+      "id": 96,
+      "level": 2,
+      "description": "Thunder attack +60",
+      "modifiers": {
+        "damageThunder": 60
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 235,
+    "name": "Ingot Alpha +",
+    "rank": "master",
+    "pieces": [
+      1023,
+      1024,
+      1025,
+      1026,
+      1027
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1026,
+  "name": "Ingot Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 29,
+      "level": 2,
+      "description": "Reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "modifiers": {},
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
+    }
+  ],
+  "armorSet": {
+    "id": 235,
+    "name": "Ingot Alpha +",
+    "rank": "master",
+    "pieces": [
+      1023,
+      1024,
+      1025,
+      1026,
+      1027
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1027,
+  "name": "Ingot Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 47,
+      "level": 2,
+      "description": "Defense +10",
+      "modifiers": {
+        "defense": 10
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "modifiers": {},
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
+    }
+  ],
+  "armorSet": {
+    "id": 235,
+    "name": "Ingot Alpha +",
+    "rank": "master",
+    "pieces": [
+      1023,
+      1024,
+      1025,
+      1026,
+      1027
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1028,
+  "name": "Ingot Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 96,
+      "level": 2,
+      "description": "Thunder attack +60",
+      "modifiers": {
+        "damageThunder": 60
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 236,
+    "name": "Ingot Beta +",
+    "rank": "master",
+    "pieces": [
+      1028,
+      1029,
+      1030,
+      1031,
+      1032
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1029,
+  "name": "Ingot Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 71,
+      "level": 1,
+      "description": "Thunder resistance +6",
+      "modifiers": {
+        "resistThunder": 6
+      },
+      "skill": 23,
+      "skillName": "Thunder Resistance"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "modifiers": {},
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
+    }
+  ],
+  "armorSet": {
+    "id": 236,
+    "name": "Ingot Beta +",
+    "rank": "master",
+    "pieces": [
+      1028,
+      1029,
+      1030,
+      1031,
+      1032
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1030,
+  "name": "Ingot Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    },
+    {
+      "id": 95,
+      "level": 1,
+      "description": "Thunder attack +30",
+      "modifiers": {
+        "damageThunder": 30
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 236,
+    "name": "Ingot Beta +",
+    "rank": "master",
+    "pieces": [
+      1028,
+      1029,
+      1030,
+      1031,
+      1032
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1031,
+  "name": "Ingot Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 28,
+      "level": 1,
+      "description": "Slightly reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "modifiers": {},
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
+    }
+  ],
+  "armorSet": {
+    "id": 236,
+    "name": "Ingot Beta +",
+    "rank": "master",
+    "pieces": [
+      1028,
+      1029,
+      1030,
+      1031,
+      1032
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1032,
+  "name": "Ingot Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 136,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 46,
+      "level": 1,
+      "description": "Defense +5",
+      "modifiers": {
+        "defense": 5
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "modifiers": {},
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
+    }
+  ],
+  "armorSet": {
+    "id": 236,
+    "name": "Ingot Beta +",
+    "rank": "master",
+    "pieces": [
+      1028,
+      1029,
+      1030,
+      1031,
+      1032
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

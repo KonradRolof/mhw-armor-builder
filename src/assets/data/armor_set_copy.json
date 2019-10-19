@@ -1,25 +1,25 @@
 {
-  "id": 234,
-  "name": "Clockwork Beta +",
+  "id": 236,
+  "name": "Ingot Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1018,
-      "name": "Clockwork Helm Beta +",
+      "id": 1028,
+      "name": "Ingot Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 136,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
+        "fire": -2,
+        "water": 0,
         "ice": -1,
-        "thunder": 2,
-        "dragon": -1
+        "thunder": 3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -27,89 +27,90 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 166,
-          "level": 1,
-          "description": "While active, grants attack +4 and increases affinity by 5%.",
-          "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
-        },
-        {
-          "id": 150,
-          "level": 1,
-          "description": "Part damage +10%",
-          "modifiers": {},
-          "skill": 46,
-          "skillName": "Partbreaker"
+          "id": 96,
+          "level": 2,
+          "description": "Thunder attack +60",
+          "modifiers": {
+            "damageThunder": 60
+          },
+          "skill": 29,
+          "skillName": "Thunder Attack"
         }
       ],
-      "armorSet": 234,
+      "armorSet": 236,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1019,
-      "name": "Clockwork Mail Beta +",
+      "id": 1029,
+      "name": "Ingot Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 136,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
+        "fire": -2,
+        "water": 0,
         "ice": -1,
-        "thunder": 2,
-        "dragon": -1
+        "thunder": 3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 167,
-          "level": 2,
-          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "id": 71,
+          "level": 1,
+          "description": "Thunder resistance +6",
+          "modifiers": {
+            "resistThunder": 6
+          },
+          "skill": 23,
+          "skillName": "Thunder Resistance"
+        },
+        {
+          "id": 120,
+          "level": 1,
+          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
           "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
         }
         ],
-      "armorSet": 234,
+      "armorSet": 236,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1020,
-      "name": "Clockwork Vambraces Beta +",
+      "id": 1030,
+      "name": "Ingot Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 136,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
+        "fire": -2,
+        "water": 0,
         "ice": -1,
-        "thunder": 2,
-        "dragon": -1
+        "thunder": 3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -119,35 +120,47 @@
       ],
       "skills": [
         {
-          "id": 243,
-          "level": 3,
-          "description": "Explosive power +30%",
-          "modifiers": {},
-          "skill": 77,
-          "skillName": "Bombardier"
+          "id": 54,
+          "level": 2,
+          "description": "Health +30",
+          "modifiers": {
+            "health": 30
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
+        },
+        {
+          "id": 95,
+          "level": 1,
+          "description": "Thunder attack +30",
+          "modifiers": {
+            "damageThunder": 30
+          },
+          "skill": 29,
+          "skillName": "Thunder Attack"
         }
         ],
-      "armorSet": 234,
+      "armorSet": 236,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1021,
-      "name": "Clockwork Coil Beta +",
+      "id": 1031,
+      "name": "Ingot Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 136,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
+        "fire": -2,
+        "water": 0,
         "ice": -1,
-        "thunder": 2,
-        "dragon": -1
+        "thunder": 3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -160,35 +173,43 @@
       ],
       "skills": [
         {
-          "id": 151,
-          "level": 2,
-          "description": "Part damage +20%",
+          "id": 28,
+          "level": 1,
+          "description": "Slightly reduces the effects of minor wind pressure.",
           "modifiers": {},
-          "skill": 46,
-          "skillName": "Partbreaker"
+          "skill": 10,
+          "skillName": "Windproof"
+        },
+        {
+          "id": 120,
+          "level": 1,
+          "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+          "modifiers": {},
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
           }
         ],
-      "armorSet": 234,
+      "armorSet": 236,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1022,
-        "name": "Clockwork Greaves Beta +",
+        "id": 1032,
+        "name": "Ingot Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
         "defense": {
-          "base": 142,
+          "base": 136,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 2,
+          "fire": -2,
+          "water": 0,
           "ice": -1,
-          "thunder": 2,
-          "dragon": -1
+          "thunder": 3,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
@@ -198,42 +219,28 @@
         ],
         "skills": [
           {
-            "id": 130,
+            "id": 46,
             "level": 1,
-            "description": "Increases damage dealt by critical hits by 30%.",
-            "modifiers": {},
-            "skill": 40,
-            "skillName": "Critical Boost"
+            "description": "Defense +5",
+            "modifiers": {
+              "defense": 5
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
           },
           {
-            "id": 241,
+            "id": 120,
             "level": 1,
-            "description": "Explosive power +10%",
+            "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
             "modifiers": {},
-            "skill": 77,
-            "skillName": "Bombardier"
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
           }
         ],
-      "armorSet": 234,
+      "armorSet": 236,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": {
-    "id": 28,
-    "name": "Commission Alchemy",
-    "ranks": [
-      {
-        "pieces": 3,
-        "skill": {
-          "id": 342,
-          "level": 1,
-          "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
-          "modifiers": {},
-          "skill": 139,
-          "skillName": "Bombardier Secret Effect"
-        }
-      }
-    ]
-  }
+  "bonus": null
 }

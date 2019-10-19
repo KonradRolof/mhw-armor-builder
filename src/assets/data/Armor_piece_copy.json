@@ -1,20 +1,20 @@
 {
-  "id": 1022,
-  "name": "Clockwork Greaves Beta +",
+  "id": 1032,
+  "name": "Ingot Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
   "defense": {
-    "base": 142,
+    "base": 136,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 2,
-    "water": 2,
+    "fire": -2,
+    "water": 0,
     "ice": -1,
-    "thunder": 2,
-    "dragon": -1
+    "thunder": 3,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
@@ -24,34 +24,36 @@
   ],
   "skills": [
     {
-      "id": 130,
+      "id": 46,
       "level": 1,
-      "description": "Increases damage dealt by critical hits by 30%.",
-      "modifiers": {},
-      "skill": 40,
-      "skillName": "Critical Boost"
+      "description": "Defense +5",
+      "modifiers": {
+        "defense": 5
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
     },
     {
-      "id": 241,
+      "id": 120,
       "level": 1,
-      "description": "Explosive power +10%",
+      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
       "modifiers": {},
-      "skill": 77,
-      "skillName": "Bombardier"
+      "skill": 38,
+      "skillName": "Free Elem\/Ammo Up"
     }
   ],
   "armorSet": {
-    "id": 234,
-    "name": "Clockwork Beta +",
+    "id": 236,
+    "name": "Ingot Beta +",
     "rank": "master",
     "pieces": [
-      1018,
-      1019,
-      1020,
-      1021,
-      1022
+      1028,
+      1029,
+      1030,
+      1031,
+      1032
     ],
-    "bonus": 28
+    "bonus": null
   },
   "assets": null,
   "crafting": null
