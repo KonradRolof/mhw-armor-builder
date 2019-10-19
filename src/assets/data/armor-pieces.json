@@ -89469,7 +89469,587 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1033,
+  "name": "Barioth Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 216,
+      "level": 2,
+      "description": "Extends evasion distance.",
+      "modifiers": {},
+      "skill": 69,
+      "skillName": "Evade Extender"
+    },
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    }
+  ],
+  "armorSet": {
+    "id": 237,
+    "name": "Barioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1034,
+  "name": "Barioth Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    },
+    {
+      "id": 198,
+      "level": 1,
+      "description": "Reduces fixed stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    }
+  ],
+  "armorSet": {
+    "id": 237,
+    "name": "Barioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1035,
+  "name": "Barioth Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    },
+    {
+      "id": 199,
+      "level": 2,
+      "description": "Reduces fixed stamina depletion by 20%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    }
+  ],
+  "armorSet": {
+    "id": 237,
+    "name": "Barioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1036,
+  "name": "Barioth Faulds Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "description": "Recovery +10%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 237,
+    "name": "Barioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1037,
+  "name": "Barioth Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 199,
+      "level": 2,
+      "description": "Reduces fixed stamina depletion by 20%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    },
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    }
+  ],
+  "armorSet": {
+    "id": 237,
+    "name": "Barioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1038,
+  "name": "Barioth Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 215,
+      "level": 1,
+      "description": "Slightly extends evasion distance.",
+      "modifiers": {},
+      "skill": 69,
+      "skillName": "Evade Extender"
+    },
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    }
+  ],
+  "armorSet": {
+    "id": 238,
+    "name": "Barioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1038,
+      1039,
+      1040,
+      1041,
+      1042
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1039,
+  "name": "Barioth Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    }
+  ],
+  "armorSet": {
+    "id": 238,
+    "name": "Barioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1038,
+      1039,
+      1040,
+      1041,
+      1042
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1040,
+  "name": "Barioth Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    },
+    {
+      "id": 198,
+      "level": 1,
+      "description": "Reduces fixed stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    }
+  ],
+  "armorSet": {
+    "id": 238,
+    "name": "Barioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1038,
+      1039,
+      1040,
+      1041,
+      1042
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1041,
+  "name": "Barioth Faulds Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    }
+  ],
+  "armorSet": {
+    "id": 238,
+    "name": "Barioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1038,
+      1039,
+      1040,
+      1041,
+      1042
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1042,
+  "name": "Barioth Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 138,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 198,
+      "level": 1,
+      "description": "Reduces fixed stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    },
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    }
+  ],
+  "armorSet": {
+    "id": 238,
+    "name": "Barioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1038,
+      1039,
+      1040,
+      1041,
+      1042
+    ],
+    "bonus": 29
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 

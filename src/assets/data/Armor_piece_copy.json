@@ -1,59 +1,60 @@
 {
-  "id": 1032,
-  "name": "Ingot Greaves Beta +",
+  "id": 1042,
+  "name": "Barioth Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
   "defense": {
-    "base": 136,
+    "base": 138,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -2,
-    "water": 0,
-    "ice": -1,
-    "thunder": 3,
+    "fire": -3,
+    "water": 2,
+    "ice": 3,
+    "thunder": -2,
     "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 4
     }
   ],
   "skills": [
     {
-      "id": 46,
+      "id": 198,
       "level": 1,
-      "description": "Defense +5",
-      "modifiers": {
-        "defense": 5
-      },
-      "skill": 16,
-      "skillName": "Defense Boost"
+      "description": "Reduces fixed stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
     },
     {
-      "id": 120,
+      "id": 223,
       "level": 1,
-      "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "description": "Slightly increases sheathing speed.",
       "modifiers": {},
-      "skill": 38,
-      "skillName": "Free Elem\/Ammo Up"
+      "skill": 71,
+      "skillName": "Quick Sheath"
     }
   ],
   "armorSet": {
-    "id": 236,
-    "name": "Ingot Beta +",
+    "id": 238,
+    "name": "Barioth Beta +",
     "rank": "master",
     "pieces": [
-      1028,
-      1029,
-      1030,
-      1031,
-      1032
+      1038,
+      1039,
+      1040,
+      1041,
+      1042
     ],
-    "bonus": null
+    "bonus": 29
   },
   "assets": null,
   "crafting": null
