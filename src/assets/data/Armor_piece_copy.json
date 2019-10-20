@@ -1,60 +1,51 @@
 {
-  "id": 1042,
-  "name": "Barioth Greaves Beta +",
+  "id": 1062,
+  "name": "Glavenus Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
   "defense": {
-    "base": 138,
+    "base": 142,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": 2,
-    "ice": 3,
-    "thunder": -2,
-    "dragon": 0
+    "fire": 3,
+    "water": -3,
+    "ice": -1,
+    "thunder": 1,
+    "dragon": -1
   },
   "attributes": {},
   "slots": [
-    {
-      "rank": 4
-    },
     {
       "rank": 4
     }
   ],
   "skills": [
     {
-      "id": 198,
-      "level": 1,
-      "description": "Reduces fixed stamina depletion by 10%.",
-      "modifiers": {},
-      "skill": 64,
-      "skillName": "Constitution"
-    },
-    {
-      "id": 223,
-      "level": 1,
-      "description": "Slightly increases sheathing speed.",
-      "modifiers": {},
-      "skill": 71,
-      "skillName": "Quick Sheath"
+      "id": 143,
+      "level": 2,
+      "description": "Weapon sharpness +20",
+      "modifiers": {
+        "sharpnessBonus": 20
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
     }
   ],
   "armorSet": {
-    "id": 238,
-    "name": "Barioth Beta +",
+    "id": 242,
+    "name": "Glavenus Beta +",
     "rank": "master",
     "pieces": [
-      1038,
-      1039,
-      1040,
-      1041,
-      1042
+      1058,
+      1059,
+      1060,
+      1061,
+      1062
     ],
-    "bonus": 29
+    "bonus": 31
   },
   "assets": null,
   "crafting": null

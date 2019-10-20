@@ -1188,7 +1188,7 @@
         "modifiers": {}
       },
       {
-        "id": 338,
+        "id": 340,
         "skill": 31,
         "skillName": "Poison Attack",
         "level": 4,
@@ -1227,7 +1227,7 @@
         "modifiers": {}
       },
       {
-        "id": 336,
+        "id": 338,
         "skill": 32,
         "skillName": "Paralysis Attack",
         "level": 4,
@@ -1297,7 +1297,7 @@
         "modifiers": {}
       },
       {
-        "id": 337,
+        "id": 339,
         "skill": 34,
         "skillName": "Blast Attack",
         "level": 4,
@@ -2057,7 +2057,7 @@
         "modifiers": {}
       },
       {
-        "id": 335,
+        "id": 337,
         "skill": 58,
         "skillName": "Horn Maestro",
         "level": 2,
@@ -2656,7 +2656,7 @@
     ],
     "hiddenRanks": [
       {
-        "id": 343,
+        "id": 345,
         "skill": 77,
         "skillName": "Bombardier",
         "level": 4,
@@ -2664,7 +2664,7 @@
         "modifiers": {}
       },
       {
-        "id": 344,
+        "id": 346,
         "skill": 77,
         "skillName": "Bombardier",
         "level": 5,
@@ -2955,7 +2955,9 @@
         "level": 3,
         "description": "While active, increases affinity by 30%.",
         "modifiers": {}
-      },
+      }
+    ],
+    "hiddenRanks": [
       {
         "id": 335,
         "skill": 88,
@@ -3841,7 +3843,7 @@
     "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
     "ranks": [
       {
-        "id": 339,
+        "id": 341,
         "skill": 138,
         "skillName": "Offensive Guard",
         "level": 1,
@@ -3849,7 +3851,7 @@
         "modifiers": {}
       },
       {
-        "id": 340,
+        "id": 342,
         "skill": 138,
         "skillName": "Offensive Guard",
         "level": 2,
@@ -3857,7 +3859,7 @@
         "modifiers": {}
       },
       {
-        "id": 341,
+        "id": 343,
         "skill": 138,
         "skillName": "Offensive Guard",
         "level": 3,
@@ -3872,13 +3874,45 @@
     "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
     "ranks": [
       {
-        "id": 342,
+        "id": 344,
         "skill": 139,
         "skillName": "Bombardier Secret Effect",
         "level": 1,
         "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
         "modifiers": {
           "hiddenRanks": 77
+        }
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "True Razor Sharp/Spare Shot Effect",
+    "description": "Greatly reduces sharpness loss. Bows and bowguns have a chance not to expend coatings or ammo.",
+    "ranks": [
+      {
+        "id": 347,
+        "skill": 140,
+        "skillName": "True Razor Sharp/Spare Shot Effect",
+        "level": 1,
+        "description": "Greatly reduces sharpness loss. Bows and bowguns have a chance not to expend coatings or ammo.",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Maximum Might Secret Effect ",
+    "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
+    "ranks": [
+      {
+        "id": 348,
+        "skill": 141,
+        "skillName": "Maximum Might Secret Effect",
+        "level": 1,
+        "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
+        "modifiers": {
+          "hiddenRanks": 88
         }
       }
     ]

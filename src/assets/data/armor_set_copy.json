@@ -1,82 +1,78 @@
 {
-  "id": 238,
-  "name": "Barioth Beta +",
+  "id": 242,
+  "name": "Glavenus Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1038,
-      "name": "Barioth Helm Beta +",
+      "id": 1058,
+      "name": "Glavenus Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 138,
+        "base": 142,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 215,
+          "id": 136,
           "level": 1,
-          "description": "Slightly extends evasion distance.",
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
           "modifiers": {},
-          "skill": 69,
-          "skillName": "Evade Extender"
+          "skill": 42,
+          "skillName": "Focus"
         },
         {
-          "id": 139,
+          "id": 142,
           "level": 1,
-          "description": "Bonus duration +10%",
-          "modifiers": {},
-          "skill": 43,
-          "skillName": "Power Prolonger"
+          "description": "Weapon sharpness +10",
+          "modifiers": {
+            "sharpnessBonus": 10
+          },
+          "skill": 44,
+          "skillName": "Handicraft"
         }
       ],
-      "armorSet": 238,
+      "armorSet": 242,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1039,
-      "name": "Barioth Mail Beta +",
+      "id": 1059,
+      "name": "Glavenus Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 138,
+        "base": 142,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
@@ -87,29 +83,37 @@
           "modifiers": {},
           "skill": 43,
           "skillName": "Power Prolonger"
+        },
+        {
+          "id": 267,
+          "level": 1,
+          "description": "While active, increases affinity by 10%.",
+          "modifiers": {},
+          "skill": 88,
+          "skillName": "Maximum Might"
         }
         ],
-      "armorSet": 238,
+      "armorSet": 242,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1040,
-      "name": "Barioth Vambraces Beta +",
+      "id": 1060,
+      "name": "Glavenus Braces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 138,
+        "base": 142,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
@@ -119,43 +123,43 @@
       ],
       "skills": [
         {
-          "id": 57,
-          "level": 2,
-          "description": "Recovery +20%",
+          "id": 267,
+          "level": 1,
+          "description": "While active, increases affinity by 10%.",
           "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
+          "skill": 88,
+          "skillName": "Maximum Might"
         },
         {
-          "id": 198,
+          "id": 136,
           "level": 1,
-          "description": "Reduces fixed stamina depletion by 10%.",
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
           "modifiers": {},
-          "skill": 64,
-          "skillName": "Constitution"
+          "skill": 42,
+          "skillName": "Focus"
         }
         ],
-      "armorSet": 238,
+      "armorSet": 242,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1041,
-      "name": "Barioth Faulds Beta +",
+      "id": 1061,
+      "name": "Glavenus Faulds Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 138,
+        "base": 142,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 3,
+        "water": -3,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
@@ -165,81 +169,72 @@
       ],
       "skills": [
         {
-          "id": 223,
-          "level": 1,
-          "description": "Slightly increases sheathing speed.",
+          "id": 268,
+          "level": 2,
+          "description": "While active, increases affinity by 20%.",
           "modifiers": {},
-          "skill": 71,
-          "skillName": "Quick Sheath"
+          "skill": 88,
+          "skillName": "Maximum Might"
           }
         ],
-      "armorSet": 238,
+      "armorSet": 242,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1042,
-        "name": "Barioth Greaves Beta +",
+        "id": 1062,
+        "name": "Glavenus Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
         "defense": {
-          "base": 138,
+          "base": 142,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": 2,
-          "ice": 3,
-          "thunder": -2,
-          "dragon": 0
+          "fire": 3,
+          "water": -3,
+          "ice": -1,
+          "thunder": 1,
+          "dragon": -1
         },
         "attributes": {},
         "slots": [
-          {
-            "rank": 4
-          },
           {
             "rank": 4
           }
         ],
         "skills": [
           {
-            "id": 198,
-            "level": 1,
-            "description": "Reduces fixed stamina depletion by 10%.",
-            "modifiers": {},
-            "skill": 64,
-            "skillName": "Constitution"
-          },
-          {
-            "id": 223,
-            "level": 1,
-            "description": "Slightly increases sheathing speed.",
-            "modifiers": {},
-            "skill": 71,
-            "skillName": "Quick Sheath"
+            "id": 143,
+            "level": 2,
+            "description": "Weapon sharpness +20",
+            "modifiers": {
+              "sharpnessBonus": 20
+            },
+            "skill": 44,
+            "skillName": "Handicraft"
           }
         ],
-      "armorSet": 238,
+      "armorSet": 242,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 29,
-    "name": "Barioth Hidden Art",
+    "id": 31,
+    "name": "Glavenus Essence",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 326,
+          "id": 348,
           "level": 1,
-          "description": "Adds a stun effect to draw attacks and slightly increases attack power.",
+          "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
           "modifiers": {},
-          "skill": 127,
-          "skillName": "Punishing Draw"
+          "skill": 141,
+          "skillName": "Maximum Might Secret Effect"
         }
       }
     ]
