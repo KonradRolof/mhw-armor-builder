@@ -1,25 +1,158 @@
 {
-  "id": 244,
-  "name": "Black Belt Beta +",
+  "id": 246,
+  "name": "Brachydios Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1068,
-      "name": "Black Belt Helm Beta +",
+      "id": 1078,
+      "name": "Brachydios Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 10,
       "defense": {
-        "base": 150,
+        "base": 142,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
+        "fire": 3,
+        "water": -2,
+        "ice": -3,
         "thunder": 1,
-        "dragon": 2
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        }
+      ],
+      "armorSet": 246,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1079,
+      "name": "Brachydios Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 156,
+          "level": 1,
+          "description": "Exhaust power +20%",
+          "modifiers": {},
+          "skill": 48,
+          "skillName": "Stamina Thief"
+        },
+        {
+          "id": 166,
+          "level": 1,
+          "description": "While active, grants attack +4 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        }
+        ],
+      "armorSet": 246,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1080,
+      "name": "Brachydios Braces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "modifiers": {},
+          "skill": 52,
+          "skillName": "Agitator"
+        },
+        {
+          "id": 14,
+          "level": 1,
+          "description": "Delays blastblight and reduces blast damage.",
+          "modifiers": {},
+          "skill": 6,
+          "skillName": "Blast Resistance"
+        }
+        ],
+      "armorSet": 246,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1081,
+      "name": "Brachydios Faulds Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 142,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
@@ -32,198 +165,78 @@
       ],
       "skills": [
         {
-          "id": 196,
+          "id": 115,
           "level": 2,
-          "description": "Reduces continuous stamina depletion by 30%.",
+          "description": "Blast buildup +10% Bonus: +10",
           "modifiers": {},
-          "skill": 63,
-          "skillName": "Marathon Runner"
-        }
-      ],
-      "armorSet": 244,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1069,
-      "name": "Black Belt Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 150,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 245,
-          "level": 2,
-          "description": "Additionally lets you digest nitroshrooms and parashrooms.",
-          "modifiers": {},
-          "skill": 78,
-          "skillName": "Mushroomancer"
-        }
-        ],
-      "armorSet": 244,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "name": "Black Belt Braces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 150,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 227,
-          "level": 2,
-          "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
-          "modifiers": {},
-          "skill": 72,
-          "skillName": "Wide-Range"
-        }
-        ],
-      "armorSet": 244,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1071,
-      "name": "Black Belt Tassets Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 150,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 57,
-          "level": 2,
-          "description": "Recovery +20%",
-          "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
+          "skill": 34,
+          "skillName": "Blast Attack"
           }
         ],
-      "armorSet": 244,
+      "armorSet": 246,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1072,
-        "name": "Black Belt Greaves Beta +",
+        "id": 1082,
+        "name": "Brachydios Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 11,
+        "rarity": 10,
         "defense": {
-          "base": 150,
+          "base": 142,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 1,
-          "water": 1,
-          "ice": 1,
+          "fire": 3,
+          "water": -2,
+          "ice": -3,
           "thunder": 1,
-          "dragon": 2
+          "dragon": 1
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 227,
+            "id": 167,
             "level": 2,
-            "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+            "description": "While active, grants attack +8 and increases affinity by 5%.",
             "modifiers": {},
-            "skill": 72,
-            "skillName": "Wide-Range"
+            "skill": 52,
+            "skillName": "Agitator"
+          },
+          {
+            "id": 190,
+            "level": 1,
+            "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+            "modifiers": {},
+            "skill": 61,
+            "skillName": "Artillery"
           }
         ],
-      "armorSet": 244,
+      "armorSet": 246,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 32,
-    "name": "Instructor's Guidance",
+    "id": 33,
+    "name": "Brachydios Essence",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 317,
+          "id": 349,
           "level": 1,
-          "description": "High chance of increased capture rewards. (No effect when joining mid-quest.)",
+          "description": "Raises the maximum level of the Agitator skill to Lv7",
           "modifiers": {},
           "skill": 118,
-          "skillName": "Capture Master"
+          "skillName": "Agitator Secret"
         }
       }
     ]

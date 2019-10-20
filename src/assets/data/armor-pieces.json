@@ -91758,18 +91758,577 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1073,
+  "name": "Brachydios Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 187,
+      "level": 1,
+      "description": "Loading capacity +1",
+      "modifiers": {},
+      "skill": 59,
+      "skillName": "Capacity Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 245,
+    "name": "Brachydios Alpha +",
+    "rank": "master",
+    "pieces": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1074,
+  "name": "Brachydios Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 157,
+      "level": 2,
+      "description": "Exhaust power +30%",
+      "modifiers": {},
+      "skill": 48,
+      "skillName": "Stamina Thief"
+    },
+    {
+      "id": 166,
+      "level": 1,
+      "description": "While active, grants attack +4 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    }
+  ],
+  "armorSet": {
+    "id": 245,
+    "name": "Brachydios Alpha +",
+    "rank": "master",
+    "pieces": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1075,
+  "name": "Brachydios Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 15,
+      "level": 2,
+      "description": "Greatly delays blastblight and greatly reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 245,
+    "name": "Brachydios Alpha +",
+    "rank": "master",
+    "pieces": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1076,
+  "name": "Brachydios Faulds Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    },
+    {
+      "id": 156,
+      "level": 1,
+      "description": "Exhaust power +20%",
+      "modifiers": {},
+      "skill": 48,
+      "skillName": "Stamina Thief"
+    }
+  ],
+  "armorSet": {
+    "id": 245,
+    "name": "Brachydios Alpha +",
+    "rank": "master",
+    "pieces": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1077,
+  "name": "Brachydios Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 191,
+      "level": 2,
+      "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+      "modifiers": {},
+      "skill": 61,
+      "skillName": "Artillery"
+    }
+  ],
+  "armorSet": {
+    "id": 245,
+    "name": "Brachydios Alpha +",
+    "rank": "master",
+    "pieces": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1078,
+  "name": "Brachydios Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    }
+  ],
+  "armorSet": {
+    "id": 246,
+    "name": "Brachydios Beta +",
+    "rank": "master",
+    "pieces": [
+      1078,
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1079,
+  "name": "Brachydios Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 156,
+      "level": 1,
+      "description": "Exhaust power +20%",
+      "modifiers": {},
+      "skill": 48,
+      "skillName": "Stamina Thief"
+    },
+    {
+      "id": 166,
+      "level": 1,
+      "description": "While active, grants attack +4 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    }
+  ],
+  "armorSet": {
+    "id": 246,
+    "name": "Brachydios Beta +",
+    "rank": "master",
+    "pieces": [
+      1078,
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1080,
+  "name": "Brachydios Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 14,
+      "level": 1,
+      "description": "Delays blastblight and reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 246,
+    "name": "Brachydios Beta +",
+    "rank": "master",
+    "pieces": [
+      1078,
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1081,
+  "name": "Brachydios Faulds Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 246,
+    "name": "Brachydios Beta +",
+    "rank": "master",
+    "pieces": [
+      1078,
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1082,
+  "name": "Brachydios Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 190,
+      "level": 1,
+      "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+      "modifiers": {},
+      "skill": 61,
+      "skillName": "Artillery"
+    }
+  ],
+  "armorSet": {
+    "id": 246,
+    "name": "Brachydios Beta +",
+    "rank": "master",
+    "pieces": [
+      1078,
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "bonus": 33
+  },
+  "assets": null,
+  "crafting": null
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

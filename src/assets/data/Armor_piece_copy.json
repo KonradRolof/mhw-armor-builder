@@ -1,52 +1,57 @@
 {
-  "id": 1072,
-  "name": "Black Belt Greaves Beta +",
+  "id": 1082,
+  "name": "Brachydios Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 11,
+  "rarity": 10,
   "defense": {
-    "base": 150,
+    "base": 142,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 1,
-    "water": 1,
-    "ice": 1,
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
     "thunder": 1,
-    "dragon": 2
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 227,
+      "id": 167,
       "level": 2,
-      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
       "modifiers": {},
-      "skill": 72,
-      "skillName": "Wide-Range"
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 190,
+      "level": 1,
+      "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+      "modifiers": {},
+      "skill": 61,
+      "skillName": "Artillery"
     }
   ],
   "armorSet": {
-    "id": 244,
-    "name": "Black Belt Beta +",
+    "id": 246,
+    "name": "Brachydios Beta +",
     "rank": "master",
     "pieces": [
-      1068,
-      1069,
-      1070,
-      1071,
-      1072
+      1078,
+      1079,
+      1080,
+      1081,
+      1082
     ],
-    "bonus": 32
+    "bonus": 33
   },
   "assets": null,
   "crafting": null
