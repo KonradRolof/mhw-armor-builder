@@ -1,51 +1,52 @@
 {
-  "id": 1062,
-  "name": "Glavenus Greaves Beta +",
+  "id": 1072,
+  "name": "Black Belt Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 10,
+  "rarity": 11,
   "defense": {
-    "base": 142,
+    "base": 150,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": -3,
-    "ice": -1,
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
     "thunder": 1,
-    "dragon": -1
+    "dragon": 2
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 143,
+      "id": 227,
       "level": 2,
-      "description": "Weapon sharpness +20",
-      "modifiers": {
-        "sharpnessBonus": 20
-      },
-      "skill": 44,
-      "skillName": "Handicraft"
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
     }
   ],
   "armorSet": {
-    "id": 242,
-    "name": "Glavenus Beta +",
+    "id": 244,
+    "name": "Black Belt Beta +",
     "rank": "master",
     "pieces": [
-      1058,
-      1059,
-      1060,
-      1061,
-      1062
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
     ],
-    "bonus": 31
+    "bonus": 32
   },
   "assets": null,
   "crafting": null

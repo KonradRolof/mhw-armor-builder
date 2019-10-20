@@ -1,240 +1,229 @@
 {
-  "id": 242,
-  "name": "Glavenus Beta +",
+  "id": 244,
+  "name": "Black Belt Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1058,
-      "name": "Glavenus Helm Beta +",
+      "id": 1068,
+      "name": "Black Belt Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 142,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
         "thunder": 1,
-        "dragon": -1
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 136,
-          "level": 1,
-          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "id": 196,
+          "level": 2,
+          "description": "Reduces continuous stamina depletion by 30%.",
           "modifiers": {},
-          "skill": 42,
-          "skillName": "Focus"
-        },
-        {
-          "id": 142,
-          "level": 1,
-          "description": "Weapon sharpness +10",
-          "modifiers": {
-            "sharpnessBonus": 10
-          },
-          "skill": 44,
-          "skillName": "Handicraft"
+          "skill": 63,
+          "skillName": "Marathon Runner"
         }
       ],
-      "armorSet": 242,
+      "armorSet": 244,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1059,
-      "name": "Glavenus Mail Beta +",
+      "id": 1069,
+      "name": "Black Belt Mail Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 142,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
         "thunder": 1,
-        "dragon": -1
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 139,
-          "level": 1,
-          "description": "Bonus duration +10%",
+          "id": 245,
+          "level": 2,
+          "description": "Additionally lets you digest nitroshrooms and parashrooms.",
           "modifiers": {},
-          "skill": 43,
-          "skillName": "Power Prolonger"
-        },
-        {
-          "id": 267,
-          "level": 1,
-          "description": "While active, increases affinity by 10%.",
-          "modifiers": {},
-          "skill": 88,
-          "skillName": "Maximum Might"
+          "skill": 78,
+          "skillName": "Mushroomancer"
         }
         ],
-      "armorSet": 242,
+      "armorSet": 244,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1060,
-      "name": "Glavenus Braces Beta +",
+      "name": "Black Belt Braces Beta +",
       "type": "gloves",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 142,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
         "thunder": 1,
-        "dragon": -1
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 267,
-          "level": 1,
-          "description": "While active, increases affinity by 10%.",
+          "id": 227,
+          "level": 2,
+          "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
           "modifiers": {},
-          "skill": 88,
-          "skillName": "Maximum Might"
-        },
-        {
-          "id": 136,
-          "level": 1,
-          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
-          "modifiers": {},
-          "skill": 42,
-          "skillName": "Focus"
+          "skill": 72,
+          "skillName": "Wide-Range"
         }
         ],
-      "armorSet": 242,
+      "armorSet": 244,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1061,
-      "name": "Glavenus Faulds Beta +",
+      "id": 1071,
+      "name": "Black Belt Tassets Beta +",
       "type": "waist",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 142,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -1,
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
         "thunder": 1,
-        "dragon": -1
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 268,
+          "id": 57,
           "level": 2,
-          "description": "While active, increases affinity by 20%.",
+          "description": "Recovery +20%",
           "modifiers": {},
-          "skill": 88,
-          "skillName": "Maximum Might"
+          "skill": 18,
+          "skillName": "Recovery Up"
           }
         ],
-      "armorSet": 242,
+      "armorSet": 244,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1062,
-        "name": "Glavenus Greaves Beta +",
+        "id": 1072,
+        "name": "Black Belt Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 10,
+        "rarity": 11,
         "defense": {
-          "base": 142,
+          "base": 150,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": -3,
-          "ice": -1,
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
           "thunder": 1,
-          "dragon": -1
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 143,
+            "id": 227,
             "level": 2,
-            "description": "Weapon sharpness +20",
-            "modifiers": {
-              "sharpnessBonus": 20
-            },
-            "skill": 44,
-            "skillName": "Handicraft"
+            "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+            "modifiers": {},
+            "skill": 72,
+            "skillName": "Wide-Range"
           }
         ],
-      "armorSet": 242,
+      "armorSet": 244,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 31,
-    "name": "Glavenus Essence",
+    "id": 32,
+    "name": "Instructor's Guidance",
     "ranks": [
       {
-        "pieces": 3,
+        "pieces": 2,
         "skill": {
-          "id": 348,
+          "id": 317,
           "level": 1,
-          "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
+          "description": "High chance of increased capture rewards. (No effect when joining mid-quest.)",
           "modifiers": {},
-          "skill": 141,
-          "skillName": "Maximum Might Secret Effect"
+          "skill": 118,
+          "skillName": "Capture Master"
         }
       }
     ]

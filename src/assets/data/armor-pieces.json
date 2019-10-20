@@ -91191,7 +91191,575 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1063,
+  "name": "Black Belt Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 196,
+      "level": 2,
+      "description": "Reduces continuous stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    },
+    {
+      "id": 244,
+      "level": 1,
+      "description": "Lets you digest blue mushrooms and toadstools.",
+      "modifiers": {},
+      "skill": 78,
+      "skillName": "Mushroomancer"
+    }
+  ],
+  "armorSet": {
+    "id": 243,
+    "name": "Black Belt Alpha +",
+    "rank": "master",
+    "pieces": [
+      1063,
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1064,
+  "name": "Black Belt Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 245,
+      "level": 2,
+      "description": "Additionally lets you digest nitroshrooms and parashrooms.",
+      "modifiers": {},
+      "skill": 78,
+      "skillName": "Mushroomancer"
+    },
+    {
+      "id": 226,
+      "level": 1,
+      "description": "Items affect nearby allies with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    }
+  ],
+  "armorSet": {
+    "id": 243,
+    "name": "Black Belt Alpha +",
+    "rank": "master",
+    "pieces": [
+      1063,
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1065,
+  "name": "Black Belt Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    },
+    {
+      "id": 337,
+      "level": 2,
+      "description": "Greatly increases the effect duration of hunting horn melodies.",
+      "modifiers": {},
+      "skill": 58,
+      "skillName": "Horn Maestro"
+    }
+  ],
+  "armorSet": {
+    "id": 243,
+    "name": "Black Belt Alpha +",
+    "rank": "master",
+    "pieces": [
+      1063,
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1066,
+  "name": "Black Belt Tassets Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    },
+    {
+      "id": 195,
+      "level": 1,
+      "description": "Reduces continuous stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 243,
+    "name": "Black Belt Alpha +",
+    "rank": "master",
+    "pieces": [
+      1063,
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1067,
+  "name": "Black Belt Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "description": "Recovery +10%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 243,
+    "name": "Black Belt Alpha +",
+    "rank": "master",
+    "pieces": [
+      1063,
+      1064,
+      1065,
+      1066,
+      1067
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1068,
+  "name": "Black Belt Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 196,
+      "level": 2,
+      "description": "Reduces continuous stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 244,
+    "name": "Black Belt Beta +",
+    "rank": "master",
+    "pieces": [
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1069,
+  "name": "Black Belt Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 245,
+      "level": 2,
+      "description": "Additionally lets you digest nitroshrooms and parashrooms.",
+      "modifiers": {},
+      "skill": 78,
+      "skillName": "Mushroomancer"
+    }
+  ],
+  "armorSet": {
+    "id": 244,
+    "name": "Black Belt Beta +",
+    "rank": "master",
+    "pieces": [
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1070,
+  "name": "Black Belt Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    }
+  ],
+  "armorSet": {
+    "id": 244,
+    "name": "Black Belt Beta +",
+    "rank": "master",
+    "pieces": [
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1071,
+  "name": "Black Belt Tassets Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 244,
+    "name": "Black Belt Beta +",
+    "rank": "master",
+    "pieces": [
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1072,
+  "name": "Black Belt Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    }
+  ],
+  "armorSet": {
+    "id": 244,
+    "name": "Black Belt Beta +",
+    "rank": "master",
+    "pieces": [
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+    ],
+    "bonus": 32
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 
