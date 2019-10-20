@@ -1,16 +1,16 @@
 {
-  "id": 246,
-  "name": "Brachydios Beta +",
+  "id": 248,
+  "name": "Diablos Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1078,
-      "name": "Brachydios Helm Beta +",
+      "id": 1088,
+      "name": "Diablos Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
@@ -18,8 +18,46 @@
         "fire": 3,
         "water": -2,
         "ice": -3,
-        "thunder": 1,
-        "dragon": 1
+        "thunder": 0,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 148,
+          "level": 2,
+          "description": "Draw attack affinity +60%",
+          "modifiers": {},
+          "skill": 45,
+          "skillName": "Critical Draw"
+        }
+      ],
+      "armorSet": 248,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1089,
+      "name": "Diablos Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "ice": -3,
+        "thunder": 0,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -32,72 +70,34 @@
       ],
       "skills": [
         {
-          "id": 167,
+          "id": 154,
           "level": 2,
-          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "description": "Stun power +30%",
           "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
-        }
-      ],
-      "armorSet": 246,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1079,
-      "name": "Brachydios Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 10,
-      "defense": {
-        "base": 142,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -2,
-        "ice": -3,
-        "thunder": 1,
-        "dragon": 1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 156,
-          "level": 1,
-          "description": "Exhaust power +20%",
-          "modifiers": {},
-          "skill": 48,
-          "skillName": "Stamina Thief"
+          "skill": 47,
+          "skillName": "Slugger"
         },
         {
-          "id": 166,
+          "id": 174,
           "level": 1,
-          "description": "While active, grants attack +4 and increases affinity by 5%.",
+          "description": "While active, increases defense by 50 points",
           "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
+          "skill": 54,
+          "skillName": "Heroics"
         }
         ],
-      "armorSet": 246,
+      "armorSet": 248,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1080,
-      "name": "Brachydios Braces Beta +",
+      "id": 1090,
+      "name": "Diablos Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
@@ -105,45 +105,48 @@
         "fire": 3,
         "water": -2,
         "ice": -3,
-        "thunder": 1,
-        "dragon": 1
+        "thunder": 0,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 167,
+          "id": 175,
           "level": 2,
-          "description": "While active, grants attack +8 and increases affinity by 5%.",
+          "description": "While active, increases attack power by 5% and increases defense by 50 points.",
           "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
+          "skill": 54,
+          "skillName": "Heroics"
         },
         {
-          "id": 14,
+          "id": 33,
           "level": 1,
-          "description": "Delays blastblight and reduces blast damage.",
+          "description": "Nullifies minor ground tremors.",
           "modifiers": {},
-          "skill": 6,
-          "skillName": "Blast Resistance"
+          "skill": 11,
+          "skillName": "Tremor Resistance"
         }
         ],
-      "armorSet": 246,
+      "armorSet": 248,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1081,
-      "name": "Brachydios Faulds Beta +",
+      "id": 1091,
+      "name": "Diablos Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
@@ -151,8 +154,8 @@
         "fire": 3,
         "water": -2,
         "ice": -3,
-        "thunder": 1,
-        "dragon": 1
+        "thunder": 0,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -160,31 +163,31 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 115,
+          "id": 196,
           "level": 2,
-          "description": "Blast buildup +10% Bonus: +10",
+          "description": "Reduces continuous stamina depletion by 30%.",
           "modifiers": {},
-          "skill": 34,
-          "skillName": "Blast Attack"
+          "skill": 63,
+          "skillName": "Marathon Runner"
           }
         ],
-      "armorSet": 246,
+      "armorSet": 248,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1082,
-        "name": "Brachydios Greaves Beta +",
+        "id": 1092,
+        "name": "Diablos Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
         "defense": {
-          "base": 142,
+          "base": 140,
           "max": 0,
           "augmented": 0
         },
@@ -192,51 +195,54 @@
           "fire": 3,
           "water": -2,
           "ice": -3,
-          "thunder": 1,
-          "dragon": 1
+          "thunder": 0,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 167,
+            "id": 34,
             "level": 2,
-            "description": "While active, grants attack +8 and increases affinity by 5%.",
+            "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
             "modifiers": {},
-            "skill": 52,
-            "skillName": "Agitator"
+            "skill": 11,
+            "skillName": "Tremor Resistance"
           },
           {
-            "id": 190,
+            "id": 153,
             "level": 1,
-            "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+            "description": "Stun power +20%",
             "modifiers": {},
-            "skill": 61,
-            "skillName": "Artillery"
+            "skill": 47,
+            "skillName": "Slugger"
           }
         ],
-      "armorSet": 246,
+      "armorSet": 248,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 33,
-    "name": "Brachydios Essence",
+    "id": 34,
+    "name": "Diablos Ambition ",
     "ranks": [
       {
         "pieces": 3,
         "skill": {
-          "id": 349,
+          "id": 352,
           "level": 1,
-          "description": "Raises the maximum level of the Agitator skill to Lv7",
+          "description": "Raises the maximum level of the Slugger skill to Lv5",
           "modifiers": {},
-          "skill": 118,
-          "skillName": "Agitator Secret"
+          "skill": 143,
+          "skillName": "Slugger Secret"
         }
       }
     ]

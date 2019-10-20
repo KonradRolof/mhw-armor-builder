@@ -92328,7 +92328,587 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1083,
+  "name": "Diablos Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 148,
+      "level": 2,
+      "description": "Draw attack affinity +60%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    },
+    {
+      "id": 153,
+      "level": 1,
+      "description": "Stun power +20%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    }
+  ],
+  "armorSet": {
+    "id": 247,
+    "name": "Diablos Alpha +",
+    "rank": "master",
+    "pieces": [
+      1083,
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1084,
+  "name": "Diablos Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 154,
+      "level": 2,
+      "description": "Stun power +30%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    },
+    {
+      "id": 175,
+      "level": 2,
+      "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    }
+  ],
+  "armorSet": {
+    "id": 247,
+    "name": "Diablos Alpha +",
+    "rank": "master",
+    "pieces": [
+      1083,
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1085,
+  "name": "Diablos Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 176,
+      "level": 3,
+      "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    },
+    {
+      "id": 33,
+      "level": 1,
+      "description": "Nullifies minor ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 247,
+    "name": "Diablos Alpha +",
+    "rank": "master",
+    "pieces": [
+      1083,
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1086,
+  "name": "Diablos Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 196,
+      "level": 2,
+      "description": "Reduces continuous stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    },
+    {
+      "id": 147,
+      "level": 1,
+      "description": "Draw attack affinity +30%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    }
+  ],
+  "armorSet": {
+    "id": 247,
+    "name": "Diablos Alpha +",
+    "rank": "master",
+    "pieces": [
+      1083,
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1087,
+  "name": "Diablos Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 34,
+      "level": 2,
+      "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    },
+    {
+      "id": 154,
+      "level": 2,
+      "description": "Stun power +30%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    }
+  ],
+  "armorSet": {
+    "id": 247,
+    "name": "Diablos Alpha +",
+    "rank": "master",
+    "pieces": [
+      1083,
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1088,
+  "name": "Diablos Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 148,
+      "level": 2,
+      "description": "Draw attack affinity +60%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    }
+  ],
+  "armorSet": {
+    "id": 248,
+    "name": "Diablos Beta +",
+    "rank": "master",
+    "pieces": [
+      1088,
+      1089,
+      1090,
+      1091,
+      1092
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1089,
+  "name": "Diablos Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 154,
+      "level": 2,
+      "description": "Stun power +30%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    },
+    {
+      "id": 174,
+      "level": 1,
+      "description": "While active, increases defense by 50 points",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    }
+  ],
+  "armorSet": {
+    "id": 248,
+    "name": "Diablos Beta +",
+    "rank": "master",
+    "pieces": [
+      1088,
+      1089,
+      1090,
+      1091,
+      1092
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1090,
+  "name": "Diablos Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 175,
+      "level": 2,
+      "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    },
+    {
+      "id": 33,
+      "level": 1,
+      "description": "Nullifies minor ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 248,
+    "name": "Diablos Beta +",
+    "rank": "master",
+    "pieces": [
+      1088,
+      1089,
+      1090,
+      1091,
+      1092
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1091,
+  "name": "Diablos Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 196,
+      "level": 2,
+      "description": "Reduces continuous stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 248,
+    "name": "Diablos Beta +",
+    "rank": "master",
+    "pieces": [
+      1088,
+      1089,
+      1090,
+      1091,
+      1092
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1092,
+  "name": "Diablos Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -2,
+    "ice": -3,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 34,
+      "level": 2,
+      "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    },
+    {
+      "id": 153,
+      "level": 1,
+      "description": "Stun power +20%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    }
+  ],
+  "armorSet": {
+    "id": 248,
+    "name": "Diablos Beta +",
+    "rank": "master",
+    "pieces": [
+      1088,
+      1089,
+      1090,
+      1091,
+      1092
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 

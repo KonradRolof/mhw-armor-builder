@@ -1,11 +1,11 @@
 {
-  "id": 1082,
-  "name": "Brachydios Greaves Beta +",
+  "id": 1092,
+  "name": "Diablos Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
   "defense": {
-    "base": 142,
+    "base": 140,
     "max": 0,
     "augmented": 0
   },
@@ -13,45 +13,48 @@
     "fire": 3,
     "water": -2,
     "ice": -3,
-    "thunder": 1,
-    "dragon": 1
+    "thunder": 0,
+    "dragon": 2
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 167,
+      "id": 34,
       "level": 2,
-      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
       "modifiers": {},
-      "skill": 52,
-      "skillName": "Agitator"
+      "skill": 11,
+      "skillName": "Tremor Resistance"
     },
     {
-      "id": 190,
+      "id": 153,
       "level": 1,
-      "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+      "description": "Stun power +20%",
       "modifiers": {},
-      "skill": 61,
-      "skillName": "Artillery"
+      "skill": 47,
+      "skillName": "Slugger"
     }
   ],
   "armorSet": {
-    "id": 246,
-    "name": "Brachydios Beta +",
+    "id": 248,
+    "name": "Diablos Beta +",
     "rank": "master",
     "pieces": [
-      1078,
-      1079,
-      1080,
-      1081,
-      1082
+      1088,
+      1089,
+      1090,
+      1091,
+      1092
     ],
-    "bonus": 33
+    "bonus": 34
   },
   "assets": null,
   "crafting": null

@@ -1731,6 +1731,24 @@
         "description": "Stun power +40%",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 353,
+        "skill": 47,
+        "skillName": "Slugger",
+        "level": 3,
+        "description": "Stun power +50%",
+        "modifiers": {}
+      },
+      {
+        "id": 354,
+        "skill": 47,
+        "skillName": "Slugger",
+        "level": 3,
+        "description": "Stun power +60%",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -3948,6 +3966,23 @@
         "description": "Raises the maximum level of the Agitator skill to Lv7",
         "modifiers": {
           "hiddenRanks": 52
+        }
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Slugger Secret",
+    "description": "Raises the maximum level of the Slugger skill to Lv5",
+    "ranks": [
+      {
+        "id": 352,
+        "skill": 143,
+        "skillName": "Slugger Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Slugger skill to Lv5",
+        "modifiers": {
+          "hiddenRanks": 47
         }
       }
     ]
