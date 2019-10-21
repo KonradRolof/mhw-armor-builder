@@ -94624,6 +94624,588 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1123,
+  "name": "Tigrex Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 40,
+      "level": 2,
+      "description": "Attack +6",
+      "modifiers": {
+        "attack": 6
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    },
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 255,
+    "name": "Tigrex Alpha +",
+    "rank": "master",
+    "pieces": [
+      1123,
+      1124,
+      1125,
+      1126,
+      1127
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1124,
+  "name": "Tigrex Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 234,
+      "level": 1,
+      "description": "Activates 25% of the time.",
+      "modifiers": {},
+      "skill": 74,
+      "skillName": "Free Meal"
+    }
+  ],
+  "armorSet": {
+    "id": 255,
+    "name": "Tigrex Alpha +",
+    "rank": "master",
+    "pieces": [
+      1123,
+      1124,
+      1125,
+      1126,
+      1127
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1125,
+  "name": "Tigrex Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 236,
+      "level": 2,
+      "description": "Moderately increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    },
+    {
+      "id": 40,
+      "level": 2,
+      "description": "Attack +6",
+      "modifiers": {
+        "attack": 6
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 255,
+    "name": "Tigrex Alpha +",
+    "rank": "master",
+    "pieces": [
+      1123,
+      1124,
+      1125,
+      1126,
+      1127
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1126,
+  "name": "Tigrex Tassets Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 234,
+      "level": 1,
+      "description": "Activates 25% of the time.",
+      "modifiers": {},
+      "skill": 74,
+      "skillName": "Free Meal"
+    }
+  ],
+  "armorSet": {
+    "id": 255,
+    "name": "Tigrex Alpha +",
+    "rank": "master",
+    "pieces": [
+      1123,
+      1124,
+      1125,
+      1126,
+      1127
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1127,
+  "name": "Tigrex Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 235,
+      "level": 1,
+      "description": "Slightly increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    },
+    {
+      "id": 234,
+      "level": 1,
+      "description": "Activates 25% of the time.",
+      "modifiers": {},
+      "skill": 74,
+      "skillName": "Free Meal"
+    }
+  ],
+  "armorSet": {
+    "id": 255,
+    "name": "Tigrex Alpha +",
+    "rank": "master",
+    "pieces": [
+      1123,
+      1124,
+      1125,
+      1126,
+      1127
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1128,
+  "name": "Tigrex Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 40,
+      "level": 2,
+      "description": "Attack +6",
+      "modifiers": {
+        "attack": 6
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    },
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 256,
+    "name": "Tigrex Beta +",
+    "rank": "master",
+    "pieces": [
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1129,
+  "name": "Tigrex Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 256,
+    "name": "Tigrex Beta +",
+    "rank": "master",
+    "pieces": [
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1130,
+  "name": "Tigrex Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 236,
+      "level": 2,
+      "description": "Moderately increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    },
+    {
+      "id": 39,
+      "level": 1,
+      "description": "Attack +3",
+      "modifiers": {
+        "attack": 3
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 256,
+    "name": "Tigrex Beta +",
+    "rank": "master",
+    "pieces": [
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1131,
+  "name": "Tigrex Tassets Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 256,
+    "name": "Tigrex Beta +",
+    "rank": "master",
+    "pieces": [
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1132,
+  "name": "Tigrex Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 142,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 0,
+    "ice": 0,
+    "thunder": 3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 235,
+      "level": 1,
+      "description": "Slightly increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    }
+  ],
+  "armorSet": {
+    "id": 256,
+    "name": "Tigrex Beta +",
+    "rank": "master",
+    "pieces": [
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+    ],
+    "bonus": 38
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

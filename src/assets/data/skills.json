@@ -2596,6 +2596,24 @@
         "description": "Activates 25% of the time.",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 356,
+        "skill": 74,
+        "skillName": "Free Meal",
+        "level": 2,
+        "description": "Activates 50% of the time.",
+        "modifiers": {}
+      },
+      {
+        "id": 357,
+        "skill": 74,
+        "skillName": "Free Meal",
+        "level": 3,
+        "description": "Activates 75% of the time.",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -3983,6 +4001,23 @@
         "description": "Raises the maximum level of the Slugger skill to Lv5",
         "modifiers": {
           "hiddenRanks": 47
+        }
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Free Meal Secret",
+    "description": "Raises the maximum level of the Free Meal to Lv3",
+    "ranks": [
+      {
+        "id": 355,
+        "skill": 144,
+        "skillName": "Free MealSecret",
+        "level": 1,
+        "description": "Raises the maximum level of the Free Meal to Lv3",
+        "modifiers": {
+          "hiddenRanks": 74
         }
       }
     ]
