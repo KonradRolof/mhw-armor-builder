@@ -92907,6 +92907,592 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1093,
+  "name": "Odogaron Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 18,
+      "level": 2,
+      "description": "Greatly reduces damage while bleeding.",
+      "modifiers": {},
+      "skill": 7,
+      "skillName": "Bleeding Resistance"
+    },
+    {
+      "id": 124,
+      "level": 2,
+      "description": "Affinity +10%",
+      "modifiers": {
+        "affinity": 10
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 249,
+    "name": "Odogaron Alpha +",
+    "rank": "master",
+    "pieces": [
+      1093,
+      1094,
+      1095,
+      1096,
+      1097
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1094,
+  "name": "Odogaron Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 239,
+      "level": 2,
+      "description": "Removes two cycles from the sharpening process.",
+      "modifiers": {},
+      "skill": 76,
+      "skillName": "Speed Sharpening"
+    },
+    {
+      "id": 17,
+      "level": 1,
+      "description": "Reduces damage while bleeding.",
+      "modifiers": {},
+      "skill": 7,
+      "skillName": "Bleeding Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 249,
+    "name": "Odogaron Alpha +",
+    "rank": "master",
+    "pieces": [
+      1093,
+      1094,
+      1095,
+      1096,
+      1097
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1095,
+  "name": "Odogaron Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 199,
+      "level": 2,
+      "description": "Reduces fixed stamina depletion by 20%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "description": "Affinity +5%",
+      "modifiers": {
+        "affinity": 5
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 249,
+    "name": "Odogaron Alpha +",
+    "rank": "master",
+    "pieces": [
+      1093,
+      1094,
+      1095,
+      1096,
+      1097
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1096,
+  "name": "Odogaron Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 125,
+      "level": 3,
+      "description": "Affinity +15%",
+      "modifiers": {
+        "affinity": 15
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    },
+    {
+      "id": 238,
+      "level": 1,
+      "description": "Removes one cycle from the sharpening process.",
+      "modifiers": {},
+      "skill": 76,
+      "skillName": "Speed Sharpening"
+    }
+  ],
+  "armorSet": {
+    "id": 249,
+    "name": "Odogaron Alpha +",
+    "rank": "master",
+    "pieces": [
+      1093,
+      1094,
+      1095,
+      1096,
+      1097
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1097,
+  "name": "Odogaron Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 224,
+      "level": 2,
+      "description": "Moderately increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "description": "Affinity +5%",
+      "modifiers": {
+        "affinity": 5
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 249,
+    "name": "Odogaron Alpha +",
+    "rank": "master",
+    "pieces": [
+      1093,
+      1094,
+      1095,
+      1096,
+      1097
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1098,
+  "name": "Odogaron Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 18,
+      "level": 2,
+      "description": "Greatly reduces damage while bleeding.",
+      "modifiers": {},
+      "skill": 7,
+      "skillName": "Bleeding Resistance"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "description": "Affinity +5%",
+      "modifiers": {
+        "affinity": 5
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 250,
+    "name": "Odogaron Beta +",
+    "rank": "master",
+    "pieces": [
+      1098,
+      1099,
+      1100,
+      1101,
+      1102
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1099,
+  "name": "Odogaron Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 239,
+      "level": 2,
+      "description": "Removes two cycles from the sharpening process.",
+      "modifiers": {},
+      "skill": 76,
+      "skillName": "Speed Sharpening"
+    }
+  ],
+  "armorSet": {
+    "id": 250,
+    "name": "Odogaron Beta +",
+    "rank": "master",
+    "pieces": [
+      1098,
+      1099,
+      1100,
+      1101,
+      1102
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1100,
+  "name": "Odogaron Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 198,
+      "level": 1,
+      "description": "Reduces fixed stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 64,
+      "skillName": "Constitution"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "description": "Affinity +5%",
+      "modifiers": {
+        "affinity": 5
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 250,
+    "name": "Odogaron Beta +",
+    "rank": "master",
+    "pieces": [
+      1098,
+      1099,
+      1100,
+      1101,
+      1102
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1101,
+  "name": "Odogaron Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 124,
+      "level": 2,
+      "description": "Affinity +10%",
+      "modifiers": {
+        "affinity": 10
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 250,
+    "name": "Odogaron Beta +",
+    "rank": "master",
+    "pieces": [
+      1098,
+      1099,
+      1100,
+      1101,
+      1102
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1102,
+  "name": "Odogaron Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": 2,
+    "ice": -3,
+    "thunder": -2,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "description": "Affinity +5%",
+      "modifiers": {
+        "affinity": 5
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 250,
+    "name": "Odogaron Beta +",
+    "rank": "master",
+    "pieces": [
+      1098,
+      1099,
+      1100,
+      1101,
+      1102
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

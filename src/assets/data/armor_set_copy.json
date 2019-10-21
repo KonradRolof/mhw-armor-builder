@@ -1,11 +1,11 @@
 {
-  "id": 248,
-  "name": "Diablos Beta +",
+  "id": 250,
+  "name": "Odogaron Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1088,
-      "name": "Diablos Helm Beta +",
+      "id": 1098,
+      "name": "Odogaron Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
@@ -15,11 +15,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -2,
+        "fire": 2,
+        "water": 2,
         "ice": -3,
-        "thunder": 0,
-        "dragon": 2
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -29,21 +29,31 @@
       ],
       "skills": [
         {
-          "id": 148,
+          "id": 18,
           "level": 2,
-          "description": "Draw attack affinity +60%",
+          "description": "Greatly reduces damage while bleeding.",
           "modifiers": {},
-          "skill": 45,
-          "skillName": "Critical Draw"
+          "skill": 7,
+          "skillName": "Bleeding Resistance"
+        },
+        {
+          "id": 123,
+          "level": 1,
+          "description": "Affinity +5%",
+          "modifiers": {
+            "affinity": 5
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
         }
       ],
-      "armorSet": 248,
+      "armorSet": 250,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1089,
-      "name": "Diablos Mail Beta +",
+      "id": 1099,
+      "name": "Odogaron Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
@@ -53,11 +63,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -2,
+        "fire": 2,
+        "water": 2,
         "ice": -3,
-        "thunder": 0,
-        "dragon": 2
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -70,29 +80,21 @@
       ],
       "skills": [
         {
-          "id": 154,
+          "id": 239,
           "level": 2,
-          "description": "Stun power +30%",
+          "description": "Removes two cycles from the sharpening process.",
           "modifiers": {},
-          "skill": 47,
-          "skillName": "Slugger"
-        },
-        {
-          "id": 174,
-          "level": 1,
-          "description": "While active, increases defense by 50 points",
-          "modifiers": {},
-          "skill": 54,
-          "skillName": "Heroics"
+          "skill": 76,
+          "skillName": "Speed Sharpening"
         }
         ],
-      "armorSet": 248,
+      "armorSet": 250,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1090,
-      "name": "Diablos Vambraces Beta +",
+      "id": 1100,
+      "name": "Odogaron Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
@@ -102,46 +104,45 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -2,
+        "fire": 2,
+        "water": 2,
         "ice": -3,
-        "thunder": 0,
-        "dragon": 2
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 175,
-          "level": 2,
-          "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+          "id": 198,
+          "level": 1,
+          "description": "Reduces fixed stamina depletion by 10%.",
           "modifiers": {},
-          "skill": 54,
-          "skillName": "Heroics"
+          "skill": 64,
+          "skillName": "Constitution"
         },
         {
-          "id": 33,
+          "id": 123,
           "level": 1,
-          "description": "Nullifies minor ground tremors.",
-          "modifiers": {},
-          "skill": 11,
-          "skillName": "Tremor Resistance"
+          "description": "Affinity +5%",
+          "modifiers": {
+            "affinity": 5
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
         }
         ],
-      "armorSet": 248,
+      "armorSet": 250,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1091,
-      "name": "Diablos Coil Beta +",
+      "id": 1101,
+      "name": "Odogaron Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
@@ -151,11 +152,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -2,
+        "fire": 2,
+        "water": 2,
         "ice": -3,
-        "thunder": 0,
-        "dragon": 2
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -163,26 +164,28 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 196,
+          "id": 124,
           "level": 2,
-          "description": "Reduces continuous stamina depletion by 30%.",
-          "modifiers": {},
-          "skill": 63,
-          "skillName": "Marathon Runner"
+          "description": "Affinity +10%",
+          "modifiers": {
+            "affinity": 10
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
           }
         ],
-      "armorSet": 248,
+      "armorSet": 250,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1092,
-        "name": "Diablos Greaves Beta +",
+        "id": 1102,
+        "name": "Odogaron Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
@@ -192,57 +195,56 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": -2,
+          "fire": 2,
+          "water": 2,
           "ice": -3,
-          "thunder": 0,
-          "dragon": 2
+          "thunder": -2,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 34,
-            "level": 2,
-            "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+            "id": 223,
+            "level": 1,
+            "description": "Slightly increases sheathing speed.",
             "modifiers": {},
-            "skill": 11,
-            "skillName": "Tremor Resistance"
+            "skill": 71,
+            "skillName": "Quick Sheath"
           },
           {
-            "id": 153,
-            "level": 1,
-            "description": "Stun power +20%",
-            "modifiers": {},
-            "skill": 47,
-            "skillName": "Slugger"
+            "id": 124,
+            "level": 2,
+            "description": "Affinity +10%",
+            "modifiers": {
+              "affinity": 10
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
           }
         ],
-      "armorSet": 248,
+      "armorSet": 250,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 34,
-    "name": "Diablos Ambition ",
+    "id": 35,
+    "name": "Odogaron Essence",
     "ranks": [
       {
         "pieces": 3,
         "skill": {
-          "id": 352,
+          "id": 327,
           "level": 1,
-          "description": "Raises the maximum level of the Slugger skill to Lv5",
+          "description": "Weapon sharpness does not decrease for a set time after sharpening.",
           "modifiers": {},
-          "skill": 143,
-          "skillName": "Slugger Secret"
+          "skill": 128,
+          "skillName": "Protective Polish"
         }
       }
     ]

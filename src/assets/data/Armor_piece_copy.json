@@ -1,6 +1,6 @@
 {
-  "id": 1092,
-  "name": "Diablos Greaves Beta +",
+  "id": 1102,
+  "name": "Odogaron Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
@@ -10,51 +10,50 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": -2,
+    "fire": 2,
+    "water": 2,
     "ice": -3,
-    "thunder": 0,
-    "dragon": 2
+    "thunder": -2,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 34,
-      "level": 2,
-      "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
       "modifiers": {},
-      "skill": 11,
-      "skillName": "Tremor Resistance"
+      "skill": 71,
+      "skillName": "Quick Sheath"
     },
     {
-      "id": 153,
-      "level": 1,
-      "description": "Stun power +20%",
-      "modifiers": {},
-      "skill": 47,
-      "skillName": "Slugger"
+      "id": 124,
+      "level": 2,
+      "description": "Affinity +10%",
+      "modifiers": {
+        "affinity": 10
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
     }
   ],
   "armorSet": {
-    "id": 248,
-    "name": "Diablos Beta +",
+    "id": 250,
+    "name": "Odogaron Beta +",
     "rank": "master",
     "pieces": [
-      1088,
-      1089,
-      1090,
-      1091,
-      1092
+      1098,
+      1099,
+      1100,
+      1101,
+      1102
     ],
-    "bonus": 34
+    "bonus": 35
   },
   "assets": null,
   "crafting": null
