@@ -1,52 +1,57 @@
 {
-  "id": 1111,
-  "name": "Uragaan Greaves Beta +",
+  "id": 1122,
+  "name": "Rath Soul Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 10,
+  "rarity": 11,
   "defense": {
-    "base": 144,
+    "base": 148,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 4,
-    "water": -3,
-    "ice": -2,
-    "thunder": 1,
-    "dragon": -2
+    "fire": 3,
+    "water": 2,
+    "ice": -3,
+    "thunder": 2,
+    "dragon": -4
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 219,
-      "level": 2,
-      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "id": 130,
+      "level": 1,
+      "description": "Increases damage dealt by critical hits by 30%.",
       "modifiers": {},
-      "skill": 70,
-      "skillName": "Guard"
+      "skill": 40,
+      "skillName": "Critical Boost"
+    },
+    {
+      "id": 28,
+      "level": 1,
+      "description": "Slightly reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
     }
   ],
   "armorSet": {
-    "id": 252,
-    "name": "Uragaan Beta +",
+    "id": 254,
+    "name": "Rath Soul Beta +",
     "rank": "master",
     "pieces": [
-      1108,
-      1109,
-      1110,
-      1111,
-      1112
+      1118,
+      1119,
+      1120,
+      1121,
+      1122
     ],
-    "bonus": 36
+    "bonus": 37
   },
   "assets": null,
   "crafting": null
