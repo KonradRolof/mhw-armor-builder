@@ -93493,7 +93493,571 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1103,
+  "name": "Uragaan Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 15,
+      "level": 2,
+      "description": "Greatly delays blastblight and greatly reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    },
+    {
+      "id": 276,
+      "level": 1,
+      "description": "Prevents knockbacks.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    }
+  ],
+  "armorSet": {
+    "id": 251,
+    "name": "Uragaan Alpha +",
+    "rank": "master",
+    "pieces": [
+      1103,
+      1104,
+      1105,
+      1106,
+      1107
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1104,
+  "name": "Uragaan Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 151,
+      "level": 2,
+      "description": "Part damage +20%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    },
+    {
+      "id": 14,
+      "level": 1,
+      "description": "Delays blastblight and reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 251,
+    "name": "Uragaan Alpha +",
+    "rank": "master",
+    "pieces": [
+      1103,
+      1104,
+      1105,
+      1106,
+      1107
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1105,
+  "name": "Uragaan Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 219,
+      "level": 2,
+      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    },
+    {
+      "id": 21,
+      "level": 2,
+      "description": "Reduces the duration of Defense Down by 75%.",
+      "modifiers": {},
+      "skill": 8,
+      "skillName": "Iron Skin"
+    }
+  ],
+  "armorSet": {
+    "id": 251,
+    "name": "Uragaan Alpha +",
+    "rank": "master",
+    "pieces": [
+      1103,
+      1104,
+      1105,
+      1106,
+      1107
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1106,
+  "name": "Uragaan Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 150,
+      "level": 1,
+      "description": "Part damage +10%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    },
+    {
+      "id": 218,
+      "level": 1,
+      "description": "Very slightly decreases the impact of attacks.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 251,
+    "name": "Uragaan Alpha +",
+    "rank": "master",
+    "pieces": [
+      1103,
+      1104,
+      1105,
+      1106,
+      1107
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1107,
+  "name": "Uragaan Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 219,
+      "level": 2,
+      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    },
+    {
+      "id": 341,
+      "level": 1,
+      "description": "While active increases attack power by 5%.",
+      "modifiers": {},
+      "skill": 138,
+      "skillName": "Offensive Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 251,
+    "name": "Uragaan Alpha +",
+    "rank": "master",
+    "pieces": [
+      1103,
+      1104,
+      1105,
+      1106,
+      1107
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1108,
+  "name": "Uragaan Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 15,
+      "level": 2,
+      "description": "Greatly delays blastblight and greatly reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 252,
+    "name": "Uragaan Beta +",
+    "rank": "master",
+    "pieces": [
+      1108,
+      1109,
+      1110,
+      1111,
+      1112
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1109,
+  "name": "Uragaan Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 151,
+      "level": 2,
+      "description": "Part damage +20%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    }
+  ],
+  "armorSet": {
+    "id": 252,
+    "name": "Uragaan Beta +",
+    "rank": "master",
+    "pieces": [
+      1108,
+      1109,
+      1110,
+      1111,
+      1112
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1110,
+  "name": "Uragaan Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 219,
+      "level": 2,
+      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    },
+    {
+      "id": 20,
+      "level": 1,
+      "description": "Reduces the duration of Defense Down by 50%.",
+      "modifiers": {},
+      "skill": 8,
+      "skillName": "Iron Skin"
+    }
+  ],
+  "armorSet": {
+    "id": 252,
+    "name": "Uragaan Beta +",
+    "rank": "master",
+    "pieces": [
+      1108,
+      1109,
+      1110,
+      1111,
+      1112
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1111,
+  "name": "Uragaan Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 150,
+      "level": 1,
+      "description": "Part damage +10%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    }
+  ],
+  "armorSet": {
+    "id": 252,
+    "name": "Uragaan Beta +",
+    "rank": "master",
+    "pieces": [
+      1108,
+      1109,
+      1110,
+      1111,
+      1112
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1112,
+  "name": "Uragaan Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 144,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 219,
+      "level": 2,
+      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 252,
+    "name": "Uragaan Beta +",
+    "rank": "master",
+    "pieces": [
+      1108,
+      1109,
+      1110,
+      1111,
+      1112
+    ],
+    "bonus": 36
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 

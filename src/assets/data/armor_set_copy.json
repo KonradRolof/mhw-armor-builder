@@ -1,114 +1,104 @@
 {
-  "id": 250,
-  "name": "Odogaron Beta +",
+  "id": 252,
+  "name": "Uragaan Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1098,
-      "name": "Odogaron Helm Beta +",
+      "id": 1108,
+      "name": "Uragaan Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 140,
+        "base": 144,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
-        "ice": -3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 3
         }
       ],
       "skills": [
         {
-          "id": 18,
+          "id": 15,
           "level": 2,
-          "description": "Greatly reduces damage while bleeding.",
+          "description": "Greatly delays blastblight and greatly reduces blast damage.",
           "modifiers": {},
-          "skill": 7,
-          "skillName": "Bleeding Resistance"
-        },
-        {
-          "id": 123,
-          "level": 1,
-          "description": "Affinity +5%",
-          "modifiers": {
-            "affinity": 5
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "skill": 6,
+          "skillName": "Blast Resistance"
         }
       ],
-      "armorSet": 250,
+      "armorSet": 252,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1099,
-      "name": "Odogaron Mail Beta +",
+      "id": 1109,
+      "name": "Uragaan Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 140,
+        "base": 144,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
-        "ice": -3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 239,
+          "id": 151,
           "level": 2,
-          "description": "Removes two cycles from the sharpening process.",
+          "description": "Part damage +20%",
           "modifiers": {},
-          "skill": 76,
-          "skillName": "Speed Sharpening"
+          "skill": 46,
+          "skillName": "Partbreaker"
         }
         ],
-      "armorSet": 250,
+      "armorSet": 252,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1100,
-      "name": "Odogaron Vambraces Beta +",
+      "id": 1110,
+      "name": "Uragaan Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 140,
+        "base": 144,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
-        "ice": -3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -118,45 +108,43 @@
       ],
       "skills": [
         {
-          "id": 198,
-          "level": 1,
-          "description": "Reduces fixed stamina depletion by 10%.",
+          "id": 219,
+          "level": 2,
+          "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
           "modifiers": {},
-          "skill": 64,
-          "skillName": "Constitution"
+          "skill": 70,
+          "skillName": "Guard"
         },
         {
-          "id": 123,
+          "id": 20,
           "level": 1,
-          "description": "Affinity +5%",
-          "modifiers": {
-            "affinity": 5
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "description": "Reduces the duration of Defense Down by 50%.",
+          "modifiers": {},
+          "skill": 8,
+          "skillName": "Iron Skin"
         }
         ],
-      "armorSet": 250,
+      "armorSet": 252,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1101,
-      "name": "Odogaron Coil Beta +",
+      "id": 1111,
+      "name": "Uragaan Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 140,
+        "base": 144,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 2,
-        "ice": -3,
-        "thunder": -2,
-        "dragon": 0
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -169,82 +157,73 @@
       ],
       "skills": [
         {
-          "id": 124,
-          "level": 2,
-          "description": "Affinity +10%",
-          "modifiers": {
-            "affinity": 10
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "id": 150,
+          "level": 1,
+          "description": "Part damage +10%",
+          "modifiers": {},
+          "skill": 46,
+          "skillName": "Partbreaker"
           }
         ],
-      "armorSet": 250,
+      "armorSet": 252,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1102,
-        "name": "Odogaron Greaves Beta +",
+        "id": 1112,
+        "name": "Uragaan Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
         "defense": {
-          "base": 140,
+          "base": 144,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 2,
-          "ice": -3,
-          "thunder": -2,
-          "dragon": 0
+          "fire": 4,
+          "water": -3,
+          "ice": -2,
+          "thunder": 1,
+          "dragon": -2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 223,
-            "level": 1,
-            "description": "Slightly increases sheathing speed.",
-            "modifiers": {},
-            "skill": 71,
-            "skillName": "Quick Sheath"
-          },
-          {
-            "id": 124,
+            "id": 219,
             "level": 2,
-            "description": "Affinity +10%",
-            "modifiers": {
-              "affinity": 10
-            },
-            "skill": 39,
-            "skillName": "Critical Eye"
+            "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+            "modifiers": {},
+            "skill": 70,
+            "skillName": "Guard"
           }
         ],
-      "armorSet": 250,
+      "armorSet": 252,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 35,
-    "name": "Odogaron Essence",
+    "id": 36,
+    "name": "Uragaan Ambition",
     "ranks": [
       {
-        "pieces": 3,
+        "pieces": 2,
         "skill": {
-          "id": 327,
+          "id": 318,
           "level": 1,
-          "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+          "description": "Allows you to guard against ordinarily unblockable attacks.",
           "modifiers": {},
-          "skill": 128,
-          "skillName": "Protective Polish"
+          "skill": 119,
+          "skillName": "Guard Up"
         }
       }
     ]
