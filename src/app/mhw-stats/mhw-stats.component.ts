@@ -93,6 +93,12 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
     // handle skill modifiers
     this.skills.map((skill) => this.applySkillModifiers(skill.skill.ranks[skill.level - 1]));
+    this.setBonuses.map((bonus) => {
+      if (bonus.active) {
+        console.log(bonus.bonusRank.skill);
+        this.applySkillModifiers(bonus.bonusRank.skill);
+      }
+    });
 
     setTimeout(() => {
       this.resetRefresh.emit(false);
@@ -134,7 +140,6 @@ export class MhwStatsComponent implements OnInit, OnChanges {
         if (rank.pieces <= currentSet.current) {
           currentSet.bonusRank = rank;
           currentSet.active = true;
-          // @TODO handle set bonus modifiers
         }
       });
 
@@ -221,7 +226,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     } else {
       const skillSet: SkillSet = {
         id: realSkill.id,
-        skill: realSkill,
+        skill: { ...realSkill },
         max: realSkill.ranks.length,
         level: skill.level,
         trueLevel: skill.level,
@@ -248,15 +253,15 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     const { modifiers } = skillRank;
 
     // simple modifiers
-    if (modifiers.hasOwnProperty("attack")) {
+    if (modifiers.hasOwnProperty("attack") && 0 < this.offence.attack) {
       this.offence.attack += modifiers.attack;
     }
 
-    if (modifiers.hasOwnProperty("affinity")) {
+    if (modifiers.hasOwnProperty("affinity") && 0 < this.offence.attack) {
       this.offence.affinity += modifiers.affinity;
     }
 
-    if (modifiers.hasOwnProperty("defense")) {
+    if (modifiers.hasOwnProperty("defense") && 0 < this.defense) {
       this.defense += modifiers.defense;
     }
 
@@ -312,6 +317,21 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
     if (modifiers.hasOwnProperty("resistDragon")) {
       this.resistances.dragon += modifiers.resistDragon;
+    }
+
+    // sharpness modifier
+    if (modifiers.hasOwnProperty("sharpnessBonus")) {
+      this.offence.handicraftLevel = modifiers.sharpnessBonus / 10;
+    }
+
+    // hidden ranks
+    if (modifiers.hasOwnProperty("hiddenRanks")) {
+      const id = modifiers.hiddenRanks;
+
+      this.skills.find((skill) => skill.id === id).skill.hiddenRanks.map((rank) => {
+        rank.isHidden = true;
+        this.skills.find((skill) => skill.id === id).skill.ranks.push(rank);
+      });
     }
   }
 

@@ -8,4 +8,5 @@ export default interface SkillRank {
   skill: number; // The ID of the skill that the rank belongs to
   skillName: string; // The name of the skill that the rank belongs to
   modifiers?: SkillRankModifiers; // See SkillRank Modifiers for more information
+  isHidden?: boolean; // Is this rank a hidden rank?
 }
