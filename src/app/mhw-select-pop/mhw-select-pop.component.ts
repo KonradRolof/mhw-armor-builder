@@ -122,21 +122,25 @@ export class MhwSelectPopComponent implements OnChanges {
   }
 
   public switchWeaponType(type: string) {
-    let weapons = this.storedItems[this.selectedRank];
-
+    MhwStorageService.setItem("weapon-type", type);
     this.resetFilter();
     this.filterInput = "";
+    this.filterWeapons(type);
+  }
+
+  private resetFilter() {
+    this.itemsToShow[this.selectedRank] = [];
+    this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item);
+  }
+
+  private filterWeapons(type: string) {
+    let weapons = this.storedItems[this.selectedRank];
 
     if (this.weaponTypes[0].type !== type) {
       weapons = weapons.filter((weapon) => weapon.type === type);
     }
 
     this.itemsToShow[this.selectedRank] = weapons;
-  }
-
-  private resetFilter() {
-    this.itemsToShow[this.selectedRank] = [];
-    this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item);
   }
 
   private readDataObject(data: SelectionPopData) {
@@ -191,7 +195,14 @@ export class MhwSelectPopComponent implements OnChanges {
         this.itemsToShow = {};
         this.itemsToShow[this.selectedRank] = this.storedItems[this.selectedRank].map((item) => item) as Weapon[];
         this.weaponSelectable = true;
-        this.currentWeaponType = this.weaponTypes[0].type;
+
+        MhwStorageService.getAndUse("weapon-type", (type) => {
+          if (null !== type) {
+            this.currentWeaponType = type;
+          } else {
+            this.currentWeaponType = this.weaponTypes[0].type;
+          }
+        });
     }
 
     this.rankSelectable = data.rankSelectable;

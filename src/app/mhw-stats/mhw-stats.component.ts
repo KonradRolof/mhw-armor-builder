@@ -54,12 +54,15 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private resetStats() {
+    const elements = [];
+
     this.offence = {
       health: 100,
       attack: 0,
       affinity: 0,
       handicraftLevel: 0,
-      maxHandicraft: 0
+      maxHandicraft: 0,
+      elements
     };
     this.skills = [];
     this.decorations = [];
@@ -183,8 +186,9 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     }
 
     if (weapon.elements) {
-      this.offence.elements = [];
-      weapon.elements.map((element) => this.offence.elements.push(element));
+      weapon.elements.map((element) => {
+        this.offence.elements.push({ ...element });
+      });
     }
 
     if (weapon.durability) {
@@ -243,16 +247,32 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   private applySkillModifiers(skillRank: SkillRank) {
     const { modifiers } = skillRank;
 
+    if (modifiers.hasOwnProperty("attack")) {
+      this.offence.attack += modifiers.attack;
+    }
+
     if (modifiers.hasOwnProperty("affinity")) {
       this.offence.affinity += modifiers.affinity;
     }
 
-    if (modifiers.hasOwnProperty("attack")) {
-      this.offence.affinity += modifiers.attack;
+    if (modifiers.hasOwnProperty("damageFire") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageFire, "fire");
     }
 
-    if (modifiers.hasOwnProperty("damageFire")) {
-      this.applyElementDamage(modifiers.damageFire, "fire");
+    if (modifiers.hasOwnProperty("damageWater") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageWater, "water");
+    }
+
+    if (modifiers.hasOwnProperty("damageIce") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageIce, "ice");
+    }
+
+    if (modifiers.hasOwnProperty("damageThunder") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageThunder, "thunder");
+    }
+
+    if (modifiers.hasOwnProperty("damageDragon") && 0 < this.offence.elements.length) {
+      this.applyElementDamage(modifiers.damageDragon, "dragon");
     }
 
     if (modifiers.hasOwnProperty("defense")) {

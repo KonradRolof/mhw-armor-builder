@@ -118,13 +118,8 @@ export class AppComponent implements OnInit {
   }
 
   public switchWeaponType(type: string) {
-    let weapons = this.weapons;
-
-    if (this.weaponTypes[0].type !== type) {
-      weapons = weapons.filter((weapon) => weapon.type === type);
-    }
-
-    this.weaponsToShow = weapons;
+    MhwStorageService.setItem("weapon-type", type);
+    this.filterWeapons(type);
   }
 
   public toggleArmorSub(armorSet: ArmorSet) {
@@ -193,6 +188,16 @@ export class AppComponent implements OnInit {
   private handleLoadError(error: any) {
     this.hasDataError = true;
     this.dataErrorMessage = error.message;
+  }
+
+  private filterWeapons(type: string) {
+    let weapons = this.weapons;
+
+    if (this.weaponTypes[0].type !== type) {
+      weapons = weapons.filter((weapon) => weapon.type === type);
+    }
+
+    this.weaponsToShow = weapons;
   }
 
   private setArmorPiece(piece: ArmorPiece, type: string) {
@@ -321,6 +326,9 @@ export class AppComponent implements OnInit {
 
       case "weapons":
         const weapons = data as Weapon[];
+        const currentType = MhwStorageService.getItem("weapon-type");
+
+        console.log(currentType);
 
         weapons.map((weapon) => {
           this.weapons.push(weapon);
@@ -328,6 +336,12 @@ export class AppComponent implements OnInit {
         });
         this.weapons = MhwSortingService.sortWeaponsByRarity(this.weapons);
         this.weaponsToShow = MhwSortingService.sortWeaponsByRarity(this.weaponsToShow);
+
+        if (null !== currentType) {
+          this.currentWeaponType = currentType;
+          this.filterWeapons(currentType);
+        }
+
         break;
     }
   }
