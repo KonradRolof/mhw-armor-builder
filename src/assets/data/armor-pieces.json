@@ -96932,7 +96932,592 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1163,
+  "name": "Acidic Glavenus Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 268,
+      "level": 2,
+      "description": "While active, increases affinity by 20%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    },
+    {
+      "id": 295,
+      "level": 2,
+      "description": "Greatly reduces effluvial buildup.",
+      "modifiers": {},
+      "skill": 101,
+      "skillName": "Effluvia Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 263,
+    "name": "Acidic Glavenus Alpha +",
+    "rank": "master",
+    "pieces": [
+      1163,
+      1164,
+      1165,
+      1166,
+      1167
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1164,
+  "name": "Acidic Glavenus Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 143,
+      "level": 2,
+      "description": "Weapon sharpness +20",
+      "modifiers": {
+        "sharpnessBonus": 20
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    },
+    {
+      "id": 204,
+      "level": 1,
+      "description": "Stamina recovery speed +10%",
+      "modifiers": {},
+      "skill": 66,
+      "skillName": "Stamina Surge"
+    }
+  ],
+  "armorSet": {
+    "id": 263,
+    "name": "Acidic Glavenus Alpha +",
+    "rank": "master",
+    "pieces": [
+      1163,
+      1164,
+      1165,
+      1166,
+      1167
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1165,
+  "name": "Acidic Glavenus Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 11,
+      "level": 2,
+      "description": "Reduces the duration of stun by 90%.",
+      "modifiers": {},
+      "skill": 4,
+      "skillName": "Stun Resistance"
+    },
+    {
+      "id": 142,
+      "level": 1,
+      "description": "Weapon sharpness +10",
+      "modifiers": {
+        "sharpnessBonus": 10
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    }
+  ],
+  "armorSet": {
+    "id": 263,
+    "name": "Acidic Glavenus Alpha +",
+    "rank": "master",
+    "pieces": [
+      1163,
+      1164,
+      1165,
+      1166,
+      1167
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1166,
+  "name": "Acidic Glavenus Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 143,
+      "level": 2,
+      "description": "Weapon sharpness +20",
+      "modifiers": {
+        "sharpnessBonus": 20
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    },
+    {
+      "id": 21,
+      "level": 2,
+      "description": "Reduces the duration of Defense Down by 75%.",
+      "modifiers": {},
+      "skill": 8,
+      "skillName": "Iron Skin"
+    }
+  ],
+  "armorSet": {
+    "id": 263,
+    "name": "Acidic Glavenus Alpha +",
+    "rank": "master",
+    "pieces": [
+      1163,
+      1164,
+      1165,
+      1166,
+      1167
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1167,
+  "name": "Acidic Glavenus Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 268,
+      "level": 2,
+      "description": "While active, increases affinity by 20%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    },
+    {
+      "id": 204,
+      "level": 1,
+      "description": "Stamina recovery speed +10%",
+      "modifiers": {},
+      "skill": 66,
+      "skillName": "Stamina Surge"
+    }
+  ],
+  "armorSet": {
+    "id": 263,
+    "name": "Acidic Glavenus Alpha +",
+    "rank": "master",
+    "pieces": [
+      1163,
+      1164,
+      1165,
+      1166,
+      1167
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1168,
+  "name": "Acidic Glavenus Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 267,
+      "level": 1,
+      "description": "While active, increases affinity by 10%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    },
+    {
+      "id": 295,
+      "level": 2,
+      "description": "Greatly reduces effluvial buildup.",
+      "modifiers": {},
+      "skill": 101,
+      "skillName": "Effluvia Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 264,
+    "name": "Acidic Glavenus Beta +",
+    "rank": "master",
+    "pieces": [
+      1168,
+      1169,
+      1170,
+      1171,
+      1172
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1169,
+  "name": "Acidic Glavenus Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 142,
+      "level": 1,
+      "description": "Weapon sharpness +10",
+      "modifiers": {
+        "sharpnessBonus": 10
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    },
+    {
+      "id": 204,
+      "level": 1,
+      "description": "Stamina recovery speed +10%",
+      "modifiers": {},
+      "skill": 66,
+      "skillName": "Stamina Surge"
+    }
+  ],
+  "armorSet": {
+    "id": 264,
+    "name": "Acidic Glavenus Beta +",
+    "rank": "master",
+    "pieces": [
+      1168,
+      1169,
+      1170,
+      1171,
+      1172
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1170,
+  "name": "Acidic Glavenus Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 11,
+      "level": 2,
+      "description": "Reduces the duration of stun by 90%.",
+      "modifiers": {},
+      "skill": 4,
+      "skillName": "Stun Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 264,
+    "name": "Acidic Glavenus Beta +",
+    "rank": "master",
+    "pieces": [
+      1168,
+      1169,
+      1170,
+      1171,
+      1172
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1171,
+  "name": "Acidic Glavenus Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 143,
+      "level": 2,
+      "description": "Weapon sharpness +20",
+      "modifiers": {
+        "sharpnessBonus": 20
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    }
+  ],
+  "armorSet": {
+    "id": 264,
+    "name": "Acidic Glavenus Beta +",
+    "rank": "master",
+    "pieces": [
+      1168,
+      1169,
+      1170,
+      1171,
+      1172
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1172,
+  "name": "Acidic Glavenus Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 150,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -3,
+    "water": 2,
+    "ice": 2,
+    "thunder": -1,
+    "dragon": -1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 267,
+      "level": 1,
+      "description": "While active, increases affinity by 10%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    }
+  ],
+  "armorSet": {
+    "id": 264,
+    "name": "Acidic Glavenus Beta +",
+    "rank": "master",
+    "pieces": [
+      1168,
+      1169,
+      1170,
+      1171,
+      1172
+    ],
+    "bonus": 31
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 

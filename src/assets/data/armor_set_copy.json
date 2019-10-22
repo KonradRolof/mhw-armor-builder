@@ -1,25 +1,71 @@
 {
-  "id": 262,
-  "name": "Shrieking Legia Beta +",
+  "id": 264,
+  "name": "Acidic Glavenus Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1158,
-      "name": "Hoacry Helm Beta +",
+      "id": 1168,
+      "name": "Acidic Glavenus Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 146,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": -3,
         "water": 2,
-        "ice": 3,
+        "ice": 2,
         "thunder": -1,
-        "dragon": 0
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 267,
+          "level": 1,
+          "description": "While active, increases affinity by 10%.",
+          "modifiers": {},
+          "skill": 88,
+          "skillName": "Maximum Might"
+        },
+        {
+          "id": 295,
+          "level": 2,
+          "description": "Greatly reduces effluvial buildup.",
+          "modifiers": {},
+          "skill": 101,
+          "skillName": "Effluvia Resistance"
+        }
+      ],
+      "armorSet": 264,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1169,
+      "name": "Acidic Glavenus Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 150,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 2,
+        "thunder": -1,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
@@ -32,111 +78,89 @@
       ],
       "skills": [
         {
-          "id": 208,
-          "level": 2,
-          "description": "Extends the time until your stamina cap decreases by 100%.",
-          "modifiers": {},
-          "skill": 67,
-          "skillName": "Hunger Resistance"
-        }
-      ],
-      "armorSet": 262,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1159,
-      "name": "Hoacry Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 146,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 3,
-        "thunder": -1,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
+          "id": 142,
+          "level": 1,
+          "description": "Weapon sharpness +10",
+          "modifiers": {
+            "sharpnessBonus": 10
+          },
+          "skill": 44,
+          "skillName": "Handicraft"
+        },
         {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 137,
-          "level": 2,
-          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
           "modifiers": {},
-          "skill": 42,
-          "skillName": "Focus"
+          "skill": 66,
+          "skillName": "Stamina Surge"
         }
         ],
-      "armorSet": 262,
+      "armorSet": 264,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1160,
-      "name": "Hoacry Vambraces Beta +",
+      "id": 1170,
+      "name": "Acidic Glavenus Braces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 146,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": -3,
         "water": 2,
-        "ice": 3,
+        "ice": 2,
         "thunder": -1,
-        "dragon": 0
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 148,
+          "id": 11,
           "level": 2,
-          "description": "Draw attack affinity +60%",
+          "description": "Reduces the duration of stun by 90%.",
           "modifiers": {},
-          "skill": 45,
-          "skillName": "Critical Draw"
+          "skill": 4,
+          "skillName": "Stun Resistance"
         }
         ],
-      "armorSet": 262,
+      "armorSet": 264,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1161,
-      "name": "Hoacry Coil Beta +",
+      "id": 1171,
+      "name": "Acidic Glavenus Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 146,
+        "base": 150,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": -3,
         "water": 2,
-        "ice": 3,
+        "ice": 2,
         "thunder": -1,
-        "dragon": 0
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
@@ -146,73 +170,74 @@
       ],
       "skills": [
         {
-          "id": 216,
+          "id": 143,
           "level": 2,
-          "description": "Extends evasion distance.",
-          "modifiers": {},
-          "skill": 69,
-          "skillName": "Evade Extender"
+          "description": "Weapon sharpness +20",
+          "modifiers": {
+            "sharpnessBonus": 20
+          },
+          "skill": 44,
+          "skillName": "Handicraft"
           }
         ],
-      "armorSet": 262,
+      "armorSet": 264,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1162,
-        "name": "Hoacry Greaves Beta +",
+        "id": 1172,
+        "name": "Acidic Glavenus Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 146,
+          "base": 150,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
           "fire": -3,
           "water": 2,
-          "ice": 3,
+          "ice": 2,
           "thunder": -1,
-          "dragon": 0
+          "dragon": -1
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 196,
-            "level": 2,
-            "description": "Reduces continuous stamina depletion by 30%.",
+            "id": 267,
+            "level": 1,
+            "description": "While active, increases affinity by 10%.",
             "modifiers": {},
-            "skill": 63,
-            "skillName": "Marathon Runner"
+            "skill": 88,
+            "skillName": "Maximum Might"
           }
         ],
-      "armorSet": 262,
+      "armorSet": 264,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 39,
-    "name": "Legiana Ambition",
+    "id": 31,
+    "name": "Glavenus Essence",
     "ranks": [
       {
         "pieces": 3,
         "skill": {
-          "id": 325,
+          "id": 348,
           "level": 1,
-          "description": "Increases max bow charge level by one.",
-          "modifiers": {},
-          "skill": 126,
-          "skillName": "Bow Charge Plus"
+          "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
+          "modifiers": {
+            "hiddenRanks": 88
+          },
+          "skill": 141,
+          "skillName": "Maximum Might Secret"
         }
       }
     ]

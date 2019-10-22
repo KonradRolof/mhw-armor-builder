@@ -1,52 +1,49 @@
 {
-  "id": 1162,
-  "name": "Hoacry Greaves Beta +",
+  "id": 1172,
+  "name": "Acidic Glavenus Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 11,
   "defense": {
-    "base": 146,
+    "base": 150,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
     "fire": -3,
     "water": 2,
-    "ice": 3,
+    "ice": 2,
     "thunder": -1,
-    "dragon": 0
+    "dragon": -1
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 196,
-      "level": 2,
-      "description": "Reduces continuous stamina depletion by 30%.",
+      "id": 267,
+      "level": 1,
+      "description": "While active, increases affinity by 10%.",
       "modifiers": {},
-      "skill": 63,
-      "skillName": "Marathon Runner"
+      "skill": 88,
+      "skillName": "Maximum Might"
     }
   ],
   "armorSet": {
-    "id": 262,
-    "name": "Shrieking Legia Beta +",
+    "id": 264,
+    "name": "Acidic Glavenus Beta +",
     "rank": "master",
     "pieces": [
-      1158,
-      1159,
-      1160,
-      1161,
-      1162
+      1168,
+      1169,
+      1170,
+      1171,
+      1172
     ],
-    "bonus": 39
+    "bonus": 31
   },
   "assets": null,
   "crafting": null
