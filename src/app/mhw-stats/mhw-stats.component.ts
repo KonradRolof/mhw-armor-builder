@@ -278,6 +278,10 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     if (modifiers.hasOwnProperty("defense")) {
       this.defense += modifiers.defense;
     }
+
+    if (modifiers.hasOwnProperty("health")) {
+      this.offence.health += modifiers.health;
+    }
   }
 
   private applyElementDamage(modifier: number|string, elementType: string) {
