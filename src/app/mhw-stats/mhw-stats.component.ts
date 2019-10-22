@@ -247,6 +247,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   private applySkillModifiers(skillRank: SkillRank) {
     const { modifiers } = skillRank;
 
+    // simple modifiers
     if (modifiers.hasOwnProperty("attack")) {
       this.offence.attack += modifiers.attack;
     }
@@ -255,6 +256,15 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.offence.affinity += modifiers.affinity;
     }
 
+    if (modifiers.hasOwnProperty("defense")) {
+      this.defense += modifiers.defense;
+    }
+
+    if (modifiers.hasOwnProperty("health")) {
+      this.offence.health += modifiers.health;
+    }
+
+    // elemental attack modifiers
     if (modifiers.hasOwnProperty("damageFire") && 0 < this.offence.elements.length) {
       this.applyElementDamage(modifiers.damageFire, "fire");
     }
@@ -275,12 +285,33 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       this.applyElementDamage(modifiers.damageDragon, "dragon");
     }
 
-    if (modifiers.hasOwnProperty("defense")) {
-      this.defense += modifiers.defense;
+    // elemental resistance modifiers
+    if (modifiers.hasOwnProperty("resistAll")) {
+      this.resistances.fire += modifiers.resistAll;
+      this.resistances.water += modifiers.resistAll;
+      this.resistances.ice += modifiers.resistAll;
+      this.resistances.thunder += modifiers.resistAll;
+      this.resistances.dragon += modifiers.resistAll;
     }
 
-    if (modifiers.hasOwnProperty("health")) {
-      this.offence.health += modifiers.health;
+    if (modifiers.hasOwnProperty("resistFire")) {
+      this.resistances.fire += modifiers.resistFire;
+    }
+
+    if (modifiers.hasOwnProperty("resistWater")) {
+      this.resistances.water += modifiers.resistWater;
+    }
+
+    if (modifiers.hasOwnProperty("resistIce")) {
+      this.resistances.ice += modifiers.resistIce;
+    }
+
+    if (modifiers.hasOwnProperty("resistThunder")) {
+      this.resistances.thunder += modifiers.resistThunder;
+    }
+
+    if (modifiers.hasOwnProperty("resistDragon")) {
+      this.resistances.dragon += modifiers.resistDragon;
     }
   }
 
