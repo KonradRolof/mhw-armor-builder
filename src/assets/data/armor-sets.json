@@ -84992,6 +84992,520 @@
       }
     ]
   }
+},
+{
+  "id": 259,
+  "name": "Legiana Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1143,
+      "name": "Legiana Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        },
+        {
+          "id": 91,
+          "level": 2,
+          "description": "Ice attack +60",
+          "modifiers": {
+            "damageIce": 60
+          },
+          "skill": 28,
+          "skillName": "Ice Attack"
+        }
+      ],
+      "armorSet": 259,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1144,
+      "name": "Legiana Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 211,
+          "level": 2,
+          "description": "Slightly increases invulnerability window.",
+          "modifiers": {},
+          "skill": 68,
+          "skillName": "Evade Window"
+        },
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+        ],
+      "armorSet": 259,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1145,
+      "name": "Legiana Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 211,
+          "level": 2,
+          "description": "Slightly increases invulnerability window.",
+          "modifiers": {},
+          "skill": 68,
+          "skillName": "Evade Window"
+        },
+        {
+          "id": 160,
+          "level": 1,
+          "description": "Jumping attack power +10%",
+          "modifiers": {},
+          "skill": 50,
+          "skillName": "Airborne"
+        }
+        ],
+      "armorSet": 259,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1146,
+      "name": "Legiana Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 91,
+          "level": 2,
+          "description": "Ice attack +60",
+          "modifiers": {
+            "damageIce": 60
+          },
+          "skill": 28,
+          "skillName": "Ice Attack"
+        },
+        {
+          "id": 29,
+          "level": 2,
+          "description": "Reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
+          }
+        ],
+      "armorSet": 259,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1147,
+        "name": "Legiana Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 140,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -1,
+          "water": 2,
+          "ice": 3,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 3
+          }
+        ],
+        "skills": [
+          {
+            "id": 69,
+            "level": 2,
+            "description": "Ice resistance +12",
+            "modifiers": {
+              "resistIce": 12
+            },
+            "skill": 22,
+            "skillName": "Ice Resistance"
+          },
+          {
+            "id": 147,
+            "level": 1,
+            "description": "Draw attack affinity +30%",
+            "modifiers": {},
+            "skill": 45,
+            "skillName": "Critical Draw"
+          }
+        ],
+      "armorSet": 259,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 39,
+    "name": "Legiana Ambition",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 325,
+          "level": 1,
+          "description": "Increases max bow charge level by one.",
+          "modifiers": {},
+          "skill": 126,
+          "skillName": "Bow Charge Plus"
+        }
+      }
+    ]
+  }
+},
+{
+  "id": 260,
+  "name": "Legiana Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1148,
+      "name": "Legiana Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+      ],
+      "armorSet": 260,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1149,
+      "name": "Legiana Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 211,
+          "level": 2,
+          "description": "Slightly increases invulnerability window.",
+          "modifiers": {},
+          "skill": 68,
+          "skillName": "Evade Window"
+        },
+        {
+          "id": 252,
+          "level": 1,
+          "description": "While active, reduces damage taken by 15%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+        ],
+      "armorSet": 260,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1150,
+      "name": "Legiana Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 210,
+          "level": 1,
+          "description": "Very slightly increases invulnerability window.",
+          "modifiers": {},
+          "skill": 68,
+          "skillName": "Evade Window"
+        },
+        {
+          "id": 160,
+          "level": 1,
+          "description": "Jumping attack power +10%",
+          "modifiers": {},
+          "skill": 50,
+          "skillName": "Airborne"
+        }
+        ],
+      "armorSet": 260,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1151,
+      "name": "Legiana Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "ice": 3,
+        "thunder": -3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 91,
+          "level": 2,
+          "description": "Ice attack +60",
+          "modifiers": {
+            "damageIce": 60
+          },
+          "skill": 28,
+          "skillName": "Ice Attack"
+        },
+        {
+          "id": 28,
+          "level": 1,
+          "description": "Slightly reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
+          }
+        ],
+      "armorSet": 260,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1152,
+        "name": "Legiana Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 10,
+        "defense": {
+          "base": 140,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -1,
+          "water": 2,
+          "ice": 3,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 69,
+            "level": 2,
+            "description": "Ice resistance +12",
+            "modifiers": {
+              "resistIce": 12
+            },
+            "skill": 22,
+            "skillName": "Ice Resistance"
+          }
+        ],
+      "armorSet": 260,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 39,
+    "name": "Legiana Ambition",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 325,
+          "level": 1,
+          "description": "Increases max bow charge level by one.",
+          "modifiers": {},
+          "skill": 126,
+          "skillName": "Bow Charge Plus"
+        }
+      }
+    ]
+  }
 }
 
 

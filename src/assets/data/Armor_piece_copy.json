@@ -1,6 +1,6 @@
 {
-  "id": 1142,
-  "name": "Rathalos Greaves Beta +",
+  "id": 1152,
+  "name": "Legiana Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
@@ -10,50 +10,45 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": 1,
-    "ice": 1,
-    "thunder": -2,
-    "dragon": -3
+    "fire": -1,
+    "water": 2,
+    "ice": 3,
+    "thunder": -3,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 271,
+      "id": 69,
       "level": 2,
-      "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
-      "modifiers": {},
-      "skill": 89,
-      "skillName": "Slinger Capacity"
-    },
-    {
-      "id": 39,
-      "level": 1,
-      "description": "Attack +3",
+      "description": "Ice resistance +12",
       "modifiers": {
-        "attack": 3
+        "resistIce": 12
       },
-      "skill": 15,
-      "skillName": "Attack Boost"
+      "skill": 22,
+      "skillName": "Ice Resistance"
     }
   ],
   "armorSet": {
-    "id": 258,
-    "name": "Rathalos Beta +",
+    "id": 260,
+    "name": "Legiana Beta +",
     "rank": "master",
     "pieces": [
-      1138,
-      1139,
-      1140,
-      1141,
-      1142
+      1148,
+      1149,
+      1150,
+      1151,
+      1152
     ],
-    "bonus": 37
+    "bonus": 39
   },
   "assets": null,
   "crafting": null
