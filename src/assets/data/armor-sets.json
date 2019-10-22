@@ -85506,7 +85506,501 @@
       }
     ]
   }
+},
+{
+  "id": 261,
+  "name": "Shrieking Legia Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1153,
+      "name": "Hoarcry Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 208,
+          "level": 2,
+          "description": "Extends the time until your stamina cap decreases by 100%.",
+          "modifiers": {},
+          "skill": 67,
+          "skillName": "Hunger Resistance"
+        },
+        {
+          "id": 215,
+          "level": 1,
+          "description": "Slightly extends evasion distance.",
+          "modifiers": {},
+          "skill": 69,
+          "skillName": "Evade Extender"
+        }
+      ],
+      "armorSet": 261,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1154,
+      "name": "Hoacry Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 137,
+          "level": 2,
+          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+        },
+        {
+          "id": 195,
+          "level": 1,
+          "description": "Reduces continuous stamina depletion by 15%.",
+          "modifiers": {},
+          "skill": 63,
+          "skillName": "Marathon Runner"
+        }
+        ],
+      "armorSet": 261,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1155,
+      "name": "Hoacry Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 148,
+          "level": 2,
+          "description": "Draw attack affinity +60%",
+          "modifiers": {},
+          "skill": 45,
+          "skillName": "Critical Draw"
+        },
+        {
+          "id": 207,
+          "level": 1,
+          "description": "Extends the time until your stamina cap decreases by 50%.",
+          "modifiers": {},
+          "skill": 67,
+          "skillName": "Hunger Resistance"
+        }
+        ],
+      "armorSet": 261,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1156,
+      "name": "Hoacry Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 216,
+          "level": 2,
+          "description": "Extends evasion distance.",
+          "modifiers": {},
+          "skill": 69,
+          "skillName": "Evade Extender"
+        },
+        {
+          "id": 136,
+          "level": 1,
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+          }
+        ],
+      "armorSet": 261,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1157,
+        "name": "Hoacry Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 146,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": 3,
+          "thunder": -1,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 196,
+            "level": 2,
+            "description": "Reduces continuous stamina depletion by 30%.",
+            "modifiers": {},
+            "skill": 63,
+            "skillName": "Marathon Runner"
+          },
+          {
+            "id": 119,
+            "level": 1,
+            "description": "Increases the power of spread ammo and power shot arrows.",
+            "modifiers": {},
+            "skill": 37,
+            "skillName": "Spread\/Power Shots"
+          }
+        ],
+      "armorSet": 261,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 39,
+    "name": "Legiana Ambition",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 325,
+          "level": 1,
+          "description": "Increases max bow charge level by one.",
+          "modifiers": {},
+          "skill": 126,
+          "skillName": "Bow Charge Plus"
+        }
+      }
+    ]
+  }
+},
+{
+  "id": 262,
+  "name": "Shrieking Legia Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1158,
+      "name": "Hoacry Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 208,
+          "level": 2,
+          "description": "Extends the time until your stamina cap decreases by 100%.",
+          "modifiers": {},
+          "skill": 67,
+          "skillName": "Hunger Resistance"
+        }
+      ],
+      "armorSet": 262,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1159,
+      "name": "Hoacry Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 137,
+          "level": 2,
+          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+        }
+        ],
+      "armorSet": 262,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1160,
+      "name": "Hoacry Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 148,
+          "level": 2,
+          "description": "Draw attack affinity +60%",
+          "modifiers": {},
+          "skill": 45,
+          "skillName": "Critical Draw"
+        }
+        ],
+      "armorSet": 262,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1161,
+      "name": "Hoacry Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 3,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 216,
+          "level": 2,
+          "description": "Extends evasion distance.",
+          "modifiers": {},
+          "skill": 69,
+          "skillName": "Evade Extender"
+          }
+        ],
+      "armorSet": 262,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1162,
+        "name": "Hoacry Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 146,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": 3,
+          "thunder": -1,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 196,
+            "level": 2,
+            "description": "Reduces continuous stamina depletion by 30%.",
+            "modifiers": {},
+            "skill": 63,
+            "skillName": "Marathon Runner"
+          }
+        ],
+      "armorSet": 262,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 39,
+    "name": "Legiana Ambition",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 325,
+          "level": 1,
+          "description": "Increases max bow charge level by one.",
+          "modifiers": {},
+          "skill": 126,
+          "skillName": "Bow Charge Plus"
+        }
+      }
+    ]
+  }
 }
+
+
 
 
 

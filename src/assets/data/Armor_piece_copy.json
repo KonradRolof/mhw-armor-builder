@@ -1,19 +1,19 @@
 {
-  "id": 1152,
-  "name": "Legiana Greaves Beta +",
+  "id": 1162,
+  "name": "Hoacry Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 10,
+  "rarity": 11,
   "defense": {
-    "base": 140,
+    "base": 146,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -1,
+    "fire": -3,
     "water": 2,
     "ice": 3,
-    "thunder": -3,
+    "thunder": -1,
     "dragon": 0
   },
   "attributes": {},
@@ -27,26 +27,24 @@
   ],
   "skills": [
     {
-      "id": 69,
+      "id": 196,
       "level": 2,
-      "description": "Ice resistance +12",
-      "modifiers": {
-        "resistIce": 12
-      },
-      "skill": 22,
-      "skillName": "Ice Resistance"
+      "description": "Reduces continuous stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
     }
   ],
   "armorSet": {
-    "id": 260,
-    "name": "Legiana Beta +",
+    "id": 262,
+    "name": "Shrieking Legia Beta +",
     "rank": "master",
     "pieces": [
-      1148,
-      1149,
-      1150,
-      1151,
-      1152
+      1158,
+      1159,
+      1160,
+      1161,
+      1162
     ],
     "bonus": 39
   },

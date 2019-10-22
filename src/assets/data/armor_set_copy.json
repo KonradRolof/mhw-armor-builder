@@ -1,24 +1,24 @@
 {
-  "id": 260,
-  "name": "Legiana Beta +",
+  "id": 262,
+  "name": "Shrieking Legia Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1148,
-      "name": "Legiana Helm Beta +",
+      "id": 1158,
+      "name": "Hoacry Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 140,
+        "base": 146,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
+        "fire": -3,
         "water": 2,
         "ice": 3,
-        "thunder": -3,
+        "thunder": -1,
         "dragon": 0
       },
       "attributes": {},
@@ -32,34 +32,34 @@
       ],
       "skills": [
         {
-          "id": 253,
+          "id": 208,
           "level": 2,
-          "description": "While active, reduces damage taken by 30%.",
+          "description": "Extends the time until your stamina cap decreases by 100%.",
           "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
+          "skill": 67,
+          "skillName": "Hunger Resistance"
         }
       ],
-      "armorSet": 260,
+      "armorSet": 262,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1149,
-      "name": "Legiana Mail Beta +",
+      "id": 1159,
+      "name": "Hoacry Mail Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 140,
+        "base": 146,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
+        "fire": -3,
         "water": 2,
         "ice": 3,
-        "thunder": -3,
+        "thunder": -1,
         "dragon": 0
       },
       "attributes": {},
@@ -70,142 +70,110 @@
       ],
       "skills": [
         {
-          "id": 211,
+          "id": 137,
           "level": 2,
-          "description": "Slightly increases invulnerability window.",
+          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
           "modifiers": {},
-          "skill": 68,
-          "skillName": "Evade Window"
-        },
-        {
-          "id": 252,
-          "level": 1,
-          "description": "While active, reduces damage taken by 15%.",
-          "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
+          "skill": 42,
+          "skillName": "Focus"
         }
         ],
-      "armorSet": 260,
+      "armorSet": 262,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1150,
-      "name": "Legiana Vambraces Beta +",
+      "id": 1160,
+      "name": "Hoacry Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 140,
+        "base": 146,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
+        "fire": -3,
         "water": 2,
         "ice": 3,
-        "thunder": -3,
+        "thunder": -1,
         "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 210,
-          "level": 1,
-          "description": "Very slightly increases invulnerability window.",
+          "id": 148,
+          "level": 2,
+          "description": "Draw attack affinity +60%",
           "modifiers": {},
-          "skill": 68,
-          "skillName": "Evade Window"
-        },
-        {
-          "id": 160,
-          "level": 1,
-          "description": "Jumping attack power +10%",
-          "modifiers": {},
-          "skill": 50,
-          "skillName": "Airborne"
+          "skill": 45,
+          "skillName": "Critical Draw"
         }
         ],
-      "armorSet": 260,
+      "armorSet": 262,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1151,
-      "name": "Legiana Coil Beta +",
+      "id": 1161,
+      "name": "Hoacry Coil Beta +",
       "type": "waist",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 11,
       "defense": {
-        "base": 140,
+        "base": 146,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
+        "fire": -3,
         "water": 2,
         "ice": 3,
-        "thunder": -3,
+        "thunder": -1,
         "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 91,
+          "id": 216,
           "level": 2,
-          "description": "Ice attack +60",
-          "modifiers": {
-            "damageIce": 60
-          },
-          "skill": 28,
-          "skillName": "Ice Attack"
-        },
-        {
-          "id": 28,
-          "level": 1,
-          "description": "Slightly reduces the effects of minor wind pressure.",
+          "description": "Extends evasion distance.",
           "modifiers": {},
-          "skill": 10,
-          "skillName": "Windproof"
+          "skill": 69,
+          "skillName": "Evade Extender"
           }
         ],
-      "armorSet": 260,
+      "armorSet": 262,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1152,
-        "name": "Legiana Greaves Beta +",
+        "id": 1162,
+        "name": "Hoacry Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 10,
+        "rarity": 11,
         "defense": {
-          "base": 140,
+          "base": 146,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
+          "fire": -3,
           "water": 2,
           "ice": 3,
-          "thunder": -3,
+          "thunder": -1,
           "dragon": 0
         },
         "attributes": {},
@@ -219,17 +187,15 @@
         ],
         "skills": [
           {
-            "id": 69,
+            "id": 196,
             "level": 2,
-            "description": "Ice resistance +12",
-            "modifiers": {
-              "resistIce": 12
-            },
-            "skill": 22,
-            "skillName": "Ice Resistance"
+            "description": "Reduces continuous stamina depletion by 30%.",
+            "modifiers": {},
+            "skill": 63,
+            "skillName": "Marathon Runner"
           }
         ],
-      "armorSet": 260,
+      "armorSet": 262,
       "assets": null,
       "crafting": null
     }
