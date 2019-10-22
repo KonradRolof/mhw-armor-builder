@@ -328,8 +328,6 @@ export class AppComponent implements OnInit {
         const weapons = data as Weapon[];
         const currentType = MhwStorageService.getItem("weapon-type");
 
-        console.log(currentType);
-
         weapons.map((weapon) => {
           this.weapons.push(weapon);
           this.weaponsToShow.push(weapon);
