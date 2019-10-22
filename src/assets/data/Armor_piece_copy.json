@@ -1,52 +1,59 @@
 {
-  "id": 1132,
-  "name": "Tigrex Greaves Beta +",
+  "id": 1142,
+  "name": "Rathalos Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 10,
   "defense": {
-    "base": 142,
+    "base": 140,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 2,
-    "water": 0,
-    "ice": 0,
-    "thunder": 3,
-    "dragon": -2
+    "fire": 3,
+    "water": 1,
+    "ice": 1,
+    "thunder": -2,
+    "dragon": -3
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 235,
-      "level": 1,
-      "description": "Slightly increases item use speed.",
+      "id": 271,
+      "level": 2,
+      "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
       "modifiers": {},
-      "skill": 75,
-      "skillName": "Speed Eating"
+      "skill": 89,
+      "skillName": "Slinger Capacity"
+    },
+    {
+      "id": 39,
+      "level": 1,
+      "description": "Attack +3",
+      "modifiers": {
+        "attack": 3
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
     }
   ],
   "armorSet": {
-    "id": 256,
-    "name": "Tigrex Beta +",
+    "id": 258,
+    "name": "Rathalos Beta +",
     "rank": "master",
     "pieces": [
-      1128,
-      1129,
-      1130,
-      1131,
-      1132
+      1138,
+      1139,
+      1140,
+      1141,
+      1142
     ],
-    "bonus": 38
+    "bonus": 37
   },
   "assets": null,
   "crafting": null

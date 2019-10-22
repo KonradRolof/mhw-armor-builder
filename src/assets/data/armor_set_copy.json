@@ -1,30 +1,33 @@
 {
-  "id": 256,
-  "name": "Tigrex Beta +",
+  "id": 258,
+  "name": "Rathalos Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1128,
-      "name": "Tigrex Helm Beta +",
+      "id": 1138,
+      "name": "Rathalos Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 3,
-        "dragon": -2
+        "fire": 3,
+        "water": 1,
+        "ice": 1,
+        "thunder": -2,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
@@ -37,126 +40,108 @@
           },
           "skill": 15,
           "skillName": "Attack Boost"
-        },
-        {
-          "id": 23,
-          "level": 1,
-          "description": "Slightly reduces the effects of weak monster roars.",
-          "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
         }
       ],
-      "armorSet": 256,
+      "armorSet": 258,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1129,
-      "name": "Tigrex Mail Beta +",
+      "id": 1139,
+      "name": "Rathalos Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 3,
-        "dragon": -2
+        "fire": 3,
+        "water": 1,
+        "ice": 1,
+        "thunder": -2,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 24,
+          "id": 134,
           "level": 2,
-          "description": "Reduces the effects of weak monster roars.",
+          "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
           "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
+          "skill": 41,
+          "skillName": "Weakness Exploit"
         }
         ],
-      "armorSet": 256,
+      "armorSet": 258,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1130,
-      "name": "Tigrex Braces Beta +",
+      "id": 1140,
+      "name": "Rathalos Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 3,
-        "dragon": -2
+        "fire": 3,
+        "water": 1,
+        "ice": 1,
+        "thunder": -2,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 3
         }
       ],
       "skills": [
         {
-          "id": 236,
-          "level": 2,
-          "description": "Moderately increases item use speed.",
-          "modifiers": {},
-          "skill": 75,
-          "skillName": "Speed Eating"
-        },
-        {
-          "id": 39,
+          "id": 281,
           "level": 1,
-          "description": "Attack +3",
-          "modifiers": {
-            "attack": 3
-          },
-          "skill": 15,
-          "skillName": "Attack Boost"
+          "description": "Negates knockback during jumps.",
+          "modifiers": {},
+          "skill": 94,
+          "skillName": "Jump Master"
         }
         ],
-      "armorSet": 256,
+      "armorSet": 258,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1131,
-      "name": "Tigrex Tassets Beta +",
+      "id": 1141,
+      "name": "Rathalos Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 10,
       "defense": {
-        "base": 142,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": 0,
-        "thunder": 3,
-        "dragon": -2
+        "fire": 3,
+        "water": 1,
+        "ice": 1,
+        "thunder": -2,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -165,80 +150,86 @@
         },
         {
           "rank": 2
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 23,
-          "level": 1,
-          "description": "Slightly reduces the effects of weak monster roars.",
-          "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
+          "id": 81,
+          "level": 2,
+          "description": "Fire attack +60",
+          "modifiers": {
+            "damageFire": 60
+          },
+          "skill": 26,
+          "skillName": "Fire Attack"
           }
         ],
-      "armorSet": 256,
+      "armorSet": 258,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1132,
-        "name": "Tigrex Greaves Beta +",
+        "id": 1142,
+        "name": "Rathalos Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 10,
         "defense": {
-          "base": 142,
+          "base": 140,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 0,
-          "ice": 0,
-          "thunder": 3,
-          "dragon": -2
+          "fire": 3,
+          "water": 1,
+          "ice": 1,
+          "thunder": -2,
+          "dragon": -3
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 235,
-            "level": 1,
-            "description": "Slightly increases item use speed.",
+            "id": 271,
+            "level": 2,
+            "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
             "modifiers": {},
-            "skill": 75,
-            "skillName": "Speed Eating"
+            "skill": 89,
+            "skillName": "Slinger Capacity"
+          },
+          {
+            "id": 39,
+            "level": 1,
+            "description": "Attack +3",
+            "modifiers": {
+              "attack": 3
+            },
+            "skill": 15,
+            "skillName": "Attack Boost"
           }
         ],
-      "armorSet": 256,
+      "armorSet": 258,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 38,
-    "name": "Tigrex Essence",
+    "id": 37,
+    "name": "Rathalos Essence",
     "ranks": [
       {
         "pieces": 3,
         "skill": {
-          "id": 355,
+          "id": 314,
           "level": 1,
-          "description": "Raises the maximum level of the Free Meal to Lv3",
+          "description": "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power.",
           "modifiers": {},
-          "skill": 144,
-          "skillName": "Free MealSecret"
+          "skill": 115,
+          "skillName": "Mind\u0027s Eye\/Ballistics"
         }
       }
     ]
