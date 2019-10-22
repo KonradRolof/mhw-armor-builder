@@ -170,7 +170,8 @@
             </div>
             <div class="skill-item__level skill-rank">
               <ol class="skill-rank__ranks">
-                <li *ngFor="let levelMax of skill.skill.ranks">{{ levelMax.skillName }}</li>
+                <li *ngFor="let levelMax of skill.skill.ranks"
+                 [ngClass]="{ 'hidden-rank': levelMax.isHidden }">{{ levelMax.skillName }}</li>
               </ol>
               <ol class="skill-rank__ranks skill-rank__ranks--reached">
                 <li *ngFor="let level of skill.levelArray">{{ level }}</li>

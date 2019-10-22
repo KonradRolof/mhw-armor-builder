@@ -81,6 +81,13 @@
     &:last-child {
       margin: 0;
     }
+
+    &.hidden-rank {
+      background-color: darken(#615ed0, 10%);
+      border-color: #615ed0;
+      box-shadow: 0 0 3px #9262ef;
+      opacity: .6;
+    }
   }
 }
 

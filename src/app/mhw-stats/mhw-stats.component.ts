@@ -75,6 +75,8 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       dragon: 0
     };
     this.setBonuses = [];
+    console.log(this.skills);
+    console.log(this.dataObj.skills.find((skill) => skill.id === 74));
   }
 
   private readSet() {
@@ -95,7 +97,6 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     this.skills.map((skill) => this.applySkillModifiers(skill.skill.ranks[skill.level - 1]));
     this.setBonuses.map((bonus) => {
       if (bonus.active) {
-        console.log(bonus.bonusRank.skill);
         this.applySkillModifiers(bonus.bonusRank.skill);
       }
     });
@@ -212,10 +213,12 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private addSkill(skill: SkillRank) {
-    const realSkill = this.dataObj.skills.find((item) => item.id === skill.skill);
+    const skillRank = { ...skill };
+    const skillObj = this.dataObj.skills.find((item) => item.id === skillRank.skill);
+    const realSkill = { ...skillObj };
 
     if (this.skills.find((item) => item.id === realSkill.id)) {
-      const newLevel = this.skills.find((item) => item.id === realSkill.id).trueLevel += skill.level;
+      const newLevel = this.skills.find((item) => item.id === realSkill.id).trueLevel += skillRank.level;
 
       this.skills.find((item) => item.id === realSkill.id).trueLevel = newLevel;
       this.skills.find((item) => item.id === realSkill.id).level = newLevel <=
@@ -226,11 +229,11 @@ export class MhwStatsComponent implements OnInit, OnChanges {
     } else {
       const skillSet: SkillSet = {
         id: realSkill.id,
-        skill: { ...realSkill },
+        skill: realSkill,
         max: realSkill.ranks.length,
-        level: skill.level,
-        trueLevel: skill.level,
-        levelArray: Array(skill.level).fill(1).map((n) => n)
+        level: skillRank.level,
+        trueLevel: skillRank.level,
+        levelArray: Array(skillRank.level).fill(1).map((n) => n)
       };
 
       this.skills.push(skillSet);
@@ -326,12 +329,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
     // hidden ranks
     if (modifiers.hasOwnProperty("hiddenRanks")) {
-      const id = modifiers.hiddenRanks;
-
-      this.skills.find((skill) => skill.id === id).skill.hiddenRanks.map((rank) => {
-        rank.isHidden = true;
-        this.skills.find((skill) => skill.id === id).skill.ranks.push(rank);
-      });
+      this.raiseMaxSkillRanks(modifiers.hiddenRanks);
     }
   }
 
@@ -353,6 +351,21 @@ export class MhwStatsComponent implements OnInit, OnChanges {
         element.damage = Math.floor(element.damage * (damagePercent / 100));
       }
     });
+  }
+
+  private raiseMaxSkillRanks(id: number) {
+    const skillClone = { ...this.skills.find((skill) => skill.id === id) };
+
+    if (skillClone) {
+      skillClone.skill.hiddenRanks.map((rank) => {
+        if (!skillClone.skill.ranks.find((r) => r.id === rank.id)) {
+          rank.isHidden = true;
+          skillClone.skill.ranks.push(rank);
+        }
+      });
+
+      this.skills.find((skill) => skill.id === id).skill.ranks = [ ...skillClone.skill.ranks ];
+    }
   }
 
 }
