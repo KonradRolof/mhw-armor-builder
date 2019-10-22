@@ -358,6 +358,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       ...this.skillList.find((skill) => id === skill.id).ranks,
       ...this.skillList.find((skill) => id === skill.id).hiddenRanks
     ];
+    this.skillList.find((skill) => id === skill.id).hiddenRanks = [];
   }
 
 }
