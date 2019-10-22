@@ -78728,7 +78728,9 @@
           "id": 344,
           "level": 1,
           "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 77
+          },
           "skill": 139,
           "skillName": "Bombardier Secret"
         }
@@ -78967,7 +78969,9 @@
           "id": 342,
           "level": 1,
           "description": "Raises the maximum level of the Bombardier Skill from 3 to 5.",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 77
+          },
           "skill": 139,
           "skillName": "Bombardier Secret Effect"
         }
@@ -80728,7 +80732,9 @@
           "id": 348,
           "level": 1,
           "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 88
+          },
           "skill": 141,
           "skillName": "Maximum Might Secret"
         }
@@ -80970,7 +80976,9 @@
           "id": 348,
           "level": 1,
           "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 88
+          },
           "skill": 141,
           "skillName": "Maximum Might Secret Effect"
         }
@@ -81718,7 +81726,9 @@
           "id": 349,
           "level": 1,
           "description": "Raises the maximum level of the Agitator skill to Lv7",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 52
+          },
           "skill": 142,
           "skillName": "Agitator Secret"
         }
@@ -81962,7 +81972,9 @@
           "id": 349,
           "level": 1,
           "description": "Raises the maximum level of the Agitator skill to Lv7",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 52
+          },
           "skill": 142,
           "skillName": "Agitator Secret"
         }
@@ -82219,7 +82231,9 @@
           "id": 352,
           "level": 1,
           "description": "Raises the maximum level of the Slugger skill to Lv5",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 47
+          },
           "skill": 143,
           "skillName": "Slugger Secret"
         }
@@ -82469,7 +82483,9 @@
           "id": 352,
           "level": 1,
           "description": "Raises the maximum level of the Slugger skill to Lv5",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 47
+          },
           "skill": 143,
           "skillName": "Slugger Secret"
         }
@@ -84234,7 +84250,9 @@
           "id": 355,
           "level": 1,
           "description": "Raises the maximum level of the Free Meal to Lv3",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 74
+          },
           "skill": 144,
           "skillName": "Free MealSecret"
         }
@@ -84480,7 +84498,9 @@
           "id": 355,
           "level": 1,
           "description": "Raises the maximum level of the Free Meal to Lv3",
-          "modifiers": {},
+          "modifiers": {
+            "hiddenRanks": 74
+          },
           "skill": 144,
           "skillName": "Free MealSecret"
         }
