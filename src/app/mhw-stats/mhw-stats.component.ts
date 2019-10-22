@@ -14,6 +14,7 @@ import Weapon from "../interface/data/weapon.interface";
 import Charm from "../interface/data/charm.interface";
 import CharmRank from "../interface/data/charm-rank.interface";
 import SetSkill from "../interface/app/set-skill.interface";
+import Skill from "../interface/data/skill.interface";
 
 @Component({
   selector: "mhw-stats",
@@ -30,6 +31,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   public armorPieces = ["head", "chest", "gloves", "waist", "legs"];
   public elements = ["fire", "water", "ice", "thunder", "dragon"];
 
+  private skillList: Skill[];
   private decorations: Decoration[] = [];
 
   @Input() dataObj: DataObject;
@@ -55,7 +57,10 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
   private resetStats() {
     const elements = [];
+    const { skills } = this.dataObj;
 
+    this.skillList = [];
+    skills.forEach((skill) => this.skillList.push({ ...skill}));
     this.offence = {
       health: 100,
       attack: 0,
@@ -75,8 +80,6 @@ export class MhwStatsComponent implements OnInit, OnChanges {
       dragon: 0
     };
     this.setBonuses = [];
-    console.log(this.skills);
-    console.log(this.dataObj.skills.find((skill) => skill.id === 74));
   }
 
   private readSet() {
@@ -95,11 +98,6 @@ export class MhwStatsComponent implements OnInit, OnChanges {
 
     // handle skill modifiers
     this.skills.map((skill) => this.applySkillModifiers(skill.skill.ranks[skill.level - 1]));
-    this.setBonuses.map((bonus) => {
-      if (bonus.active) {
-        this.applySkillModifiers(bonus.bonusRank.skill);
-      }
-    });
 
     setTimeout(() => {
       this.resetRefresh.emit(false);
@@ -141,6 +139,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
         if (rank.pieces <= currentSet.current) {
           currentSet.bonusRank = rank;
           currentSet.active = true;
+          this.applySkillModifiers(rank.skill);
         }
       });
 
@@ -213,14 +212,14 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private addSkill(skill: SkillRank) {
-    const skillRank = { ...skill };
-    const skillObj = this.dataObj.skills.find((item) => item.id === skillRank.skill);
-    const realSkill = { ...skillObj };
+    const realSkill = this.skillList.find((item) => item.id === skill.skill);
 
     if (this.skills.find((item) => item.id === realSkill.id)) {
-      const newLevel = this.skills.find((item) => item.id === realSkill.id).trueLevel += skillRank.level;
+      const newLevel = this.skills.find((item) => item.id === realSkill.id).trueLevel += skill.level;
 
       this.skills.find((item) => item.id === realSkill.id).trueLevel = newLevel;
+      this.skills.find((item) => item.id === realSkill.id).max =
+        this.skills.find((item) => item.id === realSkill.id).skill.ranks.length;
       this.skills.find((item) => item.id === realSkill.id).level = newLevel <=
         this.skills.find((item) => item.id === realSkill.id).max ? newLevel :
         this.skills.find((item) => item.id === realSkill.id).max;
@@ -231,9 +230,9 @@ export class MhwStatsComponent implements OnInit, OnChanges {
         id: realSkill.id,
         skill: realSkill,
         max: realSkill.ranks.length,
-        level: skillRank.level,
-        trueLevel: skillRank.level,
-        levelArray: Array(skillRank.level).fill(1).map((n) => n)
+        level: skill.level,
+        trueLevel: skill.level,
+        levelArray: Array(skill.level).fill(1).map((n) => n)
       };
 
       this.skills.push(skillSet);
@@ -247,7 +246,7 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private applyDecoSkills() {
-    this.decorations.map((decoration) => {
+    this.decorations.forEach((decoration) => {
       decoration.skills.map((skill) => this.addSkill(skill));
     });
   }
@@ -354,18 +353,11 @@ export class MhwStatsComponent implements OnInit, OnChanges {
   }
 
   private raiseMaxSkillRanks(id: number) {
-    const skillClone = { ...this.skills.find((skill) => skill.id === id) };
-
-    if (skillClone) {
-      skillClone.skill.hiddenRanks.map((rank) => {
-        if (!skillClone.skill.ranks.find((r) => r.id === rank.id)) {
-          rank.isHidden = true;
-          skillClone.skill.ranks.push(rank);
-        }
-      });
-
-      this.skills.find((skill) => skill.id === id).skill.ranks = [ ...skillClone.skill.ranks ];
-    }
+    this.skillList.find((skill) => id === skill.id).hiddenRanks.forEach((rank) => rank.isHidden = true);
+    this.skillList.find((skill) => id === skill.id).ranks = [
+      ...this.skillList.find((skill) => id === skill.id).ranks,
+      ...this.skillList.find((skill) => id === skill.id).hiddenRanks
+    ];
   }
 
 }
