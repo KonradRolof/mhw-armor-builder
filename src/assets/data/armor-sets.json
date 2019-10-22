@@ -86534,6 +86534,500 @@
       }
     ]
   }
+},
+{
+  "id": 265,
+  "name": "Damascus Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1173,
+      "name": "Damascus Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 48,
+          "level": 3,
+          "description": "Defense +5%\nBonus: +10",
+          "modifiers": {
+            "defense": 10
+          },
+          "skill": 16,
+          "skillName": "Defense Boost"
+        },
+        {
+          "id": 239,
+          "level": 2,
+          "description": "Removes two cycles from the sharpening process.",
+          "modifiers": {},
+          "skill": 76,
+          "skillName": "Speed Sharpening"
+        }
+      ],
+      "armorSet": 265,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1174,
+      "name": "Damascus Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 137,
+          "level": 2,
+          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+        },
+        {
+          "id": 47,
+          "level": 2,
+          "description": "Defense +10",
+          "modifiers": {
+            "defense": 10
+          },
+          "skill": 16,
+          "skillName": "Defense Boost"
+        }
+        ],
+      "armorSet": 265,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1175,
+      "name": "Damascus Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 143,
+          "level": 2,
+          "description": "Weapon sharpness +20",
+          "modifiers": {
+            "sharpnessBonus": 20
+          },
+          "skill": 44,
+          "skillName": "Handicraft"
+        },
+        {
+          "id": 238,
+          "level": 1,
+          "description": "Removes one cycle from the sharpening process.",
+          "modifiers": {},
+          "skill": 76,
+          "skillName": "Speed Sharpening"
+        }
+        ],
+      "armorSet": 265,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1176,
+      "name": "Damascus Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 136,
+          "level": 1,
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+        },
+        {
+          "id": 218,
+          "level": 1,
+          "description": "Very slightly decreases the impact of attacks.",
+          "modifiers": {},
+          "skill": 70,
+          "skillName": "Guard"
+          }
+        ],
+      "armorSet": 265,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1177,
+        "name": "Damascus Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 152,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 47,
+            "level": 2,
+            "description": "Defense +10",
+            "modifiers": {
+              "defense": 10
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
+          },
+          {
+            "id": 219,
+            "level": 2,
+            "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+            "modifiers": {},
+            "skill": 70,
+            "skillName": "Guard"
+          }
+        ],
+      "armorSet": 265,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": null
+},
+{
+  "id": 266,
+  "name": "Damascus Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1178,
+      "name": "Damascus Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 48,
+          "level": 3,
+          "description": "Defense +5%\nBonus: +10",
+          "modifiers": {
+            "defense": 10
+          },
+          "skill": 16,
+          "skillName": "Defense Boost"
+        }
+      ],
+      "armorSet": 266,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1179,
+      "name": "Damascus Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 137,
+          "level": 2,
+          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+        }
+        ],
+      "armorSet": 266,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1180,
+      "name": "Damascus Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 143,
+          "level": 2,
+          "description": "Weapon sharpness +20",
+          "modifiers": {
+            "sharpnessBonus": 20
+          },
+          "skill": 44,
+          "skillName": "Handicraft"
+        }
+        ],
+      "armorSet": 266,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1181,
+      "name": "Damascus Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 3
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 136,
+          "level": 1,
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
+          }
+        ],
+      "armorSet": 266,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1182,
+        "name": "Damascus Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 152,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 47,
+            "level": 2,
+            "description": "Defense +10",
+            "modifiers": {
+              "defense": 10
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
+          },
+          {
+            "id": 218,
+            "level": 1,
+            "description": "Very slightly decreases the impact of attacks.",
+            "modifiers": {},
+            "skill": 70,
+            "skillName": "Guard"
+          }
+        ],
+      "armorSet": 266,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": null
 }
 
 

@@ -1,71 +1,25 @@
 {
-  "id": 264,
-  "name": "Acidic Glavenus Beta +",
+  "id": 266,
+  "name": "Damascus Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1168,
-      "name": "Acidic Glavenus Helm Beta +",
+      "id": 1178,
+      "name": "Damascus Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 150,
+        "base": 152,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 2,
-        "thunder": -1,
-        "dragon": -1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 267,
-          "level": 1,
-          "description": "While active, increases affinity by 10%.",
-          "modifiers": {},
-          "skill": 88,
-          "skillName": "Maximum Might"
-        },
-        {
-          "id": 295,
-          "level": 2,
-          "description": "Greatly reduces effluvial buildup.",
-          "modifiers": {},
-          "skill": 101,
-          "skillName": "Effluvia Resistance"
-        }
-      ],
-      "armorSet": 264,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1169,
-      "name": "Acidic Glavenus Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 150,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 2,
-        "thunder": -1,
-        "dragon": -1
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -74,49 +28,44 @@
         },
         {
           "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 142,
-          "level": 1,
-          "description": "Weapon sharpness +10",
+          "id": 48,
+          "level": 3,
+          "description": "Defense +5%\nBonus: +10",
           "modifiers": {
-            "sharpnessBonus": 10
+            "defense": 10
           },
-          "skill": 44,
-          "skillName": "Handicraft"
-        },
-        {
-          "id": 204,
-          "level": 1,
-          "description": "Stamina recovery speed +10%",
-          "modifiers": {},
-          "skill": 66,
-          "skillName": "Stamina Surge"
+          "skill": 16,
+          "skillName": "Defense Boost"
         }
-        ],
-      "armorSet": 264,
+      ],
+      "armorSet": 266,
       "assets": null,
       "crafting": null
-      },
+    },
     {
-      "id": 1170,
-      "name": "Acidic Glavenus Braces Beta +",
-      "type": "gloves",
+      "id": 1179,
+      "name": "Damascus Mail Beta +",
+      "type": "chest",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 150,
+        "base": 152,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 2,
-        "thunder": -1,
-        "dragon": -1
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -132,40 +81,43 @@
       ],
       "skills": [
         {
-          "id": 11,
+          "id": 137,
           "level": 2,
-          "description": "Reduces the duration of stun by 90%.",
+          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
           "modifiers": {},
-          "skill": 4,
-          "skillName": "Stun Resistance"
+          "skill": 42,
+          "skillName": "Focus"
         }
         ],
-      "armorSet": 264,
+      "armorSet": 266,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1171,
-      "name": "Acidic Glavenus Coil Beta +",
-      "type": "waist",
+      "id": 1180,
+      "name": "Damascus Vambraces Beta +",
+      "type": "gloves",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 150,
+        "base": 152,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 2,
-        "thunder": -1,
-        "dragon": -1
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
@@ -178,68 +130,107 @@
           },
           "skill": 44,
           "skillName": "Handicraft"
+        }
+        ],
+      "armorSet": 266,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1181,
+      "name": "Damascus Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 3
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 136,
+          "level": 1,
+          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "modifiers": {},
+          "skill": 42,
+          "skillName": "Focus"
           }
         ],
-      "armorSet": 264,
+      "armorSet": 266,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1172,
-        "name": "Acidic Glavenus Greaves Beta +",
+        "id": 1182,
+        "name": "Damascus Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 150,
+          "base": 152,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": 2,
-          "ice": 2,
-          "thunder": -1,
-          "dragon": -1
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 267,
+            "id": 47,
+            "level": 2,
+            "description": "Defense +10",
+            "modifiers": {
+              "defense": 10
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
+          },
+          {
+            "id": 218,
             "level": 1,
-            "description": "While active, increases affinity by 10%.",
+            "description": "Very slightly decreases the impact of attacks.",
             "modifiers": {},
-            "skill": 88,
-            "skillName": "Maximum Might"
+            "skill": 70,
+            "skillName": "Guard"
           }
         ],
-      "armorSet": 264,
+      "armorSet": 266,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": {
-    "id": 31,
-    "name": "Glavenus Essence",
-    "ranks": [
-      {
-        "pieces": 3,
-        "skill": {
-          "id": 348,
-          "level": 1,
-          "description": "Raises the maximum level of the Maximum Might Skill to Lv5.",
-          "modifiers": {
-            "hiddenRanks": 88
-          },
-          "skill": 141,
-          "skillName": "Maximum Might Secret"
-        }
-      }
-    ]
-  }
+  "bonus": null
 }

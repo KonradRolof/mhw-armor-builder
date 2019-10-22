@@ -1,49 +1,62 @@
 {
-  "id": 1172,
-  "name": "Acidic Glavenus Greaves Beta +",
+  "id": 1182,
+  "name": "Damascus Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 11,
   "defense": {
-    "base": 150,
+    "base": 152,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": 2,
-    "ice": 2,
-    "thunder": -1,
-    "dragon": -1
+    "fire": 4,
+    "water": -2,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 267,
+      "id": 47,
+      "level": 2,
+      "description": "Defense +10",
+      "modifiers": {
+        "defense": 10
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
+    },
+    {
+      "id": 218,
       "level": 1,
-      "description": "While active, increases affinity by 10%.",
+      "description": "Very slightly decreases the impact of attacks.",
       "modifiers": {},
-      "skill": 88,
-      "skillName": "Maximum Might"
+      "skill": 70,
+      "skillName": "Guard"
     }
   ],
   "armorSet": {
-    "id": 264,
-    "name": "Acidic Glavenus Beta +",
+    "id": 266,
+    "name": "Damascus Beta +",
     "rank": "master",
     "pieces": [
-      1168,
-      1169,
-      1170,
-      1171,
-      1172
+      1178,
+      1179,
+      1180,
+      1181,
+      1182
     ],
-    "bonus": 31
+    "bonus": null
   },
   "assets": null,
   "crafting": null
