@@ -1,25 +1,25 @@
 {
-  "id": 270,
-  "name": "Blackveil Hazak Beta +",
+  "id": 272,
+  "name": "Diablos Nero Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1197,
-      "name": "Fellshroud Helm Beta +",
+      "id": 1207,
+      "name": "Diablos Nero Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 11,
       "defense": {
-        "base": 156,
+        "base": 148,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
-        "water": 4,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": -3
+        "fire": 2,
+        "water": -3,
+        "ice": -4,
+        "thunder": 0,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -32,35 +32,35 @@
       ],
       "skills": [
         {
-          "id": 172,
+          "id": 151,
           "level": 2,
-          "description": "While active, grants attack +10.",
+          "description": "Part damage +20%",
           "modifiers": {},
-          "skill": 53,
-          "skillName": "Peak Performance"
+          "skill": 46,
+          "skillName": "Partbreaker"
         }
       ],
-      "armorSet": 270,
+      "armorSet": 272,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1198,
-      "name": "Fellshroud Mail Beta +",
+      "id": 1208,
+      "name": "Diablos Nero Mail Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 11,
       "defense": {
-        "base": 156,
+        "base": 148,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -2,
-        "water": 4,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": -3
+        "fire": 2,
+        "water": -3,
+        "ice": -4,
+        "thunder": 0,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -68,133 +68,48 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 60,
-          "level": 2,
-          "description": "Triples the speed at which you heal recoverable damage.",
-          "modifiers": {},
-          "skill": 19,
-          "skillName": "Recovery Speed"
-        },
-        {
-          "id": 100,
+          "id": 180,
           "level": 1,
-          "description": "Dragon attack +30",
+          "description": "While active, grants attack +5.",
           "modifiers": {},
-          "skill": 30,
-          "skillName": "Dragon Attack"
+          "skill": 56,
+          "skillName": "Resentment"
+        },
+        {
+          "id": 195,
+          "level": 1,
+          "description": "Reduces continuous stamina depletion by 15%.",
+          "modifiers": {},
+          "skill": 63,
+          "skillName": "Marathon Runner"
         }
         ],
-      "armorSet": 270,
+      "armorSet": 272,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1199,
-      "name": "Fellshroud Braces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -2,
-        "water": 4,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 57,
-          "level": 2,
-          "description": "Recovery +20%",
-          "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
-        }
-        ],
-      "armorSet": 270,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1200,
-      "name": "Fellshroud Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -2,
-        "water": 4,
-        "ice": 1,
-        "thunder": 1,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 236,
-          "level": 2,
-          "description": "Moderately increases item use speed.",
-          "modifiers": {},
-          "skill": 75,
-          "skillName": "Speed Eating"
-          }
-        ],
-      "armorSet": 270,
-      "assets": null,
-      "crafting": null
-      },
-      {
-        "id": 1201,
-        "name": "Fellshroud Greaves Beta +",
-        "type": "legs",
+        "id": 1209,
+        "name": "Diablos Nero Braces Beta +",
+        "type": "gloves",
         "rank": "master",
-        "rarity": 12,
+        "rarity": 11,
         "defense": {
-          "base": 156,
+          "base": 148,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -2,
-          "water": 4,
-          "ice": 1,
-          "thunder": 1,
-          "dragon": -3
+          "fire": 2,
+          "water": -3,
+          "ice": -4,
+          "thunder": 0,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
@@ -202,37 +117,126 @@
             "rank": 4
           },
           {
-            "rank": 3
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 295,
-            "level": 2,
-            "description": "Greatly reduces effluvial buildup.",
+            "id": 153,
+            "level": 1,
+            "description": "Stun power +20%",
             "modifiers": {},
-            "skill": 101,
-            "skillName": "Effluvia Resistance"
+            "skill": 47,
+            "skillName": "Slugger"
+          },
+          {
+            "id": 195,
+            "level": 1,
+            "description": "Reduces continuous stamina depletion by 15%.",
+            "modifiers": {},
+            "skill": 63,
+            "skillName": "Marathon Runner"
+        }
+        ],
+      "armorSet": 272,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1210,
+      "name": "Diablos Nero Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 148,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "ice": -4,
+        "thunder": 0,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 154,
+          "level": 2,
+          "description": "Stun power +30%",
+          "modifiers": {},
+          "skill": 47,
+          "skillName": "Slugger"
           }
         ],
-      "armorSet": 270,
+      "armorSet": 272,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1211,
+        "name": "Diablos Nero Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 148,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 2,
+          "water": -3,
+          "ice": -4,
+          "thunder": 0,
+          "dragon": 2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 181,
+            "level": 2,
+            "description": "While active, grants attack +10.",
+            "modifiers": {},
+            "skill": 56,
+            "skillName": "Resentment"
+          }
+        ],
+      "armorSet": 272,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 40,
-    "name": "Vaal Soulvein",
+    "id": 34,
+    "name": "Diablos Ambition ",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 309,
+          "id": 352,
           "level": 1,
-          "description": "Allows recovery to exceed the red portion of the health gauge.",
-          "modifiers": {},
-          "skill": 110,
-          "skillName": "Super Recovery"
+          "description": "Raises the maximum level of the Slugger skill to Lv5",
+          "modifiers": {
+            "hiddenRanks": 47
+          },
+          "skill": 143,
+          "skillName": "Slugger Secret"
         }
       }
     ]

@@ -99286,6 +99286,580 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1202,
+  "name": "Diablos Nero Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 151,
+      "level": 2,
+      "description": "Part damage +20%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    },
+    {
+      "id": 180,
+      "level": 1,
+      "description": "While active, grants attack +5.",
+      "modifiers": {},
+      "skill": 56,
+      "skillName": "Resentment"
+    }
+  ],
+  "armorSet": {
+    "id": 271,
+    "name": "Diablos Nero Alpha +",
+    "rank": "master",
+    "pieces": [
+      1202,
+      1203,
+      1204,
+      1205,
+      1206
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1203,
+  "name": "Diablos Nero Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 181,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 56,
+      "skillName": "Resentment"
+    },
+    {
+      "id": 195,
+      "level": 1,
+      "description": "Reduces continuous stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 271,
+    "name": "Diablos Nero Alpha +",
+    "rank": "master",
+    "pieces": [
+      1202,
+      1203,
+      1204,
+      1205,
+      1206
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1204,
+  "name": "Diablos Nero Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 154,
+      "level": 2,
+      "description": "Stun power +30%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    },
+    {
+      "id": 195,
+      "level": 1,
+      "description": "Reduces continuous stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 271,
+    "name": "Diablos Nero Alpha +",
+    "rank": "master",
+    "pieces": [
+      1202,
+      1203,
+      1204,
+      1205,
+      1206
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1205,
+  "name": "Diablos Nero Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 154,
+      "level": 2,
+      "description": "Stun power +30%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    },
+    {
+      "id": 150,
+      "level": 1,
+      "description": "Part damage +10%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    }
+  ],
+  "armorSet": {
+    "id": 271,
+    "name": "Diablos Nero Alpha +",
+    "rank": "master",
+    "pieces": [
+      1202,
+      1203,
+      1204,
+      1205,
+      1206
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1206,
+  "name": "Diablos Nero Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 181,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 56,
+      "skillName": "Resentment"
+    },
+    {
+      "id": 153,
+      "level": 1,
+      "description": "Stun power +20%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    }
+  ],
+  "armorSet": {
+    "id": 271,
+    "name": "Diablos Nero Alpha +",
+    "rank": "master",
+    "pieces": [
+      1202,
+      1203,
+      1204,
+      1205,
+      1206
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1207,
+  "name": "Diablos Nero Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 151,
+      "level": 2,
+      "description": "Part damage +20%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    }
+  ],
+  "armorSet": {
+    "id": 272,
+    "name": "Diablos Nero Beta +",
+    "rank": "master",
+    "pieces": [
+      1207,
+      1208,
+      1209,
+      1210,
+      1211
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1208,
+  "name": "Diablos Nero Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 180,
+      "level": 1,
+      "description": "While active, grants attack +5.",
+      "modifiers": {},
+      "skill": 56,
+      "skillName": "Resentment"
+    },
+    {
+      "id": 195,
+      "level": 1,
+      "description": "Reduces continuous stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 272,
+    "name": "Diablos Nero Beta +",
+    "rank": "master",
+    "pieces": [
+      1207,
+      1208,
+      1209,
+      1210,
+      1211
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1209,
+  "name": "Diablos Nero Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 153,
+      "level": 1,
+      "description": "Stun power +20%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    },
+    {
+      "id": 195,
+      "level": 1,
+      "description": "Reduces continuous stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 63,
+      "skillName": "Marathon Runner"
+    }
+  ],
+  "armorSet": {
+    "id": 272,
+    "name": "Diablos Nero Beta +",
+    "rank": "master",
+    "pieces": [
+      1207,
+      1208,
+      1209,
+      1210,
+      1211
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1210,
+  "name": "Diablos Nero Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 154,
+      "level": 2,
+      "description": "Stun power +30%",
+      "modifiers": {},
+      "skill": 47,
+      "skillName": "Slugger"
+    }
+  ],
+  "armorSet": {
+    "id": 272,
+    "name": "Diablos Nero Beta +",
+    "rank": "master",
+    "pieces": [
+      1207,
+      1208,
+      1209,
+      1210,
+      1211
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1211,
+  "name": "Diablos Nero Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 2,
+    "water": -3,
+    "ice": -4,
+    "thunder": 0,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 181,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 56,
+      "skillName": "Resentment"
+    }
+  ],
+  "armorSet": {
+    "id": 272,
+    "name": "Diablos Nero Beta +",
+    "rank": "master",
+    "pieces": [
+      1207,
+      1208,
+      1209,
+      1210,
+      1211
+    ],
+    "bonus": 34
+  },
+  "assets": null,
+  "crafting": null
 }
 
 
