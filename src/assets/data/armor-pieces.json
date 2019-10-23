@@ -98705,7 +98705,590 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1193,
+  "name": "Fellshroud Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 172,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    },
+    {
+      "id": 101,
+      "level": 2,
+      "description": "Dragon attack +60",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 269,
+    "name": "Blackveil Hazak Alpha +",
+    "rank": "master",
+    "pieces": [
+      1193,
+      1194,
+      1195,
+      1196,
+      1196
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1194,
+  "name": "Fellshroud Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 60,
+      "level": 2,
+      "description": "Triples the speed at which you heal recoverable damage.",
+      "modifiers": {},
+      "skill": 19,
+      "skillName": "Recovery Speed"
+    },
+    {
+      "id": 101,
+      "level": 2,
+      "description": "Dragon attack +60",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 269,
+    "name": "Blackveil Hazak Alpha +",
+    "rank": "master",
+    "pieces": [
+      1193,
+      1194,
+      1195,
+      1196,
+      1196
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1195,
+  "name": "Fellshroud Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    },
+    {
+      "id": 235,
+      "level": 1,
+      "description": "Slightly increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    }
+  ],
+  "armorSet": {
+    "id": 269,
+    "name": "Blackveil Hazak Alpha +",
+    "rank": "master",
+    "pieces": [
+      1193,
+      1194,
+      1195,
+      1196,
+      1196
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1196,
+  "name": "Fellshroud Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 236,
+      "level": 2,
+      "description": "Moderately increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    },
+    {
+      "id": 171,
+      "level": 1,
+      "description": "While active, grants attack +5.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    }
+  ],
+  "armorSet": {
+    "id": 269,
+    "name": "Blackveil Hazak Alpha +",
+    "rank": "master",
+    "pieces": [
+      1193,
+      1194,
+      1195,
+      1196,
+      1196
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1196,
+  "name": "Fellshroud Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 295,
+      "level": 2,
+      "description": "Greatly reduces effluvial buildup.",
+      "modifiers": {},
+      "skill": 101,
+      "skillName": "Effluvia Resistance"
+    },
+    {
+      "id": 101,
+      "level": 2,
+      "description": "Dragon attack +60",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 269,
+    "name": "Blackveil Hazak Alpha +",
+    "rank": "master",
+    "pieces": [
+      1193,
+      1194,
+      1195,
+      1196,
+      1196
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1197,
+  "name": "Fellshroud Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 172,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    }
+  ],
+  "armorSet": {
+    "id": 270,
+    "name": "Blackveil Hazak Beta +",
+    "rank": "master",
+    "pieces": [
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1198,
+  "name": "Fellshroud Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 60,
+      "level": 2,
+      "description": "Triples the speed at which you heal recoverable damage.",
+      "modifiers": {},
+      "skill": 19,
+      "skillName": "Recovery Speed"
+    },
+    {
+      "id": 100,
+      "level": 1,
+      "description": "Dragon attack +30",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 270,
+    "name": "Blackveil Hazak Beta +",
+    "rank": "master",
+    "pieces": [
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1199,
+  "name": "Fellshroud Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 270,
+    "name": "Blackveil Hazak Beta +",
+    "rank": "master",
+    "pieces": [
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1200,
+  "name": "Fellshroud Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 236,
+      "level": 2,
+      "description": "Moderately increases item use speed.",
+      "modifiers": {},
+      "skill": 75,
+      "skillName": "Speed Eating"
+    }
+  ],
+  "armorSet": {
+    "id": 270,
+    "name": "Blackveil Hazak Beta +",
+    "rank": "master",
+    "pieces": [
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1201,
+  "name": "Fellshroud Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 295,
+      "level": 2,
+      "description": "Greatly reduces effluvial buildup.",
+      "modifiers": {},
+      "skill": 101,
+      "skillName": "Effluvia Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 270,
+    "name": "Blackveil Hazak Beta +",
+    "rank": "master",
+    "pieces": [
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
+    ],
+    "bonus": 40
+  },
+  "assets": null,
+  "crafting": null
 }
+
+
 
 
 

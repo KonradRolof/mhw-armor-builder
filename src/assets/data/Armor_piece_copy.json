@@ -1,20 +1,20 @@
 {
-  "id": 1192,
-  "name": "Death Garon Greaves Beta +",
-  "type": "waist",
+  "id": 1201,
+  "name": "Fellshroud Greaves Beta +",
+  "type": "legs",
   "rank": "master",
-  "rarity": 11,
+  "rarity": 12,
   "defense": {
-    "base": 148,
+    "base": 156,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
     "fire": -2,
-    "water": -3,
-    "ice": -2,
-    "thunder": -2,
-    "dragon": 4
+    "water": 4,
+    "ice": 1,
+    "thunder": 1,
+    "dragon": -3
   },
   "attributes": {},
   "slots": [
@@ -22,34 +22,31 @@
       "rank": 4
     },
     {
-      "rank": 1
-    },
-    {
-      "rank": 1
+      "rank": 3
     }
   ],
   "skills": [
     {
-      "id": 302,
+      "id": 295,
       "level": 2,
-      "description": "Shortens time until reuse by 20%.",
+      "description": "Greatly reduces effluvial buildup.",
       "modifiers": {},
-      "skill": 106,
-      "skillName": "Tool Specialist"
+      "skill": 101,
+      "skillName": "Effluvia Resistance"
     }
   ],
   "armorSet": {
-    "id": 268,
-    "name": "Death Garon Beta +",
+    "id": 270,
+    "name": "Blackveil Hazak Beta +",
     "rank": "master",
     "pieces": [
-      1188,
-      1189,
-      1190,
-      1191,
-      1192
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
     ],
-    "bonus": 35
+    "bonus": 40
   },
   "assets": null,
   "crafting": null
