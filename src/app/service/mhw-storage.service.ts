@@ -20,4 +20,8 @@ export class MhwStorageService {
 
     callback(item);
   }
+
+  public static removeItem(key: string) {
+    localStorage.removeItem(key);
+  }
 }

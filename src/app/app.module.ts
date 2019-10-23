@@ -6,9 +6,10 @@ import { AppComponent } from "./app.component";
 import { MhwCurrentSetComponent } from "./mhw-current-set/mhw-current-set.component";
 import { MhwSelectPopComponent } from "./mhw-select-pop/mhw-select-pop.component";
 import { HttpClientModule } from "@angular/common/http";
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MhwStatsComponent } from "./mhw-stats/mhw-stats.component";
 import { MhwFooterComponent } from "./mhw-footer/mhw-footer.component";
+import { MhwSavedSetsComponent } from "./mhw-saved-sets/mhw-saved-sets.component";
 import { ReplacePipe } from "./pipe/replace.pipe";
 import { SharpnessPxlPipe } from "./pipe/sharpness-pxl.pipe";
 
@@ -20,13 +21,15 @@ import { SharpnessPxlPipe } from "./pipe/sharpness-pxl.pipe";
     MhwStatsComponent,
     MhwFooterComponent,
     ReplacePipe,
-    SharpnessPxlPipe
+    SharpnessPxlPipe,
+    MhwSavedSetsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
