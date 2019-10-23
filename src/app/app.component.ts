@@ -179,6 +179,7 @@ export class AppComponent implements OnInit {
 
   public postSetToStats(curSet: any) {
     this.curSet = curSet;
+    this.mySetsOpen = false;
     this.forceRefresh = true;
   }
 

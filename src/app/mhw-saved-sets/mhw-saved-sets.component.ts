@@ -80,7 +80,7 @@ export class MhwSavedSetsComponent implements OnInit {
   }
 
   public selectSet(setItem: SavedSet) {
-    this.curSet = setItem.set;
+    this.curSet = { ...setItem.set };
     this.curSetChange.emit(this.curSet);
     this.open = false;
   }
