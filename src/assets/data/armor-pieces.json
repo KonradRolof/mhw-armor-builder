@@ -98114,7 +98114,599 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1183,
+  "name": "Death Garon Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    },
+    {
+      "id": 301,
+      "level": 1,
+      "description": "Shortens time until reuse by 10%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    }
+  ],
+  "armorSet": {
+    "id": 267,
+    "name": "Death Garon Alpha +",
+    "rank": "master",
+    "pieces": [
+      1183,
+      1184,
+      1185,
+      1186,
+      1187
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1184,
+  "name": "Death Garon Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 125,
+      "level": 3,
+      "description": "Affinity +15%",
+      "modifiers": {
+        "affinity": 15
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    },
+    {
+      "id": 75,
+      "level": 2,
+      "description": "Dragon resistance +12",
+      "modifiers": {
+        "resistDragon": 12
+      },
+      "skill": 24,
+      "skillName": "Dragon Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 267,
+    "name": "Death Garon Alpha +",
+    "rank": "master",
+    "pieces": [
+      1183,
+      1184,
+      1185,
+      1186,
+      1187
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1185,
+  "name": "Death Garon Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    },
+    {
+      "id": 101,
+      "level": 2,
+      "description": "Dragon attack +60",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 267,
+    "name": "Death Garon Alpha +",
+    "rank": "master",
+    "pieces": [
+      1183,
+      1184,
+      1185,
+      1186,
+      1187
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1186,
+  "name": "Death Garon Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 101,
+      "level": 2,
+      "description": "Dragon attack +60",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    },
+    {
+      "id": 161,
+      "level": 1,
+      "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 267,
+    "name": "Death Garon Alpha +",
+    "rank": "master",
+    "pieces": [
+      1183,
+      1184,
+      1185,
+      1186,
+      1187
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1187,
+  "name": "Death Garon Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 302,
+      "level": 2,
+      "description": "Shortens time until reuse by 20%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    },
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    }
+  ],
+  "armorSet": {
+    "id": 267,
+    "name": "Death Garon Alpha +",
+    "rank": "master",
+    "pieces": [
+      1183,
+      1184,
+      1185,
+      1186,
+      1187
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1188,
+  "name": "Death Garon Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 268,
+    "name": "Death Garon Beta +",
+    "rank": "master",
+    "pieces": [
+      1188,
+      1189,
+      1190,
+      1191,
+      1192
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1189,
+  "name": "Death Garon Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 124,
+      "level": 2,
+      "description": "Affinity +10%",
+      "modifiers": {
+        "affinity": 10
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    },
+    {
+      "id": 74,
+      "level": 1,
+      "description": "Dragon resistance +6",
+      "modifiers": {
+        "resistDragon": 6
+      },
+      "skill": 24,
+      "skillName": "Dragon Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 268,
+    "name": "Death Garon Beta +",
+    "rank": "master",
+    "pieces": [
+      1188,
+      1189,
+      1190,
+      1191,
+      1192
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1190,
+  "name": "Death Garon Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    },
+    {
+      "id": 100,
+      "level": 1,
+      "description": "Dragon attack +30",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 268,
+    "name": "Death Garon Beta +",
+    "rank": "master",
+    "pieces": [
+      1188,
+      1189,
+      1190,
+      1191,
+      1192
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1191,
+  "name": "Death Garon Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 101,
+      "level": 2,
+      "description": "Dragon attack +60",
+      "modifiers": {},
+      "skill": 30,
+      "skillName": "Dragon Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 268,
+    "name": "Death Garon Beta +",
+    "rank": "master",
+    "pieces": [
+      1188,
+      1189,
+      1190,
+      1191,
+      1192
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1192,
+  "name": "Death Garon Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 148,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -2,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 4
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 302,
+      "level": 2,
+      "description": "Shortens time until reuse by 20%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    }
+  ],
+  "armorSet": {
+    "id": 268,
+    "name": "Death Garon Beta +",
+    "rank": "master",
+    "pieces": [
+      1188,
+      1189,
+      1190,
+      1191,
+      1192
+    ],
+    "bonus": 35
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 

@@ -1,71 +1,25 @@
 {
-  "id": 266,
-  "name": "Damascus Beta +",
+  "id": 268,
+  "name": "Death Garon Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1178,
-      "name": "Damascus Helm Beta +",
+      "id": 1188,
+      "name": "Death Garon Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 152,
+        "base": 148,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 4,
-        "water": -2,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 48,
-          "level": 3,
-          "description": "Defense +5%\nBonus: +10",
-          "modifiers": {
-            "defense": 10
-          },
-          "skill": 16,
-          "skillName": "Defense Boost"
-        }
-      ],
-      "armorSet": 266,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1179,
-      "name": "Damascus Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 152,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 4,
-        "water": -2,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "fire": -2,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -74,6 +28,44 @@
         },
         {
           "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 162,
+          "level": 2,
+          "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+          "modifiers": {},
+          "skill": 51,
+          "skillName": "Latent Power"
+        }
+      ],
+      "armorSet": 268,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1189,
+      "name": "Death Garon Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 148,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
         },
         {
           "rank": 1
@@ -81,35 +73,47 @@
       ],
       "skills": [
         {
-          "id": 137,
+          "id": 124,
           "level": 2,
-          "description": "Increases gauge fill rate by 10% and reduces charge times by 10%.",
-          "modifiers": {},
-          "skill": 42,
-          "skillName": "Focus"
+          "description": "Affinity +10%",
+          "modifiers": {
+            "affinity": 10
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
+        },
+        {
+          "id": 74,
+          "level": 1,
+          "description": "Dragon resistance +6",
+          "modifiers": {
+            "resistDragon": 6
+          },
+          "skill": 24,
+          "skillName": "Dragon Resistance"
         }
         ],
-      "armorSet": 266,
+      "armorSet": 268,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1180,
-      "name": "Damascus Vambraces Beta +",
+      "id": 1190,
+      "name": "Death Garon Braces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 152,
+        "base": 148,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 4,
-        "water": -2,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "fire": -2,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -122,37 +126,43 @@
       ],
       "skills": [
         {
-          "id": 143,
-          "level": 2,
-          "description": "Weapon sharpness +20",
-          "modifiers": {
-            "sharpnessBonus": 20
-          },
-          "skill": 44,
-          "skillName": "Handicraft"
+          "id": 139,
+          "level": 1,
+          "description": "Bonus duration +10%",
+          "modifiers": {},
+          "skill": 43,
+          "skillName": "Power Prolonger"
+        },
+        {
+          "id": 100,
+          "level": 1,
+          "description": "Dragon attack +30",
+          "modifiers": {},
+          "skill": 30,
+          "skillName": "Dragon Attack"
         }
         ],
-      "armorSet": 266,
+      "armorSet": 268,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1181,
-      "name": "Damascus Coil Beta +",
+      "id": 1191,
+      "name": "Death Garon Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 152,
+        "base": 148,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 4,
-        "water": -2,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "fire": -2,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -160,43 +170,40 @@
           "rank": 4
         },
         {
-          "rank": 3
-        },
-        {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 136,
-          "level": 1,
-          "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+          "id": 101,
+          "level": 2,
+          "description": "Dragon attack +60",
           "modifiers": {},
-          "skill": 42,
-          "skillName": "Focus"
+          "skill": 30,
+          "skillName": "Dragon Attack"
           }
         ],
-      "armorSet": 266,
+      "armorSet": 268,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1182,
-        "name": "Damascus Greaves Beta +",
-        "type": "legs",
+        "id": 1192,
+        "name": "Death Garon Greaves Beta +",
+        "type": "waist",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 152,
+          "base": 148,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 4,
-          "water": -2,
-          "ice": 0,
-          "thunder": 0,
-          "dragon": 0
+          "fire": -2,
+          "water": -3,
+          "ice": -2,
+          "thunder": -2,
+          "dragon": 4
         },
         "attributes": {},
         "slots": [
@@ -204,33 +211,42 @@
             "rank": 4
           },
           {
-            "rank": 2
+            "rank": 1
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 47,
+            "id": 302,
             "level": 2,
-            "description": "Defense +10",
-            "modifiers": {
-              "defense": 10
-            },
-            "skill": 16,
-            "skillName": "Defense Boost"
-          },
-          {
-            "id": 218,
-            "level": 1,
-            "description": "Very slightly decreases the impact of attacks.",
+            "description": "Shortens time until reuse by 20%.",
             "modifiers": {},
-            "skill": 70,
-            "skillName": "Guard"
+            "skill": 106,
+            "skillName": "Tool Specialist"
           }
         ],
-      "armorSet": 266,
+      "armorSet": 268,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": null
+  "bonus": {
+    "id": 35,
+    "name": "Odogaron Essence",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 327,
+          "level": 1,
+          "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+          "modifiers": {},
+          "skill": 128,
+          "skillName": "Protective Polish"
+        }
+      }
+    ]
+  }
 }
