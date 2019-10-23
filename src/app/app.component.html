@@ -141,6 +141,7 @@
   <mhw-saved-sets
     [open]="mySetsOpen"
     [curSet]="curSet"
+    (curSetChange)="postSetToStats($event)"
     (closeResponse)="closeMySets($event)">
   </mhw-saved-sets>
   <div class="load-overlay" *ngIf="true === isLoading || true === hasDataError">
