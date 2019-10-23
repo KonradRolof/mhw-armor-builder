@@ -52,3 +52,35 @@
 .save-modal__inner {
   padding: 0 20px;
 }
+
+.save-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+
+  li {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 3px;
+  }
+}
+
+.set-item__remove {
+  height: 30px;
+  position: relative;
+  width: 30px;
+
+  svg {
+    display: block;
+    height: 16px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+  }
+}

@@ -7,7 +7,9 @@
           {{ setItem.name }}
           <small *ngIf="setItem.description">{{ setItem.description }}</small>
         </button>
-        <button class="set-item__remove" title="Delete Set" (click)="deleteSet(setItem)">r</button>
+        <button class="btn btn-danger set-item__remove" title="Delete Set" (click)="deleteSet(setItem)">
+          <svg-icon src="assets/images/icons/trash-solid.svg"></svg-icon>
+        </button>
       </li>
     </ul>
     <div class="row">
