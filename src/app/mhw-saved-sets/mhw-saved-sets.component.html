@@ -3,7 +3,7 @@
     <h2>My Sets</h2>
     <ul class="save-list" *ngIf="0 < savedSets.length">
       <li *ngFor="let setItem of savedSets">
-        <button class="set-item">
+        <button class="set-item" (click)="selectSet(setItem)">
           {{ setItem.name }}
           <small *ngIf="setItem.description">{{ setItem.description }}</small>
         </button>

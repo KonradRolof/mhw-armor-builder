@@ -21,6 +21,7 @@ export class MhwSavedSetsComponent implements OnInit {
   @Input() open: boolean;
   @Input() curSet: CurSet;
   @Output() closeResponse: EventEmitter<any> = new EventEmitter();
+  @Output() curSetChange: EventEmitter<CurSet> = new EventEmitter<CurSet>();
 
   constructor(private fb: FormBuilder) { }
 
@@ -76,6 +77,12 @@ export class MhwSavedSetsComponent implements OnInit {
     } else {
       MhwStorageService.removeItem("my-mhw-sets");
     }
+  }
+
+  public selectSet(setItem: SavedSet) {
+    this.curSet = setItem.set;
+    this.curSetChange.emit(this.curSet);
+    this.open = false;
   }
 
   private loadSets() {
