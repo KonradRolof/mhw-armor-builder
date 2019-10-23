@@ -1,0 +1,56 @@
+<section [ngClass]="{'saved-sets': true, 'open': true === open, 'saved-sets--down': true === saveModalOpen}">
+  <div class="saved-sets__inner">
+    <h2>My Sets</h2>
+    <ul class="save-list" *ngIf="0 < savedSets.length">
+      <li *ngFor="let setItem of savedSets">
+        <button class="set-item">
+          {{ setItem.name }}
+          <small *ngIf="setItem.description">{{ setItem.description }}</small>
+        </button>
+        <button class="set-item__remove" title="Delete Set" (click)="deleteSet(setItem)">r</button>
+      </li>
+    </ul>
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <button class="btn btn-dark" (click)="saveModalOpen = true">Save current Set</button>
+      </div>
+      <div class="col-sm-12 col-md-6">
+
+      </div>
+    </div>
+  </div>
+</section>
+<section class="save-modal" *ngIf="true === saveModalOpen">
+  <div class="save-modal__inner">
+    <h3>Save current set</h3>
+    <form [formGroup]="saveForm" (submit)="saveSet()">
+      <div class="form-group">
+        <label for="new-set-name">Name*</label>
+        <input
+          type="text"
+          id="new-set-name"
+          class="form-control"
+          [ngClass]="{'form-control': true, 'is-invalid': saveForm.get('name').invalid && saveForm.get('name').touched}"
+          formControlName="name"
+          required>
+        <div class="invalid-feedback" *ngIf="saveForm.get('name').invalid && saveForm.get('name').touched">This field is required</div>
+        <div class="invalid-feedback" *ngIf="duplicateSetName">A set with this name already exists</div>
+      </div>
+      <div class="form-group">
+        <label for="new-set-description">Description</label>
+        <textarea
+          id="new-set-description"
+          class="form-control"
+          formControlName="description"></textarea>
+      </div>
+      <button
+        class="btn btn-success btn-block"
+        type="submit"
+        [disabled]="saveForm.invalid"
+      >Save</button>
+    </form>
+  </div>
+</section>
+<div class="saved-sets__bg"
+     [ngClass]="{'saved-sets__bg': true, 'saved-sets__bg--up': true === saveModalOpen}"
+     *ngIf="true === open" (click)="closeLayer()"></div>

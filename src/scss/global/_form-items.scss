@@ -33,3 +33,10 @@ input {
     @extend %input-base;
   }
 }
+
+textarea {
+  &.form-control {
+    @extend %input-base;
+    height: auto;
+  }
+}

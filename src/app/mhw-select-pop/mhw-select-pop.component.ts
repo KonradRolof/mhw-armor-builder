@@ -57,7 +57,7 @@ export class MhwSelectPopComponent implements OnChanges {
       this.readDataObject(changes.data.currentValue);
     }
 
-    if (changes.isOpen && null !== this.data) {
+    if (changes.open && null !== this.data) {
       this.open = changes.open.currentValue;
     }
   }

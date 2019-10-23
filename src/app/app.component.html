@@ -1,9 +1,16 @@
 <article class="mhw-armor-builder">
   <header class="title-bar">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row justify-content-between align-items-center">
         <div class="col-auto">
-          <h1>Monster Hunter World - Set Builder</h1>
+          <h1>
+            <span class="d-md-none">MHW</span>
+            <span class="d-none d-md-inline">Monster Hunter World</span>
+            - Set Builder
+          </h1>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-dark" (click)="toggleMySets()">My Sets</button>
         </div>
       </div>
     </div>
@@ -131,6 +138,11 @@
       </div>
     </div>
   </div>
+  <mhw-saved-sets
+    [open]="mySetsOpen"
+    [curSet]="curSet"
+    (closeResponse)="closeMySets($event)">
+  </mhw-saved-sets>
   <div class="load-overlay" *ngIf="true === isLoading || true === hasDataError">
     <div class="load-overlay__content">
       <ng-container *ngIf="false === hasDataError">

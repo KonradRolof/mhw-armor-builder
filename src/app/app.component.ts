@@ -69,6 +69,7 @@ export class AppComponent implements OnInit {
   };
 
   public sidebarOpen = false;
+  public mySetsOpen = false;
   public forceRefresh = false;
   public isLoading: boolean;
   public hasDataError = false;
@@ -183,6 +184,14 @@ export class AppComponent implements OnInit {
 
   public readRefresh(response: boolean) {
     this.forceRefresh = response;
+  }
+
+  public toggleMySets() {
+    this.mySetsOpen = !this.mySetsOpen;
+  }
+
+  public closeMySets(event: boolean) {
+    this.mySetsOpen = event;
   }
 
   private handleLoadError(error: any) {
