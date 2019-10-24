@@ -89069,6 +89069,270 @@
     }
   ],
   "bonus": null
+},
+{
+  "id": 275,
+  "name": "Fulgur Anja Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1222,
+      "name": "Fulgur Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "ice": -3,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+        },
+        {
+          "id": 185,
+          "level": 1,
+          "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
+          "modifiers": {},
+          "skill": 57,
+          "skillName": "Resuscitate"
+        }
+      ],
+      "armorSet": 275,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1223,
+      "name": "Fulgur Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "ice": -3,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+        },
+        {
+          "id": 11,
+          "level": 2,
+          "description": "Reduces the duration of stun by 90%.",
+          "modifiers": {},
+          "skill": 4,
+          "skillName": "Stun Resistance"
+        }
+        ],
+      "armorSet": 275,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1224,
+      "name": "Fulgur Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "ice": -3,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 232,
+          "level": 2,
+          "description": "Item effect duration +25%",
+          "modifiers": {},
+          "skill": 73,
+          "skillName": "Item Prolonger"
+        },
+        {
+          "id": 96,
+          "level": 2,
+          "description": "Thunder attack +60",
+          "modifiers": {
+            "damageThunder": 60
+          },
+          "skill": 29,
+          "skillName": "Thunder Attack"
+        }
+        ],
+      "armorSet": 275,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1225,
+      "name": "Fulgur Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 146,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "ice": -3,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 134,
+          "level": 2,
+          "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+        },
+        {
+          "id": 231,
+          "level": 1,
+          "description": "Item effect duration +10%",
+          "modifiers": {},
+          "skill": 73,
+          "skillName": "Item Prolonger"
+          }
+        ],
+      "armorSet": 275,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1226,
+        "name": "Fulgur Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 146,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -1,
+          "water": -1,
+          "ice": -3,
+          "thunder": 2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 96,
+            "level": 2,
+            "description": "Thunder attack +60",
+            "modifiers": {
+              "damageThunder": 60
+            },
+            "skill": 29,
+            "skillName": "Thunder Attack"
+          },
+          {
+            "id": 188,
+            "level": 1,
+            "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
+            "modifiers": {},
+            "skill": 60,
+            "skillName": "Special Ammo Boost"
+          }
+        ],
+      "armorSet": 275,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 25,
+    "name": "Anjanath Dominance",
+    "ranks": [
+      {
+        "pieces": 2,
+        "skill": {
+          "id": 312,
+          "level": 1,
+          "description": "Increases stamina cap.",
+          "modifiers": {},
+          "skill": 113,
+          "skillName": "Stamina Cap Up"
+        }
+      }
+    ]
+  }
 }
 
 
