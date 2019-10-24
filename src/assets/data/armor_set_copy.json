@@ -1,30 +1,33 @@
 {
-  "id": 276,
-  "name": "Fulgur Anja Beta +",
+  "id": 278,
+  "name": "Kirin Alpha +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1222,
-      "name": "Fulgur Helm Alpha +",
+      "id": 1237,
+      "name": "Kirin Horn Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 146,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -3,
-        "thunder": 2,
-        "dragon": 0
+        "fire": -3,
+        "water": -2,
+        "ice": -2,
+        "thunder": 4,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 2
+          "rank": 4
+        },
+        {
+          "rank": 1
         },
         {
           "rank": 1
@@ -32,231 +35,211 @@
       ],
       "skills": [
         {
-          "id": 133,
-          "level": 1,
-          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "id": 196,
+          "level": 2,
+          "description": "Reduces continuous stamina depletion by 30%.",
           "modifiers": {},
-          "skill": 41,
-          "skillName": "Weakness Exploit"
-        },
-        {
-          "id": 185,
-          "level": 1,
-          "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
-          "modifiers": {},
-          "skill": 57,
-          "skillName": "Resuscitate"
+          "skill": 63,
+          "skillName": "Marathon Runner"
         }
       ],
-      "armorSet": 275,
+      "armorSet": 278,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1223,
-      "name": "Fulgur Mail Alpha +",
+      "id": 1238,
+      "name": "Kirin Jacket Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 146,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -3,
-        "thunder": 2,
-        "dragon": 0
+        "fire": -3,
+        "water": -2,
+        "ice": -2,
+        "thunder": 4,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
         {
-          "rank": 3
-        }
-      ],
-      "skills": [
-        {
-          "id": 277,
-          "level": 2,
-          "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
-          "modifiers": {},
-          "skill": 91,
-          "skillName": "Flinch Free"
+          "rank": 4
         },
-        {
-          "id": 11,
-          "level": 2,
-          "description": "Reduces the duration of stun by 90%.",
-          "modifiers": {},
-          "skill": 4,
-          "skillName": "Stun Resistance"
-        }
-        ],
-      "armorSet": 275,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1224,
-      "name": "Fulgur Vambraces Alpha +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 146,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -3,
-        "thunder": 2,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
         {
           "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 232,
+          "id": 124,
           "level": 2,
-          "description": "Item effect duration +25%",
-          "modifiers": {},
-          "skill": 73,
-          "skillName": "Item Prolonger"
+          "description": "Affinity +10%",
+          "modifiers": {
+            "affinity": 10
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
         },
         {
-          "id": 96,
-          "level": 2,
-          "description": "Thunder attack +60",
+          "id": 252,
+          "level": 1,
+          "description": "While active, reduces damage taken by 15%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+        ],
+      "armorSet": 278,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1239,
+      "name": "Kirin Longarms Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "ice": -2,
+        "thunder": 4,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 97,
+          "level": 3,
+          "description": "Thunder attack +100",
           "modifiers": {
-            "damageThunder": 60
+            "damageThunder": 100
           },
           "skill": 29,
           "skillName": "Thunder Attack"
         }
         ],
-      "armorSet": 275,
+      "armorSet": 278,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1225,
-      "name": "Fulgur Coil Alpha +",
+      "id": 1240,
+      "name": "Kirin Hoop Beta +",
       "type": "waist",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 146,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -3,
-        "thunder": 2,
-        "dragon": 0
+        "fire": -3,
+        "water": -2,
+        "ice": -2,
+        "thunder": 4,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        },
         {
           "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 134,
+          "id": 78,
           "level": 2,
-          "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
+          "description": "Reduces the duration of all elemental blights by 75%.",
           "modifiers": {},
-          "skill": 41,
-          "skillName": "Weakness Exploit"
-        },
-        {
-          "id": 231,
-          "level": 1,
-          "description": "Item effect duration +10%",
-          "modifiers": {},
-          "skill": 73,
-          "skillName": "Item Prolonger"
+          "skill": 25,
+          "skillName": "Blight Resistance"
           }
         ],
-      "armorSet": 275,
+      "armorSet": 278,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1226,
-        "name": "Fulgur Greaves Alpha +",
+        "id": 1241,
+        "name": "Kirin Leg Guards Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 11,
+        "rarity": 12,
         "defense": {
-          "base": 146,
+          "base": 154,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
-          "water": -1,
-          "ice": -3,
-          "thunder": 2,
-          "dragon": 0
+          "fire": -3,
+          "water": -2,
+          "ice": -2,
+          "thunder": 4,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 2
-          },
-          {
-            "rank": 1
+            "rank": 4
           }
         ],
         "skills": [
           {
-            "id": 96,
+            "id": 121,
             "level": 2,
-            "description": "Thunder attack +60",
-            "modifiers": {
-              "damageThunder": 60
-            },
-            "skill": 29,
-            "skillName": "Thunder Attack"
-          },
-          {
-            "id": 188,
-            "level": 1,
-            "description": "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
+            "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
             "modifiers": {},
-            "skill": 60,
-            "skillName": "Special Ammo Boost"
+            "skill": 38,
+            "skillName": "Free Elem\/Ammo Up"
           }
         ],
-      "armorSet": 275,
+      "armorSet": 278,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 25,
-    "name": "Anjanath Dominance",
+    "id": 41,
+    "name": "Kirin Divinity",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 312,
+          "id": 333,
           "level": 1,
-          "description": "Increases stamina cap.",
+          "description": "High chance of increased quest rewards. (No effect when joining mid-quest.)",
           "modifiers": {},
-          "skill": 113,
-          "skillName": "Stamina Cap Up"
+          "skill": 134,
+          "skillName": "Great Luck"
         }
       }
     ]
