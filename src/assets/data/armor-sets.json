@@ -88562,6 +88562,513 @@
       }
     ]
   }
+},
+{
+  "id": 273,
+  "name": "Dober Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1212,
+      "name": "Dober Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 121,
+          "level": 2,
+          "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+          "modifiers": {},
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
+        },
+        {
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
+          "modifiers": {},
+          "skill": 66,
+          "skillName": "Stamina Surge"
+        }
+      ],
+      "armorSet": 273,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1213,
+      "name": "Dober Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 294,
+          "level": 1,
+          "description": "Reduces effluvial buildup.",
+          "modifiers": {},
+          "skill": 101,
+          "skillName": "Effluvia Resistance"
+        }
+        ],
+      "armorSet": 273,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1214,
+      "name": "Dober Vambraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 205,
+          "level": 2,
+          "description": "Stamina recovery speed +20%",
+          "modifiers": {},
+          "skill": 66,
+          "skillName": "Stamina Surge"
+        },
+        {
+          "id": 244,
+          "level": 1,
+          "description": "Lets you digest blue mushrooms and toadstools.",
+          "modifiers": {},
+          "skill": 78,
+          "skillName": "Mushroomancer"
+        }
+        ],
+      "armorSet": 273,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1215,
+      "name": "Dober Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 11,
+          "level": 2,
+          "description": "Reduces the duration of stun by 90%.",
+          "modifiers": {},
+          "skill": 4,
+          "skillName": "Stun Resistance"
+          }
+        ],
+      "armorSet": 273,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1216,
+        "name": "Dober Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 152,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -2,
+          "water": 0,
+          "ice": -1,
+          "thunder": -1,
+          "dragon": 4
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 40,
+            "level": 2,
+            "description": "Attack +6",
+            "modifiers": {
+              "attack": 6
+            },
+            "skill": 15,
+            "skillName": "Attack Boost"
+          },
+          {
+            "id": 245,
+            "level": 2,
+            "description": "Additionally lets you digest nitroshrooms and parashrooms.",
+            "modifiers": {},
+            "skill": 78,
+            "skillName": "Mushroomancer"
+          }
+        ],
+      "armorSet": 273,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": null
+},
+{
+  "id": 274,
+  "name": "Dober Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1217,
+      "name": "Dober Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 121,
+          "level": 2,
+          "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+          "modifiers": {},
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
+        }
+      ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1218,
+      "name": "Dober Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 39,
+          "level": 1,
+          "description": "Attack +3",
+          "modifiers": {
+            "attack": 3
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 294,
+          "level": 1,
+          "description": "Reduces effluvial buildup.",
+          "modifiers": {},
+          "skill": 101,
+          "skillName": "Effluvia Resistance"
+        }
+        ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1219,
+      "name": "Dober Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
+          "modifiers": {},
+          "skill": 66,
+          "skillName": "Stamina Surge"
+        },
+        {
+          "id": 244,
+          "level": 1,
+          "description": "Lets you digest blue mushrooms and toadstools.",
+          "modifiers": {},
+          "skill": 78,
+          "skillName": "Mushroomancer"
+        }
+        ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1220,
+      "name": "Dober Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 39,
+          "level": 1,
+          "description": "Attack +3",
+          "modifiers": {
+            "attack": 3
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 10,
+          "level": 1,
+          "description": "Reduces the duration of stun by 60%.",
+          "modifiers": {},
+          "skill": 4,
+          "skillName": "Stun Resistance"
+          }
+        ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1221,
+        "name": "Dober Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 152,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -2,
+          "water": 0,
+          "ice": -1,
+          "thunder": -1,
+          "dragon": 4
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 39,
+            "level": 1,
+            "description": "Attack +3",
+            "modifiers": {
+              "attack": 3
+            },
+            "skill": 15,
+            "skillName": "Attack Boost"
+          },
+          {
+            "id": 244,
+            "level": 1,
+            "description": "Lets you digest blue mushrooms and toadstools.",
+            "modifiers": {},
+            "skill": 78,
+            "skillName": "Mushroomancer"
+          }
+        ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": null
 }
 
 

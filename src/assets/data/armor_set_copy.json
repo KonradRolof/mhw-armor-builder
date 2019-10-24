@@ -1,66 +1,117 @@
 {
-  "id": 272,
-  "name": "Diablos Nero Beta +",
+  "id": 274,
+  "name": "Dober Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1207,
-      "name": "Diablos Nero Helm Beta +",
+      "id": 1217,
+      "name": "Dober Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 148,
+        "base": 152,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -4,
-        "thunder": 0,
-        "dragon": 2
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 151,
+          "id": 121,
           "level": 2,
-          "description": "Part damage +20%",
+          "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
           "modifiers": {},
-          "skill": 46,
-          "skillName": "Partbreaker"
+          "skill": 38,
+          "skillName": "Free Elem\/Ammo Up"
         }
       ],
-      "armorSet": 272,
+      "armorSet": 274,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1208,
-      "name": "Diablos Nero Mail Beta +",
+      "id": 1218,
+      "name": "Dober Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 148,
+        "base": 152,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -4,
-        "thunder": 0,
-        "dragon": 2
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 39,
+          "level": 1,
+          "description": "Attack +3",
+          "modifiers": {
+            "attack": 3
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 294,
+          "level": 1,
+          "description": "Reduces effluvial buildup.",
+          "modifiers": {},
+          "skill": 101,
+          "skillName": "Effluvia Resistance"
+        }
+        ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1219,
+      "name": "Dober Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -73,43 +124,94 @@
       ],
       "skills": [
         {
-          "id": 180,
+          "id": 204,
           "level": 1,
-          "description": "While active, grants attack +5.",
+          "description": "Stamina recovery speed +10%",
           "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
+          "skill": 66,
+          "skillName": "Stamina Surge"
         },
         {
-          "id": 195,
+          "id": 244,
           "level": 1,
-          "description": "Reduces continuous stamina depletion by 15%.",
+          "description": "Lets you digest blue mushrooms and toadstools.",
           "modifiers": {},
-          "skill": 63,
-          "skillName": "Marathon Runner"
+          "skill": 78,
+          "skillName": "Mushroomancer"
         }
         ],
-      "armorSet": 272,
+      "armorSet": 274,
       "assets": null,
       "crafting": null
       },
     {
-        "id": 1209,
-        "name": "Diablos Nero Braces Beta +",
-        "type": "gloves",
+      "id": 1220,
+      "name": "Dober Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 152,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 39,
+          "level": 1,
+          "description": "Attack +3",
+          "modifiers": {
+            "attack": 3
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 10,
+          "level": 1,
+          "description": "Reduces the duration of stun by 60%.",
+          "modifiers": {},
+          "skill": 4,
+          "skillName": "Stun Resistance"
+          }
+        ],
+      "armorSet": 274,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1221,
+        "name": "Dober Greaves Beta +",
+        "type": "legs",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 148,
+          "base": 152,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": -3,
-          "ice": -4,
-          "thunder": 0,
-          "dragon": 2
+          "fire": -2,
+          "water": 0,
+          "ice": -1,
+          "thunder": -1,
+          "dragon": 4
         },
         "attributes": {},
         "slots": [
@@ -122,123 +224,28 @@
         ],
         "skills": [
           {
-            "id": 153,
+            "id": 39,
             "level": 1,
-            "description": "Stun power +20%",
-            "modifiers": {},
-            "skill": 47,
-            "skillName": "Slugger"
+            "description": "Attack +3",
+            "modifiers": {
+              "attack": 3
+            },
+            "skill": 15,
+            "skillName": "Attack Boost"
           },
           {
-            "id": 195,
+            "id": 244,
             "level": 1,
-            "description": "Reduces continuous stamina depletion by 15%.",
+            "description": "Lets you digest blue mushrooms and toadstools.",
             "modifiers": {},
-            "skill": 63,
-            "skillName": "Marathon Runner"
-        }
-        ],
-      "armorSet": 272,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1210,
-      "name": "Diablos Nero Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 148,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -4,
-        "thunder": 0,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 154,
-          "level": 2,
-          "description": "Stun power +30%",
-          "modifiers": {},
-          "skill": 47,
-          "skillName": "Slugger"
+            "skill": 78,
+            "skillName": "Mushroomancer"
           }
         ],
-      "armorSet": 272,
-      "assets": null,
-      "crafting": null
-      },
-      {
-        "id": 1211,
-        "name": "Diablos Nero Greaves Beta +",
-        "type": "legs",
-        "rank": "master",
-        "rarity": 11,
-        "defense": {
-          "base": 148,
-          "max": 0,
-          "augmented": 0
-        },
-        "resistances": {
-          "fire": 2,
-          "water": -3,
-          "ice": -4,
-          "thunder": 0,
-          "dragon": 2
-        },
-        "attributes": {},
-        "slots": [
-          {
-            "rank": 4
-          }
-        ],
-        "skills": [
-          {
-            "id": 181,
-            "level": 2,
-            "description": "While active, grants attack +10.",
-            "modifiers": {},
-            "skill": 56,
-            "skillName": "Resentment"
-          }
-        ],
-      "armorSet": 272,
+      "armorSet": 274,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": {
-    "id": 34,
-    "name": "Diablos Ambition ",
-    "ranks": [
-      {
-        "pieces": 3,
-        "skill": {
-          "id": 352,
-          "level": 1,
-          "description": "Raises the maximum level of the Slugger skill to Lv5",
-          "modifiers": {
-            "hiddenRanks": 47
-          },
-          "skill": 143,
-          "skillName": "Slugger Secret"
-        }
-      }
-    ]
-  }
+  "bonus": null
 }

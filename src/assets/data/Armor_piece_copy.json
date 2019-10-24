@@ -1,49 +1,62 @@
 {
-  "id": 1211,
-  "name": "Diablos Nero Greaves Beta +",
+  "id": 1221,
+  "name": "Dober Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 11,
   "defense": {
-    "base": 148,
+    "base": 152,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 2,
-    "water": -3,
-    "ice": -4,
-    "thunder": 0,
-    "dragon": 2
+    "fire": -2,
+    "water": 0,
+    "ice": -1,
+    "thunder": -1,
+    "dragon": 4
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 181,
-      "level": 2,
-      "description": "While active, grants attack +10.",
+      "id": 39,
+      "level": 1,
+      "description": "Attack +3",
+      "modifiers": {
+        "attack": 3
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    },
+    {
+      "id": 244,
+      "level": 1,
+      "description": "Lets you digest blue mushrooms and toadstools.",
       "modifiers": {},
-      "skill": 56,
-      "skillName": "Resentment"
+      "skill": 78,
+      "skillName": "Mushroomancer"
     }
   ],
   "armorSet": {
-    "id": 272,
-    "name": "Diablos Nero Beta +",
+    "id": 274,
+    "name": "Dober Beta +",
     "rank": "master",
     "pieces": [
-      1207,
-      1208,
-      1209,
-      1210,
-      1211
+      1217,
+      1218,
+      1219,
+      1220,
+      1221
     ],
-    "bonus": 34
+    "bonus": null
   },
   "assets": null,
   "crafting": null
