@@ -1,49 +1,52 @@
 {
-  "id": 1241,
-  "name": "Kirin Leg Guards Beta +",
+  "id": 1251,
+  "name": "Kushala Crus Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 12,
   "defense": {
-    "base": 154,
+    "base": 156,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": -2,
-    "ice": -2,
-    "thunder": 4,
-    "dragon": 2
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 3
     }
   ],
   "skills": [
     {
-      "id": 121,
+      "id": 216,
       "level": 2,
-      "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+      "description": "Extends evasion distance.",
       "modifiers": {},
-      "skill": 38,
-      "skillName": "Free Elem\/Ammo Up"
+      "skill": 69,
+      "skillName": "Evade Extender"
     }
   ],
   "armorSet": {
-    "id": 278,
-    "name": "Kirin Beta +",
+    "id": 280,
+    "name": "Kushala Beta +",
     "rank": "master",
     "pieces": [
-      1237,
-      1238,
-      1239,
-      1240,
-      1241
+      1247,
+      1248,
+      1249,
+      1250,
+      1251
     ],
-    "bonus": 41
+    "bonus": 42
   },
   "assets": null,
   "crafting": null

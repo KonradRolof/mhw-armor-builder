@@ -101639,7 +101639,569 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1242,
+  "name": "Kushala Glare Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 91,
+      "level": 2,
+      "description": "Ice attack +60",
+      "modifiers": {
+        "damageIce": 60
+      },
+      "skill": 28,
+      "skillName": "Ice Attack"
+    },
+    {
+      "id": 211,
+      "level": 2,
+      "description": "Slightly increases invulnerability window.",
+      "modifiers": {},
+      "skill": 68,
+      "skillName": "Evade Window"
+    }
+  ],
+  "armorSet": {
+    "id": 279,
+    "name": "Kushala Alpha +",
+    "rank": "master",
+    "pieces": [
+      1242,
+      1243,
+      1244,
+      1245,
+      1246
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1243,
+  "name": "Kushala Cista Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 144,
+      "level": 3,
+      "description": "Weapon sharpness +30",
+      "modifiers": {
+        "sharpnessBonus": 30
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    }
+  ],
+  "armorSet": {
+    "id": 279,
+    "name": "Kushala Alpha +",
+    "rank": "master",
+    "pieces": [
+      1242,
+      1243,
+      1244,
+      1245,
+      1246
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1244,
+  "name": "Kushala Grip Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 212,
+      "level": 3,
+      "description": "Increases invulnerability window.",
+      "modifiers": {},
+      "skill": 68,
+      "skillName": "Evade Window"
+    }
+  ],
+  "armorSet": {
+    "id": 279,
+    "name": "Kushala Alpha +",
+    "rank": "master",
+    "pieces": [
+      1242,
+      1243,
+      1244,
+      1245,
+      1246
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1245,
+  "name": "Kushala Cocoon Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 92,
+      "level": 3,
+      "description": "Ice attack +100",
+      "modifiers": {
+        "damageIce": 100
+      },
+      "skill": 28,
+      "skillName": "Ice Attack"
+    },
+    {
+      "id": 215,
+      "level": 1,
+      "description": "Slightly extends evasion distance.",
+      "modifiers": {},
+      "skill": 69,
+      "skillName": "Evade Extender"
+    }
+  ],
+  "armorSet": {
+    "id": 279,
+    "name": "Kushala Alpha +",
+    "rank": "master",
+    "pieces": [
+      1242,
+      1243,
+      1244,
+      1245,
+      1246
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1246,
+  "name": "Kushala Crus Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 216,
+      "level": 2,
+      "description": "Extends evasion distance.",
+      "modifiers": {},
+      "skill": 69,
+      "skillName": "Evade Extender"
+    },
+    {
+      "id": 143,
+      "level": 2,
+      "description": "Weapon sharpness +20",
+      "modifiers": {
+        "sharpnessBonus": 20
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    }
+  ],
+  "armorSet": {
+    "id": 279,
+    "name": "Kushala Alpha +",
+    "rank": "master",
+    "pieces": [
+      1242,
+      1243,
+      1244,
+      1245,
+      1246
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1247,
+  "name": "Kushala Glare Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 91,
+      "level": 2,
+      "description": "Ice attack +60",
+      "modifiers": {
+        "damageIce": 60
+      },
+      "skill": 28,
+      "skillName": "Ice Attack"
+    },
+    {
+      "id": 211,
+      "level": 2,
+      "description": "Slightly increases invulnerability window.",
+      "modifiers": {},
+      "skill": 68,
+      "skillName": "Evade Window"
+    }
+  ],
+  "armorSet": {
+    "id": 280,
+    "name": "Kushala Beta +",
+    "rank": "master",
+    "pieces": [
+      1247,
+      1248,
+      1249,
+      1250,
+      1251
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1248,
+  "name": "Kushala Cista Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 143,
+      "level": 2,
+      "description": "Weapon sharpness +20",
+      "modifiers": {
+        "sharpnessBonus": 20
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    }
+  ],
+  "armorSet": {
+    "id": 280,
+    "name": "Kushala Beta +",
+    "rank": "master",
+    "pieces": [
+      1247,
+      1248,
+      1249,
+      1250,
+      1251
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1249,
+  "name": "Kushala Grip Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 211,
+      "level": 2,
+      "description": "Slightly increases invulnerability window.",
+      "modifiers": {},
+      "skill": 68,
+      "skillName": "Evade Window"
+    }
+  ],
+  "armorSet": {
+    "id": 280,
+    "name": "Kushala Beta +",
+    "rank": "master",
+    "pieces": [
+      1247,
+      1248,
+      1249,
+      1250,
+      1251
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1250,
+  "name": "Kushala Cocoon Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 92,
+      "level": 3,
+      "description": "Ice attack +100",
+      "modifiers": {
+        "damageIce": 100
+      },
+      "skill": 28,
+      "skillName": "Ice Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 280,
+    "name": "Kushala Beta +",
+    "rank": "master",
+    "pieces": [
+      1247,
+      1248,
+      1249,
+      1250,
+      1251
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1251,
+  "name": "Kushala Crus Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": 2,
+    "ice": 4,
+    "thunder": -3,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 216,
+      "level": 2,
+      "description": "Extends evasion distance.",
+      "modifiers": {},
+      "skill": 69,
+      "skillName": "Evade Extender"
+    }
+  ],
+  "armorSet": {
+    "id": 280,
+    "name": "Kushala Beta +",
+    "rank": "master",
+    "pieces": [
+      1247,
+      1248,
+      1249,
+      1250,
+      1251
+    ],
+    "bonus": 42
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 

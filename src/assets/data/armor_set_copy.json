@@ -1,25 +1,25 @@
 {
-  "id": 278,
-  "name": "Kirin Alpha +",
+  "id": 280,
+  "name": "Kushala Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1237,
-      "name": "Kirin Horn Beta +",
+      "id": 1247,
+      "name": "Kushala Glare Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -2,
-        "ice": -2,
-        "thunder": 4,
-        "dragon": 2
+        "fire": 0,
+        "water": 2,
+        "ice": 4,
+        "thunder": -3,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -28,42 +28,49 @@
         },
         {
           "rank": 1
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 196,
+          "id": 91,
           "level": 2,
-          "description": "Reduces continuous stamina depletion by 30%.",
+          "description": "Ice attack +60",
+          "modifiers": {
+            "damageIce": 60
+          },
+          "skill": 28,
+          "skillName": "Ice Attack"
+        },
+        {
+          "id": 211,
+          "level": 2,
+          "description": "Slightly increases invulnerability window.",
           "modifiers": {},
-          "skill": 63,
-          "skillName": "Marathon Runner"
+          "skill": 68,
+          "skillName": "Evade Window"
         }
       ],
-      "armorSet": 278,
+      "armorSet": 280,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1238,
-      "name": "Kirin Jacket Beta +",
+      "id": 1248,
+      "name": "Kushala Cista Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -2,
-        "ice": -2,
-        "thunder": 4,
-        "dragon": 2
+        "fire": 0,
+        "water": 2,
+        "ice": 4,
+        "thunder": -3,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -76,45 +83,37 @@
       ],
       "skills": [
         {
-          "id": 124,
+          "id": 143,
           "level": 2,
-          "description": "Affinity +10%",
+          "description": "Weapon sharpness +20",
           "modifiers": {
-            "affinity": 10
+            "sharpnessBonus": 20
           },
-          "skill": 39,
-          "skillName": "Critical Eye"
-        },
-        {
-          "id": 252,
-          "level": 1,
-          "description": "While active, reduces damage taken by 15%.",
-          "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
+          "skill": 44,
+          "skillName": "Handicraft"
         }
         ],
-      "armorSet": 278,
+      "armorSet": 280,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1239,
-      "name": "Kirin Longarms Beta +",
+      "id": 1249,
+      "name": "Kushala Grip Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -2,
-        "ice": -2,
-        "thunder": 4,
-        "dragon": 2
+        "fire": 0,
+        "water": 2,
+        "ice": 4,
+        "thunder": -3,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -123,44 +122,39 @@
         },
         {
           "rank": 2
-        },
-        {
-          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 97,
-          "level": 3,
-          "description": "Thunder attack +100",
-          "modifiers": {
-            "damageThunder": 100
-          },
-          "skill": 29,
-          "skillName": "Thunder Attack"
+          "id": 211,
+          "level": 2,
+          "description": "Slightly increases invulnerability window.",
+          "modifiers": {},
+          "skill": 68,
+          "skillName": "Evade Window"
         }
         ],
-      "armorSet": 278,
+      "armorSet": 280,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1240,
-      "name": "Kirin Hoop Beta +",
+      "id": 1250,
+      "name": "Kushala Cocoon Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": -2,
-        "ice": -2,
-        "thunder": 4,
-        "dragon": 2
+        "fire": 0,
+        "water": 2,
+        "ice": 4,
+        "thunder": -3,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -169,77 +163,79 @@
         },
         {
           "rank": 1
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 78,
-          "level": 2,
-          "description": "Reduces the duration of all elemental blights by 75%.",
-          "modifiers": {},
-          "skill": 25,
-          "skillName": "Blight Resistance"
+          "id": 92,
+          "level": 3,
+          "description": "Ice attack +100",
+          "modifiers": {
+            "damageIce": 100
+          },
+          "skill": 28,
+          "skillName": "Ice Attack"
           }
         ],
-      "armorSet": 278,
+      "armorSet": 280,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1241,
-        "name": "Kirin Leg Guards Beta +",
+        "id": 1251,
+        "name": "Kushala Crus Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 154,
+          "base": 156,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": -2,
-          "ice": -2,
-          "thunder": 4,
-          "dragon": 2
+          "fire": 0,
+          "water": 2,
+          "ice": 4,
+          "thunder": -3,
+          "dragon": -2
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 3
           }
         ],
         "skills": [
           {
-            "id": 121,
+            "id": 216,
             "level": 2,
-            "description": "Draws out 66% of hidden element and expands clip size for some ammo.",
+            "description": "Extends evasion distance.",
             "modifiers": {},
-            "skill": 38,
-            "skillName": "Free Elem\/Ammo Up"
+            "skill": 69,
+            "skillName": "Evade Extender"
           }
         ],
-      "armorSet": 278,
+      "armorSet": 280,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 41,
-    "name": "Kirin Divinity",
+    "id": 17,
+    "name": "Kushala Daora Flight",
     "ranks": [
       {
         "pieces": 3,
         "skill": {
-          "id": 333,
+          "id": 321,
           "level": 1,
-          "description": "High chance of increased quest rewards. (No effect when joining mid-quest.)",
+          "description": "Negates all wind pressure.",
           "modifiers": {},
-          "skill": 134,
-          "skillName": "Great Luck"
+          "skill": 122,
+          "skillName": "Nullify Wind Pressure"
         }
       }
     ]
