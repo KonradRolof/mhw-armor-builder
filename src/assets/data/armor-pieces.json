@@ -103967,6 +103967,586 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1282,
+  "name": "Pride Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 287,
+    "name": "Seething Bazel Alpha + ",
+    "rank": "master",
+    "pieces": [
+      1282,
+      1283,
+      1284,
+      1285,
+      1286
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1283,
+  "name": "Pride Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 219,
+      "level": 2,
+      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    },
+    {
+      "id": 15,
+      "level": 2,
+      "description": "Greatly delays blastblight and greatly reduces blast damage.",
+      "modifiers": {},
+      "skill": 6,
+      "skillName": "Blast Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 287,
+    "name": "Seething Bazel Alpha + ",
+    "rank": "master",
+    "pieces": [
+      1282,
+      1283,
+      1284,
+      1285,
+      1286
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1284,
+  "name": "Pride Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 148,
+      "level": 2,
+      "description": "Draw attack affinity +60%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    },
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 287,
+    "name": "Seething Bazel Alpha + ",
+    "rank": "master",
+    "pieces": [
+      1282,
+      1283,
+      1284,
+      1285,
+      1286
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1285,
+  "name": "Pride Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 242,
+      "level": 2,
+      "description": "Explosive power +20%",
+      "modifiers": {},
+      "skill": 77,
+      "skillName": "Bombardier"
+    },
+    {
+      "id": 147,
+      "level": 1,
+      "description": "Draw attack affinity +30%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    }
+  ],
+  "armorSet": {
+    "id": 287,
+    "name": "Seething Bazel Alpha + ",
+    "rank": "master",
+    "pieces": [
+      1282,
+      1283,
+      1284,
+      1285,
+      1286
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1286,
+  "name": "Pride Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 281,
+      "level": 1,
+      "description": "Negates knockback during jumps.",
+      "modifiers": {},
+      "skill": 94,
+      "skillName": "Jump Master"
+    }
+  ],
+  "armorSet": {
+    "id": 287,
+    "name": "Seething Bazel Alpha + ",
+    "rank": "master",
+    "pieces": [
+      1282,
+      1283,
+      1284,
+      1285,
+      1286
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1287,
+  "name": "Pride Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 114,
+      "level": 1,
+      "description": "Blast buildup +5% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 288,
+    "name": "Seething Bazel Beta + ",
+    "rank": "master",
+    "pieces": [
+      1287,
+      1288,
+      1289,
+      1290,
+      1291
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1288,
+  "name": "Pride Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 219,
+      "level": 2,
+      "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "modifiers": {},
+      "skill": 70,
+      "skillName": "Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 288,
+    "name": "Seething Bazel Beta + ",
+    "rank": "master",
+    "pieces": [
+      1287,
+      1288,
+      1289,
+      1290,
+      1291
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1289,
+  "name": "Pride Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 148,
+      "level": 2,
+      "description": "Draw attack affinity +60%",
+      "modifiers": {},
+      "skill": 45,
+      "skillName": "Critical Draw"
+    }
+  ],
+  "armorSet": {
+    "id": 288,
+    "name": "Seething Bazel Beta + ",
+    "rank": "master",
+    "pieces": [
+      1287,
+      1288,
+      1289,
+      1290,
+      1291
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1290,
+  "name": "Pride Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 242,
+      "level": 2,
+      "description": "Explosive power +20%",
+      "modifiers": {},
+      "skill": 77,
+      "skillName": "Bombardier"
+    }
+  ],
+  "armorSet": {
+    "id": 288,
+    "name": "Seething Bazel Beta + ",
+    "rank": "master",
+    "pieces": [
+      1287,
+      1288,
+      1289,
+      1290,
+      1291
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1291,
+  "name": "Pride Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 281,
+      "level": 1,
+      "description": "Negates knockback during jumps.",
+      "modifiers": {},
+      "skill": 94,
+      "skillName": "Jump Master"
+    }
+  ],
+  "armorSet": {
+    "id": 288,
+    "name": "Seething Bazel Beta + ",
+    "rank": "master",
+    "pieces": [
+      1287,
+      1288,
+      1289,
+      1290,
+      1291
+    ],
+    "bonus": 44
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

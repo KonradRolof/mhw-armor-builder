@@ -1,148 +1,25 @@
 {
-  "id": 286,
-  "name": "Savage Jho Beta +",
+  "id": 288,
+  "name": "Seething Bazel Beta + ",
   "rank": "master",
   "pieces": [
     {
-      "id": 1277,
-      "name": "Esurient Helm Beta +",
+      "id": 1287,
+      "name": "Pride Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 156,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
+        "fire": 3,
         "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 3
-        }
-      ],
-      "skills": [
-        {
-          "id": 150,
-          "level": 1,
-          "description": "Part damage +10%",
-          "modifiers": {},
-          "skill": 46,
-          "skillName": "Partbreaker"
-        }
-      ],
-      "armorSet": 286,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1278,
-      "name": "Esurient Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 2,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 235,
-          "level": 1,
-          "description": "Slightly increases item use speed.",
-          "modifiers": {},
-          "skill": 75,
-          "skillName": "Speed Eating"
-        }
-        ],
-      "armorSet": 286,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1279,
-      "name": "Esurient Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 2,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 157,
-          "level": 2,
-          "description": "Exhaust power +30%",
-          "modifiers": {},
-          "skill": 48,
-          "skillName": "Stamina Thief"
-        }
-        ],
-      "armorSet": 286,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1280,
-      "name": "Esurient Faulds Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 2,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
+        "ice": -4,
+        "thunder": -2,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -155,35 +32,169 @@
       ],
       "skills": [
         {
-          "id": 157,
+          "id": 24,
           "level": 2,
-          "description": "Exhaust power +30%",
+          "description": "Reduces the effects of weak monster roars.",
           "modifiers": {},
-          "skill": 48,
-          "skillName": "Stamina Thief"
+          "skill": 9,
+          "skillName": "Earplugs"
+        },
+        {
+          "id": 114,
+          "level": 1,
+          "description": "Blast buildup +5% Bonus: +10",
+          "modifiers": {},
+          "skill": 34,
+          "skillName": "Blast Attack"
+        }
+      ],
+      "armorSet": 288,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1288,
+      "name": "Pride Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "ice": -4,
+        "thunder": -2,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 219,
+          "level": 2,
+          "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+          "modifiers": {},
+          "skill": 70,
+          "skillName": "Guard"
+        }
+        ],
+      "armorSet": 288,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1289,
+      "name": "Pride Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "ice": -4,
+        "thunder": -2,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 148,
+          "level": 2,
+          "description": "Draw attack affinity +60%",
+          "modifiers": {},
+          "skill": 45,
+          "skillName": "Critical Draw"
+        }
+        ],
+      "armorSet": 288,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1290,
+      "name": "Pride Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "ice": -4,
+        "thunder": -2,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 242,
+          "level": 2,
+          "description": "Explosive power +20%",
+          "modifiers": {},
+          "skill": 77,
+          "skillName": "Bombardier"
           }
         ],
-      "armorSet": 286,
+      "armorSet": 288,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1281,
-        "name": "Esurient Greaves Beta +",
+        "id": 1291,
+        "name": "Pride Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 156,
+          "base": 154,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
+          "fire": 3,
           "water": 1,
-          "ice": 1,
-          "thunder": -3,
-          "dragon": -3
+          "ice": -4,
+          "thunder": -2,
+          "dragon": -2
         },
         "attributes": {},
         "slots": [
@@ -196,40 +207,32 @@
         ],
         "skills": [
           {
-            "id": 235,
+            "id": 23,
             "level": 1,
-            "description": "Slightly increases item use speed.",
+            "description": "Slightly reduces the effects of weak monster roars.",
             "modifiers": {},
-            "skill": 75,
-            "skillName": "Speed Eating"
-          },
-          {
-            "id": 156,
-            "level": 1,
-            "description": "Exhaust power +20%",
-            "modifiers": {},
-            "skill": 48,
-            "skillName": "Stamina Thief"
+            "skill": 9,
+            "skillName": "Earplugs"
           }
         ],
-      "armorSet": 286,
+      "armorSet": 288,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 43,
-    "name": "Deviljho Essence",
+    "id": 44,
+    "name": "Bazelgeuse Ambition",
     "ranks": [
       {
-        "pieces": 3,
+        "pieces": 2,
         "skill": {
-          "id": 360,
+          "id": 319,
           "level": 1,
-          "description": "Raises the maximum level of the Stamina Thief skill to Lv5",
+          "description": "Above a certain health threshold, you withstand an attack that would normally cart you (once only).",
           "modifiers": {},
-          "skill": 147,
-          "skillName": "Stamina Thief Secret"
+          "skill": 120,
+          "skillName": "Guts"
         }
       }
     ]

@@ -1,20 +1,20 @@
 {
-  "id": 1281,
-  "name": "Esurient Greaves Beta +",
+  "id": 1291,
+  "name": "Pride Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 11,
   "defense": {
-    "base": 156,
+    "base": 154,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 2,
+    "fire": 3,
     "water": 1,
-    "ice": 1,
-    "thunder": -3,
-    "dragon": -3
+    "ice": -4,
+    "thunder": -2,
+    "dragon": -2
   },
   "attributes": {},
   "slots": [
@@ -27,34 +27,34 @@
   ],
   "skills": [
     {
-      "id": 235,
+      "id": 23,
       "level": 1,
-      "description": "Slightly increases item use speed.",
+      "description": "Slightly reduces the effects of weak monster roars.",
       "modifiers": {},
-      "skill": 75,
-      "skillName": "Speed Eating"
+      "skill": 9,
+      "skillName": "Earplugs"
     },
     {
-      "id": 156,
+      "id": 281,
       "level": 1,
-      "description": "Exhaust power +20%",
+      "description": "Negates knockback during jumps.",
       "modifiers": {},
-      "skill": 48,
-      "skillName": "Stamina Thief"
+      "skill": 94,
+      "skillName": "Jump Master"
     }
   ],
   "armorSet": {
-    "id": 286,
-    "name": "Savage Jho Beta +",
+    "id": 288,
+    "name": "Seething Bazel Beta + ",
     "rank": "master",
     "pieces": [
-      1277,
-      1278,
-      1279,
-      1280,
-      1281
+      1287,
+      1288,
+      1289,
+      1290,
+      1291
     ],
-    "bonus": 43
+    "bonus": 44
   },
   "assets": null,
   "crafting": null
