@@ -1,76 +1,158 @@
 {
-  "id": 282,
-  "name": "Lavasioth Beta +",
+  "id": 284,
+  "name": "Namielle Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1257,
-      "name": "Lavasioth Helm Beta +",
+      "id": 1267,
+      "name": "Tentacle Cowl Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 12,
       "defense": {
-        "base": 140,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 3,
-        "water": -3,
-        "ice": -2,
-        "thunder": 1,
-        "dragon": 2
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 80,
-          "level": 1,
-          "description": "Fire attack +30",
-          "modifiers": {
-            "damageFire": 30
-          },
-          "skill": 26,
-          "skillName": "Fire Attack"
+          "id": 199,
+          "level": 2,
+          "description": "Reduces fixed stamina depletion by 20%.",
+          "modifiers": {},
+          "skill": 64,
+          "skillName": "Constitution"
         },
         {
-          "id": 223,
+          "id": 267,
           "level": 1,
-          "description": "Slightly increases sheathing speed.",
+          "description": "While active, increases affinity by 10%.",
           "modifiers": {},
-          "skill": 71,
-          "skillName": "Quick Sheath"
+          "skill": 88,
+          "skillName": "Maximum Might"
         }
       ],
-      "armorSet": 282,
+      "armorSet": 284,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1258,
-      "name": "Lavasioth Mail Beta +",
+      "id": 1268,
+      "name": "Tentacle Cloak Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 10,
+      "rarity": 12,
       "defense": {
-        "base": 140,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
         "fire": 3,
-        "water": -3,
-        "ice": -2,
-        "thunder": 1,
-        "dragon": 2
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 77,
+          "level": 1,
+          "description": "Reduces the duration of all elemental blights by 50%.",
+          "modifiers": {},
+          "skill": 25,
+          "skillName": "Blight Resistance"
+        },
+        {
+          "id": 301,
+          "level": 1,
+          "description": "Shortens time until reuse by 10%.",
+          "modifiers": {},
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        }
+        ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1269,
+      "name": "Tentacle Gloves Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 302,
+          "level": 2,
+          "description": "Shortens time until reuse by 20%.",
+          "modifiers": {},
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        }
+        ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1270,
+      "name": "Tentacle Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -79,141 +161,50 @@
         },
         {
           "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 81,
-          "level": 2,
-          "description": "Fire attack +60",
-          "modifiers": {
-            "damageFire": 60
-          },
-          "skill": 26,
-          "skillName": "Fire Attack"
+          "id": 198,
+          "level": 1,
+          "description": "Reduces fixed stamina depletion by 10%.",
+          "modifiers": {},
+          "skill": 64,
+          "skillName": "Constitution"
         },
         {
-          "id": 38,
+          "id": 204,
           "level": 1,
-          "description": "Nullfies heat damage.",
+          "description": "Stamina recovery speed +10%",
           "modifiers": {},
-          "skill": 14,
-          "skillName": "Heat Guard"
-        }
-        ],
-      "armorSet": 282,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1259,
-      "name": "Lavasioth Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 10,
-      "defense": {
-        "base": 140,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -2,
-        "thunder": 1,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 171,
-          "level": 1,
-          "description": "While active, grants attack +5.",
-          "modifiers": {},
-          "skill": 53,
-          "skillName": "Peak Performance"
-        },
-        {
-          "id": 56,
-          "level": 1,
-          "description": "Recovery +10%",
-          "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
-        }
-        ],
-      "armorSet": 282,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1260,
-      "name": "Lavasioth Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 10,
-      "defense": {
-        "base": 140,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -2,
-        "thunder": 1,
-        "dragon": 2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 224,
-          "level": 2,
-          "description": "Moderately increases sheathing speed.",
-          "modifiers": {},
-          "skill": 71,
-          "skillName": "Quick Sheath"
-        },
-        {
-          "id": 56,
-          "level": 1,
-          "description": "Recovery +10%",
-          "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
+          "skill": 66,
+          "skillName": "Stamina Surge"
           }
         ],
-      "armorSet": 282,
+      "armorSet": 284,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1261,
-        "name": "Lavasioth Greaves Beta +",
+        "id": 1271,
+        "name": "Tentacle Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 10,
+        "rarity": 12,
         "defense": {
-          "base": 140,
+          "base": 158,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
           "fire": 3,
-          "water": -3,
-          "ice": -2,
-          "thunder": 1,
-          "dragon": 2
+          "water": 4,
+          "ice": 0,
+          "thunder": 3,
+          "dragon": -2
         },
         "attributes": {},
         "slots": [
@@ -221,33 +212,50 @@
             "rank": 4
           },
           {
-            "rank": 1
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 119,
-            "level": 1,
-            "description": "Increases the power of spread ammo and power shot arrows.",
+            "id": 205,
+            "level": 2,
+            "description": "Stamina recovery speed +20%",
             "modifiers": {},
-            "skill": 37,
-            "skillName": "Spread\/Power Shots"
-          },
-          {
-            "id": 80,
-            "level": 1,
-            "description": "Fire attack +30",
-            "modifiers": {
-              "damageFire": 30
-            },
-            "skill": 26,
-            "skillName": "Fire Attack"
+            "skill": 66,
+            "skillName": "Stamina Surge"
           }
         ],
-      "armorSet": 282,
+      "armorSet": 284,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": null
+  "bonus": {
+    "id": 42,
+    "name": "Namielle Divinity",
+    "ranks": [
+      {
+        "pieces": 2,
+        "skill": {
+          "id": 358,
+          "level": 1,
+          "description": "Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.",
+          "modifiers": {},
+          "skill": 145,
+          "skillName": "Element Acceleration"
+        }
+      },
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 359,
+          "level": 1,
+          "description": "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.",
+          "modifiers": {},
+          "skill": 146,
+          "skillName": "True Element Acceleration"
+        }
+      }
+    ]
+  }
 }

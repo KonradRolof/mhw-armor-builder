@@ -4021,6 +4021,36 @@
         }
       }
     ]
+  },
+  {
+    "id": 145,
+    "name": "Element Acceleration",
+    "description": "Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.",
+    "ranks": [
+      {
+        "id": 358,
+        "skill": 145,
+        "skillName": "Element Acceleration",
+        "level": 1,
+        "description": "Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "True Element Acceleration",
+    "description": "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.",
+    "ranks": [
+      {
+        "id": 359,
+        "skill": 146,
+        "skillName": "True Element Acceleration",
+        "level": 1,
+        "description": "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.",
+        "modifiers": {}
+      }
+    ]
   }
 
 

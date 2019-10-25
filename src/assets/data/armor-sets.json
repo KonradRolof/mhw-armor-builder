@@ -91085,6 +91085,544 @@
     }
   ],
   "bonus": null
+},
+{
+  "id": 283,
+  "name": "Namielle Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1262,
+      "name": "Tentacle Cowl Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 200,
+          "level": 3,
+          "description": "Reduces fixed stamina depletion by 30%.",
+          "modifiers": {},
+          "skill": 64,
+          "skillName": "Constitution"
+        },
+        {
+          "id": 267,
+          "level": 1,
+          "description": "While active, increases affinity by 10%.",
+          "modifiers": {},
+          "skill": 88,
+          "skillName": "Maximum Might"
+        }
+      ],
+      "armorSet": 283,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1263,
+      "name": "Tentacle Cloak Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 78,
+          "level": 2,
+          "description": "Reduces the duration of all elemental blights by 75%.",
+          "modifiers": {},
+          "skill": 25,
+          "skillName": "Blight Resistance"
+        },
+        {
+          "id": 301,
+          "level": 1,
+          "description": "Shortens time until reuse by 10%.",
+          "modifiers": {},
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        }
+        ],
+      "armorSet": 283,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1264,
+      "name": "Tentacle Gloves Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 302,
+          "level": 2,
+          "description": "Shortens time until reuse by 20%.",
+          "modifiers": {},
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        },
+        {
+          "id": 267,
+          "level": 1,
+          "description": "While active, increases affinity by 10%.",
+          "modifiers": {},
+          "skill": 88,
+          "skillName": "Maximum Might"
+        }
+        ],
+      "armorSet": 283,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1265,
+      "name": "Tentacle Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 199,
+          "level": 2,
+          "description": "Reduces fixed stamina depletion by 20%.",
+          "modifiers": {},
+          "skill": 64,
+          "skillName": "Constitution"
+        },
+        {
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
+          "modifiers": {},
+          "skill": 66,
+          "skillName": "Stamina Surge"
+          }
+        ],
+      "armorSet": 283,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1266,
+        "name": "Tentacle Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 12,
+        "defense": {
+          "base": 158,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": 4,
+          "ice": 0,
+          "thunder": 3,
+          "dragon": -2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 2
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 205,
+            "level": 2,
+            "description": "Stamina recovery speed +20%",
+            "modifiers": {},
+            "skill": 66,
+            "skillName": "Stamina Surge"
+          },
+          {
+            "id": 77,
+            "level": 1,
+            "description": "Reduces the duration of all elemental blights by 50%.",
+            "modifiers": {},
+            "skill": 25,
+            "skillName": "Blight Resistance"
+          }
+        ],
+      "armorSet": 283,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 42,
+    "name": "Namielle Divinity",
+    "ranks": [
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 358,
+          "level": 1,
+          "description": "Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.",
+          "modifiers": {},
+          "skill": 145,
+          "skillName": "Element Acceleration"
+        }
+      },
+      {
+        "pieces": 5,
+        "skill": {
+          "id": 359,
+          "level": 1,
+          "description": "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.",
+          "modifiers": {},
+          "skill": 146,
+          "skillName": "True Element Acceleration"
+        }
+      }
+    ]
+  }
+},
+{
+  "id": 284,
+  "name": "Namielle Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1267,
+      "name": "Tentacle Cowl Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 199,
+          "level": 2,
+          "description": "Reduces fixed stamina depletion by 20%.",
+          "modifiers": {},
+          "skill": 64,
+          "skillName": "Constitution"
+        },
+        {
+          "id": 267,
+          "level": 1,
+          "description": "While active, increases affinity by 10%.",
+          "modifiers": {},
+          "skill": 88,
+          "skillName": "Maximum Might"
+        }
+      ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1268,
+      "name": "Tentacle Cloak Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 77,
+          "level": 1,
+          "description": "Reduces the duration of all elemental blights by 50%.",
+          "modifiers": {},
+          "skill": 25,
+          "skillName": "Blight Resistance"
+        },
+        {
+          "id": 301,
+          "level": 1,
+          "description": "Shortens time until reuse by 10%.",
+          "modifiers": {},
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        }
+        ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1269,
+      "name": "Tentacle Gloves Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 302,
+          "level": 2,
+          "description": "Shortens time until reuse by 20%.",
+          "modifiers": {},
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        }
+        ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1270,
+      "name": "Tentacle Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "ice": 0,
+        "thunder": 3,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 198,
+          "level": 1,
+          "description": "Reduces fixed stamina depletion by 10%.",
+          "modifiers": {},
+          "skill": 64,
+          "skillName": "Constitution"
+        },
+        {
+          "id": 204,
+          "level": 1,
+          "description": "Stamina recovery speed +10%",
+          "modifiers": {},
+          "skill": 66,
+          "skillName": "Stamina Surge"
+          }
+        ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1271,
+        "name": "Tentacle Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 12,
+        "defense": {
+          "base": 158,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": 4,
+          "ice": 0,
+          "thunder": 3,
+          "dragon": -2
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 2
+          }
+        ],
+        "skills": [
+          {
+            "id": 205,
+            "level": 2,
+            "description": "Stamina recovery speed +20%",
+            "modifiers": {},
+            "skill": 66,
+            "skillName": "Stamina Surge"
+          }
+        ],
+      "armorSet": 284,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 42,
+    "name": "Namielle Divinity",
+    "ranks": [
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 358,
+          "level": 1,
+          "description": "Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.",
+          "modifiers": {},
+          "skill": 145,
+          "skillName": "Element Acceleration"
+        }
+      },
+      {
+        "pieces": 5,
+        "skill": {
+          "id": 359,
+          "level": 1,
+          "description": "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.",
+          "modifiers": {},
+          "skill": 146,
+          "skillName": "True Element Acceleration"
+        }
+      }
+    ]
+  }
 }
 
 
