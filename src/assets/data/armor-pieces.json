@@ -102200,6 +102200,613 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1252,
+  "name": "Lavasioth Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 81,
+      "level": 2,
+      "description": "Fire attack +60",
+      "modifiers": {
+        "damageFire": 60
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    },
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    }
+  ],
+  "armorSet": {
+    "id": 281,
+    "name": "Lavasioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1252,
+      1253,
+      1254,
+      1255,
+      1256
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1253,
+  "name": "Lavasioth Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 82,
+      "level": 3,
+      "description": "Fire attack +100",
+      "modifiers": {
+        "damageFire": 100
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    },
+    {
+      "id": 38,
+      "level": 1,
+      "description": "Nullfies heat damage.",
+      "modifiers": {},
+      "skill": 14,
+      "skillName": "Heat Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 281,
+    "name": "Lavasioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1252,
+      1253,
+      1254,
+      1255,
+      1256
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1254,
+  "name": "Lavasioth Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 172,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "description": "Recovery +10%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 281,
+    "name": "Lavasioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1252,
+      1253,
+      1254,
+      1255,
+      1256
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1255,
+  "name": "Lavasioth Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 224,
+      "level": 2,
+      "description": "Moderately increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    },
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 281,
+    "name": "Lavasioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1252,
+      1253,
+      1254,
+      1255,
+      1256
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1256,
+  "name": "Lavasioth Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 119,
+      "level": 1,
+      "description": "Increases the power of spread ammo and power shot arrows.",
+      "modifiers": {},
+      "skill": 37,
+      "skillName": "Spread\/Power Shots"
+    },
+    {
+      "id": 81,
+      "level": 2,
+      "description": "Fire attack +60",
+      "modifiers": {
+        "damageFire": 60
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 281,
+    "name": "Lavasioth Alpha +",
+    "rank": "master",
+    "pieces": [
+      1252,
+      1253,
+      1254,
+      1255,
+      1256
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1257,
+  "name": "Lavasioth Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 80,
+      "level": 1,
+      "description": "Fire attack +30",
+      "modifiers": {
+        "damageFire": 30
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    },
+    {
+      "id": 223,
+      "level": 1,
+      "description": "Slightly increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    }
+  ],
+  "armorSet": {
+    "id": 282,
+    "name": "Lavasioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1257,
+      1258,
+      1259,
+      1260,
+      1261
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1258,
+  "name": "Lavasioth Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 81,
+      "level": 2,
+      "description": "Fire attack +60",
+      "modifiers": {
+        "damageFire": 60
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    },
+    {
+      "id": 38,
+      "level": 1,
+      "description": "Nullfies heat damage.",
+      "modifiers": {},
+      "skill": 14,
+      "skillName": "Heat Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 282,
+    "name": "Lavasioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1257,
+      1258,
+      1259,
+      1260,
+      1261
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1259,
+  "name": "Lavasioth Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 171,
+      "level": 1,
+      "description": "While active, grants attack +5.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "description": "Recovery +10%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 282,
+    "name": "Lavasioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1257,
+      1258,
+      1259,
+      1260,
+      1261
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1260,
+  "name": "Lavasioth Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 224,
+      "level": 2,
+      "description": "Moderately increases sheathing speed.",
+      "modifiers": {},
+      "skill": 71,
+      "skillName": "Quick Sheath"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "description": "Recovery +10%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 282,
+    "name": "Lavasioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1257,
+      1258,
+      1259,
+      1260,
+      1261
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1261,
+  "name": "Lavasioth Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 10,
+  "defense": {
+    "base": 140,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -2,
+    "thunder": 1,
+    "dragon": 2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 119,
+      "level": 1,
+      "description": "Increases the power of spread ammo and power shot arrows.",
+      "modifiers": {},
+      "skill": 37,
+      "skillName": "Spread\/Power Shots"
+    },
+    {
+      "id": 80,
+      "level": 1,
+      "description": "Fire attack +30",
+      "modifiers": {
+        "damageFire": 30
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 282,
+    "name": "Lavasioth Beta +",
+    "rank": "master",
+    "pieces": [
+      1257,
+      1258,
+      1259,
+      1260,
+      1261
+    ],
+    "bonus": null
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

@@ -1,25 +1,25 @@
 {
-  "id": 280,
-  "name": "Kushala Beta +",
+  "id": 282,
+  "name": "Lavasioth Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1247,
-      "name": "Kushala Glare Beta +",
+      "id": 1257,
+      "name": "Lavasioth Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 10,
       "defense": {
-        "base": 156,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": 2,
-        "ice": 4,
-        "thunder": -3,
-        "dragon": -2
+        "fire": 3,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -32,129 +32,45 @@
       ],
       "skills": [
         {
-          "id": 91,
-          "level": 2,
-          "description": "Ice attack +60",
+          "id": 80,
+          "level": 1,
+          "description": "Fire attack +30",
           "modifiers": {
-            "damageIce": 60
+            "damageFire": 30
           },
-          "skill": 28,
-          "skillName": "Ice Attack"
+          "skill": 26,
+          "skillName": "Fire Attack"
         },
         {
-          "id": 211,
-          "level": 2,
-          "description": "Slightly increases invulnerability window.",
+          "id": 223,
+          "level": 1,
+          "description": "Slightly increases sheathing speed.",
           "modifiers": {},
-          "skill": 68,
-          "skillName": "Evade Window"
+          "skill": 71,
+          "skillName": "Quick Sheath"
         }
       ],
-      "armorSet": 280,
+      "armorSet": 282,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1248,
-      "name": "Kushala Cista Beta +",
+      "id": 1258,
+      "name": "Lavasioth Mail Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 10,
       "defense": {
-        "base": 156,
+        "base": 140,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": 2,
-        "ice": 4,
-        "thunder": -3,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 143,
-          "level": 2,
-          "description": "Weapon sharpness +20",
-          "modifiers": {
-            "sharpnessBonus": 20
-          },
-          "skill": 44,
-          "skillName": "Handicraft"
-        }
-        ],
-      "armorSet": 280,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1249,
-      "name": "Kushala Grip Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": 2,
-        "ice": 4,
-        "thunder": -3,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 211,
-          "level": 2,
-          "description": "Slightly increases invulnerability window.",
-          "modifiers": {},
-          "skill": 68,
-          "skillName": "Evade Window"
-        }
-        ],
-      "armorSet": 280,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1250,
-      "name": "Kushala Cocoon Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": 2,
-        "ice": 4,
-        "thunder": -3,
-        "dragon": -2
+        "fire": 3,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -167,37 +83,137 @@
       ],
       "skills": [
         {
-          "id": 92,
-          "level": 3,
-          "description": "Ice attack +100",
+          "id": 81,
+          "level": 2,
+          "description": "Fire attack +60",
           "modifiers": {
-            "damageIce": 100
+            "damageFire": 60
           },
-          "skill": 28,
-          "skillName": "Ice Attack"
+          "skill": 26,
+          "skillName": "Fire Attack"
+        },
+        {
+          "id": 38,
+          "level": 1,
+          "description": "Nullfies heat damage.",
+          "modifiers": {},
+          "skill": 14,
+          "skillName": "Heat Guard"
+        }
+        ],
+      "armorSet": 282,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1259,
+      "name": "Lavasioth Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 171,
+          "level": 1,
+          "description": "While active, grants attack +5.",
+          "modifiers": {},
+          "skill": 53,
+          "skillName": "Peak Performance"
+        },
+        {
+          "id": 56,
+          "level": 1,
+          "description": "Recovery +10%",
+          "modifiers": {},
+          "skill": 18,
+          "skillName": "Recovery Up"
+        }
+        ],
+      "armorSet": 282,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1260,
+      "name": "Lavasioth Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 10,
+      "defense": {
+        "base": 140,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "ice": -2,
+        "thunder": 1,
+        "dragon": 2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 224,
+          "level": 2,
+          "description": "Moderately increases sheathing speed.",
+          "modifiers": {},
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        },
+        {
+          "id": 56,
+          "level": 1,
+          "description": "Recovery +10%",
+          "modifiers": {},
+          "skill": 18,
+          "skillName": "Recovery Up"
           }
         ],
-      "armorSet": 280,
+      "armorSet": 282,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1251,
-        "name": "Kushala Crus Beta +",
+        "id": 1261,
+        "name": "Lavasioth Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 12,
+        "rarity": 10,
         "defense": {
-          "base": 156,
+          "base": 140,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 0,
-          "water": 2,
-          "ice": 4,
-          "thunder": -3,
-          "dragon": -2
+          "fire": 3,
+          "water": -3,
+          "ice": -2,
+          "thunder": 1,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
@@ -205,39 +221,33 @@
             "rank": 4
           },
           {
-            "rank": 3
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 216,
-            "level": 2,
-            "description": "Extends evasion distance.",
+            "id": 119,
+            "level": 1,
+            "description": "Increases the power of spread ammo and power shot arrows.",
             "modifiers": {},
-            "skill": 69,
-            "skillName": "Evade Extender"
+            "skill": 37,
+            "skillName": "Spread\/Power Shots"
+          },
+          {
+            "id": 80,
+            "level": 1,
+            "description": "Fire attack +30",
+            "modifiers": {
+              "damageFire": 30
+            },
+            "skill": 26,
+            "skillName": "Fire Attack"
           }
         ],
-      "armorSet": 280,
+      "armorSet": 282,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": {
-    "id": 17,
-    "name": "Kushala Daora Flight",
-    "ranks": [
-      {
-        "pieces": 3,
-        "skill": {
-          "id": 321,
-          "level": 1,
-          "description": "Negates all wind pressure.",
-          "modifiers": {},
-          "skill": 122,
-          "skillName": "Nullify Wind Pressure"
-        }
-      }
-    ]
-  }
+  "bonus": null
 }
