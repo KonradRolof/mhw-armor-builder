@@ -1737,7 +1737,7 @@
         "id": 353,
         "skill": 47,
         "skillName": "Slugger",
-        "level": 3,
+        "level": 4,
         "description": "Stun power +50%",
         "modifiers": {}
       },
@@ -1745,7 +1745,7 @@
         "id": 354,
         "skill": 47,
         "skillName": "Slugger",
-        "level": 3,
+        "level": 5,
         "description": "Stun power +60%",
         "modifiers": {}
       }
@@ -1778,6 +1778,24 @@
         "skillName": "Stamina Thief",
         "level": 3,
         "description": "Exhaust power +40%",
+        "modifiers": {}
+      }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 361,
+        "skill": 48,
+        "skillName": "Stamina Thief",
+        "level": 4,
+        "description": "Exhaust power +50%",
+        "modifiers": {}
+      },
+      {
+        "id": 362,
+        "skill": 48,
+        "skillName": "Stamina Thief",
+        "level": 5,
+        "description": "Exhaust power +60%",
         "modifiers": {}
       }
     ]
@@ -4049,6 +4067,23 @@
         "level": 1,
         "description": "Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.",
         "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Stamina Thief Secret",
+    "description": "Raises the maximum level of the Stamina Thief skill to Lv5",
+    "ranks": [
+      {
+        "id": 360,
+        "skill": 147,
+        "skillName": "Stamina Thief Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Stamina Thief skill to Lv5",
+        "modifiers": {
+          "hiddenRanks": 48
+        }
       }
     ]
   }
