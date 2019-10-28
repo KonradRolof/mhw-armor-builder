@@ -1,20 +1,20 @@
 {
-  "id": 1291,
-  "name": "Pride Greaves Beta +",
+  "id": 1301,
+  "name": "Shara Ishvalda Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 11,
+  "rarity": 12,
   "defense": {
-    "base": 154,
+    "base": 162,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": 1,
-    "ice": -4,
-    "thunder": -2,
-    "dragon": -2
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
@@ -23,38 +23,43 @@
     },
     {
       "rank": 2
+    },
+    {
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 23,
+      "id": 150,
       "level": 1,
-      "description": "Slightly reduces the effects of weak monster roars.",
+      "description": "Part damage +10%",
       "modifiers": {},
-      "skill": 9,
-      "skillName": "Earplugs"
+      "skill": 46,
+      "skillName": "Partbreaker"
     },
     {
-      "id": 281,
+      "id": 46,
       "level": 1,
-      "description": "Negates knockback during jumps.",
-      "modifiers": {},
-      "skill": 94,
-      "skillName": "Jump Master"
+      "description": "Defense +5",
+      "modifiers": {
+        "defense": 5
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
     }
   ],
   "armorSet": {
-    "id": 288,
-    "name": "Seething Bazel Beta + ",
+    "id": 290,
+    "name": "Shara Ishvalda Beta +",
     "rank": "master",
     "pieces": [
-      1287,
-      1288,
-      1289,
-      1290,
-      1291
+      1297,
+      1298,
+      1299,
+      1300,
+      1301
     ],
-    "bonus": 44
+    "bonus": 45
   },
   "assets": null,
   "crafting": null

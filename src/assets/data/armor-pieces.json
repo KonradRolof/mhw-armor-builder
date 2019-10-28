@@ -104547,6 +104547,591 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1292,
+  "name": "Shara Ishvalda Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    },
+    {
+      "id": 150,
+      "level": 1,
+      "description": "Part damage +10%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    }
+  ],
+  "armorSet": {
+    "id": 289,
+    "name": "Shara Ishvalda Alpha +",
+    "rank": "master",
+    "pieces": [
+      1292,
+      1293,
+      1294,
+      1295,
+      1296
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1293,
+  "name": "Shara Ishvalda Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 364,
+      "level": 2,
+      "description": "While active, grants Attack + 15, Element attack power +60, and Status buildup +10%",
+      "modifiers": {},
+      "skill": 148,
+      "skillName": "Coalescence"
+    },
+    {
+      "id": 53,
+      "level": 1,
+      "description": "Health +15",
+      "modifiers": {
+        "health": 15
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 289,
+    "name": "Shara Ishvalda Alpha +",
+    "rank": "master",
+    "pieces": [
+      1292,
+      1293,
+      1294,
+      1295,
+      1296
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1294,
+  "name": "Shara Ishvalda Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 131,
+      "level": 2,
+      "description": "Increases damage dealt by critical hits by 35%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    },
+    {
+      "id": 363,
+      "level": 1,
+      "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+      "modifiers": {},
+      "skill": 148,
+      "skillName": "Coalescence"
+    }
+  ],
+  "armorSet": {
+    "id": 289,
+    "name": "Shara Ishvalda Alpha +",
+    "rank": "master",
+    "pieces": [
+      1292,
+      1293,
+      1294,
+      1295,
+      1296
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1295,
+  "name": "Shara Ishvalda Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "description": "Recovery +10%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 289,
+    "name": "Shara Ishvalda Alpha +",
+    "rank": "master",
+    "pieces": [
+      1292,
+      1293,
+      1294,
+      1295,
+      1296
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1296,
+  "name": "Shara Ishvalda Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 151,
+      "level": 2,
+      "description": "Part damage +20%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    },
+    {
+      "id": 47,
+      "level": 2,
+      "description": "Defense +10",
+      "modifiers": {
+        "defense": 10
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 289,
+    "name": "Shara Ishvalda Alpha +",
+    "rank": "master",
+    "pieces": [
+      1292,
+      1293,
+      1294,
+      1295,
+      1296
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1297,
+  "name": "Shara Ishvalda Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 57,
+      "level": 2,
+      "description": "Recovery +20%",
+      "modifiers": {},
+      "skill": 18,
+      "skillName": "Recovery Up"
+    }
+  ],
+  "armorSet": {
+    "id": 290,
+    "name": "Shara Ishvalda Beta +",
+    "rank": "master",
+    "pieces": [
+      1297,
+      1298,
+      1299,
+      1300,
+      1301
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1298,
+  "name": "Shara Ishvalda Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 364,
+      "level": 2,
+      "description": "While active, grants Attack + 15, Element attack power +60, and Status buildup +10%",
+      "modifiers": {},
+      "skill": 148,
+      "skillName": "Coalescence"
+    }
+  ],
+  "armorSet": {
+    "id": 290,
+    "name": "Shara Ishvalda Beta +",
+    "rank": "master",
+    "pieces": [
+      1297,
+      1298,
+      1299,
+      1300,
+      1301
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1299,
+  "name": "Shara Ishvalda Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 131,
+      "level": 2,
+      "description": "Increases damage dealt by critical hits by 35%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 290,
+    "name": "Shara Ishvalda Beta +",
+    "rank": "master",
+    "pieces": [
+      1297,
+      1298,
+      1299,
+      1300,
+      1301
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1300,
+  "name": "Shara Ishvalda Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 290,
+    "name": "Shara Ishvalda Beta +",
+    "rank": "master",
+    "pieces": [
+      1297,
+      1298,
+      1299,
+      1300,
+      1301
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1301,
+  "name": "Shara Ishvalda Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 162,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 0,
+    "water": -2,
+    "ice": -3,
+    "thunder": 3,
+    "dragon": 0
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 150,
+      "level": 1,
+      "description": "Part damage +10%",
+      "modifiers": {},
+      "skill": 46,
+      "skillName": "Partbreaker"
+    },
+    {
+      "id": 46,
+      "level": 1,
+      "description": "Defense +5",
+      "modifiers": {
+        "defense": 5
+      },
+      "skill": 16,
+      "skillName": "Defense Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 290,
+    "name": "Shara Ishvalda Beta +",
+    "rank": "master",
+    "pieces": [
+      1297,
+      1298,
+      1299,
+      1300,
+      1301
+    ],
+    "bonus": 45
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

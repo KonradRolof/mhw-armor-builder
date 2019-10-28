@@ -4086,6 +4086,67 @@
         }
       }
     ]
+  },
+  {
+    "id": 148,
+    "name": "Coalescence",
+    "description": "Temporarily enhances attacks after recovering from blights or abnormal statuses.",
+    "ranks": [
+      {
+        "id": 363,
+        "skill": 148,
+        "skillName": "Coalescence",
+        "level": 1,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "modifiers": {}
+      },
+      {
+        "id": 364,
+        "skill": 148,
+        "skillName": "Coalescence",
+        "level": 2,
+        "description": "While active, grants Attack + 15, Element attack power +60, and Status buildup +10%",
+        "modifiers": {}
+      },
+      {
+        "id": 365,
+        "skill": 148,
+        "skillName": "Coalescence",
+        "level": 3,
+        "description": "While active, grants Attack + 18, Element attack power +90, and Status buildup +15%",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Gaias Veil",
+    "description": "While wearing a mantle, gain Windproof Lv3, Earplugs Lv3, Tremor Res Lv3, and Flinch Free.",
+    "ranks": [
+      {
+        "id": 366,
+        "skill": 149,
+        "skillName": "Gaias Veil",
+        "level": 1,
+        "description": "While wearing a mantle, gain Windproof Lv3, Earplugs Lv3, Tremor Res Lv3, and Flinch Free.",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "True Gaias Veil",
+    "description": "While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free.",
+    "ranks": [
+      {
+        "id": 367,
+        "skill": 149,
+        "skillName": "True Gaias Veil",
+        "level": 1,
+        "description": "While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free.",
+        "modifiers": {}
+      }
+    ]
   }
 
 

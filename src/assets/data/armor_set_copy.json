@@ -1,159 +1,25 @@
 {
-  "id": 288,
-  "name": "Seething Bazel Beta + ",
+  "id": 290,
+  "name": "Shara Ishvalda Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1287,
-      "name": "Pride Helm Beta +",
+      "id": 1297,
+      "name": "Shara Ishvalda Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 162,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -4,
-        "thunder": -2,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 24,
-          "level": 2,
-          "description": "Reduces the effects of weak monster roars.",
-          "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
-        },
-        {
-          "id": 114,
-          "level": 1,
-          "description": "Blast buildup +5% Bonus: +10",
-          "modifiers": {},
-          "skill": 34,
-          "skillName": "Blast Attack"
-        }
-      ],
-      "armorSet": 288,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1288,
-      "name": "Pride Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -4,
-        "thunder": -2,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 219,
-          "level": 2,
-          "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
-          "modifiers": {},
-          "skill": 70,
-          "skillName": "Guard"
-        }
-        ],
-      "armorSet": 288,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1289,
-      "name": "Pride Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -4,
-        "thunder": -2,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 3
-        }
-      ],
-      "skills": [
-        {
-          "id": 148,
-          "level": 2,
-          "description": "Draw attack affinity +60%",
-          "modifiers": {},
-          "skill": 45,
-          "skillName": "Critical Draw"
-        }
-        ],
-      "armorSet": 288,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1290,
-      "name": "Pride Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -4,
-        "thunder": -2,
-        "dragon": -2
+        "fire": 0,
+        "water": -2,
+        "ice": -3,
+        "thunder": 3,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -166,35 +32,157 @@
       ],
       "skills": [
         {
-          "id": 242,
+          "id": 57,
           "level": 2,
-          "description": "Explosive power +20%",
+          "description": "Recovery +20%",
           "modifiers": {},
-          "skill": 77,
-          "skillName": "Bombardier"
+          "skill": 18,
+          "skillName": "Recovery Up"
+        }
+      ],
+      "armorSet": 290,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1298,
+      "name": "Shara Ishvalda Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 162,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -2,
+        "ice": -3,
+        "thunder": 3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 364,
+          "level": 2,
+          "description": "While active, grants Attack + 15, Element attack power +60, and Status buildup +10%",
+          "modifiers": {},
+          "skill": 148,
+          "skillName": "Coalescence"
+        }
+        ],
+      "armorSet": 290,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1299,
+      "name": "Shara Ishvalda Braces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 162,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -2,
+        "ice": -3,
+        "thunder": 3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 131,
+          "level": 2,
+          "description": "Increases damage dealt by critical hits by 35%.",
+          "modifiers": {},
+          "skill": 40,
+          "skillName": "Critical Boost"
+        }
+        ],
+      "armorSet": 290,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1300,
+      "name": "Shara Ishvalda Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 162,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 0,
+        "water": -2,
+        "ice": -3,
+        "thunder": 3,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 54,
+          "level": 2,
+          "description": "Health +30",
+          "modifiers": {
+            "health": 30
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
           }
         ],
-      "armorSet": 288,
+      "armorSet": 290,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1291,
-        "name": "Pride Greaves Beta +",
+        "id": 1301,
+        "name": "Shara Ishvalda Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 11,
+        "rarity": 12,
         "defense": {
-          "base": 154,
+          "base": 162,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": 1,
-          "ice": -4,
-          "thunder": -2,
-          "dragon": -2
+          "fire": 0,
+          "water": -2,
+          "ice": -3,
+          "thunder": 3,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
@@ -203,36 +191,60 @@
           },
           {
             "rank": 2
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 23,
+            "id": 150,
             "level": 1,
-            "description": "Slightly reduces the effects of weak monster roars.",
+            "description": "Part damage +10%",
             "modifiers": {},
-            "skill": 9,
-            "skillName": "Earplugs"
+            "skill": 46,
+            "skillName": "Partbreaker"
+          },
+          {
+            "id": 46,
+            "level": 1,
+            "description": "Defense +5",
+            "modifiers": {
+              "defense": 5
+            },
+            "skill": 16,
+            "skillName": "Defense Boost"
           }
         ],
-      "armorSet": 288,
+      "armorSet": 290,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 44,
-    "name": "Bazelgeuse Ambition",
+    "id": 45,
+    "name": "Shara Ishvalda Divinity",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 4,
         "skill": {
-          "id": 319,
+          "id": 366,
           "level": 1,
-          "description": "Above a certain health threshold, you withstand an attack that would normally cart you (once only).",
+          "description": "While wearing a mantle, gain Windproof Lv3, Earplugs Lv3, Tremor Res Lv3, and Flinch Free.",
           "modifiers": {},
-          "skill": 120,
-          "skillName": "Guts"
+          "skill": 145,
+          "skillName": "Gaias Veil"
+        }
+      },
+      {
+        "pieces": 5,
+        "skill": {
+          "id": 367,
+          "level": 1,
+          "description": "While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free.",
+          "modifiers": {},
+          "skill": 146,
+          "skillName": "True Gaias Veil"
         }
       }
     ]
