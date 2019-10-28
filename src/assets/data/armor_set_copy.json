@@ -1,66 +1,73 @@
 {
-  "id": 290,
-  "name": "Shara Ishvalda Beta +",
+  "id": 292,
+  "name": "Teostra Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1297,
-      "name": "Shara Ishvalda Helm Beta +",
+      "id": 1307,
+      "name": "Kaiser Crown Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 162,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": -2,
+        "fire": 3,
+        "water": -3,
         "ice": -3,
-        "thunder": 3,
-        "dragon": 0
+        "thunder": 1,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 57,
-          "level": 2,
-          "description": "Recovery +20%",
+          "id": 161,
+          "level": 1,
+          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
           "modifiers": {},
-          "skill": 18,
-          "skillName": "Recovery Up"
+          "skill": 51,
+          "skillName": "Latent Power"
+        },
+        {
+          "id": 124,
+          "level": 2,
+          "description": "Affinity +10%",
+          "modifiers": {
+            "affinity": 10
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
         }
       ],
-      "armorSet": 290,
+      "armorSet": 292,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1298,
-      "name": "Shara Ishvalda Mail Beta +",
+      "id": 1308,
+      "name": "Kaiser Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 162,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": -2,
+        "fire": 3,
+        "water": -3,
         "ice": -3,
-        "thunder": 3,
-        "dragon": 0
+        "thunder": 1,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
@@ -68,78 +75,43 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 364,
-          "level": 2,
-          "description": "While active, grants Attack + 15, Element attack power +60, and Status buildup +10%",
+          "id": 161,
+          "level": 1,
+          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
           "modifiers": {},
-          "skill": 148,
-          "skillName": "Coalescence"
+          "skill": 51,
+          "skillName": "Latent Power"
         }
         ],
-      "armorSet": 290,
+      "armorSet": 292,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1299,
-      "name": "Shara Ishvalda Braces Beta +",
+      "id": 1309,
+      "name": "Kaiser Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 162,
+        "base": 156,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 0,
-        "water": -2,
+        "fire": 3,
+        "water": -3,
         "ice": -3,
-        "thunder": 3,
-        "dragon": 0
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 131,
-          "level": 2,
-          "description": "Increases damage dealt by critical hits by 35%.",
-          "modifiers": {},
-          "skill": 40,
-          "skillName": "Critical Boost"
-        }
-        ],
-      "armorSet": 290,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1300,
-      "name": "Shara Ishvalda Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 162,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 0,
-        "water": -2,
-        "ice": -3,
-        "thunder": 3,
-        "dragon": 0
+        "thunder": 1,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
@@ -152,99 +124,130 @@
       ],
       "skills": [
         {
-          "id": 54,
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+        },
+        {
+          "id": 38,
+          "level": 1,
+          "description": "Nullfies heat damage.",
+          "modifiers": {},
+          "skill": 14,
+          "skillName": "Heat Guard"
+        }
+        ],
+      "armorSet": 292,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1310,
+      "name": "Kaiser Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 156,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 115,
           "level": 2,
-          "description": "Health +30",
-          "modifiers": {
-            "health": 30
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
+          "description": "Blast buildup +10% Bonus: +10",
+          "modifiers": {},
+          "skill": 34,
+          "skillName": "Blast Attack"
           }
         ],
-      "armorSet": 290,
+      "armorSet": 292,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1301,
-        "name": "Shara Ishvalda Greaves Beta +",
+        "id": 1311,
+        "name": "Kaiser Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 162,
+          "base": 156,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 0,
-          "water": -2,
+          "fire": 3,
+          "water": -3,
           "ice": -3,
-          "thunder": 3,
-          "dragon": 0
+          "thunder": 1,
+          "dragon": 1
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 2
-          },
-          {
-            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 150,
-            "level": 1,
-            "description": "Part damage +10%",
+            "id": 162,
+            "level": 2,
+            "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
             "modifiers": {},
-            "skill": 46,
-            "skillName": "Partbreaker"
+            "skill": 51,
+            "skillName": "Latent Power"
           },
           {
-            "id": 46,
+            "id": 114,
             "level": 1,
-            "description": "Defense +5",
-            "modifiers": {
-              "defense": 5
-            },
-            "skill": 16,
-            "skillName": "Defense Boost"
+            "description": "Blast buildup +5% Bonus: +10",
+            "modifiers": {},
+            "skill": 34,
+            "skillName": "Blast Attack"
           }
         ],
-      "armorSet": 290,
+      "armorSet": 292,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 45,
-    "name": "Shara Ishvalda Divinity",
+    "id": 16,
+    "name": "Teostra Technique",
     "ranks": [
       {
-        "pieces": 4,
+        "pieces": 3,
         "skill": {
-          "id": 366,
+          "id": 320,
           "level": 1,
-          "description": "While wearing a mantle, gain Windproof Lv3, Earplugs Lv3, Tremor Res Lv3, and Flinch Free.",
+          "description": "Prevents your weapon from losing sharpness during critical hits.",
           "modifiers": {},
-          "skill": 145,
-          "skillName": "Gaias Veil"
-        }
-      },
-      {
-        "pieces": 5,
-        "skill": {
-          "id": 367,
-          "level": 1,
-          "description": "While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free.",
-          "modifiers": {},
-          "skill": 146,
-          "skillName": "True Gaias Veil"
+          "skill": 121,
+          "skillName": "Master\u0027s Touch"
         }
       }
     ]

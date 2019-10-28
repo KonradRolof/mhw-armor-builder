@@ -105132,6 +105132,592 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1302,
+  "name": "Kaiser Crown Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    },
+    {
+      "id": 124,
+      "level": 2,
+      "description": "Affinity +10%",
+      "modifiers": {
+        "affinity": 10
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 291,
+    "name": "Teostra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1302,
+      1303,
+      1304,
+      1305,
+      1306
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1303,
+  "name": "Kaiser Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 161,
+      "level": 1,
+      "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    },
+    {
+      "id": 189,
+      "level": 2,
+      "description": "Increases the power of bowgun special ammo and Dragon Piercer by 20%.",
+      "modifiers": {},
+      "skill": 60,
+      "skillName": "Special Ammo Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 291,
+    "name": "Teostra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1302,
+      1303,
+      1304,
+      1305,
+      1306
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1304,
+  "name": "Kaiser Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 134,
+      "level": 2,
+      "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
+      "modifiers": {},
+      "skill": 41,
+      "skillName": "Weakness Exploit"
+    },
+    {
+      "id": 38,
+      "level": 1,
+      "description": "Nullfies heat damage.",
+      "modifiers": {},
+      "skill": 14,
+      "skillName": "Heat Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 291,
+    "name": "Teostra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1302,
+      1303,
+      1304,
+      1305,
+      1306
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1305,
+  "name": "Kaiser Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    },
+    {
+      "id": 133,
+      "level": 1,
+      "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+      "modifiers": {},
+      "skill": 41,
+      "skillName": "Weakness Exploit"
+    }
+  ],
+  "armorSet": {
+    "id": 291,
+    "name": "Teostra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1302,
+      1303,
+      1304,
+      1305,
+      1306
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1306,
+  "name": "Kaiser Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    },
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 291,
+    "name": "Teostra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1302,
+      1303,
+      1304,
+      1305,
+      1306
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1307,
+  "name": "Kaiser Crown Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 161,
+      "level": 1,
+      "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    },
+    {
+      "id": 124,
+      "level": 2,
+      "description": "Affinity +10%",
+      "modifiers": {
+        "affinity": 10
+      },
+      "skill": 39,
+      "skillName": "Critical Eye"
+    }
+  ],
+  "armorSet": {
+    "id": 292,
+    "name": "Teostra Beta +",
+    "rank": "master",
+    "pieces": [
+      1307,
+      1308,
+      1309,
+      1310,
+      1311
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1308,
+  "name": "Kaiser Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 161,
+      "level": 1,
+      "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 292,
+    "name": "Teostra Beta +",
+    "rank": "master",
+    "pieces": [
+      1307,
+      1308,
+      1309,
+      1310,
+      1311
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1309,
+  "name": "Kaiser Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 133,
+      "level": 1,
+      "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+      "modifiers": {},
+      "skill": 41,
+      "skillName": "Weakness Exploit"
+    },
+    {
+      "id": 38,
+      "level": 1,
+      "description": "Nullfies heat damage.",
+      "modifiers": {},
+      "skill": 14,
+      "skillName": "Heat Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 292,
+    "name": "Teostra Beta +",
+    "rank": "master",
+    "pieces": [
+      1307,
+      1308,
+      1309,
+      1310,
+      1311
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1310,
+  "name": "Kaiser Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 292,
+    "name": "Teostra Beta +",
+    "rank": "master",
+    "pieces": [
+      1307,
+      1308,
+      1309,
+      1310,
+      1311
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1311,
+  "name": "Kaiser Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 156,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": -3,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    },
+    {
+      "id": 114,
+      "level": 1,
+      "description": "Blast buildup +5% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 292,
+    "name": "Teostra Beta +",
+    "rank": "master",
+    "pieces": [
+      1307,
+      1308,
+      1309,
+      1310,
+      1311
+    ],
+    "bonus": 16
+  },
+  "assets": null,
+  "crafting": null
 }
 
 
