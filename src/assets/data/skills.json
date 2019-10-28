@@ -4140,10 +4140,25 @@
     "ranks": [
       {
         "id": 367,
-        "skill": 149,
+        "skill": 150,
         "skillName": "True Gaias Veil",
         "level": 1,
         "description": "While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free.",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Frostcraft",
+    "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
+    "ranks": [
+      {
+        "id": 368,
+        "skill": 151,
+        "skillName": "Frostcraft",
+        "level": 1,
+        "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
         "modifiers": {}
       }
     ]

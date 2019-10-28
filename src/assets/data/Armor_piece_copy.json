@@ -1,57 +1,52 @@
 {
-  "id": 1311,
-  "name": "Kaiser Greaves Beta +",
+  "id": 1321,
+  "name": "Rimeguard Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 12,
   "defense": {
-    "base": 156,
+    "base": 154,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 3,
-    "water": -3,
-    "ice": -3,
-    "thunder": 1,
-    "dragon": 1
+    "fire": -3,
+    "water": 2,
+    "ice": 4,
+    "thunder": -1,
+    "dragon": -1
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
+    },
+    {
+      "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 162,
+      "id": 148,
       "level": 2,
-      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "description": "Draw attack affinity +60%",
       "modifiers": {},
-      "skill": 51,
-      "skillName": "Latent Power"
-    },
-    {
-      "id": 114,
-      "level": 1,
-      "description": "Blast buildup +5% Bonus: +10",
-      "modifiers": {},
-      "skill": 34,
-      "skillName": "Blast Attack"
+      "skill": 45,
+      "skillName": "Critical Draw"
     }
   ],
   "armorSet": {
-    "id": 292,
-    "name": "Teostra Beta +",
+    "id": 294,
+    "name": "Velkhana Beta +",
     "rank": "master",
     "pieces": [
-      1307,
-      1308,
-      1309,
-      1310,
-      1311
+      1317,
+      1318,
+      1319,
+      1320,
+      1321
     ],
-    "bonus": 16
+    "bonus": 46
   },
   "assets": null,
   "crafting": null

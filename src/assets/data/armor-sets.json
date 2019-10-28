@@ -93679,6 +93679,525 @@
       }
     ]
   }
+},
+{
+  "id": 293,
+  "name": "Velkhana Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1312,
+      "name": "Rimeguard Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        },
+        {
+          "id": 363,
+          "level": 1,
+          "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+          "modifiers": {},
+          "skill": 148,
+          "skillName": "Coalescence"
+        }
+      ],
+      "armorSet": 293,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1313,
+      "name": "Rimeguard Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 224,
+          "level": 2,
+          "description": "Moderately increases sheathing speed.",
+          "modifiers": {},
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        },
+        {
+          "id": 147,
+          "level": 1,
+          "description": "Draw attack affinity +30%",
+          "modifiers": {},
+          "skill": 45,
+          "skillName": "Critical Draw"
+        }
+        ],
+      "armorSet": 293,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1314,
+      "name": "Rimeguard Vembraces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 223,
+          "level": 1,
+          "description": "Slightly increases sheathing speed.",
+          "modifiers": {},
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        },
+        {
+          "id": 277,
+          "level": 2,
+          "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+        }
+        ],
+      "armorSet": 293,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1315,
+      "name": "Rimeguard Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+        },
+        {
+          "id": 363,
+          "level": 1,
+          "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+          "modifiers": {},
+          "skill": 148,
+          "skillName": "Coalescence"
+          }
+        ],
+      "armorSet": 293,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1316,
+        "name": "Rimeguard Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 12,
+        "defense": {
+          "base": 154,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": 4,
+          "thunder": -1,
+          "dragon": -1
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 148,
+            "level": 2,
+            "description": "Draw attack affinity +60%",
+            "modifiers": {},
+            "skill": 45,
+            "skillName": "Critical Draw"
+          },
+          {
+            "id": 363,
+            "level": 1,
+            "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+            "modifiers": {},
+            "skill": 148,
+            "skillName": "Coalescence"
+          }
+        ],
+      "armorSet": 293,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 46,
+    "name": "Velkhana Divinity",
+    "ranks": [
+      {
+        "pieces": 2,
+        "skill": {
+          "id": 313,
+          "level": 1,
+          "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+          "modifiers": {},
+          "skill": 114,
+          "skillName": "Critical Element"
+        }
+      },
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 368,
+          "level": 1,
+          "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
+          "modifiers": {},
+          "skill": 151,
+          "skillName": "Frostcraft"
+        }
+      }
+    ]
+  }
+},
+{
+  "id": 294,
+  "name": "Velkhana Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1317,
+      "name": "Rimeguard Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+      ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1318,
+      "name": "Rimeguard Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 224,
+          "level": 2,
+          "description": "Moderately increases sheathing speed.",
+          "modifiers": {},
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        }
+        ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1319,
+      "name": "Rimeguard Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 223,
+          "level": 1,
+          "description": "Slightly increases sheathing speed.",
+          "modifiers": {},
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        },
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+        }
+        ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1320,
+      "name": "Rimeguard Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+          }
+        ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1321,
+        "name": "Rimeguard Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 12,
+        "defense": {
+          "base": 154,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": 4,
+          "thunder": -1,
+          "dragon": -1
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          },
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 148,
+            "level": 2,
+            "description": "Draw attack affinity +60%",
+            "modifiers": {},
+            "skill": 45,
+            "skillName": "Critical Draw"
+          }
+        ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 46,
+    "name": "Velkhana Divinity",
+    "ranks": [
+      {
+        "pieces": 2,
+        "skill": {
+          "id": 313,
+          "level": 1,
+          "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+          "modifiers": {},
+          "skill": 114,
+          "skillName": "Critical Element"
+        }
+      },
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 368,
+          "level": 1,
+          "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
+          "modifiers": {},
+          "skill": 151,
+          "skillName": "Frostcraft"
+        }
+      }
+    ]
+  }
 }
 
 

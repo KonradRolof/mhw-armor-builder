@@ -1,166 +1,25 @@
 {
-  "id": 292,
-  "name": "Teostra Beta +",
+  "id": 294,
+  "name": "Velkhana Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1307,
-      "name": "Kaiser Crown Beta +",
+      "id": 1317,
+      "name": "Rimeguard Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 156,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -3,
-        "thunder": 1,
-        "dragon": 1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 161,
-          "level": 1,
-          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
-          "modifiers": {},
-          "skill": 51,
-          "skillName": "Latent Power"
-        },
-        {
-          "id": 124,
-          "level": 2,
-          "description": "Affinity +10%",
-          "modifiers": {
-            "affinity": 10
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
-        }
-      ],
-      "armorSet": 292,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1308,
-      "name": "Kaiser Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -3,
-        "thunder": 1,
-        "dragon": 1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 161,
-          "level": 1,
-          "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
-          "modifiers": {},
-          "skill": 51,
-          "skillName": "Latent Power"
-        }
-        ],
-      "armorSet": 292,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1309,
-      "name": "Kaiser Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -3,
-        "thunder": 1,
-        "dragon": 1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 3
-        }
-      ],
-      "skills": [
-        {
-          "id": 133,
-          "level": 1,
-          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
-          "modifiers": {},
-          "skill": 41,
-          "skillName": "Weakness Exploit"
-        },
-        {
-          "id": 38,
-          "level": 1,
-          "description": "Nullfies heat damage.",
-          "modifiers": {},
-          "skill": 14,
-          "skillName": "Heat Guard"
-        }
-        ],
-      "armorSet": 292,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1310,
-      "name": "Kaiser Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 156,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -3,
-        "ice": -3,
-        "thunder": 1,
-        "dragon": 1
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
       },
       "attributes": {},
       "slots": [
@@ -169,6 +28,44 @@
         },
         {
           "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+      ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1318,
+      "name": "Rimeguard Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
         },
         {
           "rank": 1
@@ -176,78 +73,171 @@
       ],
       "skills": [
         {
-          "id": 115,
+          "id": 224,
           "level": 2,
-          "description": "Blast buildup +10% Bonus: +10",
+          "description": "Moderately increases sheathing speed.",
           "modifiers": {},
-          "skill": 34,
-          "skillName": "Blast Attack"
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        }
+        ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1319,
+      "name": "Rimeguard Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 223,
+          "level": 1,
+          "description": "Slightly increases sheathing speed.",
+          "modifiers": {},
+          "skill": 71,
+          "skillName": "Quick Sheath"
+        },
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+        }
+        ],
+      "armorSet": 294,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1320,
+      "name": "Rimeguard Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 154,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "ice": 4,
+        "thunder": -1,
+        "dragon": -1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
           }
         ],
-      "armorSet": 292,
+      "armorSet": 294,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1311,
-        "name": "Kaiser Greaves Beta +",
+        "id": 1321,
+        "name": "Rimeguard Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 156,
+          "base": 154,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": -3,
-          "ice": -3,
-          "thunder": 1,
-          "dragon": 1
+          "fire": -3,
+          "water": 2,
+          "ice": 4,
+          "thunder": -1,
+          "dragon": -1
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 162,
+            "id": 148,
             "level": 2,
-            "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+            "description": "Draw attack affinity +60%",
             "modifiers": {},
-            "skill": 51,
-            "skillName": "Latent Power"
-          },
-          {
-            "id": 114,
-            "level": 1,
-            "description": "Blast buildup +5% Bonus: +10",
-            "modifiers": {},
-            "skill": 34,
-            "skillName": "Blast Attack"
+            "skill": 45,
+            "skillName": "Critical Draw"
           }
         ],
-      "armorSet": 292,
+      "armorSet": 294,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 16,
-    "name": "Teostra Technique",
+    "id": 46,
+    "name": "Velkhana Divinity",
     "ranks": [
       {
-        "pieces": 3,
+        "pieces": 2,
         "skill": {
-          "id": 320,
+          "id": 313,
           "level": 1,
-          "description": "Prevents your weapon from losing sharpness during critical hits.",
+          "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
           "modifiers": {},
-          "skill": 121,
-          "skillName": "Master\u0027s Touch"
+          "skill": 114,
+          "skillName": "Critical Element"
+        }
+      },
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 368,
+          "level": 1,
+          "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
+          "modifiers": {},
+          "skill": 151,
+          "skillName": "Frostcraft"
         }
       }
     ]
