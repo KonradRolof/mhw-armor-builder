@@ -106287,8 +106287,582 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1322,
+  "name": "Zora Headgear Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 276,
+      "level": 1,
+      "description": "Prevents knockbacks.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    },
+    {
+      "id": 191,
+      "level": 2,
+      "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+      "modifiers": {},
+      "skill": 61,
+      "skillName": "Artillery"
+    }
+  ],
+  "armorSet": {
+    "id": 295,
+    "name": "Zora Alpha +",
+    "rank": "master",
+    "pieces": [
+      1322,
+      1323,
+      1324,
+      1325,
+      1326
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1323,
+  "name": "Zora Hide Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 34,
+      "level": 2,
+      "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    },
+    {
+      "id": 191,
+      "level": 2,
+      "description": "Increases power of each attack by 20% and reduces Wyvern\u0027s Fire cooldown by 30%.",
+      "modifiers": {},
+      "skill": 61,
+      "skillName": "Artillery"
+    }
+  ],
+  "armorSet": {
+    "id": 295,
+    "name": "Zora Alpha +",
+    "rank": "master",
+    "pieces": [
+      1322,
+      1323,
+      1324,
+      1325,
+      1326
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1324,
+  "name": "Zora Claws Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 277,
+      "level": 2,
+      "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    },
+    {
+      "id": 234,
+      "level": 1,
+      "description": "Activates 25% of the time.",
+      "modifiers": {},
+      "skill": 74,
+      "skillName": "Free Meal"
+    }
+  ],
+  "armorSet": {
+    "id": 295,
+    "name": "Zora Alpha +",
+    "rank": "master",
+    "pieces": [
+      1322,
+      1323,
+      1324,
+      1325,
+      1326
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1325,
+  "name": "Zora Spine Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 33,
+      "level": 1,
+      "description": "Nullifies minor ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    },
+    {
+      "id": 190,
+      "level": 1,
+      "description": "Increases power of each attack by 10% and reduces Wyvern\u0027s Fire cooldown by 15%.",
+      "modifiers": {},
+      "skill": 61,
+      "skillName": "Artillery"
+    }
+  ],
+  "armorSet": {
+    "id": 295,
+    "name": "Zora Alpha +",
+    "rank": "master",
+    "pieces": [
+      1322,
+      1323,
+      1324,
+      1325,
+      1326
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1326,
+  "name": "Zora Spurs Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 142,
+      "level": 1,
+      "description": "Weapon sharpness +10",
+      "modifiers": {
+        "sharpnessBonus": 10
+      },
+      "skill": 44,
+      "skillName": "Handicraft"
+    }
+  ],
+  "armorSet": {
+    "id": 295,
+    "name": "Zora Alpha +",
+    "rank": "master",
+    "pieces": [
+      1322,
+      1323,
+      1324,
+      1325,
+      1326
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1327,
+  "name": "Zora Headgear Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 276,
+      "level": 1,
+      "description": "Prevents knockbacks.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    }
+  ],
+  "armorSet": {
+    "id": 296,
+    "name": "Zora Beta +",
+    "rank": "master",
+    "pieces": [
+      1327,
+      1328,
+      1329,
+      1330,
+      1331
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1328,
+  "name": "Zora Hide Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 34,
+      "level": 2,
+      "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 296,
+    "name": "Zora Beta +",
+    "rank": "master",
+    "pieces": [
+      1327,
+      1328,
+      1329,
+      1330,
+      1331
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1329,
+  "name": "Zora Claws Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 277,
+      "level": 2,
+      "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
+      "modifiers": {},
+      "skill": 91,
+      "skillName": "Flinch Free"
+    }
+  ],
+  "armorSet": {
+    "id": 296,
+    "name": "Zora Beta +",
+    "rank": "master",
+    "pieces": [
+      1327,
+      1328,
+      1329,
+      1330,
+      1331
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1330,
+  "name": "Zora Spine Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 33,
+      "level": 1,
+      "description": "Nullifies minor ground tremors.",
+      "modifiers": {},
+      "skill": 11,
+      "skillName": "Tremor Resistance"
+    }
+  ],
+  "armorSet": {
+    "id": 296,
+    "name": "Zora Beta +",
+    "rank": "master",
+    "pieces": [
+      1327,
+      1328,
+      1329,
+      1330,
+      1331
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1331,
+  "name": "Zora Spurs Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 160,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -1,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 296,
+    "name": "Zora Beta +",
+    "rank": "master",
+    "pieces": [
+      1327,
+      1328,
+      1329,
+      1330,
+      1331
+    ],
+    "bonus": 47
+  },
+  "assets": null,
+  "crafting": null
 }
-
 
 
 

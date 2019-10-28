@@ -1,25 +1,69 @@
 {
-  "id": 294,
-  "name": "Velkhana Beta +",
+  "id": 296,
+  "name": "Zora Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1317,
-      "name": "Rimeguard Helm Beta +",
+      "id": 1327,
+      "name": "Zora Headgear Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 160,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 4,
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
         "thunder": -1,
-        "dragon": -1
+        "dragon": -3
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 276,
+          "level": 1,
+          "description": "Prevents knockbacks.",
+          "modifiers": {},
+          "skill": 91,
+          "skillName": "Flinch Free"
+        }
+      ],
+      "armorSet": 296,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1328,
+      "name": "Zora Hide Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 160,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -32,122 +76,35 @@
       ],
       "skills": [
         {
-          "id": 253,
+          "id": 34,
           "level": 2,
-          "description": "While active, reduces damage taken by 30%.",
+          "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
           "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
-        }
-      ],
-      "armorSet": 294,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1318,
-      "name": "Rimeguard Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 4,
-        "thunder": -1,
-        "dragon": -1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 224,
-          "level": 2,
-          "description": "Moderately increases sheathing speed.",
-          "modifiers": {},
-          "skill": 71,
-          "skillName": "Quick Sheath"
+          "skill": 11,
+          "skillName": "Tremor Resistance"
         }
         ],
-      "armorSet": 294,
+      "armorSet": 296,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1319,
-      "name": "Rimeguard Vambraces Beta +",
+      "id": 1329,
+      "name": "Zora Claws Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 154,
+        "base": 160,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 4,
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
         "thunder": -1,
-        "dragon": -1
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 223,
-          "level": 1,
-          "description": "Slightly increases sheathing speed.",
-          "modifiers": {},
-          "skill": 71,
-          "skillName": "Quick Sheath"
-        },
-        {
-          "id": 276,
-          "level": 1,
-          "description": "Prevents knockbacks.",
-          "modifiers": {},
-          "skill": 91,
-          "skillName": "Flinch Free"
-        }
-        ],
-      "armorSet": 294,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1320,
-      "name": "Rimeguard Coil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": -3,
-        "water": 2,
-        "ice": 4,
-        "thunder": -1,
-        "dragon": -1
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -160,35 +117,76 @@
       ],
       "skills": [
         {
-          "id": 276,
-          "level": 1,
-          "description": "Prevents knockbacks.",
+          "id": 277,
+          "level": 2,
+          "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
           "modifiers": {},
           "skill": 91,
           "skillName": "Flinch Free"
+        }
+        ],
+      "armorSet": 296,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1330,
+      "name": "Zora Spine Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 160,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": -3
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 33,
+          "level": 1,
+          "description": "Nullifies minor ground tremors.",
+          "modifiers": {},
+          "skill": 11,
+          "skillName": "Tremor Resistance"
           }
         ],
-      "armorSet": 294,
+      "armorSet": 296,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1321,
-        "name": "Rimeguard Greaves Beta +",
+        "id": 1331,
+        "name": "Zora Spurs Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 154,
+          "base": 160,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -3,
-          "water": 2,
-          "ice": 4,
+          "fire": 4,
+          "water": -3,
+          "ice": -2,
           "thunder": -1,
-          "dragon": -1
+          "dragon": -3
         },
         "attributes": {},
         "slots": [
@@ -196,48 +194,39 @@
             "rank": 4
           },
           {
-            "rank": 1
+            "rank": 3
           }
         ],
         "skills": [
           {
-            "id": 148,
-            "level": 2,
-            "description": "Draw attack affinity +60%",
+            "id": 23,
+            "level": 1,
+            "description": "Slightly reduces the effects of weak monster roars.",
             "modifiers": {},
-            "skill": 45,
-            "skillName": "Critical Draw"
+            "skill": 9,
+            "skillName": "Earplugs"
           }
         ],
-      "armorSet": 294,
+      "armorSet": 296,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 46,
-    "name": "Velkhana Divinity",
+    "id": 47,
+    "name": "Zora Magdaros Essence",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 313,
+          "id": 360,
           "level": 1,
-          "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
-          "modifiers": {},
-          "skill": 114,
-          "skillName": "Critical Element"
-        }
-      },
-      {
-        "pieces": 4,
-        "skill": {
-          "id": 368,
-          "level": 1,
-          "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
-          "modifiers": {},
-          "skill": 151,
-          "skillName": "Frostcraft"
+          "description": "Raises the maximum level of the Artillery skill to Lv5",
+          "modifiers": {
+            "hiddenRanks": 88
+          },
+          "skill": 141,
+          "skillName": "Artillery Secret"
         }
       }
     ]

@@ -2187,6 +2187,24 @@
         "description": "Increases power of each attack by 30% and reduces Wyvern\u0027s Fire cooldown by 50%.",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 370,
+        "skill": 61,
+        "skillName": "Artillery",
+        "level": 4,
+        "description": "Increases power of each attack by 40% and reduces Wyvern\u0027s Fire cooldown by 60%.",
+        "modifiers": {}
+      },
+      {
+        "id": 371,
+        "skill": 61,
+        "skillName": "Artillery",
+        "level": 5,
+        "description": "Increases power of each attack by 50% and reduces Wyvern\u0027s Fire cooldown by 70%.",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -4160,6 +4178,23 @@
         "level": 1,
         "description": "An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.",
         "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Artillery Secret",
+    "description": "Raises the maximum level of the Artillery skill to Lv5",
+    "ranks": [
+      {
+        "id": 369,
+        "skill": 152,
+        "skillName": "Artillery Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Artillery skill to Lv5",
+        "modifiers": {
+          "hiddenRanks": 61
+        }
       }
     ]
   }

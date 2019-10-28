@@ -1,20 +1,20 @@
 {
-  "id": 1321,
-  "name": "Rimeguard Greaves Beta +",
+  "id": 1331,
+  "name": "Zora Spurs Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 12,
   "defense": {
-    "base": 154,
+    "base": 160,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -3,
-    "water": 2,
-    "ice": 4,
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
     "thunder": -1,
-    "dragon": -1
+    "dragon": -3
   },
   "attributes": {},
   "slots": [
@@ -22,31 +22,31 @@
       "rank": 4
     },
     {
-      "rank": 1
+      "rank": 3
     }
   ],
   "skills": [
     {
-      "id": 148,
-      "level": 2,
-      "description": "Draw attack affinity +60%",
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
       "modifiers": {},
-      "skill": 45,
-      "skillName": "Critical Draw"
+      "skill": 9,
+      "skillName": "Earplugs"
     }
   ],
   "armorSet": {
-    "id": 294,
-    "name": "Velkhana Beta +",
+    "id": 296,
+    "name": "Zora Beta +",
     "rank": "master",
     "pieces": [
-      1317,
-      1318,
-      1319,
-      1320,
-      1321
+      1327,
+      1328,
+      1329,
+      1330,
+      1331
     ],
-    "bonus": 46
+    "bonus": 47
   },
   "assets": null,
   "crafting": null
