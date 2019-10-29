@@ -108032,6 +108032,588 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1352,
+  "name": "Zinogre Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 140,
+      "level": 2,
+      "description": "Bonus duration +20%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    },
+    {
+      "id": 130,
+      "level": 1,
+      "description": "Increases damage dealt by critical hits by 30%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 301,
+    "name": "Zinogre Alpha +",
+    "rank": "master",
+    "pieces": [
+      1352,
+      1353,
+      1354,
+      1355,
+      1356
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1353,
+  "name": "Zinogre Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 163,
+      "level": 3,
+      "description": "While active, increases affinity by 30% and reduces stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    },
+    {
+      "id": 117,
+      "level": 1,
+      "description": "Increases the power of normal ammo and normal arrows.",
+      "modifiers": {},
+      "skill": 35,
+      "skillName": "Normal Shots"
+    }
+  ],
+  "armorSet": {
+    "id": 301,
+    "name": "Zinogre Alpha +",
+    "rank": "master",
+    "pieces": [
+      1352,
+      1353,
+      1354,
+      1355,
+      1356
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1354,
+  "name": "Zinogre Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 60,
+      "level": 2,
+      "description": "Triples the speed at which you heal recoverable damage.",
+      "modifiers": {},
+      "skill": 19,
+      "skillName": "Recovery Speed"
+    },
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 301,
+    "name": "Zinogre Alpha +",
+    "rank": "master",
+    "pieces": [
+      1352,
+      1353,
+      1354,
+      1355,
+      1356
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1355,
+  "name": "Zinogre Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    },
+    {
+      "id": 96,
+      "level": 2,
+      "description": "Thunder attack +60",
+      "modifiers": {
+        "damageThunder": 60
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 301,
+    "name": "Zinogre Alpha +",
+    "rank": "master",
+    "pieces": [
+      1352,
+      1353,
+      1354,
+      1355,
+      1356
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1356,
+  "name": "Zinogre Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 97,
+      "level": 3,
+      "description": "Thunder attack +100",
+      "modifiers": {
+        "damageThunder": 100
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    },
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 301,
+    "name": "Zinogre Alpha +",
+    "rank": "master",
+    "pieces": [
+      1352,
+      1353,
+      1354,
+      1355,
+      1356
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1357,
+  "name": "Zinogre Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    },
+    {
+      "id": 130,
+      "level": 1,
+      "description": "Increases damage dealt by critical hits by 30%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 302,
+    "name": "Zinogre Beta +",
+    "rank": "master",
+    "pieces": [
+      1357,
+      1358,
+      1359,
+      1360,
+      1361
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1358,
+  "name": "Zinogre Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 163,
+      "level": 3,
+      "description": "While active, increases affinity by 30% and reduces stamina depletion by 30%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 302,
+    "name": "Zinogre Beta +",
+    "rank": "master",
+    "pieces": [
+      1357,
+      1358,
+      1359,
+      1360,
+      1361
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1359,
+  "name": "Zinogre Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 59,
+      "level": 1,
+      "description": "Doubles the speed at which you heal recoverable damage.",
+      "modifiers": {},
+      "skill": 19,
+      "skillName": "Recovery Speed"
+    },
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 302,
+    "name": "Zinogre Beta +",
+    "rank": "master",
+    "pieces": [
+      1357,
+      1358,
+      1359,
+      1360,
+      1361
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1360,
+  "name": "Zinogre Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 139,
+      "level": 1,
+      "description": "Bonus duration +10%",
+      "modifiers": {},
+      "skill": 43,
+      "skillName": "Power Prolonger"
+    }
+  ],
+  "armorSet": {
+    "id": 302,
+    "name": "Zinogre Beta +",
+    "rank": "master",
+    "pieces": [
+      1357,
+      1358,
+      1359,
+      1360,
+      1361
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1361,
+  "name": "Zinogre Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 158,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": -1,
+    "water": -1,
+    "ice": -4,
+    "thunder": 4,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 95,
+      "level": 1,
+      "description": "Thunder attack +30",
+      "modifiers": {
+        "damageThunder": 30
+      },
+      "skill": 29,
+      "skillName": "Thunder Attack"
+    },
+    {
+      "id": 162,
+      "level": 2,
+      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "modifiers": {},
+      "skill": 51,
+      "skillName": "Latent Power"
+    }
+  ],
+  "armorSet": {
+    "id": 302,
+    "name": "Zinogre Beta +",
+    "rank": "master",
+    "pieces": [
+      1357,
+      1358,
+      1359,
+      1360,
+      1361
+    ],
+    "bonus": 49
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

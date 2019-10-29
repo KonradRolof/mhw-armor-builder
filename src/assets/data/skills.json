@@ -1875,6 +1875,24 @@
         "description": "While active, increases affinity by 50% and reduces stamina depletion by 50%.",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 376,
+        "skill": 51,
+        "skillName": "Latent Power",
+        "level": 6,
+        "description": "While active, increases Affinity by 50% and reduces stamina depletion by 50%. Triggers easier",
+        "modifiers": {}
+      },
+      {
+        "id": 377,
+        "skill": 51,
+        "skillName": "Latent Power",
+        "level": 7,
+        "description": "While active, increases Affinity by 60% and reduces stamina depletion by 50%. Triggers easier",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -4229,6 +4247,23 @@
         "description": "Raises the maximum level of the Tool Specialist skill to Lv5",
         "modifiers": {
           "hiddenRanks": 106
+        }
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Latent Power Secret",
+    "description": "Raises the maximum level of the Latent Power skill to Lv7",
+    "ranks": [
+      {
+        "id": 375,
+        "skill": 154,
+        "skillName": "Latent Power Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Latent Power skill to Lv7",
+        "modifiers": {
+          "hiddenRanks": 51
         }
       }
     ]

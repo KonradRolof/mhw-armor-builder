@@ -1,25 +1,109 @@
 {
-  "id": 300,
-  "name": "Yian Garuga Beta +",
+  "id": 302,
+  "name": "Zinogre Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1347,
-      "name": "Garuga Helm Beta +",
+      "id": 1358,
+      "name": "Zinogre Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 154,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -2,
-        "thunder": 2,
-        "dragon": -2
+        "fire": -1,
+        "water": -1,
+        "ice": -4,
+        "thunder": 4,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 139,
+          "level": 1,
+          "description": "Bonus duration +10%",
+          "modifiers": {},
+          "skill": 43,
+          "skillName": "Power Prolonger"
+        },
+        {
+          "id": 130,
+          "level": 1,
+          "description": "Increases damage dealt by critical hits by 30%.",
+          "modifiers": {},
+          "skill": 40,
+          "skillName": "Critical Boost"
+        }
+      ],
+      "armorSet": 302,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1358,
+      "name": "Zinogre Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "ice": -4,
+        "thunder": 4,
+        "dragon": 1
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 163,
+          "level": 3,
+          "description": "While active, increases affinity by 30% and reduces stamina depletion by 30%.",
+          "modifiers": {},
+          "skill": 51,
+          "skillName": "Latent Power"
+        }
+        ],
+      "armorSet": 302,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1359,
+      "name": "Zinogre Vambraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "ice": -4,
+        "thunder": 4,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
@@ -32,131 +116,43 @@
       ],
       "skills": [
         {
-          "id": 123,
+          "id": 59,
           "level": 1,
-          "description": "Affinity +5%",
-          "modifiers": {
-            "affinity": 5
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "description": "Doubles the speed at which you heal recoverable damage.",
+          "modifiers": {},
+          "skill": 19,
+          "skillName": "Recovery Speed"
         },
         {
-          "id": 180,
-          "level": 1,
-          "description": "While active, grants attack +5.",
-          "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
-        }
-      ],
-      "armorSet": 300,
-      "assets": null,
-      "crafting": null
-    },
-    {
-      "id": 1348,
-      "name": "Garuga Mail Beta +",
-      "type": "chest",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -2,
-        "thunder": 2,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 23,
-          "level": 1,
-          "description": "Slightly reduces the effects of weak monster roars.",
-          "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
-        },
-        {
-          "id": 124,
+          "id": 162,
           "level": 2,
-          "description": "Affinity +10%",
-          "modifiers": {
-            "affinity": 10
-          },
-          "skill": 39,
-          "skillName": "Critical Eye"
+          "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+          "modifiers": {},
+          "skill": 51,
+          "skillName": "Latent Power"
         }
         ],
-      "armorSet": 300,
+      "armorSet": 302,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1349,
-      "name": "Garuga Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 11,
-      "defense": {
-        "base": 154,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -2,
-        "thunder": 2,
-        "dragon": -2
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        }
-      ],
-      "skills": [
-        {
-          "id": 24,
-          "level": 2,
-          "description": "Reduces the effects of weak monster roars.",
-          "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
-        }
-        ],
-      "armorSet": 300,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1350,
-      "name": "Garuga Tassets Beta +",
+      "id": 1360,
+      "name": "Zinogre Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 154,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": -3,
-        "ice": -2,
-        "thunder": 2,
-        "dragon": -2
+        "fire": -1,
+        "water": -1,
+        "ice": -4,
+        "thunder": 4,
+        "dragon": 1
       },
       "attributes": {},
       "slots": [
@@ -164,69 +160,89 @@
           "rank": 4
         },
         {
-          "rank": 3
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 181,
-          "level": 2,
-          "description": "While active, grants attack +10.",
+          "id": 139,
+          "level": 1,
+          "description": "Bonus duration +10%",
           "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
+          "skill": 43,
+          "skillName": "Power Prolonger"
           }
         ],
-      "armorSet": 300,
+      "armorSet": 302,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1351,
-        "name": "Garuga Greaves Beta +",
+        "id": 1357,
+        "name": "Zinogre Greaves Alpha +",
         "type": "legs",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 154,
+          "base": 158,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": -3,
-          "ice": -2,
-          "thunder": 2,
-          "dragon": -2
+          "fire": -1,
+          "water": -1,
+          "ice": -4,
+          "thunder": 4,
+          "dragon": 1
         },
         "attributes": {},
         "slots": [
           {
-            "rank": 4
-          },
-          {
-            "rank": 2
-          },
-          {
-            "rank": 2
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 124,
-            "level": 2,
-            "description": "Affinity +10%",
+            "id": 97,
+            "level": 3,
+            "description": "Thunder attack +100",
             "modifiers": {
-              "affinity": 10
+              "damageThunder": 100
             },
-            "skill": 39,
-            "skillName": "Critical Eye"
+            "skill": 29,
+            "skillName": "Thunder Attack"
+          },
+          {
+            "id": 162,
+            "level": 2,
+            "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+            "modifiers": {},
+            "skill": 51,
+            "skillName": "Latent Power"
           }
         ],
-      "armorSet": 300,
+      "armorSet": 302,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": null
+  "bonus": {
+    "id": 49,
+    "name": "Zinogre Essence",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 372,
+          "level": 1,
+          "description": "Raises the maximum level of the Latent Power skill to Lv5",
+          "modifiers": {
+            "hiddenRanks": 106
+          },
+          "skill": 153,
+          "skillName": "Latent Power Secret"
+        }
+      }
+    ]
+  }
 }
