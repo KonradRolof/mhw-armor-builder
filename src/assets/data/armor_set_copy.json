@@ -1,24 +1,24 @@
 {
-  "id": 298,
-  "name": "Lunastra Beta +",
+  "id": 300,
+  "name": "Yian Garuga Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1337,
-      "name": "Empress Crown Beta +",
+      "id": 1347,
+      "name": "Garuga Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 11,
       "defense": {
-        "base": 164,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -3,
-        "thunder": 1,
+        "fire": 2,
+        "water": -3,
+        "ice": -2,
+        "thunder": 2,
         "dragon": -2
       },
       "attributes": {},
@@ -32,132 +32,130 @@
       ],
       "skills": [
         {
-          "id": 302,
-          "level": 2,
-          "description": "Shortens time until reuse by 20%.",
+          "id": 123,
+          "level": 1,
+          "description": "Affinity +5%",
+          "modifiers": {
+            "affinity": 5
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
+        },
+        {
+          "id": 180,
+          "level": 1,
+          "description": "While active, grants attack +5.",
           "modifiers": {},
-          "skill": 106,
-          "skillName": "Tool Specialist"
+          "skill": 56,
+          "skillName": "Resentment"
         }
       ],
-      "armorSet": 298,
+      "armorSet": 300,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1338,
-      "name": "Empress Mail Beta +",
+      "id": 1348,
+      "name": "Garuga Mail Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 11,
       "defense": {
-        "base": 164,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -3,
-        "thunder": 1,
+        "fire": 2,
+        "water": -3,
+        "ice": -2,
+        "thunder": 2,
         "dragon": -2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 171,
+          "id": 23,
           "level": 1,
-          "description": "While active, grants attack +5.",
+          "description": "Slightly reduces the effects of weak monster roars.",
           "modifiers": {},
-          "skill": 53,
-          "skillName": "Peak Performance"
+          "skill": 9,
+          "skillName": "Earplugs"
         },
         {
-          "id": 227,
+          "id": 124,
           "level": 2,
-          "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
-          "modifiers": {},
-          "skill": 72,
-          "skillName": "Wide-Range"
+          "description": "Affinity +10%",
+          "modifiers": {
+            "affinity": 10
+          },
+          "skill": 39,
+          "skillName": "Critical Eye"
         }
         ],
-      "armorSet": 298,
+      "armorSet": 300,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1339,
-      "name": "Empress Vambraces Beta +",
+      "id": 1349,
+      "name": "Garuga Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 11,
       "defense": {
-        "base": 164,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -3,
-        "thunder": 1,
+        "fire": 2,
+        "water": -3,
+        "ice": -2,
+        "thunder": 2,
         "dragon": -2
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 302,
+          "id": 24,
           "level": 2,
-          "description": "Shortens time until reuse by 20%.",
+          "description": "Reduces the effects of weak monster roars.",
           "modifiers": {},
-          "skill": 106,
-          "skillName": "Tool Specialist"
-        },
-        {
-          "id": 114,
-          "level": 1,
-          "description": "Blast buildup +5% Bonus: +10",
-          "modifiers": {},
-          "skill": 34,
-          "skillName": "Blast Attack"
+          "skill": 9,
+          "skillName": "Earplugs"
         }
         ],
-      "armorSet": 298,
+      "armorSet": 300,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1340,
-      "name": "Empress Coil Beta +",
+      "id": 1350,
+      "name": "Garuga Tassets Beta +",
       "type": "waist",
       "rank": "master",
-      "rarity": 12,
+      "rarity": 11,
       "defense": {
-        "base": 164,
+        "base": 154,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": 1,
-        "ice": -3,
-        "thunder": 1,
+        "fire": 2,
+        "water": -3,
+        "ice": -2,
+        "thunder": 2,
         "dragon": -2
       },
       "attributes": {},
@@ -166,41 +164,39 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 3
         }
       ],
       "skills": [
         {
-          "id": 54,
+          "id": 181,
           "level": 2,
-          "description": "Health +30",
-          "modifiers": {
-            "health": 30
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
+          "description": "While active, grants attack +10.",
+          "modifiers": {},
+          "skill": 56,
+          "skillName": "Resentment"
           }
         ],
-      "armorSet": 298,
+      "armorSet": 300,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1341,
-        "name": "Empress Greaves Beta +",
+        "id": 1351,
+        "name": "Garuga Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 12,
+        "rarity": 11,
         "defense": {
-          "base": 164,
+          "base": 154,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": 1,
-          "ice": -3,
-          "thunder": 1,
+          "fire": 2,
+          "water": -3,
+          "ice": -2,
+          "thunder": 2,
           "dragon": -2
         },
         "attributes": {},
@@ -210,48 +206,27 @@
           },
           {
             "rank": 2
+          },
+          {
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 227,
+            "id": 124,
             "level": 2,
-            "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
-            "modifiers": {},
-            "skill": 72,
-            "skillName": "Wide-Range"
-          },
-          {
-            "id": 301,
-            "level": 1,
-            "description": "Shortens time until reuse by 10%.",
-            "modifiers": {},
-            "skill": 106,
-            "skillName": "Tool Specialist"
+            "description": "Affinity +10%",
+            "modifiers": {
+              "affinity": 10
+            },
+            "skill": 39,
+            "skillName": "Critical Eye"
           }
         ],
-      "armorSet": 298,
+      "armorSet": 300,
       "assets": null,
       "crafting": null
     }
   ],
-  "bonus": {
-    "id": 48,
-    "name": "Lunastra Essence",
-    "ranks": [
-      {
-        "pieces": 3,
-        "skill": {
-          "id": 372,
-          "level": 1,
-          "description": "Raises the maximum level of the Tool Specialist skill to Lv5",
-          "modifiers": {
-            "hiddenRanks": 106
-          },
-          "skill": 153,
-          "skillName": "Tool Specialist Secret"
-        }
-      }
-    ]
-  }
+  "bonus": null
 }
