@@ -106862,6 +106862,598 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1332,
+  "name": "Empress Crown Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 302,
+      "level": 2,
+      "description": "Shortens time until reuse by 20%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    },
+    {
+      "id": 342,
+      "level": 2,
+      "description": "While active increases attack power by 10%.",
+      "modifiers": {},
+      "skill": 138,
+      "skillName": "Offensive Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 297,
+    "name": "Lunastra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1332,
+      1333,
+      1334,
+      1335,
+      1336
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1333,
+  "name": "Empress Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 172,
+      "level": 2,
+      "description": "While active, grants attack +10.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    },
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    }
+  ],
+  "armorSet": {
+    "id": 297,
+    "name": "Lunastra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1332,
+      1333,
+      1334,
+      1335,
+      1336
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1334,
+  "name": "Empress Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 302,
+      "level": 2,
+      "description": "Shortens time until reuse by 20%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    },
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 297,
+    "name": "Lunastra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1332,
+      1333,
+      1334,
+      1335,
+      1336
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1335,
+  "name": "Empress Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    },
+    {
+      "id": 115,
+      "level": 2,
+      "description": "Blast buildup +10% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 297,
+    "name": "Lunastra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1332,
+      1333,
+      1334,
+      1335,
+      1336
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1336,
+  "name": "Empress Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 228,
+      "level": 3,
+      "description": "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    },
+    {
+      "id": 301,
+      "level": 1,
+      "description": "Shortens time until reuse by 10%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    }
+  ],
+  "armorSet": {
+    "id": 297,
+    "name": "Lunastra Alpha +",
+    "rank": "master",
+    "pieces": [
+      1332,
+      1333,
+      1334,
+      1335,
+      1336
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1337,
+  "name": "Empress Crown Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 302,
+      "level": 2,
+      "description": "Shortens time until reuse by 20%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    }
+  ],
+  "armorSet": {
+    "id": 298,
+    "name": "Lunastra Beta +",
+    "rank": "master",
+    "pieces": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1338,
+  "name": "Empress Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 171,
+      "level": 1,
+      "description": "While active, grants attack +5.",
+      "modifiers": {},
+      "skill": 53,
+      "skillName": "Peak Performance"
+    },
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    }
+  ],
+  "armorSet": {
+    "id": 298,
+    "name": "Lunastra Beta +",
+    "rank": "master",
+    "pieces": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1339,
+  "name": "Empress Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 302,
+      "level": 2,
+      "description": "Shortens time until reuse by 20%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    },
+    {
+      "id": 114,
+      "level": 1,
+      "description": "Blast buildup +5% Bonus: +10",
+      "modifiers": {},
+      "skill": 34,
+      "skillName": "Blast Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 298,
+    "name": "Lunastra Beta +",
+    "rank": "master",
+    "pieces": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1340,
+  "name": "Empress Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 298,
+    "name": "Lunastra Beta +",
+    "rank": "master",
+    "pieces": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1341,
+  "name": "Empress Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 3,
+    "water": 1,
+    "ice": -3,
+    "thunder": 1,
+    "dragon": -2
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 227,
+      "level": 2,
+      "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "modifiers": {},
+      "skill": 72,
+      "skillName": "Wide-Range"
+    },
+    {
+      "id": 301,
+      "level": 1,
+      "description": "Shortens time until reuse by 10%.",
+      "modifiers": {},
+      "skill": 106,
+      "skillName": "Tool Specialist"
+    }
+  ],
+  "armorSet": {
+    "id": 298,
+    "name": "Lunastra Beta +",
+    "rank": "master",
+    "pieces": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "bonus": 48
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

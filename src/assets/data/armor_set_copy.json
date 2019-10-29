@@ -1,25 +1,25 @@
 {
-  "id": 296,
-  "name": "Zora Beta +",
+  "id": 298,
+  "name": "Lunastra Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1327,
-      "name": "Zora Headgear Beta +",
+      "id": 1337,
+      "name": "Empress Crown Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 160,
+        "base": 164,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 4,
-        "water": -3,
-        "ice": -2,
-        "thunder": -1,
-        "dragon": -3
+        "fire": 3,
+        "water": 1,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -28,83 +28,39 @@
         },
         {
           "rank": 2
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 276,
-          "level": 1,
-          "description": "Prevents knockbacks.",
+          "id": 302,
+          "level": 2,
+          "description": "Shortens time until reuse by 20%.",
           "modifiers": {},
-          "skill": 91,
-          "skillName": "Flinch Free"
+          "skill": 106,
+          "skillName": "Tool Specialist"
         }
       ],
-      "armorSet": 296,
+      "armorSet": 298,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1328,
-      "name": "Zora Hide Beta +",
+      "id": 1338,
+      "name": "Empress Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 160,
+        "base": 164,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 4,
-        "water": -3,
-        "ice": -2,
-        "thunder": -1,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 34,
-          "level": 2,
-          "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
-          "modifiers": {},
-          "skill": 11,
-          "skillName": "Tremor Resistance"
-        }
-        ],
-      "armorSet": 296,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1329,
-      "name": "Zora Claws Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 160,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 4,
-        "water": -3,
-        "ice": -2,
-        "thunder": -1,
-        "dragon": -3
+        "fire": 3,
+        "water": 1,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -117,35 +73,43 @@
       ],
       "skills": [
         {
-          "id": 277,
-          "level": 2,
-          "description": "Prevents standard knockbacks. Tripping is reduced to a knockback. Increases some Kinsect extract effects.",
+          "id": 171,
+          "level": 1,
+          "description": "While active, grants attack +5.",
           "modifiers": {},
-          "skill": 91,
-          "skillName": "Flinch Free"
+          "skill": 53,
+          "skillName": "Peak Performance"
+        },
+        {
+          "id": 227,
+          "level": 2,
+          "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+          "modifiers": {},
+          "skill": 72,
+          "skillName": "Wide-Range"
         }
         ],
-      "armorSet": 296,
+      "armorSet": 298,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1330,
-      "name": "Zora Spine Beta +",
-      "type": "waist",
+      "id": 1339,
+      "name": "Empress Vambraces Beta +",
+      "type": "gloves",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 160,
+        "base": 164,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 4,
-        "water": -3,
-        "ice": -2,
-        "thunder": -1,
-        "dragon": -3
+        "fire": 3,
+        "water": 1,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": -2
       },
       "attributes": {},
       "slots": [
@@ -153,40 +117,91 @@
           "rank": 4
         },
         {
-          "rank": 3
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 33,
-          "level": 1,
-          "description": "Nullifies minor ground tremors.",
+          "id": 302,
+          "level": 2,
+          "description": "Shortens time until reuse by 20%.",
           "modifiers": {},
-          "skill": 11,
-          "skillName": "Tremor Resistance"
+          "skill": 106,
+          "skillName": "Tool Specialist"
+        },
+        {
+          "id": 114,
+          "level": 1,
+          "description": "Blast buildup +5% Bonus: +10",
+          "modifiers": {},
+          "skill": 34,
+          "skillName": "Blast Attack"
+        }
+        ],
+      "armorSet": 298,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1340,
+      "name": "Empress Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 164,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "ice": -3,
+        "thunder": 1,
+        "dragon": -2
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 54,
+          "level": 2,
+          "description": "Health +30",
+          "modifiers": {
+            "health": 30
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
           }
         ],
-      "armorSet": 296,
+      "armorSet": 298,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1331,
-        "name": "Zora Spurs Beta +",
+        "id": 1341,
+        "name": "Empress Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 160,
+          "base": 164,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 4,
-          "water": -3,
-          "ice": -2,
-          "thunder": -1,
-          "dragon": -3
+          "fire": 3,
+          "water": 1,
+          "ice": -3,
+          "thunder": 1,
+          "dragon": -2
         },
         "attributes": {},
         "slots": [
@@ -194,39 +209,47 @@
             "rank": 4
           },
           {
-            "rank": 3
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 23,
-            "level": 1,
-            "description": "Slightly reduces the effects of weak monster roars.",
+            "id": 227,
+            "level": 2,
+            "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
             "modifiers": {},
-            "skill": 9,
-            "skillName": "Earplugs"
+            "skill": 72,
+            "skillName": "Wide-Range"
+          },
+          {
+            "id": 301,
+            "level": 1,
+            "description": "Shortens time until reuse by 10%.",
+            "modifiers": {},
+            "skill": 106,
+            "skillName": "Tool Specialist"
           }
         ],
-      "armorSet": 296,
+      "armorSet": 298,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 47,
-    "name": "Zora Magdaros Essence",
+    "id": 48,
+    "name": "Lunastra Essence",
     "ranks": [
       {
         "pieces": 3,
         "skill": {
-          "id": 360,
+          "id": 372,
           "level": 1,
-          "description": "Raises the maximum level of the Artillery skill to Lv5",
+          "description": "Raises the maximum level of the Tool Specialist skill to Lv5",
           "modifiers": {
-            "hiddenRanks": 88
+            "hiddenRanks": 106
           },
-          "skill": 141,
-          "skillName": "Artillery Secret"
+          "skill": 153,
+          "skillName": "Tool Specialist Secret"
         }
       }
     ]

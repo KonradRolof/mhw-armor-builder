@@ -3462,6 +3462,24 @@
         "description": "Shortens time until reuse by 30%.",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 373,
+        "skill": 106,
+        "skillName": "Tool Specialist",
+        "level": 4,
+        "description": "Shortens time until reuse by 40%.",
+        "modifiers": {}
+      },
+      {
+        "id": 374,
+        "skill": 106,
+        "skillName": "Tool Specialist",
+        "level": 5,
+        "description": "Shortens time until reuse by 50%.",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -4194,6 +4212,23 @@
         "description": "Raises the maximum level of the Artillery skill to Lv5",
         "modifiers": {
           "hiddenRanks": 61
+        }
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Tool Specialist Secret",
+    "description": "Raises the maximum level of the Tool Specialist skill to Lv5",
+    "ranks": [
+      {
+        "id": 372,
+        "skill": 153,
+        "skillName": "Tool Specialist Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Tool Specialist skill to Lv5",
+        "modifiers": {
+          "hiddenRanks": 106
         }
       }
     ]
