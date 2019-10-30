@@ -1,20 +1,20 @@
 {
-  "id": 1361,
-  "name": "Zinogre Greaves Beta +",
+  "id": 1371,
+  "name": "Ruinous Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 11,
+  "rarity": 12,
   "defense": {
-    "base": 158,
+    "base": 166,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": -1,
-    "water": -1,
-    "ice": -4,
-    "thunder": 4,
-    "dragon": 1
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
   },
   "attributes": {},
   "slots": [
@@ -27,36 +27,26 @@
   ],
   "skills": [
     {
-      "id": 95,
-      "level": 1,
-      "description": "Thunder attack +30",
-      "modifiers": {
-        "damageThunder": 30
-      },
-      "skill": 29,
-      "skillName": "Thunder Attack"
-    },
-    {
-      "id": 162,
+      "id": 24,
       "level": 2,
-      "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "description": "Reduces the effects of weak monster roars.",
       "modifiers": {},
-      "skill": 51,
-      "skillName": "Latent Power"
+      "skill": 9,
+      "skillName": "Earplugs"
     }
   ],
   "armorSet": {
-    "id": 302,
-    "name": "Zinogre Beta +",
+    "id": 304,
+    "name": "Ruiner Nergi Beta +",
     "rank": "master",
     "pieces": [
-      1357,
-      1358,
-      1359,
-      1360,
-      1361
+      1367,
+      1368,
+      1369,
+      1370,
+      1371
     ],
-    "bonus": 49
+    "bonus": 50
   },
   "assets": null,
   "crafting": null

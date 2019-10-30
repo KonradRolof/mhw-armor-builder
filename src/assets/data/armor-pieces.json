@@ -108614,7 +108614,597 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1362,
+  "name": "Ruinous Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 268,
+      "level": 2,
+      "description": "While active, increases affinity by 20%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    },
+    {
+      "id": 204,
+      "level": 1,
+      "description": "Stamina recovery speed +10%",
+      "modifiers": {},
+      "skill": 66,
+      "skillName": "Stamina Surge"
+    }
+  ],
+  "armorSet": {
+    "id": 303,
+    "name": "Ruiner Nergi Alpha +",
+    "rank": "master",
+    "pieces": [
+      1362,
+      1363,
+      1364,
+      1365,
+      1366
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1363,
+  "name": "Ruinous Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 205,
+      "level": 2,
+      "description": "Stamina recovery speed +20%",
+      "modifiers": {},
+      "skill": 66,
+      "skillName": "Stamina Surge"
+    },
+    {
+      "id": 267,
+      "level": 1,
+      "description": "While active, increases affinity by 10%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    }
+  ],
+  "armorSet": {
+    "id": 303,
+    "name": "Ruiner Nergi Alpha +",
+    "rank": "master",
+    "pieces": [
+      1362,
+      1363,
+      1364,
+      1365,
+      1366
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1364,
+  "name": "Ruinous Vambraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 40,
+      "level": 2,
+      "description": "Attack +6",
+      "modifiers": {
+        "attack": 6
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 303,
+    "name": "Ruiner Nergi Alpha +",
+    "rank": "master",
+    "pieces": [
+      1362,
+      1363,
+      1364,
+      1365,
+      1366
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1365,
+  "name": "Ruinous Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 41,
+      "level": 3,
+      "description": "Attack +9",
+      "modifiers": {
+        "attack": 9
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    },
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 303,
+    "name": "Ruiner Nergi Alpha +",
+    "rank": "master",
+    "pieces": [
+      1362,
+      1363,
+      1364,
+      1365,
+      1366
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1366,
+  "name": "Ruinous Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    },
+    {
+      "id": 166,
+      "level": 1,
+      "description": "While active, grants attack +4 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    }
+  ],
+  "armorSet": {
+    "id": 303,
+    "name": "Ruiner Nergi Alpha +",
+    "rank": "master",
+    "pieces": [
+      1362,
+      1363,
+      1364,
+      1365,
+      1366
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1367,
+  "name": "Ruinous Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 268,
+      "level": 2,
+      "description": "While active, increases affinity by 20%.",
+      "modifiers": {},
+      "skill": 88,
+      "skillName": "Maximum Might"
+    }
+  ],
+  "armorSet": {
+    "id": 304,
+    "name": "Ruiner Nergi Beta +",
+    "rank": "master",
+    "pieces": [
+      1367,
+      1368,
+      1369,
+      1370,
+      1371
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1368,
+  "name": "Ruinous Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 205,
+      "level": 2,
+      "description": "Stamina recovery speed +20%",
+      "modifiers": {},
+      "skill": 66,
+      "skillName": "Stamina Surge"
+    }
+  ],
+  "armorSet": {
+    "id": 304,
+    "name": "Ruiner Nergi Beta +",
+    "rank": "master",
+    "pieces": [
+      1367,
+      1368,
+      1369,
+      1370,
+      1371
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1369,
+  "name": "Ruinous Vambraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 39,
+      "level": 1,
+      "description": "Attack +3",
+      "modifiers": {
+        "attack": 3
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 304,
+    "name": "Ruiner Nergi Beta +",
+    "rank": "master",
+    "pieces": [
+      1367,
+      1368,
+      1369,
+      1370,
+      1371
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1370,
+  "name": "Ruinous Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 40,
+      "level": 2,
+      "description": "Attack +6",
+      "modifiers": {
+        "attack": 6
+      },
+      "skill": 15,
+      "skillName": "Attack Boost"
+    },
+    {
+      "id": 23,
+      "level": 1,
+      "description": "Slightly reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 304,
+    "name": "Ruiner Nergi Beta +",
+    "rank": "master",
+    "pieces": [
+      1367,
+      1368,
+      1369,
+      1370,
+      1371
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1371,
+  "name": "Ruinous Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 166,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 1,
+    "ice": 1,
+    "thunder": -3,
+    "dragon": -3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 24,
+      "level": 2,
+      "description": "Reduces the effects of weak monster roars.",
+      "modifiers": {},
+      "skill": 9,
+      "skillName": "Earplugs"
+    }
+  ],
+  "armorSet": {
+    "id": 304,
+    "name": "Ruiner Nergi Beta +",
+    "rank": "master",
+    "pieces": [
+      1367,
+      1368,
+      1369,
+      1370,
+      1371
+    ],
+    "bonus": 50
+  },
+  "assets": null,
+  "crafting": null
 }
+
+
 
 
 

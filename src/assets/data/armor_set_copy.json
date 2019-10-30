@@ -1,109 +1,107 @@
 {
-  "id": 302,
-  "name": "Zinogre Beta +",
+  "id": 304,
+  "name": "Ruiner Nergi Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1358,
-      "name": "Zinogre Helm Beta +",
+      "id": 1367,
+      "name": "Ruinous Helm Beta +",
       "type": "head",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 158,
+        "base": 166,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -4,
-        "thunder": 4,
-        "dragon": 1
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
+        "thunder": -3,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 139,
-          "level": 1,
-          "description": "Bonus duration +10%",
+          "id": 268,
+          "level": 2,
+          "description": "While active, increases affinity by 20%.",
           "modifiers": {},
-          "skill": 43,
-          "skillName": "Power Prolonger"
-        },
-        {
-          "id": 130,
-          "level": 1,
-          "description": "Increases damage dealt by critical hits by 30%.",
-          "modifiers": {},
-          "skill": 40,
-          "skillName": "Critical Boost"
+          "skill": 88,
+          "skillName": "Maximum Might"
         }
       ],
-      "armorSet": 302,
+      "armorSet": 304,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1358,
-      "name": "Zinogre Mail Beta +",
+      "id": 1368,
+      "name": "Ruinous Mail Beta +",
       "type": "chest",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 158,
+        "base": 166,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -4,
-        "thunder": 4,
-        "dragon": 1
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
+        "thunder": -3,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
+        },
+        {
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 163,
-          "level": 3,
-          "description": "While active, increases affinity by 30% and reduces stamina depletion by 30%.",
+          "id": 205,
+          "level": 2,
+          "description": "Stamina recovery speed +20%",
           "modifiers": {},
-          "skill": 51,
-          "skillName": "Latent Power"
+          "skill": 66,
+          "skillName": "Stamina Surge"
         }
         ],
-      "armorSet": 302,
+      "armorSet": 304,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1359,
-      "name": "Zinogre Vambraces Beta +",
+      "id": 1369,
+      "name": "Ruinous Vambraces Beta +",
       "type": "gloves",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 158,
+        "base": 166,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -4,
-        "thunder": 4,
-        "dragon": 1
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
+        "thunder": -3,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -111,48 +109,50 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 59,
-          "level": 1,
-          "description": "Doubles the speed at which you heal recoverable damage.",
+          "id": 167,
+          "level": 2,
+          "description": "While active, grants attack +8 and increases affinity by 5%.",
           "modifiers": {},
-          "skill": 19,
-          "skillName": "Recovery Speed"
+          "skill": 52,
+          "skillName": "Agitator"
         },
         {
-          "id": 162,
-          "level": 2,
-          "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
-          "modifiers": {},
-          "skill": 51,
-          "skillName": "Latent Power"
+          "id": 39,
+          "level": 1,
+          "description": "Attack +3",
+          "modifiers": {
+            "attack": 3
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
         }
         ],
-      "armorSet": 302,
+      "armorSet": 304,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1360,
-      "name": "Zinogre Coil Beta +",
+      "id": 1370,
+      "name": "Ruinous Coil Beta +",
       "type": "waist",
       "rank": "master",
-      "rarity": 11,
+      "rarity": 12,
       "defense": {
-        "base": 158,
+        "base": 166,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": -1,
-        "water": -1,
-        "ice": -4,
-        "thunder": 4,
-        "dragon": 1
+        "fire": 1,
+        "water": 1,
+        "ice": 1,
+        "thunder": -3,
+        "dragon": -3
       },
       "attributes": {},
       "slots": [
@@ -160,87 +160,88 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 139,
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 23,
           "level": 1,
-          "description": "Bonus duration +10%",
+          "description": "Slightly reduces the effects of weak monster roars.",
           "modifiers": {},
-          "skill": 43,
-          "skillName": "Power Prolonger"
+          "skill": 9,
+          "skillName": "Earplugs"
           }
         ],
-      "armorSet": 302,
+      "armorSet": 304,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1357,
-        "name": "Zinogre Greaves Alpha +",
+        "id": 1371,
+        "name": "Ruinous Greaves Beta +",
         "type": "legs",
         "rank": "master",
-        "rarity": 11,
+        "rarity": 12,
         "defense": {
-          "base": 158,
+          "base": 166,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": -1,
-          "water": -1,
-          "ice": -4,
-          "thunder": 4,
-          "dragon": 1
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
+          "thunder": -3,
+          "dragon": -3
         },
         "attributes": {},
         "slots": [
+          {
+            "rank": 4
+          },
           {
             "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 97,
-            "level": 3,
-            "description": "Thunder attack +100",
-            "modifiers": {
-              "damageThunder": 100
-            },
-            "skill": 29,
-            "skillName": "Thunder Attack"
-          },
-          {
-            "id": 162,
+            "id": 24,
             "level": 2,
-            "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+            "description": "Reduces the effects of weak monster roars.",
             "modifiers": {},
-            "skill": 51,
-            "skillName": "Latent Power"
+            "skill": 9,
+            "skillName": "Earplugs"
           }
         ],
-      "armorSet": 302,
+      "armorSet": 304,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 49,
-    "name": "Zinogre Essence",
+    "id": 50,
+    "name": "Nergigante Ambition",
     "ranks": [
       {
-        "pieces": 3,
+        "pieces": 2,
         "skill": {
-          "id": 372,
+          "id": 308,
           "level": 1,
-          "description": "Raises the maximum level of the Latent Power skill to Lv5",
-          "modifiers": {
-            "hiddenRanks": 106
-          },
-          "skill": 153,
-          "skillName": "Latent Power Secret"
+          "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
+          "modifiers": {},
+          "skill": 109,
+          "skillName": "Hasten Recovery"
         }
       }
     ]
