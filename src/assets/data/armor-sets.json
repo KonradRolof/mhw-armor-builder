@@ -98873,7 +98873,539 @@
       }
     ]
   }
+},
+{
+  "id": 313,
+  "name": "Brute Tigrex Alpha +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1412,
+      "name": "Rex Roar Helm Alpha +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 41,
+          "level": 3,
+          "description": "Attack +9",
+          "modifiers": {
+            "attack": 9
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 234,
+          "level": 1,
+          "description": "Activates 25% of the time.",
+          "modifiers": {},
+          "skill": 74,
+          "skillName": "Free Meal"
+        }
+      ],
+      "armorSet": 313,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1413,
+      "name": "Rex Roar Mail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 41,
+          "level": 3,
+          "description": "Attack +9",
+          "modifiers": {
+            "attack": 9
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+        }
+        ],
+      "armorSet": 313,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1414,
+      "name": "Rex Roar Braces Alpha +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 55,
+          "level": 3,
+          "description": "Health +50",
+          "modifiers": {
+            "health": 50
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
+        },
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        }
+        ],
+      "armorSet": 313,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1415,
+      "name": "Rex Roar Coil Alpha +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 2
+        }
+      ],
+      "skills": [
+        {
+          "id": 58,
+          "level": 3,
+          "description": "Recovery +30%",
+          "modifiers": {},
+          "skill": 18,
+          "skillName": "Recovery Up"
+        },
+        {
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+          }
+        ],
+      "armorSet": 313,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1416,
+        "name": "Rex Roar Greaves Alpha +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 158,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -4,
+          "ice": 0,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 1
+          }
+        ],
+        "skills": [
+          {
+            "id": 168,
+            "level": 3,
+            "description": "While active, grants attack +12 and increases affinity by 7%.",
+            "modifiers": {},
+            "skill": 52,
+            "skillName": "Agitator"
+          },
+          {
+            "id": 133,
+            "level": 1,
+            "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+            "modifiers": {},
+            "skill": 41,
+            "skillName": "Weakness Exploit"
+          }
+        ],
+      "armorSet": 313,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 38,
+    "name": "Tigrex Essence",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 355,
+          "level": 1,
+          "description": "Raises the maximum level of the Free Meal to Lv3",
+          "modifiers": {
+            "hiddenRanks": 74
+          },
+          "skill": 144,
+          "skillName": "Free MealSecret"
+        }
+      }
+    ]
+  }
+},
+{
+  "id": 314,
+  "name": "Brute Tigrex Beta +",
+  "rank": "master",
+  "pieces": [
+    {
+      "id": 1417,
+      "name": "Rex Roar Helm Beta +",
+      "type": "head",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 234,
+          "level": 1,
+          "description": "Activates 25% of the time.",
+          "modifiers": {},
+          "skill": 74,
+          "skillName": "Free Meal"
+        }
+      ],
+      "armorSet": 314,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1418,
+      "name": "Rex Roar Mail Beta +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+        }
+        ],
+      "armorSet": 314,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1419,
+      "name": "Rex Roar Braces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 54,
+          "level": 2,
+          "description": "Health +30",
+          "modifiers": {
+            "health": 30
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
+        },
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        }
+        ],
+      "armorSet": 314,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1420,
+      "name": "Rex Roar Coil Beta +",
+      "type": "waist",
+      "rank": "master",
+      "rarity": 11,
+      "defense": {
+        "base": 158,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        }
+      ],
+      "skills": [
+        {
+          "id": 57,
+          "level": 2,
+          "description": "Recovery +20%",
+          "modifiers": {},
+          "skill": 18,
+          "skillName": "Recovery Up"
+        },
+        {
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
+          }
+        ],
+      "armorSet": 314,
+      "assets": null,
+      "crafting": null
+      },
+      {
+        "id": 1421,
+        "name": "Rex Roar Greaves Beta +",
+        "type": "legs",
+        "rank": "master",
+        "rarity": 11,
+        "defense": {
+          "base": 158,
+          "max": 0,
+          "augmented": 0
+        },
+        "resistances": {
+          "fire": 3,
+          "water": -4,
+          "ice": 0,
+          "thunder": -2,
+          "dragon": 0
+        },
+        "attributes": {},
+        "slots": [
+          {
+            "rank": 4
+          }
+        ],
+        "skills": [
+          {
+            "id": 167,
+            "level": 2,
+            "description": "While active, grants attack +8 and increases affinity by 5%.",
+            "modifiers": {},
+            "skill": 52,
+            "skillName": "Agitator"
+          },
+          {
+            "id": 133,
+            "level": 1,
+            "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+            "modifiers": {},
+            "skill": 41,
+            "skillName": "Weakness Exploit"
+          }
+        ],
+      "armorSet": 314,
+      "assets": null,
+      "crafting": null
+    }
+  ],
+  "bonus": {
+    "id": 38,
+    "name": "Tigrex Essence",
+    "ranks": [
+      {
+        "pieces": 3,
+        "skill": {
+          "id": 355,
+          "level": 1,
+          "description": "Raises the maximum level of the Free Meal to Lv3",
+          "modifiers": {
+            "hiddenRanks": 74
+          },
+          "skill": 144,
+          "skillName": "Free MealSecret"
+        }
+      }
+    ]
+  }
 }
+
 
 
 

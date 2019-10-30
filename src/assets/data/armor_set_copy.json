@@ -1,11 +1,11 @@
 {
-  "id": 312,
-  "name": "Rajang Beta +",
+  "id": 314,
+  "name": "Brute Tigrex Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1407,
-      "name": "Golden Headdress Beta +",
+      "id": 1417,
+      "name": "Rex Roar Helm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
@@ -15,38 +15,45 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": -5,
-        "thunder": 3,
-        "dragon": 2
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 134,
+          "id": 40,
           "level": 2,
-          "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 234,
+          "level": 1,
+          "description": "Activates 25% of the time.",
           "modifiers": {},
-          "skill": 41,
-          "skillName": "Weakness Exploit"
+          "skill": 74,
+          "skillName": "Free Meal"
         }
       ],
-      "armorSet": 312,
+      "armorSet": 314,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1408,
-      "name": "Golden Haori Beta +",
+      "id": 1418,
+      "name": "Rex Roar Mail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 11,
@@ -56,11 +63,11 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": -5,
-        "thunder": 3,
-        "dragon": 2
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
@@ -69,28 +76,35 @@
         },
         {
           "rank": 1
-        },
-        {
-          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 181,
+          "id": 40,
           "level": 2,
-          "description": "While active, grants attack +10.",
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
+        },
+        {
+          "id": 133,
+          "level": 1,
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
           "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
+          "skill": 41,
+          "skillName": "Weakness Exploit"
         }
         ],
-      "armorSet": 312,
+      "armorSet": 314,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1409,
-      "name": "Golden Kote Beta +",
+      "id": 1419,
+      "name": "Rex Roar Braces Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 11,
@@ -100,38 +114,47 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": -5,
-        "thunder": 3,
-        "dragon": 2
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 3
         }
       ],
       "skills": [
         {
-          "id": 180,
-          "level": 1,
-          "description": "While active, grants attack +5.",
-          "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
+          "id": 54,
+          "level": 2,
+          "description": "Health +30",
+          "modifiers": {
+            "health": 30
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
+        },
+        {
+          "id": 40,
+          "level": 2,
+          "description": "Attack +6",
+          "modifiers": {
+            "attack": 6
+          },
+          "skill": 15,
+          "skillName": "Attack Boost"
         }
         ],
-      "armorSet": 312,
+      "armorSet": 314,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1410,
-      "name": "Golden Obi Beta +",
+      "id": 1420,
+      "name": "Rex Roar Coil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 11,
@@ -141,22 +164,27 @@
         "augmented": 0
       },
       "resistances": {
-        "fire": 2,
-        "water": 0,
-        "ice": -5,
-        "thunder": 3,
-        "dragon": 2
+        "fire": 3,
+        "water": -4,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 3
         }
       ],
       "skills": [
+        {
+          "id": 57,
+          "level": 2,
+          "description": "Recovery +20%",
+          "modifiers": {},
+          "skill": 18,
+          "skillName": "Recovery Up"
+        },
         {
           "id": 133,
           "level": 1,
@@ -166,13 +194,13 @@
           "skillName": "Weakness Exploit"
           }
         ],
-      "armorSet": 312,
+      "armorSet": 314,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1411,
-        "name": "Golden Hakama Beta +",
+        "id": 1421,
+        "name": "Rex Roar Greaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 11,
@@ -182,70 +210,56 @@
           "augmented": 0
         },
         "resistances": {
-          "fire": 2,
-          "water": 0,
-          "ice": -5,
-          "thunder": 3,
-          "dragon": 2
+          "fire": 3,
+          "water": -4,
+          "ice": 0,
+          "thunder": -2,
+          "dragon": 0
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 181,
+            "id": 167,
             "level": 2,
-            "description": "While active, grants attack +10.",
+            "description": "While active, grants attack +8 and increases affinity by 5%.",
             "modifiers": {},
-            "skill": 56,
-            "skillName": "Resentment"
+            "skill": 52,
+            "skillName": "Agitator"
           },
           {
-            "id": 39,
+            "id": 133,
             "level": 1,
-            "description": "Attack +3",
-            "modifiers": {
-              "attack": 3
-            },
-            "skill": 15,
-            "skillName": "Attack Boost"
+            "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+            "modifiers": {},
+            "skill": 41,
+            "skillName": "Weakness Exploit"
           }
         ],
-      "armorSet": 312,
+      "armorSet": 314,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 54,
-    "name": "Rajangs Rage",
+    "id": 38,
+    "name": "Tigrex Essence",
     "ranks": [
       {
-        "pieces": 2,
+        "pieces": 3,
         "skill": {
-          "id": 314,
+          "id": 355,
           "level": 1,
-          "description": "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power.",
-          "modifiers": {},
-          "skill": 115,
-          "skillName": "Mind\u0027s Eye\/Ballistics"
-        }
-      },
-      {
-        "pieces": 4,
-        "skill": {
-          "id": 327,
-          "level": 1,
-          "description": "Weapon sharpness does not decrease for a set time after sharpening.",
-          "modifiers": {},
-          "skill": 128,
-          "skillName": "Protective Polish"
+          "description": "Raises the maximum level of the Free Meal to Lv3",
+          "modifiers": {
+            "hiddenRanks": 74
+          },
+          "skill": 144,
+          "skillName": "Free MealSecret"
         }
       }
     ]

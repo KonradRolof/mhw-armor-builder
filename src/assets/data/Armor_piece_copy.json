@@ -1,6 +1,6 @@
 {
-  "id": 1411,
-  "name": "Golden Hakama Beta +",
+  "id": 1421,
+  "name": "Rex Roar Greaves Beta +",
   "type": "legs",
   "rank": "master",
   "rarity": 11,
@@ -10,53 +10,48 @@
     "augmented": 0
   },
   "resistances": {
-    "fire": 2,
-    "water": 0,
-    "ice": -5,
-    "thunder": 3,
-    "dragon": 2
+    "fire": 3,
+    "water": -4,
+    "ice": 0,
+    "thunder": -2,
+    "dragon": 0
   },
   "attributes": {},
   "slots": [
     {
       "rank": 4
-    },
-    {
-      "rank": 2
     }
   ],
   "skills": [
     {
-      "id": 181,
+      "id": 167,
       "level": 2,
-      "description": "While active, grants attack +10.",
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
       "modifiers": {},
-      "skill": 56,
-      "skillName": "Resentment"
+      "skill": 52,
+      "skillName": "Agitator"
     },
     {
-      "id": 39,
+      "id": 133,
       "level": 1,
-      "description": "Attack +3",
-      "modifiers": {
-        "attack": 3
-      },
-      "skill": 15,
-      "skillName": "Attack Boost"
+      "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+      "modifiers": {},
+      "skill": 41,
+      "skillName": "Weakness Exploit"
     }
   ],
   "armorSet": {
-    "id": 312,
-    "name": "Rajang Beta +",
+    "id": 314,
+    "name": "Brute Tigrex Alpha +",
     "rank": "master",
     "pieces": [
-      1407,
-      1408,
-      1409,
-      1410,
-      1411
+      1417,
+      1418,
+      1419,
+      1420,
+      1421
     ],
-    "bonus": 54
+    "bonus": 38
   },
   "assets": null,
   "crafting": null
