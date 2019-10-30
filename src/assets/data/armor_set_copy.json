@@ -1,25 +1,25 @@
 {
-  "id": 304,
-  "name": "Ruiner Nergi Beta +",
+  "id": 306,
+  "name": "Golden Lune Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1367,
-      "name": "Ruinous Helm Beta +",
+      "id": 1377,
+      "name": "Golden Lunehelm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 166,
+        "base": 162,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
+        "fire": 3,
+        "water": -2,
+        "ice": 0,
+        "thunder": -4,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -32,35 +32,81 @@
       ],
       "skills": [
         {
-          "id": 268,
+          "id": 54,
           "level": 2,
-          "description": "While active, increases affinity by 20%.",
-          "modifiers": {},
-          "skill": 88,
-          "skillName": "Maximum Might"
+          "description": "Health +30",
+          "modifiers": {
+            "health": 30
+          },
+          "skill": 17,
+          "skillName": "Health Boost"
         }
       ],
-      "armorSet": 304,
+      "armorSet": 306,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1368,
-      "name": "Ruinous Mail Beta +",
+      "id": 1378,
+      "name": "Golden Lunemail Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 166,
+        "base": 162,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
+        "fire": 3,
+        "water": -2,
+        "ice": 0,
+        "thunder": -4,
+        "dragon": 4
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 2
+        },
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 253,
+          "level": 2,
+          "description": "While active, reduces damage taken by 30%.",
+          "modifiers": {},
+          "skill": 84,
+          "skillName": "Divine Blessing"
+        }
+        ],
+      "armorSet": 306,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1379,
+      "name": "Golden Lunebraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 162,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "ice": 0,
+        "thunder": -4,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -73,86 +119,35 @@
       ],
       "skills": [
         {
-          "id": 205,
+          "id": 181,
           "level": 2,
-          "description": "Stamina recovery speed +20%",
+          "description": "While active, grants attack +10.",
           "modifiers": {},
-          "skill": 66,
-          "skillName": "Stamina Surge"
+          "skill": 56,
+          "skillName": "Resentment"
         }
         ],
-      "armorSet": 304,
+      "armorSet": 306,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1369,
-      "name": "Ruinous Vambraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 166,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 1
-        }
-      ],
-      "skills": [
-        {
-          "id": 167,
-          "level": 2,
-          "description": "While active, grants attack +8 and increases affinity by 5%.",
-          "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
-        },
-        {
-          "id": 39,
-          "level": 1,
-          "description": "Attack +3",
-          "modifiers": {
-            "attack": 3
-          },
-          "skill": 15,
-          "skillName": "Attack Boost"
-        }
-        ],
-      "armorSet": 304,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1370,
-      "name": "Ruinous Coil Beta +",
+      "id": 1380,
+      "name": "Golden Lunecoil Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 166,
+        "base": 162,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 1,
-        "ice": 1,
-        "thunder": -3,
-        "dragon": -3
+        "fire": 3,
+        "water": -2,
+        "ice": 0,
+        "thunder": -4,
+        "dragon": 4
       },
       "attributes": {},
       "slots": [
@@ -160,88 +155,88 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 2
         }
       ],
       "skills": [
         {
-          "id": 40,
-          "level": 2,
-          "description": "Attack +6",
-          "modifiers": {
-            "attack": 6
-          },
-          "skill": 15,
-          "skillName": "Attack Boost"
-        },
-        {
-          "id": 23,
-          "level": 1,
-          "description": "Slightly reduces the effects of weak monster roars.",
+          "id": 254,
+          "level": 3,
+          "description": "While active, reduces damage taken by 50%.",
           "modifiers": {},
-          "skill": 9,
-          "skillName": "Earplugs"
+          "skill": 84,
+          "skillName": "Divine Blessing"
           }
         ],
-      "armorSet": 304,
+      "armorSet": 306,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1371,
-        "name": "Ruinous Greaves Beta +",
+        "id": 1381,
+        "name": "Golden Lunegreaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 166,
+          "base": 162,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 1,
-          "water": 1,
-          "ice": 1,
-          "thunder": -3,
-          "dragon": -3
+          "fire": 3,
+          "water": -2,
+          "ice": 0,
+          "thunder": -4,
+          "dragon": 4
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
-          },
-          {
-            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 24,
+            "id": 134,
             "level": 2,
-            "description": "Reduces the effects of weak monster roars.",
+            "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
             "modifiers": {},
-            "skill": 9,
-            "skillName": "Earplugs"
+            "skill": 41,
+            "skillName": "Weakness Exploit"
           }
         ],
-      "armorSet": 304,
+      "armorSet": 306,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 50,
-    "name": "Nergigante Ambition",
+    "id": 51,
+    "name": "Golden Rathian Essence",
     "ranks": [
       {
         "pieces": 2,
         "skill": {
-          "id": 308,
+          "id": 378,
           "level": 1,
-          "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
+          "description": "Raises the maximum level of the Divine Blessing skill to Lv5",
+          "modifiers": {
+            "hiddenRanks": 47
+          },
+          "skill": 155,
+          "skillName": "Divine Blessing Secret"
+        }
+      },
+      {
+        "pieces": 4,
+        "skill": {
+          "id": 381,
+          "level": 1,
+          "description": "Greatly increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
           "modifiers": {},
-          "skill": 109,
-          "skillName": "Hasten Recovery"
+          "skill": 156,
+          "skillName": "True Critical Status"
         }
       }
     ]

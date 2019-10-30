@@ -2916,6 +2916,24 @@
         "description": "While active, reduces damage taken by 50%.",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 379,
+        "skill": 84,
+        "skillName": "Divine Blessing",
+        "level": 4,
+        "description": "While active, reduces damage taken by 60%.",
+        "modifiers": {}
+      },
+      {
+        "id": 380,
+        "skill": 84,
+        "skillName": "Divine Blessing",
+        "level": 5,
+        "description": "While active, reduces damage taken by 60%. Skill becomes easier to activate as well.",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -3787,6 +3805,21 @@
     ]
   },
   {
+    "id": 156,
+    "name": "True Critical Status",
+    "description": "Greatly increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
+    "ranks": [
+      {
+        "id": 381,
+        "skill": 156,
+        "skillName": "Critical Status",
+        "level": 1,
+        "description": "Greatly increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
     "id": 125,
     "name": "Good Luck",
     "description": "Good chance of increased quest rewards. (No effect when joining mid-quest.)",
@@ -4264,6 +4297,23 @@
         "description": "Raises the maximum level of the Latent Power skill to Lv7",
         "modifiers": {
           "hiddenRanks": 51
+        }
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Divine Blessing Secret",
+    "description": "Raises the maximum level of the Divine Blessing skill to Lv5",
+    "ranks": [
+      {
+        "id": 378,
+        "skill": 155,
+        "skillName": "Divine Blessing Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Divine Blessing skill to Lv5",
+        "modifiers": {
+          "hiddenRanks": 84
         }
       }
     ]
