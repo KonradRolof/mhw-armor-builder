@@ -1,25 +1,25 @@
 {
-  "id": 310,
-  "name": "Guild Palace Beta +",
+  "id": 312,
+  "name": "Rajang Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1397,
-      "name": "Guild Palace Helm Beta +",
+      "id": 1407,
+      "name": "Golden Headdress Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 154,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 2,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 2,
+        "water": 0,
+        "ice": -5,
+        "thunder": 3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -27,42 +27,40 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 54,
+          "id": 134,
           "level": 2,
-          "description": "Health +30",
-          "modifiers": {
-            "health": 30
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
+          "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
+          "modifiers": {},
+          "skill": 41,
+          "skillName": "Weakness Exploit"
         }
       ],
-      "armorSet": 310,
+      "armorSet": 312,
       "assets": null,
       "crafting": null
     },
     {
-      "id": 1398,
-      "name": "Guild Palace Mail Beta +",
+      "id": 1408,
+      "name": "Golden Haori Beta +",
       "type": "chest",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 154,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 2,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 2,
+        "water": 0,
+        "ice": -5,
+        "thunder": 3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -70,48 +68,43 @@
           "rank": 4
         },
         {
-          "rank": 2
+          "rank": 1
+        },
+        {
+          "rank": 1
         }
       ],
       "skills": [
         {
-          "id": 166,
-          "level": 1,
-          "description": "While active, grants attack +4 and increases affinity by 5%.",
+          "id": 181,
+          "level": 2,
+          "description": "While active, grants attack +10.",
           "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
-        },
-        {
-          "id": 174,
-          "level": 1,
-          "description": "While active, increases defense by 50 points",
-          "modifiers": {},
-          "skill": 54,
-          "skillName": "Heroics"
+          "skill": 56,
+          "skillName": "Resentment"
         }
         ],
-      "armorSet": 310,
+      "armorSet": 312,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1399,
-      "name": "Guild Palace Braces Beta +",
+      "id": 1409,
+      "name": "Golden Kote Beta +",
       "type": "gloves",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 154,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 2,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 2,
+        "water": 0,
+        "ice": -5,
+        "thunder": 3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -119,40 +112,40 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 3
         }
       ],
       "skills": [
         {
-          "id": 342,
-          "level": 2,
-          "description": "While active increases attack power by 10%.",
+          "id": 180,
+          "level": 1,
+          "description": "While active, grants attack +5.",
           "modifiers": {},
-          "skill": 138,
-          "skillName": "Offensive Guard"
+          "skill": 56,
+          "skillName": "Resentment"
         }
         ],
-      "armorSet": 310,
+      "armorSet": 312,
       "assets": null,
       "crafting": null
       },
     {
-      "id": 1400,
-      "name": "Guild Palace Coil Beta +",
+      "id": 1410,
+      "name": "Golden Obi Beta +",
       "type": "waist",
       "rank": "master",
       "rarity": 11,
       "defense": {
-        "base": 154,
+        "base": 158,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 1,
-        "water": 2,
-        "ice": 1,
-        "thunder": 2,
-        "dragon": 1
+        "fire": 2,
+        "water": 0,
+        "ice": -5,
+        "thunder": 3,
+        "dragon": 2
       },
       "attributes": {},
       "slots": [
@@ -160,48 +153,40 @@
           "rank": 4
         },
         {
-          "rank": 1
+          "rank": 3
         }
       ],
       "skills": [
         {
-          "id": 167,
-          "level": 2,
-          "description": "While active, grants attack +8 and increases affinity by 5%.",
-          "modifiers": {},
-          "skill": 52,
-          "skillName": "Agitator"
-        },
-        {
-          "id": 185,
+          "id": 133,
           "level": 1,
-          "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
+          "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
           "modifiers": {},
-          "skill": 57,
-          "skillName": "Resuscitate"
+          "skill": 41,
+          "skillName": "Weakness Exploit"
           }
         ],
-      "armorSet": 310,
+      "armorSet": 312,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1401,
-        "name": "Guild Palace Greaves Beta +",
+        "id": 1411,
+        "name": "Golden Hakama Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 11,
         "defense": {
-          "base": 154,
+          "base": 158,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 1,
-          "water": 2,
-          "ice": 1,
-          "thunder": 2,
-          "dragon": 1
+          "fire": 2,
+          "water": 0,
+          "ice": -5,
+          "thunder": 3,
+          "dragon": 2
         },
         "attributes": {},
         "slots": [
@@ -209,58 +194,58 @@
             "rank": 4
           },
           {
-            "rank": 1
+            "rank": 2
           }
         ],
         "skills": [
           {
-            "id": 175,
+            "id": 181,
             "level": 2,
-            "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+            "description": "While active, grants attack +10.",
             "modifiers": {},
-            "skill": 54,
-            "skillName": "Heroics"
+            "skill": 56,
+            "skillName": "Resentment"
           },
           {
-            "id": 53,
+            "id": 39,
             "level": 1,
-            "description": "Health +15",
+            "description": "Attack +3",
             "modifiers": {
-              "health": 15
+              "attack": 3
             },
-            "skill": 17,
-            "skillName": "Health Boost"
+            "skill": 15,
+            "skillName": "Attack Boost"
           }
         ],
-      "armorSet": 310,
+      "armorSet": 312,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 53,
-    "name": "Guild Pride",
+    "id": 54,
+    "name": "Rajangs Rage",
     "ranks": [
       {
         "pieces": 2,
         "skill": {
-          "id": 324,
+          "id": 314,
           "level": 1,
-          "description": "Good chance of increased quest rewards. (No effect when joining mid-quest.)",
+          "description": "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power.",
           "modifiers": {},
-          "skill": 125,
-          "skillName": "Good Luck"
+          "skill": 115,
+          "skillName": "Mind\u0027s Eye\/Ballistics"
         }
       },
       {
         "pieces": 4,
         "skill": {
-          "id": 333,
+          "id": 327,
           "level": 1,
-          "description": "High chance of increased quest rewards. (No effect when joining mid-quest.)",
+          "description": "Weapon sharpness does not decrease for a set time after sharpening.",
           "modifiers": {},
-          "skill": 134,
-          "skillName": "Great Luck"
+          "skill": 128,
+          "skillName": "Protective Polish"
         }
       }
     ]
