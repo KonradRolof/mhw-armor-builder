@@ -110353,6 +110353,599 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1392,
+  "name": "Guild Palace Helm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    },
+    {
+      "id": 341,
+      "level": 1,
+      "description": "While active increases attack power by 5%.",
+      "modifiers": {},
+      "skill": 138,
+      "skillName": "Offensive Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 309,
+    "name": "Guild Palace Alpha +",
+    "rank": "master",
+    "pieces": [
+      1392,
+      1393,
+      1394,
+      1395,
+      1396
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1393,
+  "name": "Guild Palace Mail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 174,
+      "level": 1,
+      "description": "While active, increases defense by 50 points",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    }
+  ],
+  "armorSet": {
+    "id": 309,
+    "name": "Guild Palace Alpha +",
+    "rank": "master",
+    "pieces": [
+      1392,
+      1393,
+      1394,
+      1395,
+      1396
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1394,
+  "name": "Guild Palace Braces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 342,
+      "level": 2,
+      "description": "While active increases attack power by 10%.",
+      "modifiers": {},
+      "skill": 138,
+      "skillName": "Offensive Guard"
+    },
+    {
+      "id": 174,
+      "level": 1,
+      "description": "While active, increases defense by 50 points",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    }
+  ],
+  "armorSet": {
+    "id": 309,
+    "name": "Guild Palace Alpha +",
+    "rank": "master",
+    "pieces": [
+      1392,
+      1393,
+      1394,
+      1395,
+      1396
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1395,
+  "name": "Guild Palace Coil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 168,
+      "level": 3,
+      "description": "While active, grants attack +12 and increases affinity by 7%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 185,
+      "level": 1,
+      "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
+      "modifiers": {},
+      "skill": 57,
+      "skillName": "Resuscitate"
+    }
+  ],
+  "armorSet": {
+    "id": 309,
+    "name": "Guild Palace Alpha +",
+    "rank": "master",
+    "pieces": [
+      1392,
+      1393,
+      1394,
+      1395,
+      1396
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1396,
+  "name": "Guild Palace Greaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 176,
+      "level": 3,
+      "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    },
+    {
+      "id": 53,
+      "level": 1,
+      "description": "Health +15",
+      "modifiers": {
+        "health": 15
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 309,
+    "name": "Guild Palace Alpha +",
+    "rank": "master",
+    "pieces": [
+      1392,
+      1393,
+      1394,
+      1395,
+      1396
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1397,
+  "name": "Guild Palace Helm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 54,
+      "level": 2,
+      "description": "Health +30",
+      "modifiers": {
+        "health": 30
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 310,
+    "name": "Guild Palace Beta +",
+    "rank": "master",
+    "pieces": [
+      1397,
+      1398,
+      1399,
+      1400,
+      1401
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1398,
+  "name": "Guild Palace Mail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 166,
+      "level": 1,
+      "description": "While active, grants attack +4 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 174,
+      "level": 1,
+      "description": "While active, increases defense by 50 points",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    }
+  ],
+  "armorSet": {
+    "id": 310,
+    "name": "Guild Palace Beta +",
+    "rank": "master",
+    "pieces": [
+      1397,
+      1398,
+      1399,
+      1400,
+      1401
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1399,
+  "name": "Guild Palace Braces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 342,
+      "level": 2,
+      "description": "While active increases attack power by 10%.",
+      "modifiers": {},
+      "skill": 138,
+      "skillName": "Offensive Guard"
+    }
+  ],
+  "armorSet": {
+    "id": 310,
+    "name": "Guild Palace Beta +",
+    "rank": "master",
+    "pieces": [
+      1397,
+      1398,
+      1399,
+      1400,
+      1401
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1400,
+  "name": "Guild Palace Coil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 167,
+      "level": 2,
+      "description": "While active, grants attack +8 and increases affinity by 5%.",
+      "modifiers": {},
+      "skill": 52,
+      "skillName": "Agitator"
+    },
+    {
+      "id": 185,
+      "level": 1,
+      "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
+      "modifiers": {},
+      "skill": 57,
+      "skillName": "Resuscitate"
+    }
+  ],
+  "armorSet": {
+    "id": 310,
+    "name": "Guild Palace Beta +",
+    "rank": "master",
+    "pieces": [
+      1397,
+      1398,
+      1399,
+      1400,
+      1401
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1401,
+  "name": "Guild Palace Greaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 11,
+  "defense": {
+    "base": 154,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 175,
+      "level": 2,
+      "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+      "modifiers": {},
+      "skill": 54,
+      "skillName": "Heroics"
+    },
+    {
+      "id": 53,
+      "level": 1,
+      "description": "Health +15",
+      "modifiers": {
+        "health": 15
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 310,
+    "name": "Guild Palace Beta +",
+    "rank": "master",
+    "pieces": [
+      1397,
+      1398,
+      1399,
+      1400,
+      1401
+    ],
+    "bonus": 53
+  },
+  "assets": null,
+  "crafting": null
 }
 
 

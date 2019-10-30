@@ -1,20 +1,20 @@
 {
-  "id": 1391,
-  "name": "Silver Solgreaves Beta +",
+  "id": 1401,
+  "name": "Guild Palace Greaves Beta +",
   "type": "legs",
   "rank": "master",
-  "rarity": 12,
+  "rarity": 11,
   "defense": {
-    "base": 164,
+    "base": 154,
     "max": 0,
     "augmented": 0
   },
   "resistances": {
-    "fire": 4,
-    "water": -3,
-    "ice": -2,
-    "thunder": -2,
-    "dragon": 3
+    "fire": 1,
+    "water": 2,
+    "ice": 1,
+    "thunder": 2,
+    "dragon": 1
   },
   "attributes": {},
   "slots": [
@@ -22,34 +22,41 @@
       "rank": 4
     },
     {
-      "rank": 2
-    },
-    {
       "rank": 1
     }
   ],
   "skills": [
     {
-      "id": 271,
+      "id": 175,
       "level": 2,
-      "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+      "description": "While active, increases attack power by 5% and increases defense by 50 points.",
       "modifiers": {},
-      "skill": 89,
-      "skillName": "Slinger Capacity"
+      "skill": 54,
+      "skillName": "Heroics"
+    },
+    {
+      "id": 53,
+      "level": 1,
+      "description": "Health +15",
+      "modifiers": {
+        "health": 15
+      },
+      "skill": 17,
+      "skillName": "Health Boost"
     }
   ],
   "armorSet": {
-    "id": 308,
-    "name": "Silver Sol Beta +",
+    "id": 310,
+    "name": "Guild Palace Beta +",
     "rank": "master",
     "pieces": [
-      1387,
-      1388,
-      1389,
-      1390,
-      1391
+      1397,
+      1398,
+      1399,
+      1400,
+      1401
     ],
-    "bonus": 52
+    "bonus": 53
   },
   "assets": null,
   "crafting": null
