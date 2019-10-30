@@ -3131,6 +3131,24 @@
         "description": "In addition, increases the loading capacity for all slinger ammo dropped by monsters.",
         "modifiers": {}
       }
+    ],
+    "hiddenRanks": [
+      {
+        "id": 383,
+        "skill": 89,
+        "skillName": "Slinger Capacity",
+        "level": 4,
+        "description": "Increases the loading capacity for the slinger ammo collected from the ground or plants even more",
+        "modifiers": {}
+      },
+      {
+        "id": 384,
+        "skill": 89,
+        "skillName": "Slinger Capacity",
+        "level": 5,
+        "description": "Increases the loading capacity for all slinger ammo",
+        "modifiers": {}
+      }
     ]
   },
   {
@@ -3650,6 +3668,21 @@
         "skillName": "Critical Element",
         "level": 1,
         "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+        "modifiers": {}
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "True Critical Element",
+    "description": "Greatly increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "ranks": [
+      {
+        "id": 385,
+        "skill": 158,
+        "skillName": "True Critical Element",
+        "level": 1,
+        "description": "Greatly increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
         "modifiers": {}
       }
     ]
@@ -4314,6 +4347,23 @@
         "description": "Raises the maximum level of the Divine Blessing skill to Lv5",
         "modifiers": {
           "hiddenRanks": 84
+        }
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Slinger Capacity Secret",
+    "description": "Raises the maximum level of the Slinger Capacity skill to Lv5",
+    "ranks": [
+      {
+        "id": 382,
+        "skill": 157,
+        "skillName": "Slinger Capacity Secret",
+        "level": 1,
+        "description": "Raises the maximum level of the Slinger Capacity skill to Lv5",
+        "modifiers": {
+          "hiddenRanks": 89
         }
       }
     ]

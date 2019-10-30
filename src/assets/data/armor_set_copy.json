@@ -1,25 +1,114 @@
 {
-  "id": 306,
-  "name": "Golden Lune Beta +",
+  "id": 308,
+  "name": "Silver Sol Beta +",
   "rank": "master",
   "pieces": [
     {
-      "id": 1377,
-      "name": "Golden Lunehelm Beta +",
+      "id": 1387,
+      "name": "Silver Solhelm Beta +",
       "type": "head",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 162,
+        "base": 164,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -2,
-        "ice": 0,
-        "thunder": -4,
-        "dragon": 4
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 3
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 4
+        },
+        {
+          "rank": 3
+        }
+      ],
+      "skills": [
+        {
+          "id": 29,
+          "level": 2,
+          "description": "Reduces the effects of minor wind pressure.",
+          "modifiers": {},
+          "skill": 10,
+          "skillName": "Windproof"
+        }
+      ],
+      "armorSet": 308,
+      "assets": null,
+      "crafting": null
+    },
+    {
+      "id": 1383,
+      "name": "Silver Solmail Alpha +",
+      "type": "chest",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 164,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 3
+      },
+      "attributes": {},
+      "slots": [
+        {
+          "rank": 1
+        }
+      ],
+      "skills": [
+        {
+          "id": 131,
+          "level": 2,
+          "description": "Increases damage dealt by critical hits by 35%.",
+          "modifiers": {},
+          "skill": 40,
+          "skillName": "Critical Boost"
+        },
+        {
+          "id": 81,
+          "level": 2,
+          "description": "Fire attack +60",
+          "modifiers": {
+            "damageFire": 60
+          },
+          "skill": 26,
+          "skillName": "Fire Attack"
+        }
+        ],
+      "armorSet": 307,
+      "assets": null,
+      "crafting": null
+      },
+    {
+      "id": 1389,
+      "name": "Silver Solbraces Beta +",
+      "type": "gloves",
+      "rank": "master",
+      "rarity": 12,
+      "defense": {
+        "base": 164,
+        "max": 0,
+        "augmented": 0
+      },
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 3
       },
       "attributes": {},
       "slots": [
@@ -32,45 +121,40 @@
       ],
       "skills": [
         {
-          "id": 54,
-          "level": 2,
-          "description": "Health +30",
-          "modifiers": {
-            "health": 30
-          },
-          "skill": 17,
-          "skillName": "Health Boost"
+          "id": 272,
+          "level": 3,
+          "description": "In addition, increases the loading capacity for all slinger ammo dropped by monsters.",
+          "modifiers": {},
+          "skill": 89,
+          "skillName": "Slinger Capacity"
         }
-      ],
-      "armorSet": 306,
+        ],
+      "armorSet": 308,
       "assets": null,
       "crafting": null
-    },
+      },
     {
-      "id": 1378,
-      "name": "Golden Lunemail Beta +",
-      "type": "chest",
+      "id": 1390,
+      "name": "Silver Solcoil Beta +",
+      "type": "waist",
       "rank": "master",
       "rarity": 12,
       "defense": {
-        "base": 162,
+        "base": 164,
         "max": 0,
         "augmented": 0
       },
       "resistances": {
-        "fire": 3,
-        "water": -2,
-        "ice": 0,
-        "thunder": -4,
-        "dragon": 4
+        "fire": 4,
+        "water": -3,
+        "ice": -2,
+        "thunder": -2,
+        "dragon": 3
       },
       "attributes": {},
       "slots": [
         {
           "rank": 4
-        },
-        {
-          "rank": 2
         },
         {
           "rank": 1
@@ -78,165 +162,97 @@
       ],
       "skills": [
         {
-          "id": 253,
-          "level": 2,
-          "description": "While active, reduces damage taken by 30%.",
+          "id": 28,
+          "level": 1,
+          "description": "Slightly reduces the effects of minor wind pressure.",
           "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
-        }
-        ],
-      "armorSet": 306,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1379,
-      "name": "Golden Lunebraces Beta +",
-      "type": "gloves",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 162,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -2,
-        "ice": 0,
-        "thunder": -4,
-        "dragon": 4
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
+          "skill": 10,
+          "skillName": "Windproof"
         },
         {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 181,
-          "level": 2,
-          "description": "While active, grants attack +10.",
+          "id": 130,
+          "level": 1,
+          "description": "Increases damage dealt by critical hits by 30%.",
           "modifiers": {},
-          "skill": 56,
-          "skillName": "Resentment"
-        }
-        ],
-      "armorSet": 306,
-      "assets": null,
-      "crafting": null
-      },
-    {
-      "id": 1380,
-      "name": "Golden Lunecoil Beta +",
-      "type": "waist",
-      "rank": "master",
-      "rarity": 12,
-      "defense": {
-        "base": 162,
-        "max": 0,
-        "augmented": 0
-      },
-      "resistances": {
-        "fire": 3,
-        "water": -2,
-        "ice": 0,
-        "thunder": -4,
-        "dragon": 4
-      },
-      "attributes": {},
-      "slots": [
-        {
-          "rank": 4
-        },
-        {
-          "rank": 2
-        }
-      ],
-      "skills": [
-        {
-          "id": 254,
-          "level": 3,
-          "description": "While active, reduces damage taken by 50%.",
-          "modifiers": {},
-          "skill": 84,
-          "skillName": "Divine Blessing"
+          "skill": 40,
+          "skillName": "Critical Boost"
           }
         ],
-      "armorSet": 306,
+      "armorSet": 308,
       "assets": null,
       "crafting": null
       },
       {
-        "id": 1381,
-        "name": "Golden Lunegreaves Beta +",
+        "id": 1391,
+        "name": "Silver Solgreaves Beta +",
         "type": "legs",
         "rank": "master",
         "rarity": 12,
         "defense": {
-          "base": 162,
+          "base": 164,
           "max": 0,
           "augmented": 0
         },
         "resistances": {
-          "fire": 3,
-          "water": -2,
-          "ice": 0,
-          "thunder": -4,
-          "dragon": 4
+          "fire": 4,
+          "water": -3,
+          "ice": -2,
+          "thunder": -2,
+          "dragon": 3
         },
         "attributes": {},
         "slots": [
           {
             "rank": 4
+          },
+          {
+            "rank": 2
+          },
+          {
+            "rank": 1
           }
         ],
         "skills": [
           {
-            "id": 134,
+            "id": 271,
             "level": 2,
-            "description": "Attacks that hit weak spots have 15% increased affinity, with an extra 15% on wounded parts.",
+            "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
             "modifiers": {},
-            "skill": 41,
-            "skillName": "Weakness Exploit"
+            "skill": 89,
+            "skillName": "Slinger Capacity"
           }
         ],
-      "armorSet": 306,
+      "armorSet": 308,
       "assets": null,
       "crafting": null
     }
   ],
   "bonus": {
-    "id": 51,
-    "name": "Golden Rathian Essence",
+    "id": 52,
+    "name": "Silver Rathalos Essence",
     "ranks": [
       {
         "pieces": 2,
         "skill": {
-          "id": 378,
+          "id": 382,
           "level": 1,
-          "description": "Raises the maximum level of the Divine Blessing skill to Lv5",
+          "description": "Raises the maximum level of the Slinger Capacity skill to Lv5",
           "modifiers": {
-            "hiddenRanks": 47
+            "hiddenRanks": 89
           },
-          "skill": 155,
-          "skillName": "Divine Blessing Secret"
+          "skill": 157,
+          "skillName": "Slinger Capacity Secret"
         }
       },
       {
         "pieces": 4,
         "skill": {
-          "id": 381,
+          "id": 385,
           "level": 1,
-          "description": "Greatly increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.",
+          "description": "Greatly increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
           "modifiers": {},
-          "skill": 156,
-          "skillName": "True Critical Status"
+          "skill": 158,
+          "skillName": "True Critical Element"
         }
       }
     ]

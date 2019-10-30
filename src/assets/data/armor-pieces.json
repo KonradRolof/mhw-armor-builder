@@ -109772,7 +109772,589 @@
   },
   "assets": null,
   "crafting": null
+},
+{
+  "id": 1382,
+  "name": "Silver Solhelm Alpha +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 29,
+      "level": 2,
+      "description": "Reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    },
+    {
+      "id": 81,
+      "level": 2,
+      "description": "Fire attack +60",
+      "modifiers": {
+        "damageFire": 60
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 307,
+    "name": "Silver Sol Alpha +",
+    "rank": "master",
+    "pieces": [
+      1382,
+      1383,
+      1384,
+      1385,
+      1386
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1383,
+  "name": "Silver Solmail Alpha +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 131,
+      "level": 2,
+      "description": "Increases damage dealt by critical hits by 35%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    },
+    {
+      "id": 81,
+      "level": 2,
+      "description": "Fire attack +60",
+      "modifiers": {
+        "damageFire": 60
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 307,
+    "name": "Silver Sol Alpha +",
+    "rank": "master",
+    "pieces": [
+      1382,
+      1383,
+      1384,
+      1385,
+      1386
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1384,
+  "name": "Silver Solbraces Alpha +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 2
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 272,
+      "level": 3,
+      "description": "In addition, increases the loading capacity for all slinger ammo dropped by monsters.",
+      "modifiers": {},
+      "skill": 89,
+      "skillName": "Slinger Capacity"
+    },
+    {
+      "id": 28,
+      "level": 1,
+      "description": "Slightly reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    }
+  ],
+  "armorSet": {
+    "id": 307,
+    "name": "Silver Sol Alpha +",
+    "rank": "master",
+    "pieces": [
+      1382,
+      1383,
+      1384,
+      1385,
+      1386
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1385,
+  "name": "Silver Solcoil Alpha +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 1
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 29,
+      "level": 2,
+      "description": "Reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    },
+    {
+      "id": 130,
+      "level": 1,
+      "description": "Increases damage dealt by critical hits by 30%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 307,
+    "name": "Silver Sol Alpha +",
+    "rank": "master",
+    "pieces": [
+      1382,
+      1383,
+      1384,
+      1385,
+      1386
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1386,
+  "name": "Silver Solgreaves Alpha +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 3
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 271,
+      "level": 2,
+      "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+      "modifiers": {},
+      "skill": 89,
+      "skillName": "Slinger Capacity"
+    },
+    {
+      "id": 81,
+      "level": 2,
+      "description": "Fire attack +60",
+      "modifiers": {
+        "damageFire": 60
+      },
+      "skill": 26,
+      "skillName": "Fire Attack"
+    }
+  ],
+  "armorSet": {
+    "id": 307,
+    "name": "Silver Sol Alpha +",
+    "rank": "master",
+    "pieces": [
+      1382,
+      1383,
+      1384,
+      1385,
+      1386
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1387,
+  "name": "Silver Solhelm Beta +",
+  "type": "head",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 29,
+      "level": 2,
+      "description": "Reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    }
+  ],
+  "armorSet": {
+    "id": 308,
+    "name": "Silver Sol Beta +",
+    "rank": "master",
+    "pieces": [
+      1387,
+      1388,
+      1389,
+      1390,
+      1391
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1388,
+  "name": "Silver Solmail Beta +",
+  "type": "chest",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 131,
+      "level": 2,
+      "description": "Increases damage dealt by critical hits by 35%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 308,
+    "name": "Silver Sol Beta +",
+    "rank": "master",
+    "pieces": [
+      1387,
+      1388,
+      1389,
+      1390,
+      1391
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1389,
+  "name": "Silver Solbraces Beta +",
+  "type": "gloves",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 272,
+      "level": 3,
+      "description": "In addition, increases the loading capacity for all slinger ammo dropped by monsters.",
+      "modifiers": {},
+      "skill": 89,
+      "skillName": "Slinger Capacity"
+    }
+  ],
+  "armorSet": {
+    "id": 308,
+    "name": "Silver Sol Beta +",
+    "rank": "master",
+    "pieces": [
+      1387,
+      1388,
+      1389,
+      1390,
+      1391
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1390,
+  "name": "Silver Solcoil Beta +",
+  "type": "waist",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 28,
+      "level": 1,
+      "description": "Slightly reduces the effects of minor wind pressure.",
+      "modifiers": {},
+      "skill": 10,
+      "skillName": "Windproof"
+    },
+    {
+      "id": 130,
+      "level": 1,
+      "description": "Increases damage dealt by critical hits by 30%.",
+      "modifiers": {},
+      "skill": 40,
+      "skillName": "Critical Boost"
+    }
+  ],
+  "armorSet": {
+    "id": 308,
+    "name": "Silver Sol Beta +",
+    "rank": "master",
+    "pieces": [
+      1387,
+      1388,
+      1389,
+      1390,
+      1391
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
+},
+{
+  "id": 1391,
+  "name": "Silver Solgreaves Beta +",
+  "type": "legs",
+  "rank": "master",
+  "rarity": 12,
+  "defense": {
+    "base": 164,
+    "max": 0,
+    "augmented": 0
+  },
+  "resistances": {
+    "fire": 4,
+    "water": -3,
+    "ice": -2,
+    "thunder": -2,
+    "dragon": 3
+  },
+  "attributes": {},
+  "slots": [
+    {
+      "rank": 4
+    },
+    {
+      "rank": 2
+    },
+    {
+      "rank": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 271,
+      "level": 2,
+      "description": "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+      "modifiers": {},
+      "skill": 89,
+      "skillName": "Slinger Capacity"
+    }
+  ],
+  "armorSet": {
+    "id": 308,
+    "name": "Silver Sol Beta +",
+    "rank": "master",
+    "pieces": [
+      1387,
+      1388,
+      1389,
+      1390,
+      1391
+    ],
+    "bonus": 52
+  },
+  "assets": null,
+  "crafting": null
 }
+
 
 
 
