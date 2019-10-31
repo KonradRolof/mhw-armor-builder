@@ -1192,7 +1192,7 @@
         "skill": 31,
         "skillName": "Poison Attack",
         "level": 4,
-        "description": "Poison buildup +20% Bonus: +10",
+        "description": "Poison buildup +30% Bonus: +10",
         "modifiers": {}
       }
     ]
@@ -1264,6 +1264,14 @@
         "level": 3,
         "description": "Sleep buildup +20% Bonus: +10",
         "modifiers": {}
+      },
+      {
+        "id": 389,
+        "skill": 33,
+        "skillName": "Sleep Attack",
+        "level": 4,
+        "description": "Sleep buildup +30% Bonus: +10",
+        "modifiers": {}
       }
     ]
   },
@@ -1318,6 +1326,14 @@
         "level": 1,
         "description": "Increases the power of normal ammo and normal arrows.",
         "modifiers": {}
+      },
+      {
+        "id": 387,
+        "skill": 35,
+        "skillName": "Normal Shots",
+        "level": 2,
+        "description": "Greatly increases the power of normal ammo and normal arrows.",
+        "modifiers": {}
       }
     ]
   },
@@ -1333,6 +1349,14 @@
         "level": 1,
         "description": "Increases the power of piercing ammo and Dragon Piercer.",
         "modifiers": {}
+      },
+      {
+        "id": 388,
+        "skill": 36,
+        "skillName": "Piercing Shots",
+        "level": 2,
+        "description": "Greatly increases the power of piercing ammo and Dragon Piercer.",
+        "modifiers": {}
       }
     ]
   },
@@ -1347,6 +1371,14 @@
         "skillName": "Spread\/Power Shots",
         "level": 1,
         "description": "Increases the power of spread ammo and power shot arrows.",
+        "modifiers": {}
+      },
+      {
+        "id": 386,
+        "skill": 37,
+        "skillName": "Spread\/Power Shots",
+        "level": 2,
+        "description": "Greatly increases the power of spread ammo and power shot arrows.",
         "modifiers": {}
       }
     ]

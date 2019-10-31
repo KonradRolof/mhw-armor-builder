@@ -1,0 +1,16 @@
+      {
+        "name": "Windproof Charm 4",
+        "level": 4,
+        "rarity": 10,
+        "skills": [
+          {
+            "id": 31,
+            "level": 4,
+            "description": "Negates minor wind pressure and reduces the effects of major wind pressure.",
+            "modifiers": [],
+            "skill": 10,
+            "skillName": "Windproof"
+          }
+        ],
+        "crafting": null
+      }
