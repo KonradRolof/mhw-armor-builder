@@ -1685,77 +1685,49 @@
   },
   {
     "id": 104,
-    "name": "Brace/Protection Jewel 4",
-    "rarity": 9,
+    "name": "Ironwall Jewel+ 4",
+    "rarity": 6,
     "slot": 4,
     "skills": [
       {
-        "id": 276,
-        "description": "Prevents knockbacks.",
-        "level": 1,
+        "id": 219,
+        "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+        "level": 2,
         "modifiers": [],
-        "skill": 91,
-        "skillName": "Flinch Free"
-      },
-      {
-        "id": 252,
-        "description": "While active, reduces damage taken by 15%.",
-        "level": 1,
-        "modifiers": [],
-        "skill": 84,
-        "skillName": "Divine Blessing"
+        "skill": 70,
+        "skillName": "Guard"
       }
     ]
   },
   {
     "id": 105,
-    "name": "Brace/Vitality Jewel 4",
-    "rarity": 9,
-    "slot": 4,
+    "name": "Friendship Jewel+ 4",
+    "rarity": 6,
+    "slot": 1,
     "skills": [
       {
-        "id": 276,
-        "description": "Prevents knockbacks.",
-        "level": 1,
+        "id": 227,
+        "description": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+        "level": 2,
         "modifiers": [],
-        "skill": 91,
-        "skillName": "Flinch Free"
-      },
-      {
-        "id": 53,
-        "description": "Health +15",
-        "level": 1,
-        "modifiers": {
-          "health": 15
-        },
-        "skill": 17,
-        "skillName": "Health Boost"
+        "skill": 72,
+        "skillName": "Wide-Range"
       }
     ]
   },
   {
     "id": 106,
-    "name": "Challenger/Vitality Jewel 4",
+    "name": "Steadfast Jewel+ 4",
     "rarity": 9,
-    "slot": 4,
+    "slot": 1,
     "skills": [
       {
-        "id": 166,
-        "description": "While active, grants attack +4 and increases affinity by 5%.",
-        "level": 1,
+        "id": 11,
+        "description": "Reduces the duration of stun by 90%.",
+        "level": 2,
         "modifiers": [],
-        "skill": 52,
-        "skillName": "Agitator"
-      },
-      {
-        "id": 53,
-        "description": "Health +15",
-        "level": 1,
-        "modifiers": {
-          "health": 15
-        },
-        "skill": 17,
-        "skillName": "Health Boost"
+        "skill": 4,
+        "skillName": "Stun Resistance"
       }
     ]
   },
@@ -1837,25 +1809,17 @@
   },
   {
     "id": 110,
-    "name": "Crisis/Physique Jewel 4",
-    "rarity": 9,
+    "name": "Suture Jewel+ 4",
+    "rarity": 6,
     "slot": 4,
     "skills": [
       {
-        "id": 185,
-        "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
-        "level": 1,
+        "id": 18,
+        "description": "Greatly reduces damage while bleeding.",
+        "level": 2,
         "modifiers": [],
-        "skill": 57,
-        "skillName": "Resuscitate"
-      },
-      {
-        "id": 198,
-        "description": "Reduces fixed stamina depletion by 10%.",
-        "level": 1,
-        "modifiers": [],
-        "skill": 64,
-        "skillName": "Constitution"
+        "skill": 7,
+        "skillName": "Bleeding Resistance"
       }
     ]
   },
@@ -1927,25 +1891,17 @@
   },
   {
     "id": 114,
-    "name": "Draw/Maintenance Jewel 4",
-    "rarity": 9,
-    "slot": 4,
+    "name": "Guardian Jewel 2",
+    "rarity": 10,
+    "slot": 2,
     "skills": [
       {
-        "id": 147,
-        "description": "Draw attack affinity +30%",
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
         "level": 1,
         "modifiers": [],
-        "skill": 45,
-        "skillName": "Critical Draw"
-      },
-      {
-        "id": 301,
-        "description": "Shortens time until reuse by 10%.",
-        "level": 1,
-        "modifiers": [],
-        "skill": 106,
-        "skillName": "Tool Specialist"
+        "skill": 138,
+        "skillName": "Offensive Guard"
       }
     ]
   },
@@ -1967,7 +1923,2791 @@
   },
   {
     "id": 116,
-    "name": "Enhancer/Protector Jewel 4",
+    "name": "Expert Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 124,
+        "description": "Affinity +10%",
+        "level": 2,
+        "modifiers": {
+          "affinity": 10
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Pep Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 8,
+        "description": "Reduces the duration of sleep by 60%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 3,
+        "skillName": "Sleep Resistance"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Drain/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 156,
+        "description": "Exhaust power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 48,
+        "skillName": "Stamina Thief"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Fortitude/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 179,
+        "description": "Increases attack by 10% and defense by 15% with each use.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 55,
+        "skillName": "Fortify"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Crisis/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 185,
+        "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 57,
+        "skillName": "Resuscitate"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Ironwall/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 218,
+        "description": "Very slightly decreases the impact of attacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 70,
+        "skillName": "Guard"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Friendship/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 226,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 72,
+        "skillName": "Wide-Range"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Satiated/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 234,
+        "description": "Activates 25% of the time.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Stonethrower/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 270,
+        "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Resistor/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 77,
+        "description": "Reduces the duration of all elemental blights by 50%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 25,
+        "skillName": "Blight Resistance"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Flight/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 160,
+        "description": "Jumping attack power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 50,
+        "skillName": "Airborne"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Sprinter/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 195,
+        "description": "Reduces continuous stamina depletion by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 63,
+        "skillName": "Marathon Runner"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Refresh/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 204,
+        "description": "Stamina recovery speed +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Jumping/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 215,
+        "description": "Slightly extends evasion distance.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Sheath/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 223,
+        "description": "Slightly increases sheathing speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Gobbler/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 235,
+        "description": "Slightly increases item use speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Grinder/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 238,
+        "description": "Removes one cycle from the sharpening process.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Bomber/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 241,
+        "description": "Explosive power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Fungiform/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 244,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Slider/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 304,
+        "description": "Increases affinity by 30% for a short time after sliding.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 107,
+        "skillName": "Affinity Sliding"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Guardian/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 138,
+        "skillName": "Offensive Guard"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Fortitude/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 179,
+        "description": "Increases attack by 10% and defense by 15% with each use.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 55,
+        "skillName": "Fortify"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Ironwall/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 218,
+        "description": "Very slightly decreases the impact of attacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 70,
+        "skillName": "Guard"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Friendship/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 226,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 72,
+        "skillName": "Wide-Range"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Satiated/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 234,
+        "description": "Activates 25% of the time.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Stonethrower/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 270,
+        "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Resistor/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 77,
+        "description": "Reduces the duration of all elemental blights by 50%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 25,
+        "skillName": "Blight Resistance"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Flight/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 160,
+        "description": "Jumping attack power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 50,
+        "skillName": "Airborne"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Sprinter/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 195,
+        "description": "Reduces continuous stamina depletion by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 63,
+        "skillName": "Marathon Runner"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Refresh/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 204,
+        "description": "Stamina recovery speed +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Jumping/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 215,
+        "description": "Slightly extends evasion distance.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Sheath/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 223,
+        "description": "Slightly increases sheathing speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Gobbler/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 235,
+        "description": "Slightly increases item use speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Grinder/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 238,
+        "description": "Removes one cycle from the sharpening process.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Fungiform/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 244,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Slider/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 304,
+        "description": "Increases affinity by 30% for a short time after sliding.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 107,
+        "skillName": "Affinity Sliding"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Guardian/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 138,
+        "skillName": "Offensive Guard"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Drain/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 156,
+        "description": "Exhaust power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 48,
+        "skillName": "Stamina Thief"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Fortitude/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 179,
+        "description": "Increases attack by 10% and defense by 15% with each use.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 55,
+        "skillName": "Fortify"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Ironwall/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 218,
+        "description": "Very slightly decreases the impact of attacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 70,
+        "skillName": "Guard"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Friendship/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 226,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 72,
+        "skillName": "Wide-Range"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Satiated/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 234,
+        "description": "Activates 25% of the time.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Stonethrower/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 270,
+        "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Resistor/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 77,
+        "description": "Reduces the duration of all elemental blights by 50%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 25,
+        "skillName": "Blight Resistance"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Flight/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 160,
+        "description": "Jumping attack power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 50,
+        "skillName": "Airborne"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Sprinter/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 195,
+        "description": "Reduces continuous stamina depletion by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 63,
+        "skillName": "Marathon Runner"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Refresh/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 204,
+        "description": "Stamina recovery speed +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Jumping/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 215,
+        "description": "Slightly extends evasion distance.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Sheath/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 223,
+        "description": "Slightly increases sheathing speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Gobbler/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 235,
+        "description": "Slightly increases item use speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Grinder/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 238,
+        "description": "Removes one cycle from the sharpening process.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Bomber/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 241,
+        "description": "Explosive power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Fungiform/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 244,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Slider/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 304,
+        "description": "Increases affinity by 30% for a short time after sliding.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 107,
+        "skillName": "Affinity Sliding"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Guardian/Attack Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 138,
+        "skillName": "Offensive Guard"
+      },
+      {
+        "id": 39,
+        "description": "Attack +3",
+        "level": 1,
+        "modifiers": {
+          "attack": 3
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Drain/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 156,
+        "description": "Exhaust power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 48,
+        "skillName": "Stamina Thief"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Fortitude/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 179,
+        "description": "Increases attack by 10% and defense by 15% with each use.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 55,
+        "skillName": "Fortify"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Ironwall/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 218,
+        "description": "Very slightly decreases the impact of attacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 70,
+        "skillName": "Guard"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Friendship/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 226,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 72,
+        "skillName": "Wide-Range"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Satiated/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 234,
+        "description": "Activates 25% of the time.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Stonethrower/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 270,
+        "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Resistor/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 77,
+        "description": "Reduces the duration of all elemental blights by 50%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 25,
+        "skillName": "Blight Resistance"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Flight/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 160,
+        "description": "Jumping attack power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 50,
+        "skillName": "Airborne"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Sprinter/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 195,
+        "description": "Reduces continuous stamina depletion by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 63,
+        "skillName": "Marathon Runner"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Refresh/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 204,
+        "description": "Stamina recovery speed +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Jumping/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 215,
+        "description": "Slightly extends evasion distance.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Sheath/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 223,
+        "description": "Slightly increases sheathing speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Gobbler/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 235,
+        "description": "Slightly increases item use speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Grinder/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 238,
+        "description": "Removes one cycle from the sharpening process.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Bomber/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 241,
+        "description": "Explosive power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Fungiform/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 244,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Slider/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 304,
+        "description": "Increases affinity by 30% for a short time after sliding.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 107,
+        "skillName": "Affinity Sliding"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Guardian/Expert Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 138,
+        "skillName": "Offensive Guard"
+      },
+      {
+        "id": 123,
+        "description": "Affinity +5%",
+        "level": 1,
+        "modifiers": {
+          "affinity": 5
+        },
+        "skill": 39,
+        "skillName": "Critical Eye"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Drain/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 156,
+        "description": "Exhaust power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 48,
+        "skillName": "Stamina Thief"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Fortitude/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 179,
+        "description": "Increases attack by 10% and defense by 15% with each use.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 55,
+        "skillName": "Fortify"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Ironwall/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 218,
+        "description": "Very slightly decreases the impact of attacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 70,
+        "skillName": "Guard"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Friendship/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 226,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 72,
+        "skillName": "Wide-Range"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Satiated/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 234,
+        "description": "Activates 25% of the time.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Stonethrower/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 270,
+        "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Resistor/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 77,
+        "description": "Reduces the duration of all elemental blights by 50%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 25,
+        "skillName": "Blight Resistance"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Flight/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 160,
+        "description": "Jumping attack power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 50,
+        "skillName": "Airborne"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Sprinter/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 195,
+        "description": "Reduces continuous stamina depletion by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 63,
+        "skillName": "Marathon Runner"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Refresh/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 204,
+        "description": "Stamina recovery speed +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Jumping/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 215,
+        "description": "Slightly extends evasion distance.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Sheath/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 223,
+        "description": "Slightly increases sheathing speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Gobbler/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 235,
+        "description": "Slightly increases item use speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Grinder/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 238,
+        "description": "Removes one cycle from the sharpening process.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Bomber/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 241,
+        "description": "Explosive power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Fungiform/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 244,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Slider/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 304,
+        "description": "Increases affinity by 30% for a short time after sliding.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 107,
+        "skillName": "Affinity Sliding"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Guardian/Release Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 138,
+        "skillName": "Offensive Guard"
+      },
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Drain/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 156,
+        "description": "Exhaust power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 48,
+        "skillName": "Stamina Thief"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Fortitude/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 179,
+        "description": "Increases attack by 10% and defense by 15% with each use.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 55,
+        "skillName": "Fortify"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Crisis/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 185,
+        "description": "While active, greatly improves evasion invulnerability time and reduces stamina depletion.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 57,
+        "skillName": "Resuscitate"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Ironwall/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 218,
+        "description": "Very slightly decreases the impact of attacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 70,
+        "skillName": "Guard"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Friendship/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 226,
+        "description": "Items affect nearby allies with 33% of their efficacy.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 72,
+        "skillName": "Wide-Range"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "name": "Satiated/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 234,
+        "description": "Activates 25% of the time.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 74,
+        "skillName": "Free Meal"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Stonethrower/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 270,
+        "description": "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 89,
+        "skillName": "Slinger Capacity"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Resistor/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 77,
+        "description": "Reduces the duration of all elemental blights by 50%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 25,
+        "skillName": "Blight Resistance"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Flight/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 160,
+        "description": "Jumping attack power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 50,
+        "skillName": "Airborne"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Sprinter/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 195,
+        "description": "Reduces continuous stamina depletion by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 63,
+        "skillName": "Marathon Runner"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Refresh/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 204,
+        "description": "Stamina recovery speed +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 66,
+        "skillName": "Stamina Surge"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Jumping/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 215,
+        "description": "Slightly extends evasion distance.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 69,
+        "skillName": "Evade Extender"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "name": "Sheath/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 223,
+        "description": "Slightly increases sheathing speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 71,
+        "skillName": "Quick Sheath"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "name": "Gobbler/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 235,
+        "description": "Slightly increases item use speed.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 75,
+        "skillName": "Speed Eating"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Grinder/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 238,
+        "description": "Removes one cycle from the sharpening process.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 76,
+        "skillName": "Speed Sharpening"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "name": "Bomber/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 241,
+        "description": "Explosive power +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 77,
+        "skillName": "Bombardier"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Fungiform/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 244,
+        "description": "Lets you digest blue mushrooms and toadstools.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 78,
+        "skillName": "Mushroomancer"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Slider/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 304,
+        "description": "Increases affinity by 30% for a short time after sliding.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 107,
+        "skillName": "Affinity Sliding"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Guardian/Handicraft Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 341,
+        "description": "While active increases attack power by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 138,
+        "skillName": "Offensive Guard"
+      },
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Footing/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 33,
+        "description": "Nullifies minor ground tremors.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 11,
+        "skillName": "Tremor Resistance"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Charger/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 136,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Enhancer/Protection Jewel 4",
     "rarity": 9,
     "slot": 4,
     "skills": [
@@ -1988,5 +4728,3771 @@
         "skillName": "Divine Blessing"
       }
     ]
+  },
+  {
+    "id": 229,
+    "name": "Destroyer/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 150,
+        "description": "Part damage +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "name": "KO/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 153,
+        "description": "Stun power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Potential/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 174,
+        "description": "While active, increases defense by 50 points",
+        "level": 1,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Wind Resist/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 28,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Draw/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 147,
+        "description": "Draw attack affinity +30%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Throttle/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 161,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Challenger/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 166,
+        "description": "While active, grants attack +4 and increases affinity by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Flawless/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 171,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Furor/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 180,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Mighty/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 267,
+        "description": "While active, increases affinity by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 88,
+        "skillName": "Maximum Might"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Brace/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 276,
+        "description": "Prevents knockbacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 91,
+        "skillName": "Flinch Free"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "name": "Phoenix/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Earplug/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 23,
+        "description": "Slightly reduces the effects of weak monster roars.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Critical/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 130,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "name": "Tenderizer/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 133,
+        "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 41,
+        "skillName": "Weakness Exploit"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Handicraft/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Release/Protection Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 252,
+        "description": "While active, reduces damage taken by 15%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 84,
+        "skillName": "Divine Blessing"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Footing/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 33,
+        "description": "Nullifies minor ground tremors.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 11,
+        "skillName": "Tremor Resistance"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Charger/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 136,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Enhancer/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 139,
+        "description": "Bonus duration +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Destroyer/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 150,
+        "description": "Part damage +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "name": "KO/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 153,
+        "description": "Stun power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Potential/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 174,
+        "description": "While active, increases defense by 50 points",
+        "level": 1,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Wind Resist/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 28,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Draw/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 147,
+        "description": "Draw attack affinity +30%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Throttle/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 161,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Challenger/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 166,
+        "description": "While active, grants attack +4 and increases affinity by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Flawless/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 171,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Furor/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 180,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Mighty/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 267,
+        "description": "While active, increases affinity by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 88,
+        "skillName": "Maximum Might"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Brace/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 276,
+        "description": "Prevents knockbacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 91,
+        "skillName": "Flinch Free"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Phoenix/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Earplug/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 23,
+        "description": "Slightly reduces the effects of weak monster roars.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "name": "Critical/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 130,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "name": "Tenderizer/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 133,
+        "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 41,
+        "skillName": "Weakness Exploit"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "name": "Handicraft/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "name": "Release/Medicine Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 56,
+        "description": "Recovery +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 18,
+        "skillName": "Recovery Up"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "name": "Footing/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 33,
+        "description": "Nullifies minor ground tremors.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 11,
+        "skillName": "Tremor Resistance"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "name": "Charger/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 136,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "name": "Enhancer/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 139,
+        "description": "Bonus duration +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "name": "Destroyer/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 150,
+        "description": "Part damage +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "name": "KO/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 153,
+        "description": "Stun power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "name": "Potential/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 174,
+        "description": "While active, increases defense by 50 points",
+        "level": 1,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Wind Resist/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 28,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "name": "Draw/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 147,
+        "description": "Draw attack affinity +30%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "name": "Throttle/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 161,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Challenger/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 166,
+        "description": "While active, grants attack +4 and increases affinity by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "name": "Flawless/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 171,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "name": "Furor/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 180,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "name": "Mighty/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 267,
+        "description": "While active, increases affinity by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 88,
+        "skillName": "Maximum Might"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "name": "Brace/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 276,
+        "description": "Prevents knockbacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 91,
+        "skillName": "Flinch Free"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Phoenix/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "name": "Earplug/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 23,
+        "description": "Slightly reduces the effects of weak monster roars.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "name": "Critical/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 130,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Tenderizer/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 133,
+        "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 41,
+        "skillName": "Weakness Exploit"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "name": "Handicraft/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Release/Vitality Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 53,
+        "description": "Health +15",
+        "level": 1,
+        "modifiers": {
+          "health": 15
+        },
+        "skill": 17,
+        "skillName": "Health Boost"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "name": "Footing/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 33,
+        "description": "Nullifies minor ground tremors.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 11,
+        "skillName": "Tremor Resistance"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Charger/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 136,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "name": "Enhancer/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 139,
+        "description": "Bonus duration +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "name": "Destroyer/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 150,
+        "description": "Part damage +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "name": "KO/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 153,
+        "description": "Stun power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "name": "Potential/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 174,
+        "description": "While active, increases defense by 50 points",
+        "level": 1,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Wind Resist/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 28,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Draw/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 147,
+        "description": "Draw attack affinity +30%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Throttle/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 161,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Challenger/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 166,
+        "description": "While active, grants attack +4 and increases affinity by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Flawless/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 171,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Furor/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 180,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Mighty/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 267,
+        "description": "While active, increases affinity by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 88,
+        "skillName": "Maximum Might"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Brace/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 276,
+        "description": "Prevents knockbacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 91,
+        "skillName": "Flinch Free"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Phoenix/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Earplug/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 23,
+        "description": "Slightly reduces the effects of weak monster roars.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Critical/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 130,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Tenderizer/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 133,
+        "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 41,
+        "skillName": "Weakness Exploit"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Handicraft/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Release/Maintenance Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Footing/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 33,
+        "description": "Nullifies minor ground tremors.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 11,
+        "skillName": "Tremor Resistance"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Charger/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 136,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "name": "Enhancer/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 139,
+        "description": "Bonus duration +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Destroyer/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 150,
+        "description": "Part damage +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "name": "KO/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 153,
+        "description": "Stun power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Potential/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 174,
+        "description": "While active, increases defense by 50 points",
+        "level": 1,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "name": "Wind Resist/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 28,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "name": "Draw/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 147,
+        "description": "Draw attack affinity +30%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "name": "Throttle/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 161,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "name": "Challenger/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 166,
+        "description": "While active, grants attack +4 and increases affinity by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "name": "Flawless/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 171,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Furor/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 180,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Mighty/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 267,
+        "description": "While active, increases affinity by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 88,
+        "skillName": "Maximum Might"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Brace/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 276,
+        "description": "Prevents knockbacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 91,
+        "skillName": "Flinch Free"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Phoenix/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Earplug/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 23,
+        "description": "Slightly reduces the effects of weak monster roars.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Critical/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 130,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "name": "Tenderizer/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 133,
+        "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 41,
+        "skillName": "Weakness Exploit"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Handicraft/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Release/Physique Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 198,
+        "description": "Reduces fixed stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Footing/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 33,
+        "description": "Nullifies minor ground tremors.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 11,
+        "skillName": "Tremor Resistance"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Charger/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 136,
+        "description": "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 42,
+        "skillName": "Focus"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Enhancer/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 139,
+        "description": "Bonus duration +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 43,
+        "skillName": "Power Prolonger"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Destroyer/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 150,
+        "description": "Part damage +10%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 46,
+        "skillName": "Partbreaker"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "name": "KO/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 153,
+        "description": "Stun power +20%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 47,
+        "skillName": "Slugger"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "name": "Potential/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 174,
+        "description": "While active, increases defense by 50 points",
+        "level": 1,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "name": "Wind Resist/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 28,
+        "description": "Slightly reduces the effects of minor wind pressure.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Draw/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 147,
+        "description": "Draw attack affinity +30%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 45,
+        "skillName": "Critical Draw"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "name": "Throttle/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 161,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Challenger/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 166,
+        "description": "While active, grants attack +4 and increases affinity by 5%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Flawless/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 171,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 53,
+        "skillName": "Peak Performance"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Furor/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 180,
+        "description": "While active, grants attack +5.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "name": "Mighty/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 267,
+        "description": "While active, increases affinity by 10%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 88,
+        "skillName": "Maximum Might"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "name": "Brace/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 276,
+        "description": "Prevents knockbacks.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 91,
+        "skillName": "Flinch Free"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "name": "Phoenix/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Earplug/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 23,
+        "description": "Slightly reduces the effects of weak monster roars.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "name": "Critical/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 130,
+        "description": "Increases damage dealt by critical hits by 30%.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 40,
+        "skillName": "Critical Boost"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "name": "Tenderizer/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 133,
+        "description": "Attacks that hit weak spots have 10% increased affinity, with an extra 5% on wounded parts.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 41,
+        "skillName": "Weakness Exploit"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "name": "Handicraft/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 142,
+        "description": "Weapon sharpness +10",
+        "level": 1,
+        "modifiers": {
+          "sharpnessBonus": 10
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "name": "Release/Evasion Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 120,
+        "description": "Draws out 33% of hidden element and expands clip size for some ammo.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 38,
+        "skillName": "Free Elem\/Ammo Up"
+      },
+      {
+        "id": 210,
+        "description": "Very slightly increases invulnerability window.",
+        "level": 1,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "name": "Hard Botany Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 262,
+        "description": "One extra consumable herb, fruit, nut, seed, or insect item per gather.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 86,
+        "skillName": "Botanist"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Geology Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 265,
+        "description": "Allows you to gather one extra time from bonepiles and special item gathering points.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 87,
+        "skillName": "Geologist"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "name": "Intimidator Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 306,
+        "description": "Highly discourages monsters from engaging you even if you\u0027ve been spotted.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 108,
+        "skillName": "Intimidator"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "name": "Tip Toe Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 274,
+        "description": "Makes it moderately easier for monsters to lose sight of you.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 90,
+        "skillName": "Stealth"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "name": "Specimen Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 292,
+        "description": "Greatly increases the chances of a corpse being left behind.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 100,
+        "skillName": "Entomologist"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Survival Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 283,
+        "description": "Interactables restore an additional 80 health.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 95,
+        "skillName": "Survival Expert"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Water Res Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 66,
+        "description": "Water resistance +12",
+        "level": 2,
+        "modifiers": {
+          "resistWater": 12
+        },
+        "skill": 21,
+        "skillName": "Water Resistance"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Ice Res Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 69,
+        "description": "Ice resistance +12",
+        "level": 2,
+        "modifiers": {
+          "resistIce": 12
+        },
+        "skill": 22,
+        "skillName": "Ice Resistance"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "name": "Fire Res Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 63,
+        "description": "Fire resistance +12",
+        "level": 2,
+        "modifiers": {
+          "resistFire": 12
+        },
+        "skill": 20,
+        "skillName": "Fire Resistance"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "name": "Thunder Res Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 72,
+        "description": "Thunder resistance +12",
+        "level": 2,
+        "modifiers": {
+          "resistThunder": 12
+        },
+        "skill": 23,
+        "skillName": "Thunder Resistance"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "name": "Dragon Res Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 75,
+        "description": "Dragon resistance +12",
+        "level": 2,
+        "modifiers": {
+          "resistDragon": 12
+        },
+        "skill": 24,
+        "skillName": "Dragon Resistance"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "name": "Meowster Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 256,
+        "description": "Increases Palico attack power and defense by 10%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 85,
+        "skillName": "Palico Rally"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "name": "Hard Geology Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 266,
+        "description": "Allows you to gather one extra time from bonepiles, gathering points, and mining outcrops.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 87,
+        "skillName": "Geologist"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Hard Intimidator Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 307,
+        "description": "Prevents monsters from engaging you even if you\u0027ve been spotted.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 108,
+        "skillName": "Intimidator"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "name": "Hard Tip Toe Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 275,
+        "description": "Makes it much easier for monsters to lose sight of you.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 90,
+        "skillName": "Stealth"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "name": "Hard Enduring Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 233,
+        "description": "Item effect duration +50%",
+        "level": 3,
+        "modifiers": [],
+        "skill": 73,
+        "skillName": "Item Prolonger"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "name": "Hard Specimen Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 293,
+        "description": "Makes it so corpses will always be left behind.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 100,
+        "skillName": "Entomologist"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "name": "Hard Survival Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 284,
+        "description": "Interactables restore an additional 100 health.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 95,
+        "skillName": "Survival Expert"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "name": "Hard Water Res Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 67,
+        "description": "Water resistance +20 Defense +10",
+        "level": 3,
+        "modifiers": {
+          "defense": 10,
+          "resistWater": 20
+        },
+        "skill": 21,
+        "skillName": "Water Resistance"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "name": "Hard Ice Res Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 70,
+        "description": "Ice resistance +20 Defense +10",
+        "level": 3,
+        "modifiers": {
+          "defense": 10,
+          "resistIce": 20
+        },
+        "skill": 22,
+        "skillName": "Ice Resistance"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "name": "Hard Fire Res Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 64,
+        "description": "Fire resistance +20 Defense +10",
+        "level": 3,
+        "modifiers": {
+          "defense": 10,
+          "resistFire": 20
+        },
+        "skill": 20,
+        "skillName": "Fire Resistance"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "name": "Hard Thunder Res Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 73,
+        "description": "Thunder resistance +20 Defense +10",
+        "level": 3,
+        "modifiers": {
+          "defense": 10,
+          "resistThunder": 20
+        },
+        "skill": 23,
+        "skillName": "Thunder Resistance"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "name": "Hard Dragon Res Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 76,
+        "description": "Dragon resistance +20 Defense +10",
+        "level": 3,
+        "modifiers": {
+          "defense": 10,
+          "resistDragon": 20
+        },
+        "skill": 24,
+        "skillName": "Dragon Resistance"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "name": "Hard Meowster Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 257,
+        "description": "Increases Palico attack power and defense by 15%.",
+        "level": 3,
+        "modifiers": [],
+        "skill": 85,
+        "skillName": "Palico Rally"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "name": "Hard Defense Jewel 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 48,
+        "description": "Defense +5%\nBonus: +10",
+        "level": 3,
+        "modifiers": {
+          "defense": 10
+        },
+        "skill": 16,
+        "skillName": "Defense Boost"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "name": "Physique Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 199,
+        "description": "Reduces fixed stamina depletion by 20%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 64,
+        "skillName": "Constitution"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "name": "Throttle Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 162,
+        "description": "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 51,
+        "skillName": "Latent Power"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "name": "Handicraft Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 143,
+        "description": "Weapon sharpness +20",
+        "level": 2,
+        "modifiers": {
+          "sharpnessBonus": 20
+        },
+        "skill": 44,
+        "skillName": "Handicraft"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "name": "Evasion Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 211,
+        "description": "Slightly increases invulnerability window.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 68,
+        "skillName": "Evade Window"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "name": "Potential Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 175,
+        "description": "While active, increases attack power by 5% and increases defense by 50 points.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 54,
+        "skillName": "Heroics"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "name": "Challenger Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 167,
+        "description": "While active, grants attack +8 and increases affinity by 5%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 52,
+        "skillName": "Agitator"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "name": "Attack Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 40,
+        "description": "Attack +6",
+        "level": 2,
+        "modifiers": {
+          "attack": 6
+        },
+        "skill": 15,
+        "skillName": "Attack Boost"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "name": "Recovery Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 60,
+        "description": "Triples the speed at which you heal recoverable damage.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 19,
+        "skillName": "Recovery Speed"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "name": "Venom Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 106,
+        "description": "Poison buildup +10% Bonus: +10",
+        "level": 2,
+        "modifiers": [],
+        "skill": 31,
+        "skillName": "Poison Attack"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "name": "Frost Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 91,
+        "description": "Ice attack +60",
+        "level": 2,
+        "modifiers": {
+          "damageIce": 60
+        },
+        "skill": 28,
+        "skillName": "Ice Attack"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "name": "Mirewalker Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 286,
+        "description": "Increases your evade window and prevents lowered movement speed.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 96,
+        "skillName": "Aquatic\/Polar Mobility"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "name": "Stream Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 86,
+        "description": "Water attack +60",
+        "level": 2,
+        "modifiers": {
+          "damageWater": 60
+        },
+        "skill": 27,
+        "skillName": "Water Attack"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "name": "Blaze Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 81,
+        "description": "Fire attack +60",
+        "level": 2,
+        "modifiers": {
+          "damageFire": 60
+        },
+        "skill": 26,
+        "skillName": "Fire Attack"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "name": "Hungerless Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 208,
+        "description": "Extends the time until your stamina cap decreases by 100%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 67,
+        "skillName": "Hunger Resistance"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "name": "Blast Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 115,
+        "description": "Blast buildup +10% Bonus: +10",
+        "level": 2,
+        "modifiers": [],
+        "skill": 34,
+        "skillName": "Blast Attack"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "name": "Trueshot Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 189,
+        "description": "Increases the power of bowgun special ammo and Dragon Piercer by 20%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 60,
+        "skillName": "Special Ammo Boost"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "name": "Sleep Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 112,
+        "description": "Sleep buildup +10% Bonus: +10",
+        "level": 2,
+        "modifiers": [],
+        "skill": 33,
+        "skillName": "Sleep Attack"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "name": "Heavy Artillery Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 194,
+        "description": "Firepower +100%",
+        "level": 2,
+        "modifiers": [],
+        "skill": 62,
+        "skillName": "Heavy Artillery"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "name": "Dragon Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 101,
+        "description": "Dragon attack +60",
+        "level": 2,
+        "modifiers": [],
+        "skill": 30,
+        "skillName": "Dragon Attack"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "name": "Antiblast Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 15,
+        "description": "Greatly delays blastblight and greatly reduces blast damage.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 6,
+        "skillName": "Blast Resistance"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "name": "Miasma Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 295,
+        "description": "Greatly reduces effluvial buildup.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 101,
+        "skillName": "Effluvia Resistance"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "name": "Def Lock Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 21,
+        "description": "Reduces the duration of Defense Down by 75%.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 8,
+        "skillName": "Iron Skin"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "name": "Furor Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 181,
+        "description": "While active, grants attack +10.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 56,
+        "skillName": "Resentment"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "name": "Earplug Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 24,
+        "description": "Reduces the effects of weak monster roars.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 9,
+        "skillName": "Earplugs"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "name": "Wind Resist Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 29,
+        "description": "Reduces the effects of minor wind pressure.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 10,
+        "skillName": "Windproof"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "name": "Bolt Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 96,
+        "description": "Thunder attack +60",
+        "level": 2,
+        "modifiers": {
+          "damageThunder": 60
+        },
+        "skill": 29,
+        "skillName": "Thunder Attack"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "name": "Paralyzer Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 109,
+        "description": "Paralysis buildup +10% Bonus: +10",
+        "level": 2,
+        "modifiers": [],
+        "skill": 32,
+        "skillName": "Paralysis Attack"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "name": "Sonorous Jewel+ 4",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 337,
+        "description": "Greatly increases the effect duration of hunting horn melodies.",
+        "level": 2,
+        "modifiers": [],
+        "skill": 58,
+        "skillName": "Horn Maestro"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "name": "Phoenix Jewel 3",
+    "rarity": 9,
+    "slot": 4,
+    "skills": [
+      {
+        "id": 363,
+        "description": "While active, grants Attack + 12, Element attack power +30, and Status buildup +5%",
+        "level": 1,
+        "modifiers": [],
+        "skill": 148,
+        "skillName": "Coalescence"
+      }
+    ]
   }
+
+
+
 ]
